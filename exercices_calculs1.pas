@@ -298,7 +298,7 @@ begin
    op_alea := toptions_aleatoires.create;
    //op_frac := top_fractions.create;   créés lors de l'instanciation de l'interface
    olatex := tlatex.create(ilatex, ipage);
-   caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin';
+   caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
    //Ipage.Picture.OnChange := ipage_change;
    sl_corrige := tstringlist.Create;
 end;
@@ -1024,7 +1024,7 @@ begin
       if ( a <> 987654321) and ( b <> 987654321 ) and ( c <> 987654321 ) then begin
          st := op_alea.snombre(a, b, c);
       end else begin
-         st := '\begin{tabular}{l}G\''en\''erateur\ al\''eatoire\ de\ nombres\\mettre\ ligne\ 1:\ puissance\ de\ 10\ max\\mettre\ ligne\ 2:\ puissance\ de\ 10\ min\\mettre\ ligne\ 3:\ nombre\ chiffres\ significatifs\\\end{tabular}'
+         st := '\begin{tabular}{l}G\''en\''erateur\ al\''eatoire\ de\ nombres\\mettre\ ligne\ 1:\ nombre\ chiffres\ significatifs\\mettre\ ligne\ 2:\ puissance\ de\ 10\ min\\mettre\ ligne\ 3:\ puissance\ de\ 10\ max\\\end{tabular}'
       end;
       result := st;
    end else begin
