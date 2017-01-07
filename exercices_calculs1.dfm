@@ -307,7 +307,7 @@ object Form1: TForm1
       OnClick = CbDifficulteplusClick
     end
   end
-  object Pimpression: TPanel
+  object PImpression: TPanel
     Left = 0
     Top = 312
     Width = 393
@@ -2117,7 +2117,7 @@ object Form1: TForm1
     object Bimpression: TButton
       Left = 224
       Top = 296
-      Width = 153
+      Width = 121
       Height = 25
       Caption = 'Impression'
       Font.Charset = DEFAULT_CHARSET
@@ -2184,6 +2184,14 @@ object Form1: TForm1
       Height = 21
       TabOrder = 8
       Text = '50'
+    end
+    object Pnb_impr: TPanel
+      Left = 352
+      Top = 296
+      Width = 25
+      Height = 25
+      TabOrder = 9
+      Visible = False
     end
   end
   object Paffichage: TPanel

@@ -197,7 +197,7 @@ type
     Mlatex: TMemo;
     Btest: TButton;
     Pcommandes: TPanel;
-    Pimpression: TPanel;
+    PImpression: TPanel;
     Paffichage: TPanel;
     Ecol: TEdit;
     Eespaceh: TEdit;
@@ -206,8 +206,12 @@ type
     BCorrige: TButton;
     Lcorrige: TLabel;
     LApercu: TLabel;
+    Pnb_impr: TPanel;
     procedure genere(icalc : i_calculs; corrige : boolean = false);
     procedure clear_corrige;
+    procedure reset_impression;
+    procedure init_impression;
+    procedure inc_impression;
     procedure ipage_change(Sender: TObject);
     procedure Bcfg_imprClick(Sender: TObject);
     procedure BimpressionClick(Sender: TObject);
@@ -241,6 +245,7 @@ type
     //op_frac : top_fractions;
     olatex : tlatex;
     couleur_affichage : tcolor;
+    nb_impression : integer;
   end;
 
 var
@@ -274,6 +279,7 @@ end;
 procedure TForm1.BimpressionClick(Sender: TObject);
 begin
    try
+   init_impression;
    with Printer do begin
       BeginDoc;  // dimImpr pour brother 7030 :  6814 x  4676
       //Ppage.Height := Ppage.Width * PageHeight div PageWidth;
@@ -287,6 +293,7 @@ begin
       canvas.StretchDraw(olatex.dim_impression(Ilatex.Height, Ilatex.Width, PageHeight, PageWidth) , Ilatex.Picture.Bitmap);
       EndDoc;
    end;
+   inc_impression;
    except
       MessageDlg('Problème d''impression', mtInformation, [mbOK],0);
    end;
@@ -312,6 +319,23 @@ begin
   sl_corrige.Free;
 end;
 
+procedure TForm1.inc_impression;
+begin
+   nb_impression := nb_impression +1;
+   Pnb_impr.Caption := inttostr(nb_impression);
+end;
+
+procedure TForm1.init_impression;
+begin
+   Pnb_impr.Visible := true;
+end;
+
+procedure TForm1.reset_impression;
+begin
+   nb_impression := 0;
+   Pnb_impr.Visible := false;
+   Pnb_impr.Caption := '';
+end;
 
 procedure TForm1.clear_corrige;
 begin
@@ -429,6 +453,7 @@ procedure TForm1.genere(icalc : i_calculs; corrige : boolean = false);
 var
    l, c, eh, ev  : integer;
 begin
+   reset_impression;
    //ipage.Picture.LoadFromFile('iblanche.bmp');
    ipage.Picture.Bitmap.Assign(image1.Picture.Bitmap);
    l := strtointdef( Enombre.Text , 0);
@@ -1219,6 +1244,7 @@ begin // \begin{tabular}{r@{.}l}3&14159\\
    sl_corrige.Add(st);
    result := result + '\\\vspace{25} \\\end{tabular}';
 end;
+
 
 
 
