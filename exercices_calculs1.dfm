@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 240
-  Top = 179
+  Left = 288
+  Top = 226
   Width = 891
   Height = 689
   Color = clBtnFace
@@ -22,6 +22,8 @@ object Form1: TForm1
     Width = 401
     Height = 313
     Color = clGradientActiveCaption
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 0
     object Messais: TMemo
       Left = 32
@@ -287,6 +289,9 @@ object Form1: TForm1
       Top = 256
       Width = 97
       Height = 17
+      Hint = 
+        'mode "essais" permettanr de tester du code LaTex que l'#39'on peut '#233 +
+        'crire  dans le m'#233'mo'
       Caption = 'Essais'
       TabOrder = 3
       OnClick = CbEssaisClick
@@ -296,6 +301,9 @@ object Form1: TForm1
       Top = 16
       Width = 113
       Height = 17
+      Hint = 
+        'option plus grande difficult'#233' pour les  calculs  indiqu'#233's avec "' +
+        '(d)"'
       Caption = 'Difficult'#233' +  (d)'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -313,6 +321,8 @@ object Form1: TForm1
     Width = 393
     Height = 337
     Color = clMoneyGreen
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 2
     object Llignes: TLabel
       Left = 232
@@ -345,6 +355,7 @@ object Form1: TForm1
       Top = 208
       Width = 85
       Height = 13
+      Hint = 'Zone d'#39'impression, en pixels, de l'#39'imprimante'
       Caption = 'Zone d'#39'impression'
     end
     object Ldimensions1: TLabel
@@ -365,6 +376,10 @@ object Form1: TForm1
       Top = 152
       Width = 35
       Height = 13
+      Hint = 
+        'hauteur minimale de l'#39'image en pixels  pour  une occupation  tot' +
+        'ale de la hauteur de la page,  agit de m'#234'me, proportionnellement' +
+        '  pour la largeur'
       Caption = 'h pixels'
     end
     object Image1: TImage
@@ -2036,6 +2051,7 @@ object Form1: TForm1
       Top = 12
       Width = 50
       Height = 13
+      Hint = 'nombre de caract'#232'res dans le texte du code LaTex'
       Caption = 'caract'#232'res'
     end
     object Lnb_car: TLabel
@@ -2117,7 +2133,7 @@ object Form1: TForm1
     object Bimpression: TButton
       Left = 224
       Top = 296
-      Width = 121
+      Width = 153
       Height = 25
       Caption = 'Impression'
       Font.Charset = DEFAULT_CHARSET
@@ -2190,8 +2206,14 @@ object Form1: TForm1
       Top = 296
       Width = 25
       Height = 25
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
       TabOrder = 9
-      Visible = False
+      OnClick = BimpressionClick
     end
   end
   object Paffichage: TPanel
@@ -2200,6 +2222,8 @@ object Form1: TForm1
     Width = 481
     Height = 649
     Color = cl3DLight
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 1
     object Lcorrige: TLabel
       Left = 192
@@ -2254,6 +2278,9 @@ object Form1: TForm1
       Top = 8
       Width = 75
       Height = 25
+      Hint = 
+        'affichage des r'#233'sultats des calculs  suivant la m'#234'me pr'#233'sentatio' +
+        'n'
       Caption = 'Corrig'#233
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText

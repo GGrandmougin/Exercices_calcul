@@ -41,6 +41,8 @@ uses
   Dialogs, StdCtrls, ExtCtrls, Printers, math, Clipbrd, ComCtrls;
 
 type
+
+
   i_calculs = interface
      function genere_formule : string;
 
@@ -248,6 +250,10 @@ type
     nb_impression : integer;
   end;
 
+const
+pp_image = 'Envoi l''image dans le presse_papiers';
+pp_code = 'Envoi le texte du code LaTex dans le presse_papiers' ;
+
 var
   Form1: TForm1;
   sNomGif : string;
@@ -278,25 +284,27 @@ end;
 
 procedure TForm1.BimpressionClick(Sender: TObject);
 begin
-   try
-   init_impression;
-   with Printer do begin
-      BeginDoc;  // dimImpr pour brother 7030 :  6814 x  4676
-      //Ppage.Height := Ppage.Width * PageHeight div PageWidth;
-      ldimimpr.caption := inttostr(printer.PageWidth) + ' x ' + inttostr(printer.PageHeight);
+   if Pnb_impr.Color = clbtnface then begin
+      try
+      init_impression;
+      with Printer do begin
+         BeginDoc;  // dimImpr pour brother 7030 :  6814 x  4676
+         //Ppage.Height := Ppage.Width * PageHeight div PageWidth;
+         ldimimpr.caption := inttostr(printer.PageWidth) + ' x ' + inttostr(printer.PageHeight);
 
-      //PageHeight
-      //PageWidth
-      //canvas.Draw();
-      //Canvas.StretchDraw(rect(rectimpr[i][2],rectimpr[i][1],rectimpr[i][2] + rectimpr[i][0],rectimpr[i][1] + rectimpr[i][0]), imrsm[i].Picture.Bitmap);
-      //canvas.StretchDraw(rect());
-      canvas.StretchDraw(olatex.dim_impression(Ilatex.Height, Ilatex.Width, PageHeight, PageWidth) , Ilatex.Picture.Bitmap);
-      EndDoc;
-   end;
-   inc_impression;
-   except
-      MessageDlg('Problème d''impression', mtInformation, [mbOK],0);
-   end;
+         //PageHeight
+         //PageWidth
+         //canvas.Draw();
+         //Canvas.StretchDraw(rect(rectimpr[i][2],rectimpr[i][1],rectimpr[i][2] + rectimpr[i][0],rectimpr[i][1] + rectimpr[i][0]), imrsm[i].Picture.Bitmap);
+         //canvas.StretchDraw(rect());
+         canvas.StretchDraw(olatex.dim_impression(Ilatex.Height, Ilatex.Width, PageHeight, PageWidth) , Ilatex.Picture.Bitmap);
+         EndDoc;
+      end;
+      inc_impression;
+      except
+         MessageDlg('Problème d''impression', mtInformation, [mbOK],0);
+      end;
+   end;   
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
@@ -308,6 +316,14 @@ begin
    caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
    //Ipage.Picture.OnChange := ipage_change;
    sl_corrige := tstringlist.Create;
+   pnb_impr.Width := Bimpression.Width - 4;
+   pnb_impr.Height := Bimpression.Height - 4;
+   pnb_impr.Top := Bimpression.Top + 2;
+   pnb_impr.left := Bimpression.left + 2;
+   Pnb_impr.Caption := Bimpression.Caption;
+   BPressepapier.Hint := pp_image;
+   Lnb_car.Hint := Lnbcaracteres.Hint;
+   Ehpixels.Hint := Lhpixels.Hint;
 end;
 
 procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
@@ -322,19 +338,23 @@ end;
 procedure TForm1.inc_impression;
 begin
    nb_impression := nb_impression +1;
-   Pnb_impr.Caption := inttostr(nb_impression);
+   Pnb_impr.Color := clBtnFace;
+   Pnb_impr.Caption := Bimpression.Caption + ': ' + inttostr(nb_impression);
 end;
 
 procedure TForm1.init_impression;
 begin
-   Pnb_impr.Visible := true;
+   //Pnb_impr.Visible := true;
+   Pnb_impr.Color := clred;
+   Application.ProcessMessages;
 end;
 
 procedure TForm1.reset_impression;
 begin
+   //Pnb_impr.Visible := false;
    nb_impression := 0;
-   Pnb_impr.Visible := false;
-   Pnb_impr.Caption := '';
+   Pnb_impr.Caption := Bimpression.Caption;
+   Pnb_impr.Color := clBtnFace;
 end;
 
 procedure TForm1.clear_corrige;
@@ -845,6 +865,11 @@ procedure TForm1.Cbsource_LaTexClick(Sender: TObject);
 begin
    mlatex.Visible := Cbsource_LaTex.Checked;
    SBaffichage.Visible:= not Cbsource_LaTex.Checked;
+   if Cbsource_LaTex.Checked then begin
+      BPressepapier.Hint := pp_code;
+   end else begin
+      BPressepapier.Hint := pp_image;
+   end;
 end;
 
 
