@@ -74,6 +74,7 @@ type
 
   troutines = class
     function pgcd(a, b : integer): integer;
+    function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
     constructor create;
     destructor destroy;  override;
@@ -141,6 +142,12 @@ type
     destructor destroy;  override;
   end;
 
+  top_Simplifie_expr = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   tlatex = class
     imgLatex, imgPage : timage;
     function dim_impression( himg, limg, h_ttl, l_ttl : integer) : trect;
@@ -174,7 +181,7 @@ type
     Bx_puiss10: TButton;
     Bmultiplications: TButton;
     BAdditionencolonne: TButton;
-    Button8: TButton;
+    BSimplification_expressions: TButton;
     BPressepapier: TButton;
     CbEssais: TCheckBox;
     CbDifficulteplus: TCheckBox;
@@ -238,6 +245,7 @@ type
     procedure BmultiplicationsClick(Sender: TObject);
     procedure BAdditionencolonneClick(Sender: TObject);
     procedure BCorrigeClick(Sender: TObject);
+    procedure BSimplification_expressionsClick(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -302,7 +310,10 @@ begin
       end;
       inc_impression;
       except
-         MessageDlg('Problème d''impression', mtInformation, [mbOK],0);
+         begin
+            MessageDlg('Problème d''impression', mtInformation, [mbOK],0);
+            Pnb_impr.Color := clbtnface;
+         end;
       end;
    end;   
 end;
@@ -337,6 +348,7 @@ end;
 
 procedure TForm1.inc_impression;
 begin
+   Application.ProcessMessages; // les clicks sur le bouton seront ignorés pendant l'attente de l'imprimante 
    nb_impression := nb_impression +1;
    Pnb_impr.Color := clBtnFace;
    Pnb_impr.Caption := Bimpression.Caption + ': ' + inttostr(nb_impression);
@@ -808,6 +820,7 @@ begin
    text_latex := mlatex.Lines;
    routines := troutines.create;
    couleur_affichage := Paffichage.Color;
+   PageControl1.ActivePage := tabsheet1;
 end;
 
 procedure TForm1.CbEssaisClick(Sender: TObject);
@@ -953,6 +966,15 @@ begin
       result := 1;
 end;
 
+function troutines.s_pgcd(a, b: string): integer;
+var
+   x, y : integer;
+begin
+   x := strtointdef(a, 1);
+   y := strtointdef(b, 1);
+   result := pgcd(x, y);
+end;
+
 { top_fractions }
 
 constructor top_fractions.create;
@@ -971,7 +993,7 @@ var
 begin
    den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
-   while num = den do begin
+   while routines.s_pgcd(num, den) > 1 do begin
       num := op_alea.spl1_9;
    end;
    //result := '\frac{' + num + '}{' + den + '}' ;
@@ -979,7 +1001,7 @@ begin
    op := op_alea.operation_3;
    if (op = '\times') or diff_plus then den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
-   while num = den do begin
+   while routines.s_pgcd(num, den) > 1 do begin
       num := op_alea.spl1_9;
    end;
    //result := result + op + '\frac{' + num + '}{' + den + '}=' ;
@@ -1269,6 +1291,63 @@ begin // \begin{tabular}{r@{.}l}3&14159\\
    sl_corrige.Add(st);
    result := result + '\\\vspace{25} \\\end{tabular}';
 end;
+
+
+
+
+procedure TForm1.BSimplification_expressionsClick(Sender: TObject);
+begin
+   genere(top_Simplifie_expr.create);
+end;
+
+{ top_Simplifie_expr }
+
+constructor top_Simplifie_expr.create;
+begin
+
+end;
+
+destructor top_Simplifie_expr.destroy;
+begin
+
+  inherited;
+end;
+
+function top_Simplifie_expr.genere_formule: string;
+var
+   n, i, k, k1, k2, k3, kpre : integer;
+   lettre, signe, nb : string;
+   ok : boolean;
+begin
+   lettre := op_alea.caracteres('xyztuvab');
+   repeat
+      n := op_alea.iplage(3, 6) ;
+      result := '';
+      k := 0; k1 := 0; k2 := 0 ; k3 := 0;
+      for i := 1 to n do begin
+         signe := op_alea.signe;
+         nb := op_alea.slogpl(1, 39);
+         kpre := k;
+         while k = kpre do k := op_alea.iplage(1, 3) ;
+         if (i = 1 ) and (signe = '+') then signe := '';
+         if k = 1 then begin
+            inc(k1);
+            result := result + signe + nb ;
+         end else if k = 2 then begin
+            inc(k2);
+            if (nb = '1') then nb := '';
+            result := result + signe + nb + lettre;
+         end else if k = 3 then begin
+            inc(k3);
+            if (nb = '1') then nb := '';
+            result := result + signe + nb + lettre + '^{3$2}';
+         end;
+      end;
+      ok := (k1 > 1) or (k2 > 1) or (k3 > 1) ;
+   until ok ;
+   result := result + '=';
+end;
+
 
 
 
