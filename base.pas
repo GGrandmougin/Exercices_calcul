@@ -59,6 +59,13 @@ type
     destructor destroy;  override;
   end;
 
+
+  top_corrige = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 var
   diff_plus : boolean ;
   hpix : integer;
@@ -460,6 +467,28 @@ begin
    result.Bottom := result.Bottom + hm;
 end;
 
+{ top_corrige }
+
+constructor top_corrige.create;
+begin
+
+end;
+
+destructor top_corrige.destroy;
+begin
+
+  inherited;
+end;
+
+function top_corrige.genere_formule: string;
+begin
+   if index_corrige < sl_corrige.Count then begin
+      result := sl_corrige[index_corrige];
+   end else begin
+      result := '-';
+   end;
+   index_corrige := index_corrige + 1;
+end;
 
 
 

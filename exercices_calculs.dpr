@@ -3,7 +3,9 @@ program exercices_calculs;
 uses
   Forms,
   exercices_calculs1 in 'exercices_calculs1.pas' {Form1},
-  base in 'base.pas';
+  base in 'base.pas',
+  calculs in 'calculs.pas',
+  selection in 'selection.pas';
 
 {$R *.res}
 
