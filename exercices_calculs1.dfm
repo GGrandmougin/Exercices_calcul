@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = -263
-  Top = 210
+  Left = 292
+  Top = 214
   Width = 891
   Height = 689
   Color = clBtnFace
@@ -86,239 +86,8 @@ object Form1: TForm1
       Lines.Strings = (
         'code\ LaTex')
       ScrollBars = ssBoth
-      TabOrder = 2
+      TabOrder = 1
       WordWrap = False
-    end
-    object PageControl1: TPageControl
-      Left = 16
-      Top = 16
-      Width = 233
-      Height = 297
-      ActivePage = TabSheet2
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'MS Sans Serif'
-      Font.Style = [fsBold]
-      ParentFont = False
-      TabOrder = 0
-      TabWidth = 30
-      object TabSheet1: TTabSheet
-        Caption = '1'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'MS Sans Serif'
-        Font.Style = [fsBold]
-        ParentFont = False
-        object BFractions: TButton
-          Left = 0
-          Top = 12
-          Width = 225
-          Height = 25
-          Caption = 'Fractions  (d)'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 1
-          OnClick = BFractionsClick
-        end
-        object Bdeveloppement: TButton
-          Left = 0
-          Top = 40
-          Width = 225
-          Height = 25
-          Caption = 'D'#233'veloppements'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 0
-          OnClick = BdeveloppementClick
-        end
-        object BFactorisations: TButton
-          Left = 0
-          Top = 72
-          Width = 225
-          Height = 25
-          Caption = 'Factorisations  (d)'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 2
-          OnClick = BFactorisationsClick
-        end
-        object BNombresrelatifs: TButton
-          Left = 0
-          Top = 104
-          Width = 225
-          Height = 25
-          Caption = 'Nombres relatifs'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 3
-          OnClick = BNombresrelatifsClick
-        end
-        object BSimplification: TButton
-          Left = 0
-          Top = 136
-          Width = 225
-          Height = 25
-          Caption = 'Simplifcation de fractions'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 4
-          OnClick = BSimplificationClick
-        end
-        object Bx_puiss10: TButton
-          Left = 0
-          Top = 168
-          Width = 225
-          Height = 25
-          Caption = 'X puissances de 10  (d)'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 5
-          OnClick = Bx_puiss10Click
-        end
-        object Bmultiplications: TButton
-          Left = 0
-          Top = 200
-          Width = 225
-          Height = 25
-          Caption = 'Multiplications  (d)'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 6
-          OnClick = BmultiplicationsClick
-        end
-        object BAdditionencolonne: TButton
-          Left = 0
-          Top = 232
-          Width = 225
-          Height = 25
-          Caption = 'Addition en colonne'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 7
-          OnClick = BAdditionencolonneClick
-        end
-      end
-      object TabSheet2: TTabSheet
-        Caption = '2'
-        ImageIndex = 1
-        object BSimplification_expressions: TButton
-          Left = 0
-          Top = 0
-          Width = 225
-          Height = 25
-          Caption = 'Simplification d'#39'expressions'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 0
-          OnClick = BSimplification_expressionsClick
-        end
-        object Button1: TButton
-          Left = 0
-          Top = 32
-          Width = 225
-          Height = 25
-          Caption = 'Button8'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 1
-        end
-        object Button2: TButton
-          Left = 0
-          Top = 64
-          Width = 225
-          Height = 25
-          Caption = 'Button8'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 2
-        end
-        object Button3: TButton
-          Left = 0
-          Top = 96
-          Width = 225
-          Height = 25
-          Caption = 'Button8'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 3
-        end
-        object Button9: TButton
-          Left = 0
-          Top = 128
-          Width = 225
-          Height = 25
-          Caption = 'Button8'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 4
-        end
-      end
-      object TabSheet3: TTabSheet
-        Caption = '3'
-        ImageIndex = 2
-      end
-      object TabSheet4: TTabSheet
-        Caption = '4'
-        ImageIndex = 3
-      end
-      object TabSheet5: TTabSheet
-        Caption = '5'
-        ImageIndex = 4
-      end
     end
     object Bessais: TButton
       Left = 256
@@ -326,7 +95,7 @@ object Form1: TForm1
       Width = 57
       Height = 25
       Caption = 'Bessais'
-      TabOrder = 4
+      TabOrder = 3
       OnClick = BessaisClick
     end
     object Btest: TButton
@@ -335,38 +104,68 @@ object Form1: TForm1
       Width = 65
       Height = 25
       Caption = 'Btest'
-      TabOrder = 1
+      TabOrder = 0
       OnClick = BtestClick
     end
     object CbEssais: TCheckBox
-      Left = 264
-      Top = 256
-      Width = 97
+      Left = 336
+      Top = 288
+      Width = 57
       Height = 17
       Hint = 
         'mode "essais" permettanr de tester du code LaTex que l'#39'on peut '#233 +
         'crire  dans le m'#233'mo'
       Caption = 'Essais'
-      TabOrder = 3
+      TabOrder = 2
       OnClick = CbEssaisClick
     end
     object CbDifficulteplus: TCheckBox
-      Left = 256
-      Top = 16
-      Width = 113
+      Left = 24
+      Top = 288
+      Width = 89
       Height = 17
       Hint = 
-        'option plus grande difficult'#233' pour les  calculs  indiqu'#233's avec "' +
-        '(d)"'
-      Caption = 'Difficult'#233' +  (d)'
+        'option plus grande difficult'#233' pour les calculs poss'#233'dant une cro' +
+        'ix '#224' gauche du nom'
+      Caption = 'Difficult'#233' +'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsBold]
       ParentFont = False
-      TabOrder = 5
+      TabOrder = 4
       OnClick = CbDifficulteplusClick
+    end
+    object TreeView1: TTreeView
+      Left = 16
+      Top = 8
+      Width = 377
+      Height = 273
+      Images = ImageList
+      Indent = 19
+      TabOrder = 5
+      OnClick = TreeView1Click
+      Items.Data = {
+        04000000290000000000000000000000FFFFFFFFFFFFFFFF0000000003000000
+        104C65732034206F70E9726174696F6E73280000000400000000000000080000
+        00FFFFFFFF00000000000000000F4D756C7469706C69636174696F6E732C0000
+        00000000000000000006000000FFFFFFFF000000000000000013416464697469
+        6F6E20656E20636F6C6F6E6E652C000000040000000000000004000000FFFFFF
+        FF00000000000000001358207075697373616E63657320646520313020220000
+        000000000000000000FFFFFFFFFFFFFFFF000000000200000009467261637469
+        6F6E7323000000040000000000000001000000FFFFFFFF00000000000000000A
+        4F70E9726174696F6E7327000000000000000000000002000000FFFFFFFF0000
+        0000000000000E53696D706C696669636174696F6E2900000000000000000000
+        00FFFFFFFFFFFFFFFF0000000001000000104E6F6D627265732072656C617469
+        667323000000000000000000000007000000FFFFFFFF00000000000000000A4F
+        70E9726174696F6E73280000000000000000000000FFFFFFFFFFFFFFFF000000
+        00030000000F63616C63756C206C697474E972616C3500000000000000000000
+        0009000000FFFFFFFF00000000000000001C53696D706C696669636174696F6E
+        20642765787072657373696F6E7327000000040000000000000005000000FFFF
+        FFFF00000000000000000E466163746F7269736174696F6E7327000000000000
+        000000000003000000FFFFFFFF00000000000000000E44E976656C6F7070656D
+        656E7473}
     end
   end
   object PImpression: TPanel

@@ -1,15 +1,15 @@
 unit selection;
 
 interface
-   uses base, calculs;
+   uses SysUtils, base, calculs;
 
-  function  select_op(indx : integer): i_calculs;
+  function  select_op(reference : integer): i_calculs;
 
 implementation
 
-function  select_op(indx : integer): i_calculs;
+function  select_op(reference : integer): i_calculs;
 begin
-   case indx of
+   case reference of
       1: result := top_fractions.create;
       2: result := top_simplication.create;
       3: result := top_developpent.create;
@@ -33,7 +33,7 @@ begin
 
 
    else
-      result := nil;
+      result := top_erreur.create('reference incorrecte: ' + inttostr(reference));
    end;
 
 end;

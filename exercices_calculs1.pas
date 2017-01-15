@@ -45,7 +45,8 @@ type
 
 
   top_test = class(tinterfacedobject, i_calculs)
-    function genere_formule : string;
+    function genere_formule : string; 
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
@@ -53,7 +54,6 @@ type
 
   TForm1 = class(TForm)
     Ppage: TPanel;
-    BFractions: TButton;
     Cbsource_LaTex: TCheckBox;
     Bcfg_impr: TButton;
     Bimpression: TButton;
@@ -67,14 +67,6 @@ type
     Eespace: TEdit;
     Llignes: TLabel;
     LEspace: TLabel;
-    Bdeveloppement: TButton;
-    BFactorisations: TButton;
-    BNombresrelatifs: TButton;
-    BSimplification: TButton;
-    Bx_puiss10: TButton;
-    Bmultiplications: TButton;
-    BAdditionencolonne: TButton;
-    BSimplification_expressions: TButton;
     BPressepapier: TButton;
     CbEssais: TCheckBox;
     CbDifficulteplus: TCheckBox;
@@ -86,16 +78,6 @@ type
     Image1: TImage;
     Lnbcaracteres: TLabel;
     Lnb_car: TLabel;
-    PageControl1: TPageControl;
-    TabSheet1: TTabSheet;
-    TabSheet2: TTabSheet;
-    TabSheet3: TTabSheet;
-    TabSheet4: TTabSheet;
-    TabSheet5: TTabSheet;
-    Button1: TButton;
-    Button2: TButton;
-    Button3: TButton;
-    Button9: TButton;
     Mlatex: TMemo;
     Btest: TButton;
     Pcommandes: TPanel;
@@ -110,6 +92,7 @@ type
     LApercu: TLabel;
     Pnb_impr: TPanel;
     ImageList: TImageList;
+    TreeView1: TTreeView;
     procedure genere(icalc : i_calculs; corrige : boolean = false);
     procedure clear_corrige;
     procedure reset_impression;
@@ -124,22 +107,25 @@ type
     function getversion: String;
     procedure BFractionsClick(Sender: TObject);
     procedure PpageResize(Sender: TObject);
-    procedure BdeveloppementClick(Sender: TObject);
     procedure BPressepapierClick(Sender: TObject);
-    procedure BFactorisationsClick(Sender: TObject);
+    procedure Cbsource_LaTexClick(Sender: TObject);
     procedure CbDifficulteplusClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure CbEssaisClick(Sender: TObject);
     procedure EhpixelsChange(Sender: TObject);
+    procedure BtestClick(Sender: TObject);
+    procedure suppr_image(treenode: TTreeNode);
+    procedure BdeveloppementClick(Sender: TObject);
     procedure BNombresrelatifsClick(Sender: TObject);
-    procedure Cbsource_LaTexClick(Sender: TObject);
     procedure BSimplificationClick(Sender: TObject);
-    procedure BtestClick(Sender: TObject); 
+    procedure BFactorisationsClick(Sender: TObject);
     procedure Bx_puiss10Click(Sender: TObject);
     procedure BmultiplicationsClick(Sender: TObject);
     procedure BAdditionencolonneClick(Sender: TObject);
     procedure BCorrigeClick(Sender: TObject);
     procedure BSimplification_expressionsClick(Sender: TObject);
+    procedure TreeView1Click(Sender: TObject);
+
   private
     { Déclarations privées }
   public
@@ -329,6 +315,9 @@ begin
       Clipboard.Assign(ilatex.picture);
 end;
 
+
+
+
 procedure TForm1.BFractionsClick(Sender: TObject);
 begin
    genere(select_op(1));
@@ -393,6 +382,9 @@ begin
 end;
 
 
+
+
+
 procedure TForm1.genere(icalc : i_calculs; corrige : boolean = false);
 var
    l, c, eh, ev  : integer;
@@ -435,23 +427,22 @@ procedure TForm1.CbDifficulteplusClick(Sender: TObject);
 begin
    diff_plus := CbDifficulteplus.checked;
 end;
-{
+
 procedure TForm1.TreeView1Click(Sender: TObject);
 var
    i : integer;
-
 begin
-
    i := TreeView1.Selected.StateIndex;
-   if i > -1 then begin
-      form1.Caption := 'stateindex  = ' + inttostr(i);
+   if i > 0 then begin
+      //form1.Caption := 'stateindex  = ' + inttostr(i);
       treeView1.Selected := treeView1.Selected.Parent;
+      genere(select_op(i));
    end else begin
-      form1.Caption := 'dossier';
+      //form1.Caption := 'dossier';
    end;
 
 end;
-
+{
 procedure TForm1.FormShow(Sender: TObject);
 var
    i : integer;
@@ -462,28 +453,16 @@ begin
    end;
 end;
 
-procedure TForm1.suppr_image(treenode: TTreeNode);
-var
-    i : integer;
-begin
-   //il faut utiliser StateIndex en tant que qu'indicateur général (remplaçant le "tag" des composants visuels)(treeview.stateimages doit être à nil)
-   if (treenode.Count = 0) and (treenode.StateIndex > -1) then begin
-      treenode.SelectedIndex := 5;
-      treenode.imageIndex := 5;
-   end else begin
-      for i := 0 to  treenode.Count -1 do begin
-         suppr_image(treenode.item[i]);
-      end;
-   end;;
-end;
 }
 procedure TForm1.FormShow(Sender: TObject);
+var
+   i : integer;
 begin
    diff_plus := CbDifficulteplus.checked;
    Messais.Visible := CbEssais.Checked;
    Bessais.Visible := CbEssais.Checked;
    Btest.Visible := CbEssais.Checked;
-   PageControl1.Visible:= not CbEssais.Checked;
+   TreeView1.Visible:= not CbEssais.Checked;
    mlatex.Visible := Cbsource_LaTex.Checked;
    SBaffichage.Visible:= not Cbsource_LaTex.Checked;
    EhpixelsChange(self);
@@ -492,7 +471,29 @@ begin
    text_latex := mlatex.Lines;
    routines := troutines.create;
    couleur_affichage := Paffichage.Color;
-   PageControl1.ActivePage := tabsheet1;
+   for i := 0 to  TreeView1.items.Count -1 do begin
+      suppr_image(TreeView1.items.item[i]);
+   end;
+end;
+
+procedure TForm1.suppr_image(treenode: TTreeNode);
+var
+    i : integer;
+begin
+   //(treeview.stateimages doit être à nil)
+   if (treenode.Count = 0) and (treenode.StateIndex > -1) then begin
+      if treenode.imageIndex = 4 then begin
+         treenode.SelectedIndex := 4;
+         //treenode.imageIndex := 4;
+      end else begin
+         treenode.SelectedIndex := 5;
+         treenode.imageIndex := 5;
+      end;
+   end else begin
+      for i := 0 to  treenode.Count -1 do begin
+         suppr_image(treenode.item[i]);
+      end;
+   end;;
 end;
 
 procedure TForm1.CbEssaisClick(Sender: TObject);
@@ -500,7 +501,7 @@ begin
    Messais.Visible := CbEssais.Checked;
    Bessais.Visible := CbEssais.Checked;
    Btest.Visible := CbEssais.Checked;
-   PageControl1.Visible:= not CbEssais.Checked;
+   TreeView1.Visible:= not CbEssais.Checked;
 end;
 
 
@@ -567,9 +568,14 @@ begin
    end;
 end;
 
-
-
-
-
+function top_test.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      1 : result := '';
+      2 : result := '';
+   else
+      result := '';
+   end;
+end;
 
 end.

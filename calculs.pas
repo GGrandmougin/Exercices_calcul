@@ -4,59 +4,69 @@ interface
 
 uses SysUtils, base;
 
+
 type
 
   top_fractions = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_developpent = class(tinterfacedobject, i_calculs)
-    function genere_formule : string;
+    function genere_formule : string; 
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_x_puiss10 = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_factorisation = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_Additionencol = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_nb_relatifs = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
 
   top_multiplications = class(tinterfacedobject, i_calculs)
-    function genere_formule : string;
+    function genere_formule : string; 
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_Simplifie_expr = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
@@ -97,6 +107,16 @@ begin
    result := format('%s%s\frac{%s}{%s}=', [result, op, num, den]);
 end;
 
+function top_fractions.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
+
 { top_simplication }
 
 constructor top_simplication.create;
@@ -126,6 +146,16 @@ begin
    result := format('\frac{%d}{%d}=', [num, den]);
 end;
 
+function top_simplication.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
+
 { top_x_puiss10 }
 
 constructor top_x_puiss10.create;
@@ -151,6 +181,16 @@ begin
 end;
 
 
+
+function top_x_puiss10.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
 
 { top_developpent }
 
@@ -188,6 +228,16 @@ begin
    result := result + '=' ;
 end;
 
+function top_developpent.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
+
 { top_nb_relatifs }
 
 constructor top_nb_relatifs.create;
@@ -215,6 +265,16 @@ begin
 end;
 
 
+
+function top_nb_relatifs.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
 
 { top_factorisation }
 
@@ -273,7 +333,19 @@ begin  // 3*4xy - 7*4xz
 end;
 
 
-{ top_ultiplications }
+
+function top_factorisation.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
+
+
+{ top_multiplications }
 
 constructor top_multiplications.create;
 begin
@@ -298,6 +370,16 @@ begin
    while b = '1' do b:= op_alea.snombre(4, p , 0);
    result := format('%s\times%s=', [a, b]);
    sl_corrige.Add(routines.mult(a, b));
+end;
+
+function top_multiplications.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
 end;
 
 
@@ -338,7 +420,15 @@ begin // \begin{tabular}{r@{.}l}3&14159\\
    result := result + '\\\vspace{25} \\\end{tabular}';
 end;
 
-
+function top_Additionencol.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
 
 { top_Simplifie_expr }
 
@@ -388,5 +478,15 @@ begin
    result := result + '=';
 end;
 
+
+function top_Simplifie_expr.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
 
 end.

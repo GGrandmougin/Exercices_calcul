@@ -8,10 +8,17 @@ uses
    Windows;
 
 type
+   ttype_info = integer;
+
+const
+   info_titre = 1;
+   info_ennonce = 2;
+
+type
 
   i_calculs = interface
      function genere_formule : string;
-
+     function get_info(type_info : ttype_info): string;
   end;
 
 
@@ -62,9 +69,19 @@ type
 
   top_corrige = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
     constructor create;
     destructor destroy;  override;
   end;
+
+  top_erreur = class(tinterfacedobject, i_calculs)
+    info_erreur : string;
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
+    constructor create(info : string = '');
+    destructor destroy;  override;
+  end;
+
 
 var
   diff_plus : boolean ;
@@ -490,6 +507,43 @@ begin
    index_corrige := index_corrige + 1;
 end;
 
+function top_corrige.get_info(type_info: integer): string;
+begin
+   case type_info of
+      1 : result := '';
+      2 : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_pb_reference }
+
+constructor top_erreur.create(info : string = '');
+begin
+   info_erreur := info;
+end;
+
+destructor top_erreur.destroy;
+begin
+
+  inherited;
+end;
+
+function top_erreur.genere_formule: string;
+begin
+   result := info_erreur;
+end;
+
+function top_erreur.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      1 : result := '';
+      2 : result := '';
+   else
+      result := '';
+   end;
+end;
 
 
 end.
