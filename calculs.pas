@@ -88,19 +88,20 @@ end;
 
 function top_fractions.genere_formule: string;
 var
-   num, den, op : string;
+   num1, num, den, op : string;
+
 begin
    den := op_alea.splage(2,9);
-   num := op_alea.spl1_9;
-   while routines.s_pgcd(num, den) > 1 do begin
-      num := op_alea.spl1_9;
+   num1 := op_alea.spl1_9;
+   while routines.s_pgcd(num1, den) > 1 do begin
+      num1 := op_alea.spl1_9;
    end;
    //result := '\frac{' + num + '}{' + den + '}' ;
-   result := format('\frac{%s}{%s}', [num, den]);
+   result := format('\frac{%s}{%s}', [num1, den]);
    op := op_alea.operation_3;
    if (op = '\times') or diff_plus then den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
-   while routines.s_pgcd(num, den) > 1 do begin
+   while (routines.s_pgcd(num, den) > 1) or ((not diff_plus)  and (op <> '\times') and (num = num1 ) )do begin
       num := op_alea.spl1_9;
    end;
    //result := result + op + '\frac{' + num + '}{' + den + '}=' ;

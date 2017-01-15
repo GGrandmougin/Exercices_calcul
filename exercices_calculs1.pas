@@ -125,6 +125,8 @@ type
     procedure BCorrigeClick(Sender: TObject);
     procedure BSimplification_expressionsClick(Sender: TObject);
     procedure TreeView1Click(Sender: TObject);
+    procedure TreeView1CustomDrawItem(Sender: TCustomTreeView;
+      Node: TTreeNode; State: TCustomDrawState; var DefaultDraw: Boolean);
 
   private
     { Déclarations privées }
@@ -575,6 +577,18 @@ begin
       2 : result := '';
    else
       result := '';
+   end;
+end;
+
+procedure TForm1.TreeView1CustomDrawItem(Sender: TCustomTreeView;
+  Node: TTreeNode; State: TCustomDrawState; var DefaultDraw: Boolean);
+begin
+   with TreeView1.Canvas do begin
+      if node.ImageIndex = 0 then begin
+         font.Style := [fsbold] ;
+      end else begin
+         font.Style := [];
+      end;
    end;
 end;
 
