@@ -71,6 +71,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_distributivite = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 implementation
 
 
@@ -481,6 +488,62 @@ end;
 
 
 function top_Simplifie_expr.get_info(type_info : ttype_info): string;
+begin
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_didributivite }
+
+constructor top_distributivite.create;
+begin
+
+end;
+
+destructor top_distributivite.destroy;
+begin
+
+  inherited;
+end;
+
+function top_distributivite.genere_formule: string;
+var
+   i, n : integer;
+   lettres, nb, s, lpre :string ;
+begin
+   result := '';
+   n := op_alea.iplage(2, 4);
+   for i := 1 to n do begin
+      lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      nb := op_alea.spl1_9;
+      s := op_alea.signe;
+      if (i = 1) and (s = '+') then s := '';
+      if (nb = '1') then nb := '';
+      result := result + s + nb + lettres + '(';
+      
+      lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      lpre := lettres;
+      nb := op_alea.spl1_9;
+      s := op_alea.signe;
+      if  s = '+' then s := '';
+      if (lettres <> '') and (nb = '1') then nb := '';
+      result := result + s + nb + lettres ;
+
+      lettres := lpre;
+      while (lpre = lettres) do lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      nb := op_alea.spl1_9;
+      s := op_alea.signe;
+      if (lettres <> '') and (nb = '1') then nb := '';
+      result := result + s + nb + lettres + ')';
+   end;
+   result := result + '=';
+end;
+
+function top_distributivite.get_info(type_info: ttype_info): string;
 begin
    case type_info of
       info_titre   : result := '';

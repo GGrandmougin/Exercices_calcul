@@ -5,7 +5,7 @@ interface
 
 uses
    SysUtils, ExtCtrls, types, StdCtrls, Classes, Math, Dialogs,
-   Windows;
+   Windows, graphics;
 
 type
    ttype_info = integer;
@@ -13,7 +13,8 @@ type
 const
    info_titre = 1;
    info_ennonce = 2;
-
+   max_car = 980;
+   
 type
 
   i_calculs = interface
@@ -31,6 +32,7 @@ type
     function signe : string;
     function spl0_9 : string;
     function spl1_9 : string;
+    function UnSurX(x : integer): boolean;
     function splage(debut_incl, fin_incl: integer): string;
     function iplage(debut_incl, fin_incl: integer): integer;
     function slogpl(debut_incl, fin_incl: integer): string;
@@ -38,6 +40,7 @@ type
     function ipuiss10(debut_incl, fin_incl: integer): single;
     function spuiss10(debut_incl, fin_incl: integer): string;
     function snombre(nbsignificatifsmax, deb_p10, fin_p10 : integer): string ;
+    function lettres(catalogue : string; nb_min, nb_max, UnSurX_e2, UnSurX_e3 : integer): string;
     function x_div : string;
     function operation_3 : string;
     constructor create;
@@ -58,6 +61,7 @@ type
 
   tlatex = class
     imgLatex, imgPage : timage;
+    depassement : boolean;
     function dim_impression( himg, limg, h_ttl, l_ttl : integer) : trect;
     procedure une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
     procedure tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0);
@@ -132,6 +136,42 @@ begin
       result := ''
    else
       result := caract[i];
+end;
+
+function toptions_aleatoires.UnSurX(x : integer): boolean;
+begin
+   if x <= 0 then begin
+      result := false;
+   end else begin
+      result := randomrange(1, x + 1) = 1;
+   end;
+end;
+
+function toptions_aleatoires.lettres(catalogue: string; nb_min, nb_max, UnSurX_e2, UnSurX_e3: integer): string;
+var
+   i, l, j, nb, lim : integer;
+   st : string;
+begin
+   result := '';
+   l := length(catalogue);
+   nb := randomrange(nb_min, nb_max +1);
+   st := '';
+   lim :=1000;
+   for i := 1 to min(nb, l) do begin
+      j := randomrange(1, l + 1);
+      while (pos( catalogue[j], st) > 0) and (lim >0) do begin
+         j := randomrange(1, l + 1);
+         dec(lim);
+      end;
+      if lim < 1 then showmessage('boucle infinie dans options_aleatoires.lettres');
+      st := st  + catalogue[j];
+      result := result + catalogue[j];
+      if UnSurX(UnSurX_e2) then begin
+         result := result + '^{3$2}';
+      end else if UnSurX(UnSurX_e3) then begin
+         result := result + '^{3$3}';
+      end;
+   end;
 end;
 
 constructor toptions_aleatoires.create;
@@ -302,6 +342,7 @@ begin
    result := st;
 end;
 
+
 { troutines }
 
 constructor troutines.create;
@@ -387,6 +428,10 @@ var
    drect, srect : TRect;
 begin
    longueur_laTex.Caption := inttostr(length(latex));
+   if depassement then
+      longueur_laTex.Font.Color := clred
+   else
+      longueur_laTex.Font.Color := clblack;
    text_latex.Text := latex;
    try
       CreateGifFromEq( PAnsiChar(latex), PAnsiChar(sNomGif));
@@ -410,9 +455,10 @@ end;
 
 procedure tlatex.une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
 var
-   st, saut : string;
+   st, saut, stpre : string;
    i : integer;
 begin
+   depassement := false;
    if espace = 0 then
       saut := '\\'
    else
@@ -420,31 +466,46 @@ begin
    for i := 1 to nb_lignes do begin
       if st <> '' then   st := st + saut else st := '5$';
       st := st + calculs.genere_formule;
+      if length(st) > max_car then begin
+         st := stpre;
+         depassement := true;
+      end else begin
+         stpre := st ;
+      end;
    end;
    if length(st) > 2 then latex2img(st);
 end;
 
 procedure tlatex.tableau(calculs: i_calculs; nb_lignes, nb_colonnes,  espacev, espaceh: integer);
 var
-   st : string;
+   st, stpre : string;
    l, c : integer;
 begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 (* on peut mettre des tableaux dans les tableaux:
 \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} & \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} &  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 *)
+   depassement := false;
    st := '5$\begin{tabular}{l';
    for c := 2 to nb_colonnes  do begin
       st := st + 'l';
    end;
    st := st + '}';
    for l := 1 to nb_lignes do begin
-      for c := 1 to nb_colonnes  do begin
-         st := st + calculs.genere_formule + '\hspace{' + inttostr(espaceh) + '}';
-         if c <> nb_colonnes then st := st + '&';
+      if not depassement then begin
+         for c := 1 to nb_colonnes  do begin
+            st := st + calculs.genere_formule + '\hspace{' + inttostr(espaceh) + '}';
+            if c <> nb_colonnes then st := st + '&';
+            if length(st) > max_car - 29 then begin  
+               st := stpre;
+               depassement := true;
+            end else begin
+               stpre := st ;
+            end;
+         end;
+         st := st + '\\\vspace{' + inttostr(espacev) + '}\\';  //l = 16
       end;
-      st := st + '\\\vspace{' + inttostr(espacev) + '}\\';
    end;
-   st := st + '\end{tabular}';
+   st := st + '\end{tabular}'; // l=  13
    latex2img(st);
 end ;
 

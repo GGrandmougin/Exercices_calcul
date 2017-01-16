@@ -1,4 +1,34 @@
 unit selection;
+{   INFO  DEVELOPPEMENT pour ajouter un nouveau type de calcul
+
+1)
+Dans l'inspecteur d'objets, selectionner TreeView1,
+double-ciquer sur "Treenodes" affecté à la propriété Items
+La fenêtre "Editeur d'éléments TreeView" apparait
+Faire "Nouveau" ou "Sous-élément"
+Renseigner texte et Indice-état (qui va devenir le paramètre envoyé à la fonction
+select_op)
+Mettre Indice image à 4 si le nouveau calcul possède l'option "difficulté +"
+sinon le laisser à 0 .
+
+2)
+dans calculs.pas
+Créer une nouvelle classe top_xxxxx (en faisant un copier coller des déclarations
+d'une classe top_...  déjà existante.
+Créer automatiquement l'implémentation des focntions  à l'aide de trl+Shift+C
+Faire un copié-coller du contenu de la fonction get_info d'une autre classe et
+affecter les bonnes valeurs pour inf_titre et info_ennonce.
+Créer le code pour la génération du code latex dans la fonction genere_formule
+Les fonction des classes toptions_aleatoires et troutines dans le module base.pas
+sont là pour simplifier la tâche.
+
+3)
+Dans le module selection.pas,
+dans la fonction select_op,
+ajouter un ligne commandant la création d'une instance la nouvelle classe,
+la valeur de "reference" étant celle renseignée dans Indice-état dans 1)
+
+ }
 
 interface
    uses SysUtils, base, calculs;
@@ -19,8 +49,8 @@ begin
       7: result := top_nb_relatifs.create;
       8: result := top_multiplications.create;
       9: result := top_Simplifie_expr.create;
-{      10: result := .create;
-      11: result := .create;
+      10: result := top_distributivite.create;
+{      11: result := .create;
       12: result := .create;
       13: result := .create;
       14: result := .create;

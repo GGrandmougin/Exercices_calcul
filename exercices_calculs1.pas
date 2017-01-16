@@ -1,4 +1,7 @@
 unit exercices_calculs1;
+// voir explications pour l'ajout de nouveau types de caculs dans les comentaires
+// au début du module selection.pas
+
 {
 documentation latex générale:
 http://www.forkosh.com/latex/ltx-2.html
@@ -575,9 +578,9 @@ procedure TForm1.TreeView1CustomDrawItem(Sender: TCustomTreeView;
 begin
    with TreeView1.Canvas do begin
       if node.ImageIndex = 0 then begin
-         font.Style := [fsbold] ;
+         font.Style := [] ;
       end else begin
-         font.Style := [];
+         font.Style := [fsbold];
       end;
    end;
 end;
