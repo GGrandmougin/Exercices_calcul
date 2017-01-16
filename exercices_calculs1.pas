@@ -124,9 +124,10 @@ type
     procedure BAdditionencolonneClick(Sender: TObject);
     procedure BCorrigeClick(Sender: TObject);
     procedure BSimplification_expressionsClick(Sender: TObject);
-    procedure TreeView1Click(Sender: TObject);
     procedure TreeView1CustomDrawItem(Sender: TCustomTreeView;
       Node: TTreeNode; State: TCustomDrawState; var DefaultDraw: Boolean);
+    procedure TreeView1MouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
 
   private
     { Déclarations privées }
@@ -428,34 +429,23 @@ end;
 procedure TForm1.CbDifficulteplusClick(Sender: TObject);
 begin
    diff_plus := CbDifficulteplus.checked;
+   ImageList.Move(3,4);
 end;
 
-procedure TForm1.TreeView1Click(Sender: TObject);
+procedure TForm1.TreeView1MouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
 var
    i : integer;
 begin
-   i := TreeView1.Selected.StateIndex;
-   if i > 0 then begin
-      //form1.Caption := 'stateindex  = ' + inttostr(i);
-      treeView1.Selected := treeView1.Selected.Parent;
-      genere(select_op(i));
-   end else begin
-      //form1.Caption := 'dossier';
-   end;
-
-end;
-{
-procedure TForm1.FormShow(Sender: TObject);
-var
-   i : integer;
-begin
-   //TreeView1.Items
-   for i := 0 to  TreeView1.items.Count -1 do begin
-      suppr_image(TreeView1.items.item[i]);
+   if TreeView1.Selected <> nil then begin
+      i := TreeView1.Selected.StateIndex;
+      if i > 0 then begin
+         treeView1.Selected := nil;
+         genere(select_op(i));
+      end;
    end;
 end;
 
-}
 procedure TForm1.FormShow(Sender: TObject);
 var
    i : integer;
@@ -591,5 +581,7 @@ begin
       end;
    end;
 end;
+
+
 
 end.
