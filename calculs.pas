@@ -512,20 +512,27 @@ end;
 
 function top_distributivite.genere_formule: string;
 var
-   i, n : integer;
-   lettres, nb, s, lpre :string ;
+   i, n, prob : integer;
+   lettres, nb, s, lpre , cat :string ;
 begin
    result := '';
    n := op_alea.iplage(2, 4);
+   if diff_plus then begin
+      prob := 10;
+      cat := 'xyz'
+   end else begin
+      prob := 0;
+      cat := 'xy'
+   end;
    for i := 1 to n do begin
-      lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      lettres := op_alea.lettres(cat, 0, 2, prob, 0);
       nb := op_alea.spl1_9;
       s := op_alea.signe;
       if (i = 1) and (s = '+') then s := '';
       if (nb = '1') then nb := '';
       result := result + s + nb + lettres + '(';
       
-      lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      lettres := op_alea.lettres(cat, 0, 2, prob, 0);
       lpre := lettres;
       nb := op_alea.spl1_9;
       s := op_alea.signe;
@@ -534,7 +541,7 @@ begin
       result := result + s + nb + lettres ;
 
       lettres := lpre;
-      while (lpre = lettres) do lettres := op_alea.lettres('xyz', 0, 2, 10, 0);
+      while (lpre = lettres) do lettres := op_alea.lettres(cat, 0, 2, prob, 0);
       nb := op_alea.spl1_9;
       s := op_alea.signe;
       if (lettres <> '') and (nb = '1') then nb := '';

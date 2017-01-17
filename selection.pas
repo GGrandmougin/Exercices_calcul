@@ -20,7 +20,7 @@ Faire un copié-coller du contenu de la fonction get_info d'une autre classe et
 affecter les bonnes valeurs pour inf_titre et info_ennonce.
 Créer le code pour la génération du code latex dans la fonction genere_formule
 Les fonction des classes toptions_aleatoires et troutines dans le module base.pas
-sont là pour simplifier la tâche.
+sont là pour faciliter la tâche.
 
 3)
 Dans le module selection.pas,
