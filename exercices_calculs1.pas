@@ -96,6 +96,7 @@ type
     Pnb_impr: TPanel;
     ImageList: TImageList;
     TreeView1: TTreeView;
+    Minfos: TMemo;
     procedure genere(icalc : i_calculs; corrige : boolean = false);
     procedure clear_corrige;
     procedure reset_impression;
@@ -127,11 +128,12 @@ type
     procedure BAdditionencolonneClick(Sender: TObject);
     procedure BCorrigeClick(Sender: TObject);
     procedure BSimplification_expressionsClick(Sender: TObject);
-    procedure TreeView1CustomDrawItem(Sender: TCustomTreeView;
-      Node: TTreeNode; State: TCustomDrawState; var DefaultDraw: Boolean);
-    procedure TreeView1MouseDown(Sender: TObject; Button: TMouseButton;
-      Shift: TShiftState; X, Y: Integer);
-
+    procedure TreeView1CustomDrawItem(Sender: TCustomTreeView; Node: TTreeNode; State: TCustomDrawState; var DefaultDraw: Boolean);
+    procedure TreeView1MouseDown(Sender: TObject; Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
+    procedure TreeView1MouseUp(Sender: TObject; Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
+    procedure affiche_infos(idx : integer);
+    procedure cache_infos;
+    procedure minfos_visible( visi : boolean);
   private
     { Déclarations privées }
   public
@@ -142,6 +144,8 @@ type
     olatex : tlatex;
     couleur_affichage : tcolor;
     nb_impression : integer;
+    mlatex_visi :boolean;
+    sbaffichage_visi : boolean;
   end;
 
 const
@@ -317,6 +321,8 @@ procedure TForm1.BPressepapierClick(Sender: TObject);
 begin
    if Cbsource_LaTex.Checked then
       Clipboard.SetTextBuf( PChar(Mlatex.Lines.Text))
+   else if Minfos.Visible then
+      Clipboard.SetTextBuf( PChar(Minfos.Lines.Text))
    else
       Clipboard.Assign(ilatex.picture);
 end;
@@ -439,12 +445,94 @@ procedure TForm1.TreeView1MouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
 var
    i : integer;
+   node : TTreeNode;
 begin
-   if TreeView1.Selected <> nil then begin
-      i := TreeView1.Selected.StateIndex;
-      if i > 0 then begin
-         treeView1.Selected := nil;
-         genere(select_op(i));
+   if  button = mbleft then begin
+      cache_infos;
+      if TreeView1.Selected <> nil then begin
+         i := TreeView1.Selected.StateIndex;
+         if i > 0 then begin
+            treeView1.Selected := nil;
+            genere(select_op(i));
+         end;
+      end;
+   end else if  button = mbRight then begin
+      node := treeview1.GetNodeAt(x, y);
+      if Minfos.Visible and (TreeView1.Selected = node) then begin
+         cache_infos;
+         TreeView1.Selected := nil;
+      end else begin
+         if node <> nil then begin
+            i := node.StateIndex;
+            if i > 0 then begin
+                affiche_infos(i);
+                if Minfos.Visible then TreeView1.Selected := node else TreeView1.Selected := nil;
+            end else begin
+               cache_infos;
+               TreeView1.Selected := nil;
+            end;
+         end else begin
+            cache_infos;
+            TreeView1.Selected := nil;
+         end;
+      end;
+   end;
+end;
+
+procedure TForm1.TreeView1MouseUp(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+   //if button = mbRight then  cache_infos;
+end;
+
+procedure TForm1.affiche_infos(idx: integer);
+var
+   calcul : i_calculs;
+   titre, ennonce, comment : string;
+begin
+   calcul := select_op(idx);
+   titre := calcul.get_info(info_titre);
+   ennonce := calcul.get_info(info_ennonce);
+   comment := calcul.get_info(info_commentaire);
+   if (titre <>'') or (ennonce <>'') or (comment <>'') then begin
+      minfos.Clear;
+      Minfos.Lines.Add('TITRE:');
+      Minfos.Lines.Add('');
+      Minfos.Lines.Add(titre);
+      Minfos.Lines.Add(''); Minfos.Lines.Add('');
+      Minfos.Lines.Add('ENNONCE:');
+      Minfos.Lines.Add('');
+      Minfos.Lines.Add(ennonce);
+      Minfos.Lines.Add(''); Minfos.Lines.Add(''); 
+      Minfos.Lines.Add('COMMENTAIRE:');
+      Minfos.Lines.Add('');
+      Minfos.Lines.Add(comment);
+      minfos_visible(true);
+   end else begin
+      cache_infos;
+   end;
+end;
+
+procedure TForm1.cache_infos;
+begin
+   if Minfos.Visible then begin
+      minfos_visible(false);
+   end;
+end;
+
+procedure TForm1.minfos_visible(visi: boolean);
+begin
+   if not (minfos.Visible and visi) then begin
+      minfos.Visible := visi;
+      Cbsource_LaTex.Visible := not visi;
+      if visi then begin
+         mlatex_visi := Mlatex.Visible;
+         sbaffichage_visi := SBaffichage.Visible ;
+         mlatex.Visible := false;
+         SBaffichage.Visible := false;
+      end else begin
+         mlatex.Visible := mlatex_visi;
+         SBaffichage.Visible := sbaffichage_visi ;
       end;
    end;
 end;
@@ -463,6 +551,10 @@ begin
    EhpixelsChange(self);
    longueur_laTex := Lnb_car;
    ipage.Picture.Bitmap.Assign(image1.Picture.Bitmap);
+   minfos.top  := mlatex.top ;
+   minfos.left  := mlatex.left ;
+   minfos.Height  := mlatex.Height ;
+   minfos.Width  := mlatex.Width ;
    text_latex := mlatex.Lines;
    routines := troutines.create;
    couleur_affichage := Paffichage.Color;
@@ -584,7 +676,6 @@ begin
       end;
    end;
 end;
-
 
 
 end.

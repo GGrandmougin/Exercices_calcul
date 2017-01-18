@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 235
-  Top = 169
+  Left = 255
+  Top = 263
   Width = 891
   Height = 689
   Color = clBtnFace
@@ -147,6 +147,7 @@ object Form1: TForm1
       TabOrder = 5
       OnCustomDrawItem = TreeView1CustomDrawItem
       OnMouseDown = TreeView1MouseDown
+      OnMouseUp = TreeView1MouseUp
       Items.Data = {
         04000000290000000000000000000000FFFFFFFFFFFFFFFF0000000003000000
         104C65732034206F70E9726174696F6E73280000000400000000000000080000
@@ -2148,6 +2149,14 @@ object Form1: TForm1
       TabOrder = 3
       Visible = False
       OnClick = BCorrigeClick
+    end
+    object Minfos: TMemo
+      Left = 96
+      Top = 168
+      Width = 105
+      Height = 73
+      TabOrder = 4
+      Visible = False
     end
   end
   object PrinterSetupDialog1: TPrinterSetupDialog

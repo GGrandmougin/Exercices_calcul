@@ -120,6 +120,7 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
+      info_commentaire : result := 'Sans l''option difficulté plus, les dénominateurs sont les même lorsque les opérations sont des additions ou des soustractions';
    else
       result := '';
    end;
@@ -195,6 +196,7 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
+      info_commentaire : result := 'L''option "difficulté +" ajoute aussi des divisions';
    else
       result := '';
    end;
@@ -385,6 +387,8 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
+      info_commentaire : result := 'Cliquer sur le bouton "Corrigé" pour obtenir les résultats des multiplications.' +
+            'L''option "difficulté +" ajoute des nombres décimaux';
    else
       result := '';
    end;
@@ -433,6 +437,7 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
+      info_commentaire : result := 'Cliquer sur le bouton "Corrigé" pour obtenir les résultats des additions';
    else
       result := '';
    end;
@@ -490,8 +495,8 @@ end;
 function top_Simplifie_expr.get_info(type_info : ttype_info): string;
 begin
    case type_info of
-      info_titre   : result := '';
-      info_ennonce : result := '';
+      info_titre   : result := 'Simplification d''expressions littérales';
+      info_ennonce : result := 'Simplifier les expressions';
    else
       result := '';
    end;
@@ -553,8 +558,9 @@ end;
 function top_distributivite.get_info(type_info: ttype_info): string;
 begin
    case type_info of
-      info_titre   : result := '';
-      info_ennonce : result := '';
+      info_titre       : result := 'Distributivité';
+      info_ennonce     : result := 'Développer les expressions puis simplifier le résultat';
+      info_commentaire : result := 'Lorsque l''option difficulté + n''est pas activée, il devient presque systématique de pouvoir simplifier le résultat en en additionnant quelques termes';
    else
       result := '';
    end;

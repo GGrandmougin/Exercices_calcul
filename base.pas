@@ -13,6 +13,7 @@ type
 const
    info_titre = 1;
    info_ennonce = 2;
+   info_commentaire = 3;
    max_car = 980;
    
 type
@@ -599,10 +600,10 @@ end;
 function top_erreur.get_info(type_info : ttype_info): string;
 begin
    case type_info of
-      1 : result := '';
+      1 : result := 'Erreur';
       2 : result := '';
    else
-      result := '';
+      result := 'Erreur: indice état incorect dans le TtreeNode';
    end;
 end;
 
