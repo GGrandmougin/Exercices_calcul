@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 255
-  Top = 263
+  Left = 244
+  Top = 209
   Width = 891
   Height = 689
   Color = clBtnFace
@@ -78,6 +78,13 @@ object Form1: TForm1
     ParentShowHint = False
     ShowHint = True
     TabOrder = 0
+    object Lclicdroit: TLabel
+      Left = 152
+      Top = 288
+      Width = 111
+      Height = 13
+      Caption = 'Clic droit -> informations'
+    end
     object Messais: TMemo
       Left = 32
       Top = 72

@@ -78,6 +78,7 @@ type
     destructor destroy;  override;
   end;
 
+
 implementation
 
 
@@ -387,8 +388,8 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
-      info_commentaire : result := 'Cliquer sur le bouton "Corrigé" pour obtenir les résultats des multiplications.' +
-            'L''option "difficulté +" ajoute des nombres décimaux';
+      info_commentaire : begin result := 'Cliquer sur le bouton "Corrigé" pour obtenir les résultats des multiplications.' ;
+                         ajout_ligne(result, 'L''option "difficulté +" ajoute des nombres décimaux');  end;
    else
       result := '';
    end;
@@ -546,7 +547,7 @@ begin
       result := result + s + nb + lettres ;
 
       lettres := lpre;
-      while (lpre = lettres) do lettres := op_alea.lettres(cat, 0, 2, prob, 0);
+      while routines.equivalent( lpre , lettres) do lettres := op_alea.lettres(cat, 0, 2, prob, 0);
       nb := op_alea.spl1_9;
       s := op_alea.signe;
       if (lettres <> '') and (nb = '1') then nb := '';

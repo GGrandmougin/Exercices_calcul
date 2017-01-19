@@ -14,7 +14,7 @@ const
    info_titre = 1;
    info_ennonce = 2;
    info_commentaire = 3;
-   max_car = 980;
+   max_car = 950;
    
 type
 
@@ -51,9 +51,12 @@ type
   end;
 
   troutines = class
+    sl_comp1 : tstringlist;
+    sl_comp2 : tstringlist;
     function pgcd(a, b : integer): integer;
     function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
+    function equivalent(st1, st2 :string): boolean;
     constructor create;
     destructor destroy;  override;
   private
@@ -87,6 +90,9 @@ type
     destructor destroy;  override;
   end;
 
+procedure ajout_ligne(var st : string; ajout : string);
+function Pos_Ex(const SubString: string; const s: string; const StartIndex : integer):integer;
+
 
 var
   diff_plus : boolean ;
@@ -101,12 +107,25 @@ var
   sNomGif : string;
   op_alea : toptions_aleatoires;
 
+
+
 implementation
 
 function CreateGifFromEq(Expr, FileName: PAnsiChar): Integer; cdecl; external 'MimeTex.dll';
 //GetGIFFile: function (AFileName: PChar): HBITMAP; stdcall;
 function GetGIFFile(AFileName: PChar): HBITMAP; stdcall;  external 'GIFVIEW.DLL';
 
+
+procedure ajout_ligne(var st : string; ajout : string);
+begin
+   st := st + #13#10 + ajout;
+end;
+
+function Pos_Ex(const SubString: string; const s: string; const StartIndex : integer):integer;
+begin
+  Result := Pos(SubString, Copy(s, StartIndex, Length(s) ));
+  if Result > 0 then Result := Result + StartIndex - 1;
+end;
 
 { toptions_aleatoires }
 
@@ -348,13 +367,54 @@ end;
 
 constructor troutines.create;
 begin
-
+    sl_comp1 := tstringlist.Create;
+    sl_comp2 := tstringlist.Create;
+    sl_comp1.Sorted := true;
+    sl_comp2.Sorted := true;
+    sl_comp1.Duplicates := dupIgnore ;
+    sl_comp2.Duplicates := dupIgnore ;
 end;
 
 destructor troutines.destroy;
 begin
-
+   sl_comp1.Free;
+   sl_comp2.Free;
   inherited;
+end;
+
+function troutines.equivalent(st1, st2: string): boolean;
+var
+   n, i, j, p : integer;
+   sl : tstringlist;
+   st, puiss : string;
+begin
+   result := st1 = st2;
+   if not result then begin
+      n := length(st1);
+      if (n > 1) and (Length(st2) = n) then begin
+         sl_comp1.clear;
+         sl_comp2.clear;
+         sl := sl_comp1;
+         st := st1;
+         for j := 1 to 2 do begin
+            i := 1;
+            while i <= n do begin
+               if (i < n) and (st[i + 1] = '^') then begin
+                  p := Pos_Ex('}', st, i);
+                  if p <1 then p := n ; // ne devrait pas arriver
+                  sl.Add(copy(st, i, p - i + 1 ));
+                  i := p ;
+               end else begin
+                  sl.Add(st[i]);
+               end;
+               inc(i);
+            end;
+            sl := sl_comp2;
+            st := st2;
+         end;
+         result := sl_comp1.Text = sl_comp2.Text;
+      end;
+   end;   
 end;
 
 function troutines.mult(a, b: string): string;
@@ -434,6 +494,7 @@ begin
    else
       longueur_laTex.Font.Color := clblack;
    text_latex.Text := latex;
+   longueur_laTex.Refresh;
    try
       CreateGifFromEq( PAnsiChar(latex), PAnsiChar(sNomGif));
    except

@@ -97,6 +97,7 @@ type
     ImageList: TImageList;
     TreeView1: TTreeView;
     Minfos: TMemo;
+    Lclicdroit: TLabel;
     procedure genere(icalc : i_calculs; corrige : boolean = false);
     procedure clear_corrige;
     procedure reset_impression;
@@ -105,16 +106,13 @@ type
     procedure ipage_change(Sender: TObject);
     procedure Bcfg_imprClick(Sender: TObject);
     procedure BimpressionClick(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure BessaisClick(Sender: TObject);
-    procedure FormClose(Sender: TObject; var Action: TCloseAction);
     function getversion: String;
     procedure BFractionsClick(Sender: TObject);
     procedure PpageResize(Sender: TObject);
     procedure BPressepapierClick(Sender: TObject);
     procedure Cbsource_LaTexClick(Sender: TObject);
     procedure CbDifficulteplusClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
     procedure CbEssaisClick(Sender: TObject);
     procedure EhpixelsChange(Sender: TObject);
     procedure BtestClick(Sender: TObject);
@@ -134,6 +132,9 @@ type
     procedure affiche_infos(idx : integer);
     procedure cache_infos;
     procedure minfos_visible( visi : boolean);
+    procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Déclarations privées }
   public
@@ -146,6 +147,7 @@ type
     nb_impression : integer;
     mlatex_visi :boolean;
     sbaffichage_visi : boolean;
+    sl_temp : tstringlist;
   end;
 
 const
@@ -218,6 +220,7 @@ begin
    caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
    //Ipage.Picture.OnChange := ipage_change;
    sl_corrige := tstringlist.Create;
+   sl_temp := tstringlist.Create;
    pnb_impr.Width := Bimpression.Width - 4;
    pnb_impr.Height := Bimpression.Height - 4;
    pnb_impr.Top := Bimpression.Top + 2;
@@ -235,6 +238,7 @@ begin
   olatex.Free;
   routines.free;
   sl_corrige.Free;
+  sl_temp.Free
 end;
 
 procedure TForm1.inc_impression;
@@ -502,11 +506,19 @@ begin
       Minfos.Lines.Add(''); Minfos.Lines.Add('');
       Minfos.Lines.Add('ENNONCE:');
       Minfos.Lines.Add('');
-      Minfos.Lines.Add(ennonce);
+      if ennonce <> '' then begin
+         sl_temp.Clear;
+         sl_temp.Text := ennonce;
+         Minfos.Lines.AddStrings(sl_temp);
+      end;
       Minfos.Lines.Add(''); Minfos.Lines.Add(''); 
       Minfos.Lines.Add('COMMENTAIRE:');
       Minfos.Lines.Add('');
-      Minfos.Lines.Add(comment);
+      if comment <> '' then begin
+         sl_temp.Clear;
+         sl_temp.Text := comment;
+         Minfos.Lines.AddStrings(sl_temp);
+      end;
       minfos_visible(true);
    end else begin
       cache_infos;
