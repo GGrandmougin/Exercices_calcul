@@ -78,6 +78,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_rel_pythagore = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): string;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 
 implementation
 
@@ -562,6 +569,60 @@ begin
       info_titre       : result := 'Distributivité';
       info_ennonce     : result := 'Développer les expressions puis simplifier le résultat';
       info_commentaire : result := 'Lorsque l''option difficulté + n''est pas activée, il devient presque systématique de pouvoir simplifier le résultat en en additionnant quelques termes';
+   else
+      result := '';
+   end;
+end;
+
+{ top_rel_pythagore }
+
+constructor top_rel_pythagore.create;
+begin
+   //
+end;
+
+destructor top_rel_pythagore.destroy;
+begin
+   //
+  inherited;
+end;
+
+function top_rel_pythagore.genere_formule: string;
+var
+   n, la, lb, lc, s : integer;
+   //a,b,c : single;
+begin
+   result := '';
+   if op_alea.binaire then begin
+      repeat
+         n := op_alea.iplage(1, 49);
+      until routines.ijamais_utilise(n);
+      la := tab_pythagore1[n];
+      lb := tab_pythagore2[n];
+      lc := tab_pythagore3[n];
+      //sl_corrige.Add('Le\ triangle\ ABC\ est\ rectangle');
+      sl_corrige.Add(format('ABC\ est\ rectangle\ :\ %d+%d=%d',[sqr(la), sqr(lb), sqr(lc)]));
+   end else begin
+      repeat
+         la := op_alea.iplage(5, 50);
+         lb := op_alea.iplage(la, 90);
+         s := sqr(la) + sqr(lb);
+         lc := round(sqrt( s));
+      until sqr(lc) <> s ;
+      //sl_corrige.Add('Le\ triangle\ ABC\ n''est\ pas\ rectangle');
+      sl_corrige.Add(format('ABC\ n''est\ pas\ rectangle\ :\ %d+%d<>%d',[sqr(la), sqr(lb), sqr(lc)]));
+   end;
+   op_alea.imelange3(la, lb, lc);
+   //result := format( 'AB\ =\ %dcm\ ;\ BC\ =\ %dcm\ ;\ AC\ =\ %dcm' ,[la, lb, lc]);
+   result := format( 'AB=%dcm\ ;\ BC=%dcm\ ;\ AC=%dcm' ,[la, lb, lc]);
+end;
+
+function top_rel_pythagore.get_info(type_info: ttype_info): string;
+begin
+   case type_info of
+      info_titre       : result := 'Relation de Phytagore';
+      info_ennonce     : result := 'Indiquer si le triangle ABC est rectangle';
+      info_commentaire : result := 'corrigé présent';
    else
       result := '';
    end;

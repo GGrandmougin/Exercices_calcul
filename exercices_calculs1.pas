@@ -302,6 +302,8 @@ var
    i : integer;
    st : string;
 begin
+   reset_impression;
+   ipage.Picture.Bitmap.Assign(image1.Picture.Bitmap);
    st := '';
    for i := 0 to Messais.Lines.count -1 do begin
       if i > 0 then st := st + '\\';
@@ -395,6 +397,36 @@ procedure TForm1.BtestClick(Sender: TObject);
 begin
    //genere(select_op());
    genere(top_test.create);
+
+{GENERATION RELATION DE PYTHAGORE
+var
+   i, j, x,y,z, t : integer;
+   st, st1, st2, st3 : string;
+begin
+   messais.Clear;
+   z := 0;
+   st1 := '';
+   st2 := '';
+   st3 := '';
+   for j := 1 to 50 do begin
+      x := sqr(j);
+      st := inttostr(j) + '   ';
+      for i := j + 1 to 100 do begin
+         y := x + sqr(i);
+         t := round(sqrt(y));
+         if sqr(t) = y then begin
+            inc(z) ;
+            st := st + inttostr(i) + '  ' ;
+            st1 := st1 + inttostr(j ) + ',  ' ;
+            st2 := st2 + inttostr(i ) + ',  ' ;
+            st3 := st3 + inttostr(t ) + ',  ' ;
+         end;
+      end;
+   end;
+   Messais.lines.Add(st1 );
+   Messais.lines.Add(st2 );
+   Messais.lines.Add(st3 );
+   Messais.lines.Add('nb = ' + inttostr(z)); }
 end;
 
 
@@ -413,6 +445,7 @@ begin
    c := strtointdef( Ecol.Text , 0);
    eh := strtointdef( Eespaceh.Text , 0);
    if (l > 0) and (c > 0) then begin
+      routines.initialise;
       if not corrige then clear_corrige;
       if c = 1 then begin
           olatex.une_colonne(icalc, l, ev);

@@ -5,7 +5,7 @@ interface
 
 uses
    SysUtils, ExtCtrls, types, StdCtrls, Classes, Math, Dialogs,
-   Windows, graphics;
+   Windows, graphics, strutils;
 
 type
    ttype_info = integer;
@@ -14,7 +14,11 @@ const
    info_titre = 1;
    info_ennonce = 2;
    info_commentaire = 3;
-   max_car = 950;
+   max_car = 800;
+   tab_pythagore1 : array[1.. 49] of integer  = (3,  5,  6,  7,  8,  9,  9,  10,  11,  12,  12,  13,  14,  15,  15,  16,  16,  18,  18,  20,  20,  20,  21,  21,  24,  24,  24,  25,  27,  28,  28,  30,  30,  32,  33,  33,  35,  36,  36,  39,  39,  40,  40,  40,  42,  45,  48,  48,  48);
+   tab_pythagore2 : array[1.. 49] of integer  = (4,  12,  8,  24,  15,  12,  40,  24,  60,  16,  35,  84,  48,  20,  36,  30,  63,  24,  80,  21,  48,  99,  28,  72,  32,  45,  70,  60,  36,  45,  96,  40,  72,  60,  44,  56,  84,  48,  77,  52,  80,  42,  75,  96,  56,  60,  55,  64,  90);
+   tab_pythagore3 : array[1.. 49] of integer  = (5,  13,  10,  25,  17,  15,  41,  26,  61,  20,  37,  85,  50,  25,  39,  34,  65,  30,  82,  29,  52,  101,  35,  75,  40,  51,  74,  65,  45,  53,  100,  50,  78,  68,  55,  65,  91,  60,  85,  65,  89,  58,  85,  104,  70,  75,  73,  80,  102);
+
    
 type
 
@@ -44,6 +48,8 @@ type
     function lettres(catalogue : string; nb_min, nb_max, UnSurX_e2, UnSurX_e3 : integer): string;
     function x_div : string;
     function operation_3 : string;
+    procedure imelange3(var x, y, z : integer);
+    procedure smelange3(var x, y, z : string);
     constructor create;
     destructor destroy;  override;
   private
@@ -53,10 +59,14 @@ type
   troutines = class
     sl_comp1 : tstringlist;
     sl_comp2 : tstringlist;
+    sl_utilise : tstringlist;
+    procedure initialise;
     function pgcd(a, b : integer): integer;
     function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
     function equivalent(st1, st2 :string): boolean;
+    function sjamais_utilise( vl : string ) : boolean;
+    function ijamais_utilise( vl : integer ) : boolean;
     constructor create;
     destructor destroy;  override;
   private
@@ -91,7 +101,6 @@ type
   end;
 
 procedure ajout_ligne(var st : string; ajout : string);
-function Pos_Ex(const SubString: string; const s: string; const StartIndex : integer):integer;
 
 
 var
@@ -121,11 +130,6 @@ begin
    st := st + #13#10 + ajout;
 end;
 
-function Pos_Ex(const SubString: string; const s: string; const StartIndex : integer):integer;
-begin
-  Result := Pos(SubString, Copy(s, StartIndex, Length(s) ));
-  if Result > 0 then Result := Result + StartIndex - 1;
-end;
 
 { toptions_aleatoires }
 
@@ -363,20 +367,56 @@ begin
 end;
 
 
+procedure toptions_aleatoires.imelange3(var x, y, z: integer);
+var
+   a,b,c, i : integer;
+begin
+   i := iplage(1,6);
+   a := x; b := y; c := z;
+   case i of
+      1 : begin x:=a ; y:=b ; z:=c  end ;
+      2 : begin x:=c ; y:=a ; z:=b  end ;
+      3 : begin x:=b ; y:=c ; z:=a  end ;
+      4 : begin x:=a ; y:=c ; z:=b  end ;
+      5 : begin x:=b ; y:=a ; z:=c  end ;
+      6 : begin x:=c ; y:=b ; z:=a  end ;
+   end
+end;
+
+procedure toptions_aleatoires.smelange3(var x, y, z: string);
+var
+   a,b,c : string;
+   i : integer;
+begin
+   i := iplage(1,6);
+   a := x; b := y; c := z;
+   case i of
+      1 : begin x:=a ; y:=b ; z:=c  end ;
+      2 : begin x:=c ; y:=a ; z:=b  end ;
+      3 : begin x:=b ; y:=c ; z:=a  end ;
+      4 : begin x:=a ; y:=c ; z:=b  end ;
+      5 : begin x:=b ; y:=a ; z:=c  end ;
+      6 : begin x:=c ; y:=b ; z:=a  end ;
+   end
+end;
+
 { troutines }
 
 constructor troutines.create;
 begin
+    sl_utilise := tstringlist.Create;
     sl_comp1 := tstringlist.Create;
     sl_comp2 := tstringlist.Create;
     sl_comp1.Sorted := true;
     sl_comp2.Sorted := true;
+    sl_utilise.Sorted := true;
     sl_comp1.Duplicates := dupIgnore ;
     sl_comp2.Duplicates := dupIgnore ;
 end;
 
 destructor troutines.destroy;
 begin
+   sl_utilise.Free;
    sl_comp1.Free;
    sl_comp2.Free;
   inherited;
@@ -384,37 +424,45 @@ end;
 
 function troutines.equivalent(st1, st2: string): boolean;
 var
-   n, i, j, p : integer;
-   sl : tstringlist;
-   st, puiss : string;
+   n : integer;
+procedure chargement_sl(sl : tstringlist; st : string);
+var
+   i, p : integer;
+begin
+   sl.clear;
+   i := 1;
+   while i <= n do begin
+      if (i < n) and (st[i + 1] = '^') then begin
+         p := PosEx('}', st, i);
+         if p <1 then p := n ; // ne devrait pas arriver
+         sl.Add(copy(st, i, p - i + 1 ));
+         i := p ;
+      end else begin
+         sl.Add(st[i]);
+      end;
+      inc(i);
+   end;
+end;
 begin
    result := st1 = st2;
    if not result then begin
       n := length(st1);
       if (n > 1) and (Length(st2) = n) then begin
-         sl_comp1.clear;
-         sl_comp2.clear;
-         sl := sl_comp1;
-         st := st1;
-         for j := 1 to 2 do begin
-            i := 1;
-            while i <= n do begin
-               if (i < n) and (st[i + 1] = '^') then begin
-                  p := Pos_Ex('}', st, i);
-                  if p <1 then p := n ; // ne devrait pas arriver
-                  sl.Add(copy(st, i, p - i + 1 ));
-                  i := p ;
-               end else begin
-                  sl.Add(st[i]);
-               end;
-               inc(i);
-            end;
-            sl := sl_comp2;
-            st := st2;
-         end;
+         chargement_sl(sl_comp1, st1);  // Sorted mis à true et Duplicates à dupIgnore dans create pour sl_comp1 et sl_comp2
+         chargement_sl(sl_comp2, st2);
          result := sl_comp1.Text = sl_comp2.Text;
       end;
    end;   
+end;
+
+function troutines.ijamais_utilise(vl: integer): boolean;
+begin
+   result := sjamais_utilise(inttostr(vl));
+end;
+
+procedure troutines.initialise;
+begin
+   sl_utilise.Clear;
 end;
 
 function troutines.mult(a, b: string): string;
@@ -458,6 +506,12 @@ begin
       result := y
    else
       result := 1;
+end;
+
+function troutines.sjamais_utilise(vl: string): boolean;
+begin
+   result := sl_utilise.IndexOf(vl) < 0;
+   if not result then sl_utilise.Add(vl);
 end;
 
 function troutines.s_pgcd(a, b: string): integer;
