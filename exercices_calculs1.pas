@@ -445,8 +445,7 @@ begin
    c := strtointdef( Ecol.Text , 0);
    eh := strtointdef( Eespaceh.Text , 0);
    if (l > 0) and (c > 0) then begin
-      routines.initialise;
-      if not corrige then clear_corrige;
+      if not corrige then begin clear_corrige; routines.initialise end;
       if c = 1 then begin
           olatex.une_colonne(icalc, l, ev);
       end else begin

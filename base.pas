@@ -67,6 +67,8 @@ type
     function equivalent(st1, st2 :string): boolean;
     function sjamais_utilise( vl : string ) : boolean;
     function ijamais_utilise( vl : integer ) : boolean;
+    function get_no_feuille: string;
+    function set_no_feuille: string;
     constructor create;
     destructor destroy;  override;
   private
@@ -115,7 +117,7 @@ var
   index_corrige : integer;
   sNomGif : string;
   op_alea : toptions_aleatoires;
-
+  no_feuille : integer;
 
 
 implementation
@@ -455,6 +457,23 @@ begin
    end;   
 end;
 
+function troutines.set_no_feuille: string;
+begin
+   if no_feuille < 0 then begin
+      no_feuille := op_alea.iplage(0, 999999);
+      result := '0$' + inttostr(no_feuille) + '\\';
+   end else
+      result := '';
+end;
+
+function troutines.get_no_feuille: string;
+begin
+   if no_feuille > -1 then
+      result := '0$' + inttostr(no_feuille) + '\\'
+   else
+      result := '';
+end;
+
 function troutines.ijamais_utilise(vl: integer): boolean;
 begin
    result := sjamais_utilise(inttostr(vl));
@@ -463,6 +482,7 @@ end;
 procedure troutines.initialise;
 begin
    sl_utilise.Clear;
+   no_feuille := -1;
 end;
 
 function troutines.mult(a, b: string): string;
@@ -507,6 +527,7 @@ begin
    else
       result := 1;
 end;
+
 
 function troutines.sjamais_utilise(vl: string): boolean;
 begin
@@ -580,8 +601,9 @@ begin
    else
       saut := '\\\vspace{' + inttostr(espace) + '}\\';
    for i := 1 to nb_lignes do begin
-      if st <> '' then   st := st + saut else st := '5$';
+      if st <> '' then   st := st + saut else st :=  '5$';
       st := st + calculs.genere_formule;
+      if i = 1 then st := routines.get_no_feuille + st;
       if length(st) > max_car then begin
          st := stpre;
          depassement := true;
@@ -596,11 +618,13 @@ procedure tlatex.tableau(calculs: i_calculs; nb_lignes, nb_colonnes,  espacev, e
 var
    st, stpre : string;
    l, c : integer;
+   nfeuille : boolean;
 begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 (* on peut mettre des tableaux dans les tableaux:
 \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} & \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} &  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 *)
    depassement := false;
+   nfeuille := true;
    st := '5$\begin{tabular}{l';
    for c := 2 to nb_colonnes  do begin
       st := st + 'l';
@@ -610,6 +634,7 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
       if not depassement then begin
          for c := 1 to nb_colonnes  do begin
             st := st + calculs.genere_formule + '\hspace{' + inttostr(espaceh) + '}';
+            if nfeuille then begin st := routines.get_no_feuille + st; nfeuille := false end;
             if c <> nb_colonnes then st := st + '&';
             if length(st) > max_car - 29 then begin  
                st := stpre;

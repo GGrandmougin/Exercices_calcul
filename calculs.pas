@@ -381,6 +381,7 @@ var
    a, b : string;
    p : integer;
 begin
+   routines.set_no_feuille;
    if diff_plus then p := -2 else p := 0;
    a := op_alea.snombre(4, p , 0);
    while a = '1' do a:= op_alea.snombre(4, p , 0);
@@ -423,6 +424,7 @@ var
    i, x : integer;
    a, b, st : string;
 begin // \begin{tabular}{r@{.}l}3&14159\\
+   routines.set_no_feuille;
    result := '\begin{tabular}{l}';  //{r@{.}l}';
    x := 0;
    for i := 1 to nb_nombre do begin
@@ -592,7 +594,7 @@ var
    n, la, lb, lc, s : integer;
    //a,b,c : single;
 begin
-   result := '';
+   routines.set_no_feuille;
    if op_alea.UnSurX(3) then begin
       repeat
          la := op_alea.iplage(5, 50);
