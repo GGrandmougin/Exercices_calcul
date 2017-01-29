@@ -525,7 +525,7 @@ end;
 procedure TForm1.affiche_infos(idx: integer);
 var
    calcul : i_calculs;
-   titre, ennonce, comment : string;
+   titre, ennonce, comment : AnsiString	;
 begin
    calcul := select_op(idx);
    titre := calcul.get_info(info_titre);

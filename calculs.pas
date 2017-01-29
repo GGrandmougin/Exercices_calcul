@@ -9,49 +9,49 @@ type
 
   top_fractions = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_developpent = class(tinterfacedobject, i_calculs)
     function genere_formule : string; 
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_x_puiss10 = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_factorisation = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_Additionencol = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_nb_relatifs = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
@@ -59,28 +59,28 @@ type
 
   top_multiplications = class(tinterfacedobject, i_calculs)
     function genere_formule : string; 
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_Simplifie_expr = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_distributivite = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
 
   top_rel_pythagore = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
-    function get_info(type_info : ttype_info): string;
+    function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
   end;
@@ -123,7 +123,7 @@ begin
    result := format('%s%s\frac{%s}{%s}=', [result, op, num, den]);
 end;
 
-function top_fractions.get_info(type_info : ttype_info): string;
+function top_fractions.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -163,7 +163,7 @@ begin
    result := format('\frac{%d}{%d}=', [num, den]);
 end;
 
-function top_simplication.get_info(type_info : ttype_info): string;
+function top_simplication.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -199,7 +199,7 @@ end;
 
 
 
-function top_x_puiss10.get_info(type_info : ttype_info): string;
+function top_x_puiss10.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -246,7 +246,7 @@ begin
    result := result + '=' ;
 end;
 
-function top_developpent.get_info(type_info : ttype_info): string;
+function top_developpent.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -284,7 +284,7 @@ end;
 
 
 
-function top_nb_relatifs.get_info(type_info : ttype_info): string;
+function top_nb_relatifs.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -352,7 +352,7 @@ end;
 
 
 
-function top_factorisation.get_info(type_info : ttype_info): string;
+function top_factorisation.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -390,7 +390,7 @@ begin
    sl_corrige.Add(routines.mult(a, b));
 end;
 
-function top_multiplications.get_info(type_info : ttype_info): string;
+function top_multiplications.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -440,7 +440,7 @@ begin // \begin{tabular}{r@{.}l}3&14159\\
    result := result + '\\\vspace{25} \\\end{tabular}';
 end;
 
-function top_Additionencol.get_info(type_info : ttype_info): string;
+function top_Additionencol.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := '';
@@ -500,7 +500,7 @@ begin
 end;
 
 
-function top_Simplifie_expr.get_info(type_info : ttype_info): string;
+function top_Simplifie_expr.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := 'Simplification d''expressions littérales';
@@ -563,7 +563,7 @@ begin
    result := result + '=';
 end;
 
-function top_distributivite.get_info(type_info: ttype_info): string;
+function top_distributivite.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Distributivité';
@@ -593,36 +593,39 @@ var
    //a,b,c : single;
 begin
    result := '';
-   if op_alea.binaire then begin
-      repeat
-         n := op_alea.iplage(1, 49);
-      until routines.ijamais_utilise(n);
-      la := tab_pythagore1[n];
-      lb := tab_pythagore2[n];
-      lc := tab_pythagore3[n];
-      //sl_corrige.Add('Le\ triangle\ ABC\ est\ rectangle');
-      sl_corrige.Add(format('ABC\ est\ rectangle\ :\ %d+%d=%d',[sqr(la), sqr(lb), sqr(lc)]));
-   end else begin
+   if op_alea.UnSurX(3) then begin
       repeat
          la := op_alea.iplage(5, 50);
          lb := op_alea.iplage(la, 90);
          s := sqr(la) + sqr(lb);
          lc := round(sqrt( s));
       until sqr(lc) <> s ;
-      //sl_corrige.Add('Le\ triangle\ ABC\ n''est\ pas\ rectangle');
       sl_corrige.Add(format('ABC\ n''est\ pas\ rectangle\ :\ %d+%d<>%d',[sqr(la), sqr(lb), sqr(lc)]));
+   end else begin
+      repeat
+         n := op_alea.iplage(1, 49);
+      until routines.ijamais_utilise(n);
+      la := tab_pythagore1[n];
+      lb := tab_pythagore2[n];
+      lc := tab_pythagore3[n];
+      sl_corrige.Add(format('ABC\ est\ rectangle\ :\ %d+%d=%d',[sqr(la), sqr(lb), sqr(lc)]));
    end;
    op_alea.imelange3(la, lb, lc);
-   //result := format( 'AB\ =\ %dcm\ ;\ BC\ =\ %dcm\ ;\ AC\ =\ %dcm' ,[la, lb, lc]);
    result := format( 'AB=%dcm\ ;\ BC=%dcm\ ;\ AC=%dcm' ,[la, lb, lc]);
 end;
 
-function top_rel_pythagore.get_info(type_info: ttype_info): string;
+function top_rel_pythagore.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Relation de Phytagore';
       info_ennonce     : result := 'Indiquer si le triangle ABC est rectangle';
-      info_commentaire : result := 'corrigé présent';
+      info_commentaire : begin result := 'Le corrigé est présent.' + #13#10 +
+                               'Les triangles ne sont pas rectangle qu''une fois sur 3 en moyenne' + #13#10 +
+                               'parce que lorsqu''il y a une erreur de calcul,' + #13#10 +
+                               'la probalité est très importante que le résultat soit négatif' + #13#10 +
+                               'et que d''autre part, un faux resultat positif' + #13#10 +
+                               'résulte probablement d''un résultat donné au hasard.';
+                         end;
    else
       result := '';
    end;

@@ -24,7 +24,7 @@ type
 
   i_calculs = interface
      function genere_formule : string;
-     function get_info(type_info : ttype_info): string;
+     function get_info(type_info : ttype_info): ansistring;
   end;
 
 
