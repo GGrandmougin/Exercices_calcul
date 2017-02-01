@@ -151,6 +151,7 @@ end;
 function top_simplication.genere_formule: string;
 var
    n1,  d1, c, lim1, lim2, num, den : integer;
+   s : string;
 begin
    lim1 := 10;
    lim2 := 11;
@@ -160,16 +161,20 @@ begin
    c := op_alea.iplage(2,lim2);
    num := n1*c;
    den := d1*c;
+   if diff_plus then begin
+      if op_alea.binaire then num := -num;
+      if op_alea.binaire then den := - den;
+   end;
    result := format('\frac{%d}{%d}=', [num, den]);
 end;
 
 function top_simplication.get_info(type_info : ttype_info): ansistring;
 begin
    case type_info of
-      info_titre   : result := '';
-      info_ennonce : result := '';
+      info_titre   : result := 'Simplification de fractions';
+      info_ennonce : result := 'Simplifier les fractions';
    else
-      result := '';
+      result := 'L''option "difficulté +" ajoute des valeurs négatives';
    end;
 end;
 

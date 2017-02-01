@@ -35,6 +35,7 @@ type
     function expressions(exp: ttab_car; vide : boolean = false): string;
     function caracteres(caract : string; vide : boolean = false) : string;
     function signe : string;
+    function signe_plusvide : string;
     function spl0_9 : string;
     function spl1_9 : string;
     function UnSurX(x : integer): boolean;
@@ -260,6 +261,13 @@ begin
    end;
 end;
 
+
+function toptions_aleatoires.signe_plusvide: string;
+begin
+   result := signe;
+   if result = '+' then result := '';
+end;
+
 function toptions_aleatoires.spl0_9: string;
 var
    i : integer;
@@ -401,6 +409,7 @@ begin
       6 : begin x:=c ; y:=b ; z:=a  end ;
    end
 end;
+
 
 { troutines }
 
