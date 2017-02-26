@@ -35,6 +35,8 @@ espaces en latex:
 .........\hspace{100}...........
 .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\ .\
 -------------------------------------------
+/text{........} permet d'afficher le texte entre les acolades (avec ses espaces) (n'est plus en italique)
+
 *)
 
 interface
