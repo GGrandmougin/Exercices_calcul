@@ -85,6 +85,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_arrondis = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 
 implementation
 
@@ -636,6 +643,51 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_arrondis }
+
+constructor top_arrondis.create;
+begin
+
+end;
+
+destructor top_arrondis.destroy;
+begin
+
+  inherited;
+end;
+
+function top_arrondis.genere_formule: string;
+var
+   i, j, d, f : integer;
+   st  : string;
+   //nb : array[1.. 5] of string;
+begin
+   i := op_alea.iplage(-3,3);
+   case i of
+       -3 : st := 'au millieme';
+       -2 : st := 'au centieme';
+       -1 : st := 'au dizieme';
+       0  : st := 'a l''unite';
+       1  : st := 'a la dizaine';
+       2  : st := 'a la centaine';
+       3  : st := 'au millier';
+   end;
+   result := '\begin{tabular}{l}\text{Arrondir ' + st + ' pres:}\\\hspace{50}' ;
+   for j := 1 to 5 do begin
+      if i < 0 then d := -3 + i else d := -3 ;
+      f :=  0;
+      result := result + op_alea.snombre(8, d, f) ;
+      if j < 5 then result := result + '\hspace{15}' ;
+   end;
+   result := result + '\end{tabular}' ;
+   max_car := 1200;
+end;
+
+function top_arrondis.get_info(type_info: ttype_info): ansistring;
+begin
+
 end;
 
 end.

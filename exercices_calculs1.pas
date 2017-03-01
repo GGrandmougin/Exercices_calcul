@@ -442,6 +442,7 @@ begin
    reset_impression;
    //ipage.Picture.LoadFromFile('iblanche.bmp');
    ipage.Picture.Bitmap.Assign(image1.Picture.Bitmap);
+   max_car := _max_car;
    l := strtointdef( Enombre.Text , 0);
    ev := strtointdef( Eespace.Text , 0);
    c := strtointdef( Ecol.Text , 0);
