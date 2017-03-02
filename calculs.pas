@@ -14,6 +14,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_add_fractions = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -141,6 +148,58 @@ begin
    end;
 end;
 
+{ top_add_fractions }
+
+constructor top_add_fractions.create;
+begin
+
+end;
+
+destructor top_add_fractions.destroy;
+begin
+
+  inherited;
+end;
+
+function top_add_fractions.genere_formule: string;
+var
+   num1, num, den, op, sgn, snum : string;
+   b1, b2 : boolean;
+begin
+   b1 := op_alea.UnSurX(4);
+   b2 := op_alea.binaire;
+   den := op_alea.splage(2,9);
+   num1 := op_alea.spl1_9;
+   while routines.s_pgcd(num1, den) > 1 do begin
+      num1 := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   sgn := op_alea.signe;
+   if sgn = '+' then sgn := '';
+   if b1 and b2 then
+      result := sgn + num1
+   else
+      result := format('%s\frac{%s%s}{%s}', [sgn, snum, num1, den]);
+   op := op_alea.signe;
+   den := op_alea.splage(2,9);
+   num := op_alea.spl1_9;
+   while (routines.s_pgcd(num, den) > 1 )do begin
+      num := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   if b1 and not b2 then
+      result := result + op + num
+   else
+      result := format('%s%s\frac{%s%s}{%s}=', [result, op, snum, num, den]);
+end;
+
+function top_add_fractions.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
 { top_simplication }
 
 constructor top_simplication.create;
@@ -158,7 +217,7 @@ end;
 function top_simplication.genere_formule: string;
 var
    n1,  d1, c, lim1, lim2, num, den : integer;
-   s : string;
+   //s : string;
 begin
    lim1 := 10;
    lim2 := 11;
@@ -674,12 +733,12 @@ begin
        2  : st := 'a la centaine';
        3  : st := 'au millier';
    end;
-   result := '\begin{tabular}{l}\text{Arrondir ' + st + ' pres:}\\\hspace{50}' ;
+   result := '\begin{tabular}{l}\text{Arrondir ' + st + ' pres:}\\\vspace{5}\\\hspace{15}' ;
    for j := 1 to 5 do begin
       if i < 0 then d := -3 + i else d := -3 ;
       f :=  0;
       result := result + op_alea.snombre(8, d, f) ;
-      if j < 5 then result := result + '\hspace{15}' ;
+      if j < 5 then result := result + ';\hspace{15}' ;
    end;
    result := result + '\end{tabular}' ;
    max_car := 1200;
@@ -689,5 +748,7 @@ function top_arrondis.get_info(type_info: ttype_info): ansistring;
 begin
 
 end;
+
+
 
 end.

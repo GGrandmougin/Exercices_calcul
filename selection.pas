@@ -52,8 +52,8 @@ begin
       10: result := top_distributivite.create;
       11: result := top_rel_pythagore.create;
       12: result := top_arrondis.create;
-{      13: result := .create;
-      14: result := .create;
+      13: result := top_add_fractions.create;
+{      14: result := .create;
       15: result := .create;
       : result := .create;
       : result := .create;
