@@ -66,8 +66,8 @@ type
     function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
     function equivalent(st1, st2 :string): boolean;
-    function sjamais_utilise( vl : string ) : boolean;
-    function ijamais_utilise( vl : integer ) : boolean;
+    function sjamais_utilise( vl : string; nb_max : integer = 0 ) : boolean;
+    function ijamais_utilise( vl : integer; nb_max : integer = 0 ) : boolean;
     function get_no_feuille: string;
     function set_no_feuille: string;
     constructor create;
@@ -420,7 +420,6 @@ begin
     sl_comp2 := tstringlist.Create;
     sl_comp1.Sorted := true;
     sl_comp2.Sorted := true;
-    sl_utilise.Sorted := true;
     sl_comp1.Duplicates := dupIgnore ;
     sl_comp2.Duplicates := dupIgnore ;
 end;
@@ -483,14 +482,15 @@ begin
       result := '';
 end;
 
-function troutines.ijamais_utilise(vl: integer): boolean;
+function troutines.ijamais_utilise(vl: integer; nb_max : integer = 0): boolean;
 begin
-   result := sjamais_utilise(inttostr(vl));
+   result := sjamais_utilise(inttostr(vl), nb_max);
 end;
 
 procedure troutines.initialise;
 begin
    sl_utilise.Clear;
+   sl_utilise.Sorted := true;
    no_feuille := -1;
 end;
 
@@ -538,10 +538,14 @@ begin
 end;
 
 
-function troutines.sjamais_utilise(vl: string): boolean;
+function troutines.sjamais_utilise(vl: string; nb_max : integer = 0): boolean;
 begin
+   if sl_utilise.Sorted and (nb_max >0) then sl_utilise.Sorted := false;
    result := sl_utilise.IndexOf(vl) < 0;
-   if not result then sl_utilise.Add(vl);
+   if result then begin
+      sl_utilise.Add(vl);
+      if (nb_max >0) and (sl_utilise.Count > nb_max) then sl_utilise.Delete(0);
+   end;
 end;
 
 function troutines.s_pgcd(a, b: string): integer;

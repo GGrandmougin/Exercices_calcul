@@ -166,7 +166,7 @@ var
    num1, num, den, op, sgn, snum : string;
    b1, b2 : boolean;
 begin
-   b1 := op_alea.UnSurX(4);
+   b1 := op_alea.UnSurX(4) and diff_plus;
    b2 := op_alea.binaire;
    den := op_alea.splage(2,9);
    num1 := op_alea.spl1_9;
@@ -182,7 +182,7 @@ begin
    else
       result := format('%s\frac{%s%s}{%s}', [sgn, snum, num1, den]);
    op := op_alea.signe;
-   den := op_alea.splage(2,9);
+   if diff_plus then den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
    while (routines.s_pgcd(num, den) > 1 )do begin
       num := op_alea.spl1_9;
@@ -197,7 +197,13 @@ end;
 
 function top_add_fractions.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+      info_commentaire : result := 'Sans l''option difficulté plus, les fractions ont les mêmes dénominateurs';
+   else
+      result := '';
+   end;
 end;
 
 { top_simplication }
@@ -719,11 +725,15 @@ end;
 
 function top_arrondis.genere_formule: string;
 var
-   i, j, d, f : integer;
+   i, j, d, f, p1, p2 : integer;
    st  : string;
    //nb : array[1.. 5] of string;
 begin
-   i := op_alea.iplage(-3,3);
+   p1 := -3;
+   p2 := 3;
+   repeat
+      i := op_alea.iplage(p1, p2);
+   until routines.ijamais_utilise(i, p2 - p1 -2) ;
    case i of
        -3 : st := 'au millieme';
        -2 : st := 'au centieme';
