@@ -349,7 +349,7 @@ end;
 function toptions_aleatoires.snombre(nbsignificatifsmax, deb_p10, fin_p10 : integer): string;
 var
    st : string;
-   i, p: integer;
+   i, p, lst: integer;
 begin
    if nbsignificatifsmax > 0 then begin
       st:= '';
@@ -363,14 +363,16 @@ begin
             st := st + '0';
          end;
       end else begin
-         if -p > length(st) - 1 then begin
-            for i := 2 to -p do begin
+         lst := length(st);
+         if -p > lst - 1 then begin
+            for i := 1 to -p - lst do begin
                st := '0' + st  ;
             end;
             st := '0,' + st;
          end else begin
-            insert(',' , st, length(st) + p +1 );
+            insert(',' , st, lst + p +1 );
          end;
+         if st[lst] = '0' then st[lst] := spl1_9[1];
       end;
    end;
    result := st;

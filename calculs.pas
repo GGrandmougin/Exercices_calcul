@@ -746,7 +746,12 @@ begin
    result := '\begin{tabular}{l}\text{Arrondir ' + st + ' pres:}\\\vspace{5}\\\hspace{15}' ;
    for j := 1 to 5 do begin
       if i < 0 then d := -3 + i else d := -3 ;
-      f :=  0;
+      if i >= 0 then begin
+         f :=  i - 1;
+         if op_alea.UnSurX(2) then d := i - 2;
+      end else begin
+         if op_alea.UnSurX(2) then f := 0 else f := i -1;
+      end;
       result := result + op_alea.snombre(8, d, f) ;
       if j < 5 then result := result + ';\hspace{15}' ;
    end;
