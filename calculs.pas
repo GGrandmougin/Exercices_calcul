@@ -21,6 +21,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_fractions_empilees = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -190,7 +197,7 @@ begin
    snum := op_alea.signe;
    if snum = '+' then snum := '';
    if b1 and not b2 then
-      result := result + op + num
+      result := result + op + num + '='
    else
       result := format('%s%s\frac{%s%s}{%s}=', [result, op, snum, num, den]);
 end;
@@ -204,6 +211,68 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_fractions_empilees }
+
+constructor top_fractions_empilees.create;
+begin
+
+end;
+
+destructor top_fractions_empilees.destroy;
+begin
+
+  inherited;
+end;
+
+function top_fractions_empilees.genere_formule: string;
+var
+   num1, num, den, op, sgn, snum, sden : string;
+   b1, b2 : boolean;
+   //numerateur , denominateur :string;
+begin
+   b1 := op_alea.UnSurX(4) and diff_plus;
+   b2 := op_alea.binaire;
+   den := op_alea.splage(2,9);
+   num1 := op_alea.spl1_9;
+   while routines.s_pgcd(num1, den) > 1 do begin
+      num1 := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   sden:= op_alea.signe;
+   if sden = '+' then sden := '';
+   sgn := op_alea.signe;
+   if sgn = '+' then sgn := '';
+   if b1 and b2 then
+      result := sgn + num1
+   else
+      result := format('%s\frac{%s%s}{%s%s}', [sgn, snum, num1, sden, den]);
+   op := op_alea.signe;
+   if op = '+' then op := '';
+   den := op_alea.splage(2,9);
+   num := op_alea.spl1_9;
+   while (routines.s_pgcd(num, den) > 1 )do begin
+      num := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   sden:= op_alea.signe;
+   if sden = '+' then sden := '';
+   if b1 and not b2 then
+      //result := result + op + num
+      result := format('\frac{%s}{%s%s}=',[result, snum, num])
+   else
+      //result := format('%s%s\frac{%s%s}{%s}=', [result, op, snum, num, den]);
+      result := format('\frac{%s}{%s\frac{%s%s}{%s%s}}=',[result, op, snum, num, sden, den]);
+
+end;
+
+function top_fractions_empilees.get_info(
+  type_info: ttype_info): ansistring;
+begin
+   result := '';
 end;
 
 { top_simplication }
@@ -623,7 +692,7 @@ begin
       if (i = 1) and (s = '+') then s := '';
       if (nb = '1') then nb := '';
       result := result + s + nb + lettres + '(';
-      
+
       lettres := op_alea.lettres(cat, 0, 2, prob, 0);
       lpre := lettres;
       nb := op_alea.spl1_9;
@@ -763,6 +832,8 @@ function top_arrondis.get_info(type_info: ttype_info): ansistring;
 begin
 
 end;
+
+
 
 
 
