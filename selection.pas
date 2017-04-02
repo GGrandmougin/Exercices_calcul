@@ -54,8 +54,8 @@ begin
       12: result := top_arrondis.create;
       13: result := top_add_fractions.create;
       14: result := top_fractions_empilees.create;
-{      15: result := .create;
-      : result := .create;
+      15: result := top_fraction_etages2.create;
+{      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;

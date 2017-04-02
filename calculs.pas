@@ -28,6 +28,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_fraction_etages2 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -109,6 +116,27 @@ type
 
 implementation
 
+function operations_fractions(difpl: boolean): string;
+var
+   num1, num, den, op : string;
+begin
+   den := op_alea.splage(2,9);
+   num1 := op_alea.spl1_9;
+   while routines.s_pgcd(num1, den) > 1 do begin
+      num1 := op_alea.spl1_9;
+   end;
+   //result := '\frac{' + num + '}{' + den + '}' ;
+   result := format('\frac{%s}{%s}', [num1, den]);
+   op := op_alea.operation_3;
+   if (op = '\times') or difpl then den := op_alea.splage(2,9);
+   num := op_alea.spl1_9;
+   while (routines.s_pgcd(num, den) > 1) or ((not difpl)  and (op <> '\times') and (num = num1 ) )do begin
+      num := op_alea.spl1_9;
+   end;
+   //result := result + op + '\frac{' + num + '}{' + den + '}=' ;
+   result := format('%s%s\frac{%s}{%s}', [result, op, num, den]);
+end;
+
 
 { top_fractions }
 
@@ -123,25 +151,8 @@ begin
 end;
 
 function top_fractions.genere_formule: string;
-var
-   num1, num, den, op : string;
-
 begin
-   den := op_alea.splage(2,9);
-   num1 := op_alea.spl1_9;
-   while routines.s_pgcd(num1, den) > 1 do begin
-      num1 := op_alea.spl1_9;
-   end;
-   //result := '\frac{' + num + '}{' + den + '}' ;
-   result := format('\frac{%s}{%s}', [num1, den]);
-   op := op_alea.operation_3;
-   if (op = '\times') or diff_plus then den := op_alea.splage(2,9);
-   num := op_alea.spl1_9;
-   while (routines.s_pgcd(num, den) > 1) or ((not diff_plus)  and (op <> '\times') and (num = num1 ) )do begin
-      num := op_alea.spl1_9;
-   end;
-   //result := result + op + '\frac{' + num + '}{' + den + '}=' ;
-   result := format('%s%s\frac{%s}{%s}=', [result, op, num, den]);
+   result := operations_fractions(diff_plus) + '=';
 end;
 
 function top_fractions.get_info(type_info : ttype_info): ansistring;
@@ -211,6 +222,33 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_fraction_etages2 }
+
+constructor top_fraction_etages2.create;
+begin
+
+end;
+
+destructor top_fraction_etages2.destroy;
+begin
+
+  inherited;
+end;
+
+function top_fraction_etages2.genere_formule: string;
+var
+   num, den : string;
+begin
+   num := operations_fractions(true);
+   den := operations_fractions(true);
+   result := format('\frac{%s}{%s}=', [num, den]);
+end;
+
+function top_fraction_etages2.get_info(type_info: ttype_info): ansistring;
+begin
+
 end;
 
 { top_fractions_empilees }
@@ -832,8 +870,6 @@ function top_arrondis.get_info(type_info: ttype_info): ansistring;
 begin
 
 end;
-
-
 
 
 
