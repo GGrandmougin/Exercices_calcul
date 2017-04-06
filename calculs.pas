@@ -266,6 +266,7 @@ var
    num, den : string;
    n, d, p : integer;
 begin
+   routines.set_no_feuille;
    num := operations_fractions(true);
    den := operations_fractions(true);
    while strtoint(pile.Strings[1]) = 0  do begin
