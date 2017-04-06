@@ -275,8 +275,8 @@ begin
       den := operations_fractions(true);
    end;
    result := format('\frac{%s}{%s}=', [num, den]);
-   n := strtoint(pile.Strings[1]) * strtoint(pile.Strings[2]);
-   d := strtoint(pile.Strings[0]) * strtoint(pile.Strings[3]);
+   n := strtoint(pile.Strings[3]) * strtoint(pile.Strings[0]);
+   d := strtoint(pile.Strings[2]) * strtoint(pile.Strings[1]);
    p := routines.pgcd(n , d);
    if p > 1 then begin
       n := n div p;
