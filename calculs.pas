@@ -119,6 +119,7 @@ implementation
 function operations_fractions(difpl: boolean): string;
 var
    num1, num, den, op : string;
+   n1, n2, d1, d2 , n, d, p : integer;
 begin
    den := op_alea.splage(2,9);
    num1 := op_alea.spl1_9;
@@ -127,6 +128,8 @@ begin
    end;
    //result := '\frac{' + num + '}{' + den + '}' ;
    result := format('\frac{%s}{%s}', [num1, den]);
+   n1 := strtoint(num1);
+   d1 := strtoint(den);
    op := op_alea.operation_3;
    if (op = '\times') or difpl then den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
@@ -135,6 +138,27 @@ begin
    end;
    //result := result + op + '\frac{' + num + '}{' + den + '}=' ;
    result := format('%s%s\frac{%s}{%s}', [result, op, num, den]);
+   n2 := strtoint(num);
+   d2 := strtoint(den);
+   if op = '\times' then begin
+      n := n1 * n2;
+      d := d1 * d2;
+   end else begin
+      if d1 <> d2 then begin
+         n1 := n1 * d2;
+         n2 := n2 * d1;
+         d := d1 * d2;
+      end else
+         d := d1;
+      if op = '+' then n := n1 + n2 else n := n1 - n2;
+   end;
+   p := routines.pgcd(n, d);
+   if p > 1 then begin
+      n := n div p;
+      d := d div p;
+   end;
+   pile.insert(0, inttostr(n));
+   pile.insert(0, inttostr(d));
 end;
 
 
@@ -240,10 +264,28 @@ end;
 function top_fraction_etages2.genere_formule: string;
 var
    num, den : string;
+   n, d, p : integer;
 begin
    num := operations_fractions(true);
    den := operations_fractions(true);
+   while strtoint(pile.Strings[1]) = 0  do begin
+      pile.Delete(0);
+      pile.Delete(0);
+      den := operations_fractions(true);
+   end;
    result := format('\frac{%s}{%s}=', [num, den]);
+   n := strtoint(pile.Strings[1]) * strtoint(pile.Strings[2]);
+   d := strtoint(pile.Strings[0]) * strtoint(pile.Strings[3]);
+   p := routines.pgcd(n , d);
+   if p > 1 then begin
+      n := n div p;
+      d := d div p;
+   end;
+   if ((n < 0) and (d < 0)) or ((n > 0) and (d < 0)) then begin
+      n := -n;
+      d := -d;
+   end;
+   sl_corrige.Add(inttostr(n) + '/' + inttostr(d));
 end;
 
 function top_fraction_etages2.get_info(type_info: ttype_info): ansistring;

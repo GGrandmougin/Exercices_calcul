@@ -222,6 +222,7 @@ begin
    caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
    //Ipage.Picture.OnChange := ipage_change;
    sl_corrige := tstringlist.Create;
+   pile := tstringlist.Create;
    sl_temp := tstringlist.Create;
    pnb_impr.Width := Bimpression.Width - 4;
    pnb_impr.Height := Bimpression.Height - 4;
@@ -240,6 +241,7 @@ begin
   olatex.Free;
   routines.free;
   sl_corrige.Free;
+  pile.Free;
   sl_temp.Free
 end;
 

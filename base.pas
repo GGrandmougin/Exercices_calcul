@@ -115,6 +115,7 @@ var
   text_latex : tstrings;
   routines : troutines;
   sl_corrige : tstringlist;
+  pile : tstringlist;
   index_corrige : integer;
   sNomGif : string;
   op_alea : toptions_aleatoires;
@@ -494,6 +495,7 @@ begin
    sl_utilise.Clear;
    sl_utilise.Sorted := true;
    no_feuille := -1;
+   pile.Clear;
 end;
 
 function troutines.mult(a, b: string): string;
@@ -525,8 +527,8 @@ function troutines.pgcd(a, b: integer): integer;
 var   //algorithme d'Euclide
    r, x, y: integer;
 begin
-   x := a ;
-   y := b ;
+   x := abs(a) ;
+   y := abs(b) ;
    r := x mod y;
    while r > 1  do begin
       x := y;
