@@ -118,6 +118,7 @@ var
   pile : tstringlist;
   index_corrige : integer;
   sNomGif : string;
+  sNomCorrige : string;
   op_alea : toptions_aleatoires;
   no_feuille : integer;
   max_car : integer = _max_car;

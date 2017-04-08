@@ -105,6 +105,7 @@ type
     procedure reset_impression;
     procedure init_impression;
     procedure inc_impression;
+    procedure traite_corrige;
     procedure ipage_change(Sender: TObject);
     procedure Bcfg_imprClick(Sender: TObject);
     procedure BimpressionClick(Sender: TObject);
@@ -155,6 +156,7 @@ type
 const
 pp_image = 'Envoi l''image dans le presse_papiers';
 pp_code = 'Envoi le texte du code LaTex dans le presse_papiers' ;
+lgn_sep : string = #13#10 + ' ' + #13#10;
 
 var
   Form1: TForm1;
@@ -215,7 +217,9 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-   sNomGif := ExtractFilePath(Application.ExeName)+'tempo.gif';
+   sNomGif := ExtractFilePath(Application.ExeName);
+   sNomCorrige := sNomGif + 'corriges.txt';
+   sNomGif := sNomGif +'tempo.gif';
    op_alea := toptions_aleatoires.create;
    //op_frac := top_fractions.create;   créés lors de l'instanciation de l'interface
    olatex := tlatex.create(ilatex, ipage);
@@ -460,9 +464,61 @@ begin
       showmessage('Valeur incorrecte dans "Lignes" ou "Colonnes"');
    end;;
    Ldimensions2.Caption := inttostr(Ilatex.width) + ' x ' + inttostr(Ilatex.Height);
-   BCorrige.Visible := sl_corrige.Count > 0;
+   Application.ProcessMessages;
+   traite_corrige;
 end;
 
+procedure TForm1.traite_corrige;
+var
+   l, c, eh, ev, idx, il, ic  : integer;
+   st : string;
+   F: TextFile;
+begin
+   BCorrige.Visible := sl_corrige.Count > 0;
+   if BCorrige.Visible then begin
+      l := strtointdef( Enombre.Text , 0);
+      ev := strtointdef( Eespace.Text , 0);
+      c := strtointdef( Ecol.Text , 0);
+      eh := strtointdef( Eespaceh.Text , 0);
+      idx := 0;
+      st := routines.get_no_feuille + '5$';
+      if c > 1 then begin
+         st := '5$\begin{tabular}{l';
+         for ic := 2 to c do begin
+            st := st + 'l';
+         end;
+         st := st + '}';
+      end;
+      if (l > 0) and (c > 0) then begin
+         for il := 1 to l do begin
+            for ic := 1 to c  do begin
+               if idx  < sl_corrige.Count then begin
+                  st := st + sl_corrige[idx];
+                  st := st + '\hspace{' + inttostr(eh) + '}';
+                  if ic <> c then st := st + '&';
+               end;
+               inc(idx);
+            end;
+            st := st + '\\\vspace{' + inttostr(ev) + '}\\';
+         end;
+         if c > 1 then st := st + '\end{tabular}';
+         try
+            if not fileexists(sNomCorrige) then begin
+               idx := FileCreate(sNomCorrige);
+               if idx > 0 then FileClose(idx);
+            end;
+            if fileexists(sNomCorrige) then begin
+               AssignFile(F, sNomCorrige);
+               Append(F);
+               Write(F, st + lgn_sep);
+               CloseFile(F);
+            end;
+         except
+            MessageDlg('Problème d''enregistrement du fichier de corrigé', mtInformation, [mbOK],0);
+         end;   
+      end;
+   end;
+end;
 
 procedure TForm1.ipage_change(Sender: TObject);
 begin
