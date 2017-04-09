@@ -106,6 +106,7 @@ type
     procedure init_impression;
     procedure inc_impression;
     procedure traite_corrige;
+    procedure enr_corrige(corrige : string);
     procedure ipage_change(Sender: TObject);
     procedure Bcfg_imprClick(Sender: TObject);
     procedure BimpressionClick(Sender: TObject);
@@ -470,9 +471,8 @@ end;
 
 procedure TForm1.traite_corrige;
 var
-   l, c, eh, ev, idx, il, ic  : integer;
+   l, c, eh, ev : integer;
    st : string;
-   F: TextFile;
 begin
    BCorrige.Visible := sl_corrige.Count > 0;
    if BCorrige.Visible then begin
@@ -480,42 +480,37 @@ begin
       ev := strtointdef( Eespace.Text , 0);
       c := strtointdef( Ecol.Text , 0);
       eh := strtointdef( Eespaceh.Text , 0);
-      idx := 0;
-      st := routines.get_no_feuille + '5$';
-      if c > 1 then begin
-         st := '5$\begin{tabular}{l';
-         for ic := 2 to c do begin
-            st := st + 'l';
-         end;
-         st := st + '}';
-      end;
       if (l > 0) and (c > 0) then begin
-         for il := 1 to l do begin
-            for ic := 1 to c  do begin
-               if idx  < sl_corrige.Count then begin
-                  st := st + sl_corrige[idx];
-                  st := st + '\hspace{' + inttostr(eh) + '}';
-                  if ic <> c then st := st + '&';
-               end;
-               inc(idx);
-            end;
-            st := st + '\\\vspace{' + inttostr(ev) + '}\\';
+         st := olatex.txt_corrige(l, c, ev, eh);
+         enr_corrige(st);
+      end;
+   end;
+end;
+
+procedure TForm1.enr_corrige(corrige : string);
+var
+   idx : integer;
+   F: TextFile;
+begin
+   if fic_corr_ok then begin
+      try
+         if corr_1ere_fois and not fileexists(sNomCorrige) then begin
+            idx := FileCreate(sNomCorrige);
+            if idx > 0 then FileClose(idx) else fic_corr_ok := false;
          end;
-         if c > 1 then st := st + '\end{tabular}';
-         try
-            if not fileexists(sNomCorrige) then begin
-               idx := FileCreate(sNomCorrige);
-               if idx > 0 then FileClose(idx);
-            end;
-            if fileexists(sNomCorrige) then begin
-               AssignFile(F, sNomCorrige);
-               Append(F);
-               Write(F, st + lgn_sep);
-               CloseFile(F);
-            end;
-         except
-            MessageDlg('Problème d''enregistrement du fichier de corrigé', mtInformation, [mbOK],0);
-         end;   
+         corr_1ere_fois := false;
+         if fic_corr_ok then begin
+            AssignFile(F, sNomCorrige);
+            Append(F);
+            Write(F, corrige + lgn_sep);
+            CloseFile(F);
+         end;
+      except
+         begin
+            MessageDlg('Problème d''enregistrement du fichier de corrigé:' +
+            #13#10 + sNomCorrige , mtInformation, [mbOK],0);
+            fic_corr_ok := false;
+         end;
       end;
    end;
 end;

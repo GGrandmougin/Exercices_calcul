@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 214
-  Top = 144
+  Left = 283
+  Top = 178
   Width = 891
   Height = 689
   Color = clBtnFace
@@ -1966,7 +1966,7 @@ object Form1: TForm1
       Top = 296
       Width = 128
       Height = 13
-      Caption = 'Apercu de l'#39'impression'
+      Caption = 'Aper'#231'u de l'#39'impression'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11

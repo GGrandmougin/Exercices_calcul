@@ -82,6 +82,7 @@ type
     function dim_impression( himg, limg, h_ttl, l_ttl : integer) : trect;
     procedure une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
     procedure tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0);
+    function txt_corrige( nb_lignes, nb_colonnes, espacev, espaceh  : integer ): string;
     procedure latex2img(latex: string);
     constructor create( img_latex, img_page : timage);
     destructor destroy;  override;
@@ -122,7 +123,8 @@ var
   op_alea : toptions_aleatoires;
   no_feuille : integer;
   max_car : integer = _max_car;
-
+  fic_corr_ok : boolean = true;
+  corr_1ere_fois : boolean = true;
 implementation
 
 function CreateGifFromEq(Expr, FileName: PAnsiChar): Integer; cdecl; external 'MimeTex.dll';
@@ -668,6 +670,34 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
    latex2img(st);
 end ;
 
+function Tlatex.txt_corrige( nb_lignes, nb_colonnes, espacev, espaceh  : integer ): string;
+var
+   idx, il, ic  : integer;
+   st : string;
+begin
+   idx := 0;
+   st := routines.get_no_feuille + '5$';
+   if nb_colonnes > 1 then begin
+      st := st + '\begin{tabular}{l';
+      for ic := 2 to nb_colonnes do begin
+         st := st + 'l';
+      end;
+      st := st + '}';
+   end;
+   for il := 1 to nb_lignes do begin
+      for ic := 1 to nb_colonnes  do begin
+         if idx  < sl_corrige.Count then begin
+            st := st + sl_corrige[idx];
+            st := st + '\hspace{' + inttostr(espaceh) + '}';
+            if ic <> nb_colonnes then st := st + '&';
+         end;
+         inc(idx);
+      end;
+      st := st + '\\\vspace{' + inttostr(espacev) + '}\\';
+   end;
+   if nb_colonnes > 1 then st := st + '\end{tabular}';
+   result := st;
+end;
 
 function Tlatex.dim_impression(himg, limg, h_ttl, l_ttl: integer): trect;
 var
