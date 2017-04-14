@@ -35,6 +35,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_fraction_etages3 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_simplication = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -161,6 +168,65 @@ begin
    pile.insert(0, inttostr(d));
 end;
 
+function addition_fractions(difpl: boolean): string;
+var
+   num1, num, den, op, sgn, snum : string;
+   b1, b2 : boolean;
+   n1, n2, d1, d2 , n, d, p : integer;
+begin
+   b1 := op_alea.UnSurX(4) and difpl;
+   b2 := op_alea.binaire;
+   den := op_alea.splage(2,9);
+   num1 := op_alea.spl1_9;
+   while routines.s_pgcd(num1, den) > 1 do begin
+      num1 := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   sgn := op_alea.signe;
+   if sgn = '+' then sgn := '';
+   if b1 and b2 then begin
+      result := snum + num1;
+      den := '1';
+      n1 := strtoint(result);
+   end else begin
+      result := format('%s\frac{%s%s}{%s}', [sgn, snum, num1, den]);
+      n1 := strtoint(snum + num1);
+      if sgn = '-' then n1 := - n1;
+   end;
+   d1 := strtoint(den);
+   op := op_alea.signe;
+   if difpl then den := op_alea.splage(2,9);
+   num := op_alea.spl1_9;
+   while (routines.s_pgcd(num, den) > 1 )do begin
+      num := op_alea.spl1_9;
+   end;
+   snum := op_alea.signe;
+   if snum = '+' then snum := '';
+   if b1 and not b2 then begin
+      result := result + op + num  ;
+      den := '1';
+   end else
+      result := format('%s%s\frac{%s%s}{%s}', [result, op, snum, num, den]);
+
+   n2 := strtoint(snum + num);
+   d2 := strtoint(den);
+   if d1 <> d2 then begin
+      n1 := n1 * d2;
+      n2 := n2 * d1;
+      d := d1 * d2;
+   end else
+      d := d1;
+   if op = '+' then n := n1 + n2 else n := n1 - n2;
+   p := routines.pgcd(n, d);
+   if p > 1 then begin
+      n := n div p;
+      d := d div p;
+   end;
+   pile.insert(0, inttostr(n));
+   pile.insert(0, inttostr(d));
+end;
+
 
 { top_fractions }
 
@@ -204,7 +270,9 @@ begin
 end;
 
 function top_add_fractions.genere_formule: string;
-var
+begin
+   result := addition_fractions(diff_plus) + '=';
+(*var
    num1, num, den, op, sgn, snum : string;
    b1, b2 : boolean;
 begin
@@ -234,7 +302,7 @@ begin
    if b1 and not b2 then
       result := result + op + num + '='
    else
-      result := format('%s%s\frac{%s%s}{%s}=', [result, op, snum, num, den]);
+      result := format('%s%s\frac{%s%s}{%s}=', [result, op, snum, num, den]); *)
 end;
 
 function top_add_fractions.get_info(type_info: ttype_info): ansistring;
@@ -246,6 +314,55 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_fraction_etages3 }
+
+constructor top_fraction_etages3.create;
+begin
+
+end;
+
+destructor top_fraction_etages3.destroy;
+begin
+
+  inherited;
+end;
+
+function top_fraction_etages3.genere_formule: string;
+var
+   num, den : string;
+   n, d, p : integer;
+begin
+   routines.set_no_feuille;
+   num := addition_fractions(true);
+   den := addition_fractions(true);
+   while strtoint(pile.Strings[1]) = 0  do begin
+      pile.Delete(0);
+      pile.Delete(0);
+      den := addition_fractions(true);
+   end;
+   result := format('\frac{%s}{%s}=', [num, den]);
+   n := strtoint(pile.Strings[3]) * strtoint(pile.Strings[0]);
+   d := strtoint(pile.Strings[2]) * strtoint(pile.Strings[1]);
+   p := routines.pgcd(n , d);
+   if p > 1 then begin
+      n := n div p;
+      d := d div p;
+   end;
+   if ((n < 0) and (d < 0)) or ((n > 0) and (d < 0)) then begin
+      n := -n;
+      d := -d;
+   end;
+   if d = 1 then
+      sl_corrige.Add(inttostr(n))
+   else
+      sl_corrige.Add(inttostr(n) + '/' + inttostr(d));
+end;      
+
+function top_fraction_etages3.get_info(type_info: ttype_info): ansistring;
+begin
+
 end;
 
 { top_fraction_etages2 }
@@ -286,7 +403,10 @@ begin
       n := -n;
       d := -d;
    end;
-   sl_corrige.Add(inttostr(n) + '/' + inttostr(d));
+   if d = 1 then
+      sl_corrige.Add(inttostr(n))
+   else
+      sl_corrige.Add(inttostr(n) + '/' + inttostr(d));
 end;
 
 function top_fraction_etages2.get_info(type_info: ttype_info): ansistring;
@@ -913,6 +1033,8 @@ function top_arrondis.get_info(type_info: ttype_info): ansistring;
 begin
 
 end;
+
+
 
 
 

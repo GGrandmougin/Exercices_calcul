@@ -37,7 +37,19 @@ espaces en latex:
 -------------------------------------------
 /text{........} permet d'afficher le texte entre les acolades (avec ses espaces) (n'est plus en italique)
 
+Voir utilisation  Miketext (comme dans Anki) en option (ou a la place de MimeTex.dll)
 *)
+
+{ Historique des corrigés
+bouton "historique des corrigés" à droite de "corrige"
+Visualisation d'un des corrigés enregistés dans corrigés.txt
+recherche d'un des numéros de feuille
+nouveau tpanel apparaissant en lieu et place du ttreeview
+dans ce tpanel tlistbox pour selectionné N°
+case à cocher pour selectionner ordre des N° ou ordre chronologique
+(dans ce cas on commence par voir la fin de la liste )
+traitement tstringlist.loadfromfile(;... \corriges.txt)
+}
 
 interface
 

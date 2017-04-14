@@ -55,10 +55,22 @@ begin
       13: result := top_add_fractions.create;
       14: result := top_fractions_empilees.create;
       15: result := top_fraction_etages2.create;
+      16: result := top_fraction_etages3.create;
 {      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;                  
 }
 
 
