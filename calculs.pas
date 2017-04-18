@@ -168,12 +168,13 @@ begin
    pile.insert(0, inttostr(d));
 end;
 
-function addition_fractions(difpl: boolean): string;
+function addition_fractions(difpl: boolean; diff2 : boolean = false): string;
 var
-   num1, num, den, op, sgn, snum : string;
+   num1, num, den, op, sgn, snum, sden : string;
    b1, b2 : boolean;
    n1, n2, d1, d2 , n, d, p : integer;
 begin
+   sden := '';
    b1 := op_alea.UnSurX(4) and difpl;
    b2 := op_alea.binaire;
    den := op_alea.splage(2,9);
@@ -183,6 +184,10 @@ begin
    end;
    snum := op_alea.signe;
    if snum = '+' then snum := '';
+   if diff2 then begin
+      sden := op_alea.signe;
+      if sden = '+' then sden := '';
+   end;
    sgn := op_alea.signe;
    if sgn = '+' then sgn := '';
    if b1 and b2 then begin
@@ -190,9 +195,9 @@ begin
       den := '1';
       n1 := strtoint(result);
    end else begin
-      result := format('%s\frac{%s%s}{%s}', [sgn, snum, num1, den]);
+      result := format('%s\frac{%s%s}{%s%s}', [sgn, snum, num1, sden, den]);
       n1 := strtoint(snum + num1);
-      if sgn = '-' then n1 := - n1;
+      if (sgn = '-') xor (sden = '-') then n1 := - n1;
    end;
    d1 := strtoint(den);
    op := op_alea.signe;
@@ -203,11 +208,15 @@ begin
    end;
    snum := op_alea.signe;
    if snum = '+' then snum := '';
+   if diff2 then begin
+      sden := op_alea.signe;
+      if sden = '+' then sden := '';
+   end;
    if b1 and not b2 then begin
       result := result + op + num  ;
       den := '1';
    end else
-      result := format('%s%s\frac{%s%s}{%s}', [result, op, snum, num, den]);
+      result := format('%s%s\frac{%s%s}{%s%s}', [result, op, snum, num, sden, den]);
 
    n2 := strtoint(snum + num);
    d2 := strtoint(den);
@@ -217,7 +226,7 @@ begin
       d := d1 * d2;
    end else
       d := d1;
-   if op = '+' then n := n1 + n2 else n := n1 - n2;
+   if (op = '-') xor (sden = '-') then n := n1 - n2 else n := n1 + n2  ;
    p := routines.pgcd(n, d);
    if p > 1 then begin
       n := n div p;
@@ -271,7 +280,7 @@ end;
 
 function top_add_fractions.genere_formule: string;
 begin
-   result := addition_fractions(diff_plus) + '=';
+   result := addition_fractions(diff_plus, diff_plus) + '=';
 (*var
    num1, num, den, op, sgn, snum : string;
    b1, b2 : boolean;
@@ -310,7 +319,7 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
-      info_commentaire : result := 'Sans l''option difficulté plus, les fractions ont les mêmes dénominateurs';
+      info_commentaire : result := 'Sans l''option difficulté plus, les fractions ont les mêmes dénominateurs, avec, les dénominateurs peuvent être négatifs';
    else
       result := '';
    end;
@@ -335,8 +344,8 @@ var
    n, d, p : integer;
 begin
    routines.set_no_feuille;
-   num := addition_fractions(true);
-   den := addition_fractions(true);
+   num := addition_fractions(true, diff_plus);
+   den := addition_fractions(true, diff_plus);
    while strtoint(pile.Strings[1]) = 0  do begin
       pile.Delete(0);
       pile.Delete(0);
@@ -362,7 +371,13 @@ end;
 
 function top_fraction_etages3.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+      info_commentaire : result := 'Avec l''option difficulté plus, les dénominateurs peuvent être négatifs';
+   else
+      result := '';
+   end;
 end;
 
 { top_fraction_etages2 }
