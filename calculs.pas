@@ -193,6 +193,7 @@ begin
    if b1 and b2 then begin
       result := snum + num1;
       den := '1';
+      sden := '';
       n1 := strtoint(result);
    end else begin
       result := format('%s\frac{%s%s}{%s%s}', [sgn, snum, num1, sden, den]);
@@ -215,6 +216,7 @@ begin
    if b1 and not b2 then begin
       result := result + op + num  ;
       den := '1';
+      sden := '';
    end else
       result := format('%s%s\frac{%s%s}{%s%s}', [result, op, snum, num, sden, den]);
 
