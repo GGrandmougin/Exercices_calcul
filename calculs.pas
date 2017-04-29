@@ -14,6 +14,48 @@ type
     destructor destroy;  override;
   end;
 
+  top_puiss10_2_decimal = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_decimal2puiss10 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_vers_n_scientfq = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_de_n_scientfq = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_op_avec_puiss10 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_frac_avec_puiss10 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_add_fractions = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -1054,5 +1096,180 @@ end;
 
 
 
+
+{ top_puiss10_2_decimal }
+
+constructor top_puiss10_2_decimal.create;
+begin
+
+end;
+
+destructor top_puiss10_2_decimal.destroy;
+begin
+
+  inherited;
+end;
+
+function top_puiss10_2_decimal.genere_formule: string;
+var
+   n : integer;
+begin
+   n := op_alea.iplage(-7,7);
+   result := '10^{3$'+ inttostr(n)+ '}=' ;
+end;
+
+function top_puiss10_2_decimal.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Puissance de 10 vers nombre décimal';
+      info_ennonce     : result := 'Exprimer en nombre décimal, la puissance de 10 donnée';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_decimal2puiss10 }
+
+constructor top_decimal2puiss10.create;
+begin
+
+end;
+
+destructor top_decimal2puiss10.destroy;
+begin
+
+  inherited;
+end;
+
+function top_decimal2puiss10.genere_formule: string;
+var
+    b : string;
+begin
+
+   b := op_alea.spuiss10(-7, 7);
+
+   result := format('%s=', [ b]);
+end;
+
+function top_decimal2puiss10.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Nombre décimal vers puissance de 10';
+      info_ennonce     : result := 'Exprimer en puissance de 10, le nombre décimal donné';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_vers_n_scientfq }
+
+constructor top_vers_n_scientfq.create;
+begin
+
+end;
+
+destructor top_vers_n_scientfq.destroy;
+begin
+
+  inherited;
+end;
+
+function top_vers_n_scientfq.genere_formule: string;
+var
+   a, b, o : string;
+begin
+   a := op_alea.snombre(5, -7 ,7);
+   result := a + '=';
+end;
+
+function top_vers_n_scientfq.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Nombre décimal vers notation scientifique';
+      info_ennonce     : result := 'Exprimer en notation scientifique, le nombre décimal donné';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_de_n_scientfq }
+
+constructor top_de_n_scientfq.create;
+begin
+
+end;
+
+destructor top_de_n_scientfq.destroy;
+begin
+
+  inherited;
+end;
+
+function top_de_n_scientfq.genere_formule: string;
+
+begin
+
+   result := op_alea.snombre_scientifique(5, -4, 7) + '=';
+end;
+
+function top_de_n_scientfq.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Nombre en notation scientifique vers nombre décimal';
+      info_ennonce     : result := 'Exprimer en nombre décimal , le nombre en notation scientifique donné';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_op_avec_puiss10 }
+
+constructor top_op_avec_puiss10.create;
+begin
+
+end;
+
+destructor top_op_avec_puiss10.destroy;
+begin
+
+  inherited;
+end;
+
+function top_op_avec_puiss10.genere_formule: string;
+begin
+
+end;
+
+function top_op_avec_puiss10.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
+{ top_frac_avec_puiss10 }
+
+constructor top_frac_avec_puiss10.create;
+begin
+
+end;
+
+destructor top_frac_avec_puiss10.destroy;
+begin
+
+  inherited;
+end;
+
+function top_frac_avec_puiss10.genere_formule: string;
+begin
+
+end;
+
+function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
 
 end.

@@ -56,6 +56,12 @@ begin
       14: result := top_fractions_empilees.create;
       15: result := top_fraction_etages2.create;
       16: result := top_fraction_etages3.create;
+      17: result := top_puiss10_2_decimal.create;
+      18: result := top_decimal2puiss10.create;
+      19: result := top_vers_n_scientfq.create;
+      20: result := top_de_n_scientfq.create;
+      21: result := top_op_avec_puiss10.create;
+      22: result := top_frac_avec_puiss10.create;
 {      : result := .create;
       : result := .create;
       : result := .create;
@@ -70,7 +76,10 @@ begin
       : result := .create;
       : result := .create;
       : result := .create;
-      : result := .create;                  
+      : result := .create;
+      : result := .create;
+      : result := .create;
+      : result := .create;
 }
 
 

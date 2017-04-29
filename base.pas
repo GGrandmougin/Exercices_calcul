@@ -46,6 +46,7 @@ type
     function ipuiss10(debut_incl, fin_incl: integer): single;
     function spuiss10(debut_incl, fin_incl: integer): string;
     function snombre(nbsignificatifsmax, deb_p10, fin_p10 : integer): string ;
+    function snombre_scientifique(nbsignificatifsmax, deb_p10, fin_p10  : integer): string ;
     function lettres(catalogue : string; nb_min, nb_max, UnSurX_e2, UnSurX_e3 : integer): string;
     function x_div : string;
     function operation_3 : string;
@@ -383,6 +384,27 @@ begin
 end;
 
 
+function toptions_aleatoires.snombre_scientifique( nbsignificatifsmax, deb_p10, fin_p10: integer): string;
+var
+   st, n : string;
+   i, lst: integer;
+begin
+   if nbsignificatifsmax > 0 then begin
+      st:= '';
+      for i:= 1 to nbsignificatifsmax do begin
+         st := st + '9';
+      end;
+      st := slogpl(1, strtoint(st));
+      if length(st) > 1 then begin
+         insert(',' , st, 2 );
+         if strtoint(copy(st, 3, length(st))) = 0 then st := st[1];
+      end;
+      n := splage(deb_p10, fin_p10);
+   end;
+   result := st + '\times' + '10^{3$'+ n + '}';
+end;
+
+
 procedure toptions_aleatoires.imelange3(var x, y, z: integer);
 var
    a,b,c, i : integer;
@@ -415,6 +437,7 @@ begin
       6 : begin x:=c ; y:=b ; z:=a  end ;
    end
 end;
+
 
 
 { troutines }
@@ -612,8 +635,9 @@ end;
 
 procedure tlatex.une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
 var
-   st, saut, stpre : string;
+   st, saut, stpre, fm : string;
    i : integer;
+   implemente : boolean;
 begin
    depassement := false;
    if espace = 0 then
@@ -622,7 +646,9 @@ begin
       saut := '\\\vspace{' + inttostr(espace) + '}\\';
    for i := 1 to nb_lignes do begin
       if st <> '' then   st := st + saut else st :=  '5$';
-      st := st + calculs.genere_formule;
+      fm := calculs.genere_formule;
+      implemente := length(fm) > 0;
+      st := st + fm;
       if i = 1 then st := routines.get_no_feuille + st;
       if length(st) > max_car then begin
          st := stpre;
@@ -631,14 +657,18 @@ begin
          stpre := st ;
       end;
    end;
-   if length(st) > 2 then latex2img(st);
+   if implemente then begin
+      latex2img(st);
+   end else begin
+      showmessage('Pas encore implémenté');
+   end;
 end;
 
 procedure tlatex.tableau(calculs: i_calculs; nb_lignes, nb_colonnes,  espacev, espaceh: integer);
 var
-   st, stpre : string;
+   st, stpre, esp_col, esp_ln , fm: string;
    l, c : integer;
-   nfeuille : boolean;
+   nfeuille, implemente : boolean;
 begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 (* on peut mettre des tableaux dans les tableaux:
 \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} & \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} &  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
@@ -646,6 +676,8 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
    depassement := false;
    nfeuille := true;
    st := '5$\begin{tabular}{l';
+   esp_col := '\hspace{' + inttostr(espaceh) + '}';
+   esp_ln := '\\\vspace{' + inttostr(espacev) + '}\\';
    for c := 2 to nb_colonnes  do begin
       st := st + 'l';
    end;
@@ -653,21 +685,27 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
    for l := 1 to nb_lignes do begin
       if not depassement then begin
          for c := 1 to nb_colonnes  do begin
-            st := st + calculs.genere_formule + '\hspace{' + inttostr(espaceh) + '}';
+            fm := calculs.genere_formule;
+            implemente := length(fm) > 0;
+            st := st + fm + esp_col;
             if nfeuille then begin st := routines.get_no_feuille + st; nfeuille := false end;
             if c <> nb_colonnes then st := st + '&';
-            if length(st) > max_car - 29 then begin  
+            if length(st) > max_car - 29 then begin
                st := stpre;
                depassement := true;
             end else begin
                stpre := st ;
             end;
          end;
-         st := st + '\\\vspace{' + inttostr(espacev) + '}\\';  //l = 16
+         st := st + esp_ln;  //l = 16
       end;
    end;
    st := st + '\end{tabular}'; // l=  13
-   latex2img(st);
+   if implemente then begin
+      latex2img(st);
+   end else begin
+      showmessage('Pas encore implémenté');
+   end;
 end ;
 
 function Tlatex.txt_corrige( nb_lignes, nb_colonnes, espacev, espaceh  : integer ): string;
