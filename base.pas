@@ -52,6 +52,7 @@ type
     function operation_3 : string;
     procedure imelange3(var x, y, z : integer);
     procedure smelange3(var x, y, z : string);
+    procedure melange_tableau(tableau : array of integer);
     constructor create;
     destructor destroy;  override;
   private
@@ -387,7 +388,7 @@ end;
 function toptions_aleatoires.snombre_scientifique( nbsignificatifsmax, deb_p10, fin_p10: integer): string;
 var
    st, n : string;
-   i, lst: integer;
+   i: integer;
 begin
    if nbsignificatifsmax > 0 then begin
       st:= '';
@@ -438,7 +439,21 @@ begin
    end
 end;
 
-
+procedure toptions_aleatoires.melange_tableau(tableau: array of integer);
+var
+   i, j, deb, fin, tmp : integer;
+begin
+   deb := low(tableau);
+   fin := high(tableau) ;
+   for i := deb to fin - 1 do begin
+      j := iplage(i, fin);
+      if j <> i then begin //échange
+         tmp := tableau[j];
+         tableau[j] := tableau[i] ;
+         tableau[i] := tmp;
+      end
+   end;
+end;
 
 { troutines }
 
@@ -640,6 +655,7 @@ var
    implemente : boolean;
 begin
    depassement := false;
+   implemente := false;
    if espace = 0 then
       saut := '\\'
    else
@@ -674,6 +690,7 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
 \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} & \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} &  \begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \\  l3c1 & l3c2 &  l3c3 \\\end{tabular} \\  l3c1 & l3c2 &  l3c3 \\\end{tabular}
 *)
    depassement := false;
+   implemente := false;
    nfeuille := true;
    st := '5$\begin{tabular}{l';
    esp_col := '\hspace{' + inttostr(espaceh) + '}';

@@ -1178,7 +1178,7 @@ end;
 
 function top_vers_n_scientfq.genere_formule: string;
 var
-   a, b, o : string;
+   a : string;
 begin
    a := op_alea.snombre(5, -7 ,7);
    result := a + '=';
@@ -1219,7 +1219,7 @@ function top_de_n_scientfq.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Nombre en notation scientifique vers nombre décimal';
-      info_ennonce     : result := 'Exprimer en nombre décimal , le nombre en notation scientifique donné';
+      info_ennonce     : result := 'Exprimer en nombre décimal, le nombre en notation scientifique donné';
       info_commentaire : result := '';
    else
       result := '';
@@ -1240,13 +1240,37 @@ begin
 end;
 
 function top_op_avec_puiss10.genere_formule: string;
+var
+   op1, op2, n1, n2, n3 : string;
+   p : integer;
 begin
-
+   if op_alea.binaire then begin
+      p := op_alea.iplage(-5, 5);
+      n1 := op_alea.snombre_scientifique( 2, p-1 , p+1);
+      n2 := op_alea.snombre_scientifique( 2, p-1 , p+1);
+      n3 := op_alea.snombre_scientifique( 2, p-1 , p+1);
+      op1 := op_alea.signe;
+      op2 := op_alea.signe;
+   end else begin
+      op1 := '\times';
+      op2 := '\times';
+      n1 := op_alea.snombre_scientifique( 2, -5 , 5);
+      n2 := op_alea.snombre_scientifique( 2, -5 , 5);
+      n3 := op_alea.snombre_scientifique( 2, -5 , 5);
+   end;
+   result := format('%s%s%s%s%s=',[n1,op1,n2,op2,n3]);
+   max_car := 1600;
 end;
 
 function top_op_avec_puiss10.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre       : result := 'Opérations sur des nombres en notation scientifique';
+      info_ennonce     : result := 'Exprimer en en notation scientifique, le resultat des opérations';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
 end;
 
 { top_frac_avec_puiss10 }
@@ -1263,13 +1287,49 @@ begin
 end;
 
 function top_frac_avec_puiss10.genere_formule: string;
+var
+   n1, n2, d1, d2, en1, en2, ed1, ed2 :string  ;
+   f : array[1.. 4] of integer;
+   i , nu1, nu2, de1, de2  : integer;
 begin
+   for i := 1 to 4 do begin
+      f[i] := op_alea.iplage(1,9) ;
+   end;
+   nu1 := f[2] * f[1];
+   nu2 := f[4] * f[3];
+   //op_alea.melange_tableau(f);
+   if op_alea.binaire then de1 := 1 else de1 := f[1];
+   if op_alea.binaire then de1 := f[2] * de1;
+   if op_alea.binaire then de2 := 1 else de2 := f[3];
+   if op_alea.binaire then de2 := f[4] * de2;
 
+   if nu1 = 1 then n1 := '' else n1 := inttostr(nu1) + '\times' ;
+   if nu2 = 1 then n2 := '' else n2 := inttostr(nu2) + '\times' ;
+   if de1 = 1 then d1 := '' else d1 := inttostr(de1) + '\times' ;
+   if de2 = 1 then d2 := '' else d2 := inttostr(de2) + '\times' ;
+
+   if length(n1) = 8 then insert(',', n1, 2);
+   if length(n2) = 8 then insert(',', n2, 2);
+   if length(d1) = 8 then insert(',', d1, 2);
+   if length(d2) = 8 then insert(',', d2, 2);
+
+   en1 := op_alea.splage(-5, 5);
+   en2 := op_alea.splage(-5, 5);
+   ed1 := op_alea.splage(-5, 5);
+   ed2 := op_alea.splage(-5, 5);
+
+   result := format('\frac{%s10^{3$%s}\times%s10^{3$%s}}{%s10^{3$%s}\times%s10^{3$%s}}=', [n1, en1, n2, en2, d1, ed1, d2, ed2]);
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre       : result := 'Fractions avec des nombres en notation scientifique';
+      info_ennonce     : result := 'Exprimer en en notation scientifique, le resultat des opérations';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
 end;
 
 end.
