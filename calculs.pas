@@ -92,7 +92,7 @@ type
   end;
 
   top_developpent = class(tinterfacedobject, i_calculs)
-    function genere_formule : string; 
+    function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
@@ -128,7 +128,7 @@ type
 
 
   top_multiplications = class(tinterfacedobject, i_calculs)
-    function genere_formule : string; 
+    function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
     constructor create;
     destructor destroy;  override;
@@ -411,7 +411,7 @@ begin
       sl_corrige.Add(inttostr(n))
    else
       sl_corrige.Add(inttostr(n) + '/' + inttostr(d));
-end;      
+end;
 
 function top_fraction_etages3.get_info(type_info: ttype_info): ansistring;
 begin
@@ -1275,6 +1275,9 @@ end;
 
 { top_frac_avec_puiss10 }
 
+
+
+
 constructor top_frac_avec_puiss10.create;
 begin
 
@@ -1285,6 +1288,8 @@ begin
 
   inherited;
 end;
+
+(*  implémention alternative OK aussi
 
 function top_frac_avec_puiss10.genere_formule: string;
 var
@@ -1297,7 +1302,7 @@ begin
    end;
    nu1 := f[2] * f[1];
    nu2 := f[4] * f[3];
-   
+
    op_alea.melange_tableau(f);
 
    if op_alea.binaire then de1 := 1 else de1 := f[1];
@@ -1307,8 +1312,8 @@ begin
 
    if nu1 mod 10 = 0 then nu1 := nu1 div 10;
    if nu2 mod 10 = 0 then nu2 := nu2 div 10;
-   if de1 mod 10 = 0 then de1 := nu1 div 10;
-   if de2 mod 10 = 0 then de2 := nu2 div 10;
+   if de1 mod 10 = 0 then de1 := de1 div 10;
+   if de2 mod 10 = 0 then de2 := de2 div 10;
 
    if nu1 = 1 then n1 := '' else n1 := inttostr(nu1) + '\times' ;
    if nu2 = 1 then n2 := '' else n2 := inttostr(nu2) + '\times' ;
@@ -1326,6 +1331,43 @@ begin
    ed2 := op_alea.splage(-5, 5);
 
    result := format('\frac{%s10^{3$%s}\times%s10^{3$%s}}{%s10^{3$%s}\times%s10^{3$%s}}=', [n1, en1, n2, en2, d1, ed1, d2, ed2]);
+end; *)
+
+function top_frac_avec_puiss10.genere_formule: string;
+const
+   p10 = '10^{';
+var
+   sfact, exp : array[1.. 4] of string ;
+   f , fact : array[1.. 4] of integer;
+   i : integer;
+begin
+   for i := 1 to 4 do begin
+      f[i] := op_alea.iplage(1,9) ;
+      //pile.insert(0, inttostr(f[i]));                  //pour test
+   end;
+   for i := 1 to 2 do begin
+      fact[i] := f[i ] * f[i + 2];
+   end;
+
+   op_alea.melange_tableau(f);
+
+   for i := 1 to 2 do begin
+      if op_alea.binaire then fact[i + 2] := 1 else fact[i + 2] := f[i];
+      if op_alea.binaire then fact[i + 2] := f[i + 2] * fact[i + 2];
+   end;
+
+   for i := 1 to 4 do begin
+      //pile.insert(0, inttostr(fact[i]));               //pour test
+      if fact[i] mod 10 = 0 then fact[i] := fact[i] div 10;
+      if fact[i] = 1 then sfact[i] := '' else sfact[i] := inttostr(fact[i]) + '\times' ;
+      if length(sfact[i]) = 8 then insert(',', sfact[i], 2);
+      exp[i] := p10 + op_alea.splage(-5, 5) + '}' ;
+   end;
+
+   //for i := 1 to 4 do  pile.insert(0, inttostr(f[i])); //pour test
+   //pile.insert(0,'____');                              //pour test
+
+   result := '\frac{' + sfact[1] +  exp[1] + '\times' + sfact[2] +  exp[2] + '}{'  + sfact[3] +  exp[3] + '\times' + sfact[4] +  exp[4] + '}=';
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;

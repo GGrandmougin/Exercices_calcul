@@ -441,11 +441,11 @@ end;
 
 procedure toptions_aleatoires.melange_tableau(var tableau: array of integer);
 var
-   i, j, deb, fin, tmp : integer;
+   i, j, tmp, debut, fin : integer;
 begin
-   deb := low(tableau);
-   fin := high(tableau) ;
-   for i := deb to fin - 1 do begin
+   debut := low(tableau);
+   fin := high(tableau);
+   for i := debut to fin - 1 do begin
       j := iplage(i, fin);
       if j <> i then begin //échange
          tmp := tableau[j];
