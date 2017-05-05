@@ -52,7 +52,7 @@ type
     function operation_3 : string;
     procedure imelange3(var x, y, z : integer);
     procedure smelange3(var x, y, z : string);
-    procedure melange_tableau(tableau : array of integer);
+    procedure melange_tableau(var tableau : array of integer);
     constructor create;
     destructor destroy;  override;
   private
@@ -439,7 +439,7 @@ begin
    end
 end;
 
-procedure toptions_aleatoires.melange_tableau(tableau: array of integer);
+procedure toptions_aleatoires.melange_tableau(var tableau: array of integer);
 var
    i, j, deb, fin, tmp : integer;
 begin

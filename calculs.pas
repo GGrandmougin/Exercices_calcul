@@ -1297,11 +1297,18 @@ begin
    end;
    nu1 := f[2] * f[1];
    nu2 := f[4] * f[3];
-   //op_alea.melange_tableau(f);
+   
+   op_alea.melange_tableau(f);
+
    if op_alea.binaire then de1 := 1 else de1 := f[1];
    if op_alea.binaire then de1 := f[2] * de1;
    if op_alea.binaire then de2 := 1 else de2 := f[3];
    if op_alea.binaire then de2 := f[4] * de2;
+
+   if nu1 mod 10 = 0 then nu1 := nu1 div 10;
+   if nu2 mod 10 = 0 then nu2 := nu2 div 10;
+   if de1 mod 10 = 0 then de1 := nu1 div 10;
+   if de2 mod 10 = 0 then de2 := nu2 div 10;
 
    if nu1 = 1 then n1 := '' else n1 := inttostr(nu1) + '\times' ;
    if nu2 = 1 then n2 := '' else n2 := inttostr(nu2) + '\times' ;
