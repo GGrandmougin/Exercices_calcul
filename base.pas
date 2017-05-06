@@ -46,7 +46,7 @@ type
     function ipuiss10(debut_incl, fin_incl: integer): single;
     function spuiss10(debut_incl, fin_incl: integer): string;
     function snombre(nbsignificatifsmax, deb_p10, fin_p10 : integer): string ;
-    function snombre_scientifique(nbsignificatifsmax, deb_p10, fin_p10  : integer): string ;
+    function snombre_scientifique(nbsignificatifsmax, deb_p10, fin_p10  : integer; rslt : boolean = false): string ;
     function lettres(catalogue : string; nb_min, nb_max, UnSurX_e2, UnSurX_e3 : integer): string;
     function x_div : string;
     function operation_3 : string;
@@ -385,7 +385,7 @@ begin
 end;
 
 
-function toptions_aleatoires.snombre_scientifique( nbsignificatifsmax, deb_p10, fin_p10: integer): string;
+function toptions_aleatoires.snombre_scientifique( nbsignificatifsmax, deb_p10, fin_p10: integer; rslt : boolean = false): string;
 var
    st, n : string;
    i: integer;
@@ -403,6 +403,9 @@ begin
       n := splage(deb_p10, fin_p10);
    end;
    result := st + '\times' + '10^{3$'+ n + '}';
+   if rslt then begin
+      pile.insert(0, st + 'e' + n);
+   end;
 end;
 
 

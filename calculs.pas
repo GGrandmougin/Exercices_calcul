@@ -1243,23 +1243,40 @@ function top_op_avec_puiss10.genere_formule: string;
 var
    op1, op2, n1, n2, n3 : string;
    p : integer;
+   x : extended ;
 begin
    if op_alea.binaire then begin
       p := op_alea.iplage(-5, 5);
-      n1 := op_alea.snombre_scientifique( 2, p-1 , p+1);
-      n2 := op_alea.snombre_scientifique( 2, p-1 , p+1);
-      n3 := op_alea.snombre_scientifique( 2, p-1 , p+1);
+      n1 := op_alea.snombre_scientifique( 2, p-1 , p+1, true);
+      n2 := op_alea.snombre_scientifique( 2, p-1 , p+1, true);
+      n3 := op_alea.snombre_scientifique( 2, p-1 , p+1, true);
       op1 := op_alea.signe;
       op2 := op_alea.signe;
    end else begin
       op1 := '\times';
       op2 := '\times';
-      n1 := op_alea.snombre_scientifique( 2, -5 , 5);
-      n2 := op_alea.snombre_scientifique( 2, -5 , 5);
-      n3 := op_alea.snombre_scientifique( 2, -5 , 5);
+      n1 := op_alea.snombre_scientifique( 2, -5 , 5, true);
+      n2 := op_alea.snombre_scientifique( 2, -5 , 5, true);
+      n3 := op_alea.snombre_scientifique( 2, -5 , 5, true);
    end;
+
    result := format('%s%s%s%s%s=',[n1,op1,n2,op2,n3]);
    max_car := 1600;
+
+   x := strtofloat(pile.Strings[2]);
+   if op1 = '+' then
+      x := x + strtofloat(pile.Strings[1])
+   else if op1 = '-' then
+      x := x - strtofloat(pile.Strings[1])
+   else
+      x := x * strtofloat(pile.Strings[1]);
+   if op2 = '+' then
+      x := x + strtofloat(pile.Strings[0])
+   else if op2 = '-' then
+      x := x - strtofloat(pile.Strings[0])
+   else
+      x := x * strtofloat(pile.Strings[0]);
+   sl_corrige.Add(floattostr(x));
 end;
 
 function top_op_avec_puiss10.get_info(type_info: ttype_info): ansistring;
@@ -1374,9 +1391,11 @@ var
    num, den : string ;
    f  : array[1.. 4] of integer;
    i : integer;
+   x : extended;
 function facteur( f ,g : integer; denominateur : boolean): string;
 var
    n : integer;
+   exp : string;
 begin
    if denominateur then begin
       if op_alea.binaire then n := 1 else n := f;
@@ -1384,26 +1403,29 @@ begin
    end else begin
        n := f * g
    end;
-   //pile.insert(0, inttostr(fact[i]));                  //pour test
    if n mod 10 = 0 then n := n div 10;
-   if n = 1 then result := '' else result := inttostr(n) + '\times' ;
-   if length(result) = 8 then insert(',', result, 2);
-   result := result + '10^{3$' + op_alea.splage(-5, 5) + '}' ;
+   result := inttostr(n);
+   if length(result) > 1 then insert(',', result, 2);
+   exp := op_alea.splage(-5, 5);
+   if n= 1 then begin
+      pile.Insert(0, '1e' + exp );
+      result := '10^{3$' + exp + '}' ;
+   end else begin
+      pile.Insert(0, result + 'e' + exp );
+      result := result + '\times10^{3$' + exp + '}' ;
+   end
 end;
 begin
-   for i := 1 to 4 do begin
-      f[i] := op_alea.iplage(1,9) ;
-      //pile.insert(0, inttostr(f[i]));                  //pour test
-   end;
+   for i := 1 to 4 do  f[i] := op_alea.iplage(1,9) ;
+
    num := facteur(f[1], f[2], false) + '\times' + facteur(f[3], f[4], false);
    op_alea.melange_tableau(f);
    den := facteur(f[1], f[2], true) + '\times' + facteur(f[3], f[4], true);
 
-   //for i := 1 to 4 do  pile.insert(0, inttostr(f[i])); //pour test
-   //pile.insert(0,'____');                              //pour test
-
    result := format('\frac{%s}{%s}=',[num, den]);
 
+   x := strtofloat(pile.Strings[3])*strtofloat(pile.Strings[2])/(strtofloat(pile.Strings[1])*strtofloat(pile.Strings[0]));
+   sl_corrige.Add(floattostr(x));
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
