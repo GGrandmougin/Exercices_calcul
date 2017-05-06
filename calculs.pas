@@ -1332,10 +1332,9 @@ begin
 
    result := format('\frac{%s10^{3$%s}\times%s10^{3$%s}}{%s10^{3$%s}\times%s10^{3$%s}}=', [n1, en1, n2, en2, d1, ed1, d2, ed2]);
 end; *)
-
-function top_frac_avec_puiss10.genere_formule: string;
+(*function top_frac_avec_puiss10.genere_formule: string;
 const
-   p10 = '10^{';
+   p10 = '10^{3$';
 var
    sfact, exp : array[1.. 4] of string ;
    f , fact : array[1.. 4] of integer;
@@ -1368,6 +1367,43 @@ begin
    //pile.insert(0,'____');                              //pour test
 
    result := '\frac{' + sfact[1] +  exp[1] + '\times' + sfact[2] +  exp[2] + '}{'  + sfact[3] +  exp[3] + '\times' + sfact[4] +  exp[4] + '}=';
+end;*)
+
+function top_frac_avec_puiss10.genere_formule: string;
+var
+   num, den : string ;
+   f  : array[1.. 4] of integer;
+   i : integer;
+function facteur( f ,g : integer; denominateur : boolean): string;
+var
+   n : integer;
+begin
+   if denominateur then begin
+      if op_alea.binaire then n := 1 else n := f;
+      if op_alea.binaire then n := n * g;
+   end else begin
+       n := f * g
+   end;
+   //pile.insert(0, inttostr(fact[i]));                  //pour test
+   if n mod 10 = 0 then n := n div 10;
+   if n = 1 then result := '' else result := inttostr(n) + '\times' ;
+   if length(result) = 8 then insert(',', result, 2);
+   result := result + '10^{3$' + op_alea.splage(-5, 5) + '}' ;
+end;
+begin
+   for i := 1 to 4 do begin
+      f[i] := op_alea.iplage(1,9) ;
+      //pile.insert(0, inttostr(f[i]));                  //pour test
+   end;
+   num := facteur(f[1], f[2], false) + '\times' + facteur(f[3], f[4], false);
+   op_alea.melange_tableau(f);
+   den := facteur(f[1], f[2], true) + '\times' + facteur(f[3], f[4], true);
+
+   //for i := 1 to 4 do  pile.insert(0, inttostr(f[i])); //pour test
+   //pile.insert(0,'____');                              //pour test
+
+   result := format('\frac{%s}{%s}=',[num, den]);
+
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
