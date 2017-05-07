@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 358
-  Top = 267
+  Left = 225
+  Top = 217
   Width = 891
   Height = 689
   Color = clBtnFace

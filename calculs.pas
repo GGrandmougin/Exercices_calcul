@@ -387,7 +387,6 @@ var
    num, den : string;
    n, d, p : integer;
 begin
-   routines.set_no_feuille;
    num := addition_fractions(true, diff_plus);
    den := addition_fractions(true, diff_plus);
    while strtoint(pile.Strings[1]) = 0  do begin
@@ -418,7 +417,8 @@ begin
    case type_info of
       info_titre   : result := '';
       info_ennonce : result := '';
-      info_commentaire : result := 'Avec l''option difficulté plus, les dénominateurs peuvent être négatifs';
+      info_commentaire : begin result := 'Présence du corrigé';
+                         ajout_ligne(result,'Avec l''option difficulté plus, les dénominateurs peuvent être négatifs'); end;
    else
       result := '';
    end;
@@ -442,7 +442,6 @@ var
    num, den : string;
    n, d, p : integer;
 begin
-   routines.set_no_feuille;
    num := operations_fractions(true);
    den := operations_fractions(true);
    while strtoint(pile.Strings[1]) = 0  do begin
@@ -470,7 +469,13 @@ end;
 
 function top_fraction_etages2.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := '';
+      info_ennonce : result := '';
+      info_commentaire : result := 'Présence du corrigé';
+   else
+      result := '';
+   end;
 end;
 
 { top_fractions_empilees }
@@ -787,7 +792,6 @@ var
    a, b : string;
    p : integer;
 begin
-   routines.set_no_feuille;
    if diff_plus then p := -2 else p := 0;
    a := op_alea.snombre(4, p , 0);
    while a = '1' do a:= op_alea.snombre(4, p , 0);
@@ -830,7 +834,6 @@ var
    i, x : integer;
    a, b, st : string;
 begin // \begin{tabular}{r@{.}l}3&14159\\
-   routines.set_no_feuille;
    result := '\begin{tabular}{l}';  //{r@{.}l}';
    x := 0;
    for i := 1 to nb_nombre do begin
@@ -1000,7 +1003,6 @@ var
    n, la, lb, lc, s : integer;
    //a,b,c : single;
 begin
-   routines.set_no_feuille;
    if op_alea.UnSurX(3) then begin
       repeat
          la := op_alea.iplage(5, 50);
@@ -1284,7 +1286,7 @@ begin
    case type_info of
       info_titre       : result := 'Opérations sur des nombres en notation scientifique';
       info_ennonce     : result := 'Exprimer en en notation scientifique, le resultat des opérations';
-      info_commentaire : result := '';
+      info_commentaire : result := 'Présence du corrigé';
    else
       result := '';
    end;
@@ -1305,86 +1307,6 @@ begin
 
   inherited;
 end;
-
-(*  implémention alternative OK aussi
-
-function top_frac_avec_puiss10.genere_formule: string;
-var
-   n1, n2, d1, d2, en1, en2, ed1, ed2 :string  ;
-   f : array[1.. 4] of integer;
-   i , nu1, nu2, de1, de2  : integer;
-begin
-   for i := 1 to 4 do begin
-      f[i] := op_alea.iplage(1,9) ;
-   end;
-   nu1 := f[2] * f[1];
-   nu2 := f[4] * f[3];
-
-   op_alea.melange_tableau(f);
-
-   if op_alea.binaire then de1 := 1 else de1 := f[1];
-   if op_alea.binaire then de1 := f[2] * de1;
-   if op_alea.binaire then de2 := 1 else de2 := f[3];
-   if op_alea.binaire then de2 := f[4] * de2;
-
-   if nu1 mod 10 = 0 then nu1 := nu1 div 10;
-   if nu2 mod 10 = 0 then nu2 := nu2 div 10;
-   if de1 mod 10 = 0 then de1 := de1 div 10;
-   if de2 mod 10 = 0 then de2 := de2 div 10;
-
-   if nu1 = 1 then n1 := '' else n1 := inttostr(nu1) + '\times' ;
-   if nu2 = 1 then n2 := '' else n2 := inttostr(nu2) + '\times' ;
-   if de1 = 1 then d1 := '' else d1 := inttostr(de1) + '\times' ;
-   if de2 = 1 then d2 := '' else d2 := inttostr(de2) + '\times' ;
-
-   if length(n1) = 8 then insert(',', n1, 2);
-   if length(n2) = 8 then insert(',', n2, 2);
-   if length(d1) = 8 then insert(',', d1, 2);
-   if length(d2) = 8 then insert(',', d2, 2);
-
-   en1 := op_alea.splage(-5, 5);
-   en2 := op_alea.splage(-5, 5);
-   ed1 := op_alea.splage(-5, 5);
-   ed2 := op_alea.splage(-5, 5);
-
-   result := format('\frac{%s10^{3$%s}\times%s10^{3$%s}}{%s10^{3$%s}\times%s10^{3$%s}}=', [n1, en1, n2, en2, d1, ed1, d2, ed2]);
-end; *)
-(*function top_frac_avec_puiss10.genere_formule: string;
-const
-   p10 = '10^{3$';
-var
-   sfact, exp : array[1.. 4] of string ;
-   f , fact : array[1.. 4] of integer;
-   i : integer;
-begin
-   for i := 1 to 4 do begin
-      f[i] := op_alea.iplage(1,9) ;
-      //pile.insert(0, inttostr(f[i]));                  //pour test
-   end;
-   for i := 1 to 2 do begin
-      fact[i] := f[i ] * f[i + 2];
-   end;
-
-   op_alea.melange_tableau(f);
-
-   for i := 1 to 2 do begin
-      if op_alea.binaire then fact[i + 2] := 1 else fact[i + 2] := f[i];
-      if op_alea.binaire then fact[i + 2] := f[i + 2] * fact[i + 2];
-   end;
-
-   for i := 1 to 4 do begin
-      //pile.insert(0, inttostr(fact[i]));               //pour test
-      if fact[i] mod 10 = 0 then fact[i] := fact[i] div 10;
-      if fact[i] = 1 then sfact[i] := '' else sfact[i] := inttostr(fact[i]) + '\times' ;
-      if length(sfact[i]) = 8 then insert(',', sfact[i], 2);
-      exp[i] := p10 + op_alea.splage(-5, 5) + '}' ;
-   end;
-
-   //for i := 1 to 4 do  pile.insert(0, inttostr(f[i])); //pour test
-   //pile.insert(0,'____');                              //pour test
-
-   result := '\frac{' + sfact[1] +  exp[1] + '\times' + sfact[2] +  exp[2] + '}{'  + sfact[3] +  exp[3] + '\times' + sfact[4] +  exp[4] + '}=';
-end;*)
 
 function top_frac_avec_puiss10.genere_formule: string;
 var
@@ -1433,7 +1355,7 @@ begin
    case type_info of
       info_titre       : result := 'Fractions avec des nombres en notation scientifique';
       info_ennonce     : result := 'Exprimer en en notation scientifique, le resultat des opérations';
-      info_commentaire : result := '';
+      info_commentaire : result := 'Présence du corrigé';
    else
       result := '';
    end;

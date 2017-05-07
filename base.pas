@@ -655,10 +655,11 @@ procedure tlatex.une_colonne( calculs : i_calculs ; nb_lignes : integer; espace 
 var
    st, saut, stpre, fm : string;
    i : integer;
-   implemente : boolean;
+   implemente, nfeuille : boolean;
 begin
    depassement := false;
    implemente := false;
+   nfeuille := true;
    if espace = 0 then
       saut := '\\'
    else
@@ -666,9 +667,11 @@ begin
    for i := 1 to nb_lignes do begin
       if st <> '' then   st := st + saut else st :=  '5$';
       fm := calculs.genere_formule;
+      nfeuille := nfeuille and (sl_corrige.Count > 0);
       implemente := length(fm) > 0;
       st := st + fm;
-      if i = 1 then st := routines.get_no_feuille + st;
+      //if i = 1 then st := routines.get_no_feuille + st;
+      if nfeuille then begin st := routines.set_no_feuille + st; nfeuille := false end;
       if length(st) > max_car then begin
          st := stpre;
          depassement := true;
@@ -694,7 +697,7 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
 *)
    depassement := false;
    implemente := false;
-   nfeuille := true;
+   nfeuille := true; //true;
    st := '5$\begin{tabular}{l';
    esp_col := '\hspace{' + inttostr(espaceh) + '}';
    esp_ln := '\\\vspace{' + inttostr(espacev) + '}\\';
@@ -707,8 +710,9 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
          for c := 1 to nb_colonnes  do begin
             fm := calculs.genere_formule;
             implemente := length(fm) > 0;
+            nfeuille := nfeuille and (sl_corrige.Count > 0);
             st := st + fm + esp_col;
-            if nfeuille then begin st := routines.get_no_feuille + st; nfeuille := false end;
+            if nfeuille then begin st := routines.set_no_feuille + st; nfeuille := false end;
             if c <> nb_colonnes then st := st + '&';
             if length(st) > max_car - 29 then begin
                st := stpre;
@@ -745,9 +749,10 @@ begin
    for il := 1 to nb_lignes do begin
       for ic := 1 to nb_colonnes  do begin
          if idx  < sl_corrige.Count then begin
-            st := st + sl_corrige[idx];
-            st := st + '\hspace{' + inttostr(espaceh) + '}';
-            if ic <> nb_colonnes then st := st + '&';
+            st := st + '  ' + sl_corrige[idx] + '  ';
+            if ic <> nb_colonnes then begin
+               st := st + '\hspace{' + inttostr(espaceh) + '}&';
+            end;
          end;
          inc(idx);
       end;
@@ -808,7 +813,7 @@ end;
 function top_corrige.genere_formule: string;
 begin
    if index_corrige < sl_corrige.Count then begin
-      result := sl_corrige[index_corrige];
+      result := sl_corrige[index_corrige] ;
    end else begin
       result := '-';
    end;

@@ -170,6 +170,7 @@ const
 pp_image = 'Envoi l''image dans le presse_papiers';
 pp_code = 'Envoi le texte du code LaTex dans le presse_papiers' ;
 lgn_sep : string = #13#10 + ' ' + #13#10;
+clcorrige = clFuchsia;
 
 var
   Form1: TForm1;
@@ -338,10 +339,10 @@ end;
 procedure TForm1.BCorrigeClick(Sender: TObject);
 begin
    index_corrige := 0;
-   genere(top_corrige.create, true);
    BCorrige.Visible := false;
    Lcorrige.Visible := true;
-   Paffichage.Color := clFuchsia;
+   Paffichage.Color := clcorrige;
+   genere(top_corrige.create, true);
 end;
 
 procedure TForm1.BPressepapierClick(Sender: TObject);
@@ -478,7 +479,7 @@ begin
    end;;
    Ldimensions2.Caption := inttostr(Ilatex.width) + ' x ' + inttostr(Ilatex.Height);
    Application.ProcessMessages;
-   traite_corrige;
+   if not Lcorrige.Visible then traite_corrige;
 end;
 
 procedure TForm1.traite_corrige;
