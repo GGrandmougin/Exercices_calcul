@@ -82,8 +82,8 @@ type
     imgLatex, imgPage : timage;
     depassement : boolean;
     function dim_impression( himg, limg, h_ttl, l_ttl : integer) : trect;
-    procedure une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
-    procedure tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0);
+    procedure une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0; correction : boolean = false);
+    procedure tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0; correction : boolean = false);
     function txt_corrige( nb_lignes, nb_colonnes, espacev, espaceh  : integer ): string;
     procedure latex2img(latex: string);
     constructor create( img_latex, img_page : timage);
@@ -651,7 +651,7 @@ begin
    imgPage.canvas.CopyRect(drect, imglatex.canvas, srect);
 end;
 
-procedure tlatex.une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0);
+procedure tlatex.une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0; correction : boolean = false);
 var
    st, saut, stpre, fm : string;
    i : integer;
@@ -659,7 +659,7 @@ var
 begin
    depassement := false;
    implemente := false;
-   nfeuille := true;
+   nfeuille := not correction;
    if espace = 0 then
       saut := '\\'
    else
@@ -670,7 +670,7 @@ begin
       nfeuille := nfeuille and (sl_corrige.Count > 0);
       implemente := length(fm) > 0;
       st := st + fm;
-      //if i = 1 then st := routines.get_no_feuille + st;
+      if correction and (i = 1) then st := routines.get_no_feuille + st;
       if nfeuille then begin st := routines.set_no_feuille + st; nfeuille := false end;
       if length(st) > max_car then begin
          st := stpre;
@@ -686,7 +686,7 @@ begin
    end;
 end;
 
-procedure tlatex.tableau(calculs: i_calculs; nb_lignes, nb_colonnes,  espacev, espaceh: integer);
+procedure tlatex.tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0; correction : boolean = false);
 var
    st, stpre, esp_col, esp_ln , fm: string;
    l, c : integer;
@@ -697,7 +697,7 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
 *)
    depassement := false;
    implemente := false;
-   nfeuille := true; //true;
+   nfeuille := not correction; //true;
    st := '5$\begin{tabular}{l';
    esp_col := '\hspace{' + inttostr(espaceh) + '}';
    esp_ln := '\\\vspace{' + inttostr(espacev) + '}\\';
@@ -712,6 +712,7 @@ begin  //\begin{tabular}{l|l|l}  l1c1 &  l1c2  &  l1c3 \\  l2c1 & l2c2 &  l2c3 \
             implemente := length(fm) > 0;
             nfeuille := nfeuille and (sl_corrige.Count > 0);
             st := st + fm + esp_col;
+            if correction and (c*l = 1 ) then st := routines.get_no_feuille + st;
             if nfeuille then begin st := routines.set_no_feuille + st; nfeuille := false end;
             if c <> nb_colonnes then st := st + '&';
             if length(st) > max_car - 29 then begin

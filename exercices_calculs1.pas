@@ -470,9 +470,9 @@ begin
    if (l > 0) and (c > 0) then begin
       if not corrige then begin clear_corrige; routines.initialise end;
       if c = 1 then begin
-          olatex.une_colonne(icalc, l, ev);
+          olatex.une_colonne(icalc, l, ev, corrige);
       end else begin
-          olatex.tableau(icalc, l, c, ev, eh);
+          olatex.tableau(icalc, l, c, ev, eh, corrige);
       end;
    end else begin
       showmessage('Valeur incorrecte dans "Lignes" ou "Colonnes"');
