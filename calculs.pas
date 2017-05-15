@@ -234,15 +234,15 @@ begin
    if sgn = '+' then sgn := '';
    if b1 and b2 then begin
       result := snum + num1;
-      den := '1';
-      sden := '';
+      d1 := 1;
       n1 := strtoint(result);
    end else begin
       result := format('%s\frac{%s%s}{%s%s}', [sgn, snum, num1, sden, den]);
       n1 := strtoint(snum + num1);
+      d1 := strtoint(den);
       if (sgn = '-') xor (sden = '-') then n1 := - n1;
    end;
-   d1 := strtoint(den);
+
    op := op_alea.signe;
    if difpl then den := op_alea.splage(2,9);
    num := op_alea.spl1_9;
@@ -257,20 +257,21 @@ begin
    end;
    if b1 and not b2 then begin
       result := result + op + num  ;
-      den := '1';
-      sden := '';
-   end else
+      d2 := 1;
+      n2 := strtoint(op + num);
+   end else begin
       result := format('%s%s\frac{%s%s}{%s%s}', [result, op, snum, num, sden, den]);
-
-   n2 := strtoint(snum + num);
-   d2 := strtoint(den);
+      n2 := strtoint(snum + num);
+      d2 := strtoint(den);
+      if (op = '-') xor (sden = '-') then n2 := - n2;
+   end;
    if d1 <> d2 then begin
       n1 := n1 * d2;
       n2 := n2 * d1;
       d := d1 * d2;
    end else
       d := d1;
-   if (op = '-') xor (sden = '-') then n := n1 - n2 else n := n1 + n2  ;
+   n := n1 + n2  ;
    p := routines.pgcd(n, d);
    if p > 1 then begin
       n := n div p;
