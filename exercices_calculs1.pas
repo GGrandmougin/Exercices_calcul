@@ -112,6 +112,7 @@ type
     TreeView1: TTreeView;
     Minfos: TMemo;
     Lclicdroit: TLabel;
+    Ltxtcorr: TLabel;
     procedure genere(icalc : i_calculs; corrige : boolean = false);
     procedure clear_corrige;
     procedure reset_impression;
@@ -340,6 +341,7 @@ procedure TForm1.BCorrigeClick(Sender: TObject);
 begin
    index_corrige := 0;
    BCorrige.Visible := false;
+   Ltxtcorr.Visible := false;
    Lcorrige.Visible := true;
    Paffichage.Color := clcorrige;
    genere(top_corrige.create, true);
@@ -488,6 +490,7 @@ var
    st : string;
 begin
    BCorrige.Visible := sl_corrige.Count > 0;
+   Ltxtcorr.Visible := BCorrige.Visible;
    if BCorrige.Visible then begin
       l := strtointdef( Enombre.Text , 0);
       ev := strtointdef( Eespace.Text , 0);

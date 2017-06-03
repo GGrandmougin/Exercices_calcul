@@ -66,6 +66,8 @@ __recovery/
 
 #autre
 *.gif
+*.zip
+*.zi_
 corriges.txt
 
 

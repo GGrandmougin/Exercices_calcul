@@ -162,6 +162,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_eq1degre = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 
 implementation
 
@@ -1357,6 +1364,78 @@ begin
       info_titre       : result := 'Fractions avec des nombres en notation scientifique';
       info_ennonce     : result := 'Exprimer en en notation scientifique, le resultat des opérations';
       info_commentaire : result := 'Présence du corrigé';
+   else
+      result := '';
+   end;
+end;
+
+{ top_eq1degre }
+
+constructor top_eq1degre.create;
+begin
+
+end;
+
+destructor top_eq1degre.destroy;
+begin
+
+  inherited;
+end;
+
+function top_eq1degre.genere_formule: string;
+var
+   x, a, b, c, d, i, j : integer; // ax + b = c  ; c ( ax +b) = d
+   membre : array[1.. 2] of string;
+   frac : boolean;
+begin
+   frac := diff_plus and op_alea.binaire ;
+   x := op_alea.iplage(-10, 10);
+   a := op_alea.iplage(-10, 10);
+   while a = 0 do a := op_alea.iplage(-10, 10);
+   b := op_alea.iplage(-10, 10);
+   if frac then begin
+      c := op_alea.iplage(-10, 10);
+      while c = 0 do c := op_alea.iplage(-10, 10);
+      d := c * ( a * x + b);
+   end else begin
+      c := a * x + b;
+   end;
+   sl_corrige.Add(inttostr(x));
+   if op_alea.binaire then i := 1 else i := 2;
+   j := 3 -i;
+   if a = 1 then
+      membre[1] := 'x'
+   else if a = -1 then
+      membre[1] := '-x'
+   else
+      membre[1] := inttostr(a) + 'x';
+   if b <> 0 then begin
+      if op_alea.binaire then begin
+         if b > 0 then
+            membre[1] := membre[1]  + '+' + inttostr(b)
+         else
+            membre[1] := membre[1]  + inttostr(b)
+      end else begin
+         if a > 0 then
+            membre[1] := inttostr(b) + '+' + membre[1]
+         else
+            membre[1] := inttostr(b) + membre[1] ;
+      end;
+   end;
+   if frac then begin
+      membre[1] := '\frac{' + inttostr(d) + '}{' + membre[1] + '}' ;
+   end;
+   membre[2] := inttostr(c);
+   result := membre[i] + '=' + membre[j];
+
+end;
+
+function top_eq1degre.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := '';
+      info_ennonce     : result := '';
+      info_commentaire : result := '';
    else
       result := '';
    end;
