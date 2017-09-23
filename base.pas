@@ -378,6 +378,7 @@ begin
          end else begin
             insert(',' , st, lst + p +1 );
          end;
+         lst := length(st);
          if st[lst] = '0' then st[lst] := spl1_9[1];
       end;
    end;

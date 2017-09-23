@@ -169,6 +169,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_conv_unites = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 
 implementation
 
@@ -1399,6 +1406,7 @@ begin
       d := c * ( a * x + b);
    end else begin
       c := a * x + b;
+      d := 0;
    end;
    sl_corrige.Add(inttostr(x));
    if op_alea.binaire then i := 1 else i := 2;
@@ -1434,6 +1442,50 @@ function top_eq1degre.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := '';
+      info_ennonce     : result := '';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_conv_unites }
+
+constructor top_conv_unites.create;
+begin
+
+end;
+
+destructor top_conv_unites.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_unites.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb : string;
+function choix_prefixe( origine : string): string;
+begin
+   repeat
+      result := op_alea.caracteres('khbzdcm');
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+   until result <> origine;
+end;
+begin
+   if op_alea.binaire then u := 'm' else u := 'g';
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori);
+   nb := op_alea.snombre(4, -7 , 3) ;
+   if diff_plus then  prf2 := choix_prefixe(prf1) else prf2 := '';
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+end;
+
+function top_conv_unites.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Conversion d''unités';
       info_ennonce     : result := '';
       info_commentaire : result := '';
    else

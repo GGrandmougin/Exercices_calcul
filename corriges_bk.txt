@@ -1,0 +1,1510 @@
+0$62705\\5$30/1\hspace{50}\\\vspace{50}\\3/23\hspace{50}\\\vspace{50}\\7/20\hspace{50}\\\vspace{50}\\-81/292\hspace{50}\\\vspace{50}\\97/7\hspace{50}\\\vspace{50}\\
+ 
+0$195151\\5$4/27\hspace{50}\\\vspace{50}\\16/11\hspace{50}\\\vspace{50}\\49/468\hspace{50}\\\vspace{50}\\7/102\hspace{50}\\\vspace{50}\\-20/21\hspace{50}\\\vspace{50}\\
+ 
+0$92638\\5$ABC\ est\ rectangle\ :\ 2304+3025=5329\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2025+3600=5625\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 225+400=625\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1936+5329<>7225\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1600+5625=7225\hspace{50}\\\vspace{50}\\
+ 
+0$692485\\5$20608\hspace{50}\\\vspace{50}\\1016\hspace{50}\\\vspace{50}\\35\hspace{50}\\\vspace{50}\\2759372\hspace{50}\\\vspace{50}\\960\hspace{50}\\\vspace{50}\\
+ 
+0$859561\\5$66,11\hspace{50}\\\vspace{50}\\60,68\hspace{50}\\\vspace{50}\\51,14\hspace{50}\\\vspace{50}\\46,90\hspace{50}\\\vspace{50}\\40,97\hspace{50}\\\vspace{50}\\
+ 
+0$825446\\5$ABC\ est\ rectangle\ :\ 144+1225=1369\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 900+5184=6084\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 81+7056<>7056\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 225+1296=1521\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1024+2704<>3721\hspace{50}\\\vspace{50}\\
+ 
+0$814637\\5$59,93\hspace{50}\\\vspace{50}\\45,05\hspace{50}\\\vspace{50}\\45,17\hspace{50}\\\vspace{50}\\41,92\hspace{50}\\\vspace{50}\\63,34\hspace{50}\\\vspace{50}\\
+ 
+0$349904\\5$18/49\hspace{50}\\\vspace{50}\\365/177\hspace{50}\\\vspace{50}\\3/175\hspace{50}\\\vspace{50}\\-7/24\hspace{50}\\\vspace{50}\\65/162\hspace{50}\\\vspace{50}\\
+ 
+0$249206\\5$ABC\ est\ rectangle\ :\ 25+144=169\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 144+256=400\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 484+4624<>5041\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1521+2304<>3844\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 169+7056=7225\hspace{50}\\\vspace{50}\\
+ 
+0$305509\\5$ABC\ est\ rectangle\ :\ 81+144=225\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 49+676<>729\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 2500+3600<>6084\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 169+7396<>7569\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2304+3025=5329\hspace{50}\\\vspace{50}\\
+ 
+0$853173\\5$-104/21\hspace{50}\\\vspace{50}\\140/297\hspace{50}\\\vspace{50}\\57/20\hspace{50}\\\vspace{50}\\-413/555\hspace{50}\\\vspace{50}\\130/513\hspace{50}\\\vspace{50}\\
+ 
+0$117362\\5$68/5\hspace{50}\\\vspace{50}\\-136/45\hspace{50}\\\vspace{50}\\63/16\hspace{50}\\\vspace{50}\\14/5\hspace{50}\\\vspace{50}\\7/26\hspace{50}\\\vspace{50}\\
+ 
+0$296307\\5$685/432\hspace{50}\\\vspace{50}\\0/-1\hspace{50}\\\vspace{50}\\1/14\hspace{50}\\\vspace{50}\\16/27\hspace{50}\\\vspace{50}\\-1116/605\hspace{50}\\\vspace{50}\\
+ 
+0$792841\\5$-9/2\hspace{50}\\\vspace{50}\\-203/129\hspace{50}\\\vspace{50}\\1/3\hspace{50}\\\vspace{50}\\-16/1\hspace{50}\\\vspace{50}\\175/27\hspace{50}\\\vspace{50}\\
+ 
+0$218352\\5$27/70\hspace{50}\\\vspace{50}\\301/16\hspace{50}\\\vspace{50}\\104/231\hspace{50}\\\vspace{50}\\-603/55\hspace{50}\\\vspace{50}\\27/5\hspace{50}\\\vspace{50}\\
+ 
+0$17715\\5$35/32\hspace{50}\\\vspace{200}\\704/105\hspace{50}\\\vspace{200}\\-20/189\hspace{50}\\\vspace{200}\\51/98\hspace{50}\\\vspace{200}\\-133/16\hspace{50}\\\vspace{200}\\414/539\hspace{50}\\\vspace{200}\\125/44\hspace{50}\\\vspace{200}\\86/57\hspace{50}\\\vspace{200}\\640/343\hspace{50}\\\vspace{200}\\77/27\hspace{50}\\\vspace{200}\\1323/16\hspace{50}\\\vspace{200}\\9/175\hspace{50}\\\vspace{200}\\-441/424\hspace{50}\\\vspace{200}\\148/399\hspace{50}\\\vspace{200}\\-34/27\hspace{50}\\\vspace{200}\\-19/115\hspace{50}\\\vspace{200}\\335/98\hspace{50}\\\vspace{200}\\-40/99\hspace{50}\\\vspace{200}\\10/13\hspace{50}\\\vspace{200}\\25/72\hspace{50}\\\vspace{200}\\189/244\hspace{50}\\\vspace{200}\\-445/54\hspace{50}\\\vspace{200}\\14/1\hspace{50}\\\vspace{200}\\-192/35\hspace{50}\\\vspace{200}\\-140/141\hspace{50}\\\vspace{200}\\-81/185\hspace{50}\\\vspace{200}\\114/119\hspace{50}\\\vspace{200}\\162/53\hspace{50}\\\vspace{200}\\43/18\hspace{50}\\\vspace{200}\\-11/85\hspace{50}\\\vspace{200}\\
+ 
+0$626518\\5$94/147\hspace{50}\\\vspace{200}\\-2/5\hspace{50}\\\vspace{200}\\-9/4\hspace{50}\\\vspace{200}\\-155/96\hspace{50}\\\vspace{200}\\7/17\hspace{50}\\\vspace{200}\\-29/8\hspace{50}\\\vspace{200}\\51/160\hspace{50}\\\vspace{200}\\2/5\hspace{50}\\\vspace{200}\\1715/384\hspace{50}\\\vspace{200}\\-686/135\hspace{50}\\\vspace{200}\\-609/620\hspace{50}\\\vspace{200}\\891/1106\hspace{50}\\\vspace{200}\\12/5\hspace{50}\\\vspace{200}\\256/325\hspace{50}\\\vspace{200}\\-4/21\hspace{50}\\\vspace{200}\\9/14\hspace{50}\\\vspace{200}\\445/48\hspace{50}\\\vspace{200}\\28/15\hspace{50}\\\vspace{200}\\860/327\hspace{50}\\\vspace{200}\\93/812\hspace{50}\\\vspace{200}\\279/5\hspace{50}\\\vspace{200}\\63/170\hspace{50}\\\vspace{200}\\392/165\hspace{50}\\\vspace{200}\\16/15\hspace{50}\\\vspace{200}\\9/280\hspace{50}\\\vspace{200}\\-332/225\hspace{50}\\\vspace{200}\\31/40\hspace{50}\\\vspace{200}\\18/49\hspace{50}\\\vspace{200}\\560/8181\hspace{50}\\\vspace{200}\\-141/35\hspace{50}\\\vspace{200}\\
+ 
+0$221635\\5$664/595\hspace{50}\\\vspace{200}\\-25/27\hspace{50}\\\vspace{200}\\5/28\hspace{50}\\\vspace{200}\\
+ 
+0$884815\\5$27/28\hspace{50}\\\vspace{200}\\123/97\hspace{50}\\\vspace{200}\\95/6\hspace{50}\\\vspace{200}\\
+ 
+0$853533\\5$15/352\hspace{50}\\\vspace{200}\\375/532\hspace{50}\\\vspace{200}\\23/14\hspace{50}\\\vspace{200}\\50/49\hspace{50}\\\vspace{200}\\-5/26\hspace{50}\\\vspace{200}\\
+ 
+0$853533\\5$15/352\hspace{50}\\\vspace{200}\\375/532\hspace{50}\\\vspace{200}\\23/14\hspace{50}\\\vspace{200}\\50/49\hspace{50}\\\vspace{200}\\-5/26\hspace{50}\\\vspace{200}\\
+ 
+0$28081\\5$5/8\hspace{50}\\\vspace{50}\\72/55\hspace{50}\\\vspace{50}\\729/128\hspace{50}\\\vspace{50}\\47/66\hspace{50}\\\vspace{50}\\-17/8\hspace{50}\\\vspace{50}\\45/548\hspace{50}\\\vspace{50}\\155/222\hspace{50}\\\vspace{50}\\1/7\hspace{50}\\\vspace{50}\\-6/91\hspace{50}\\\vspace{50}\\54/25\hspace{50}\\\vspace{50}\\
+ 
+0$36269\\5$-324/245\hspace{50}\\\vspace{200}\\513/35\hspace{50}\\\vspace{200}\\512/105\hspace{50}\\\vspace{200}\\1/1\hspace{50}\\\vspace{200}\\245/32\hspace{50}\\\vspace{200}\\
+ 
+0$21051\\5$-115/76\hspace{50}\\\vspace{200}\\145/81\hspace{50}\\\vspace{200}\\1/2\hspace{50}\\\vspace{200}\\310/243\hspace{50}\\\vspace{200}\\70/53\hspace{50}\\\vspace{200}\\
+ 
+0$21051\\5$-115/76\hspace{50}\\\vspace{200}\\145/81\hspace{50}\\\vspace{200}\\1/2\hspace{50}\\\vspace{200}\\310/243\hspace{50}\\\vspace{200}\\70/53\hspace{50}\\\vspace{200}\\
+ 
+0$17220\\5$91/68\hspace{50}\\\vspace{50}\\47/6\hspace{50}\\\vspace{50}\\64/9\hspace{50}\\\vspace{50}\\-200/259\hspace{50}\\\vspace{50}\\104/3\hspace{50}\\\vspace{50}\\
+ 
+0$772106\\5$128/231\hspace{50}\\\vspace{200}\\-9/2\hspace{50}\\\vspace{200}\\-261/476\hspace{50}\\\vspace{200}\\43/8\hspace{50}\\\vspace{200}\\-38/21\hspace{50}\\\vspace{200}\\
+ 
+0$539077\\5$4/315\hspace{50}\\\vspace{200}\\-25/63\hspace{50}\\\vspace{200}\\102/65\hspace{50}\\\vspace{200}\\1/21\hspace{50}\\\vspace{200}\\147/136\hspace{50}\\\vspace{200}\\
+ 
+0$343613\\5$91/48\hspace{50}\\\vspace{200}\\56/3\hspace{50}\\\vspace{200}\\1312/1323\hspace{50}\\\vspace{200}\\256/1225\hspace{50}\\\vspace{200}\\896/405\hspace{50}\\\vspace{200}\\
+ 
+0$508944\\5$21/20\hspace{50}\\\vspace{200}\\5/7\hspace{50}\\\vspace{200}\\60/23\hspace{50}\\\vspace{200}\\11/7\hspace{50}\\\vspace{200}\\1/1\hspace{50}\\\vspace{200}\\
+ 
+0$152690\\5$50/27\hspace{50}\\\vspace{200}\\102/7\hspace{50}\\\vspace{200}\\27/1\hspace{50}\\\vspace{200}\\230/57\hspace{50}\\\vspace{200}\\-17/18\hspace{50}\\\vspace{200}\\
+ 
+0$780297\\5$118/45\hspace{50}\\\vspace{200}\\400/567\hspace{50}\\\vspace{200}\\55/18\hspace{50}\\\vspace{200}\\40/41\hspace{50}\\\vspace{200}\\174/245\hspace{50}\\\vspace{200}\\
+ 
+0$780297\\5$118/45\hspace{50}\\\vspace{200}\\400/567\hspace{50}\\\vspace{200}\\55/18\hspace{50}\\\vspace{200}\\40/41\hspace{50}\\\vspace{200}\\174/245\hspace{50}\\\vspace{200}\\
+ 
+0$234413\\5$81/61\hspace{50}\\\vspace{50}\\2/3\hspace{50}\\\vspace{50}\\3/10\hspace{50}\\\vspace{50}\\-9/140\hspace{50}\\\vspace{50}\\1/144\hspace{50}\\\vspace{50}\\243/140\hspace{50}\\\vspace{50}\\-11/135\hspace{50}\\\vspace{50}\\24/215\hspace{50}\\\vspace{50}\\549/200\hspace{50}\\\vspace{50}\\77/288\hspace{50}\\\vspace{50}\\2/3\hspace{50}\\\vspace{50}\\-104/63\hspace{50}\\\vspace{50}\\87/49\hspace{50}\\\vspace{50}\\7/60\hspace{50}\\\vspace{50}\\-120/37\hspace{50}\\\vspace{50}\\-40/17\hspace{50}\\\vspace{50}\\8/5\hspace{50}\\\vspace{50}\\-63/128\hspace{50}\\\vspace{50}\\0\hspace{50}\\\vspace{50}\\-2/63\hspace{50}\\\vspace{50}\\-5/9\hspace{50}\\\vspace{50}\\189/94\hspace{50}\\\vspace{50}\\-1/15\hspace{50}\\\vspace{50}\\413/72\hspace{50}\\\vspace{50}\\-182/11\hspace{50}\\\vspace{50}\\5/1029\hspace{50}\\\vspace{50}\\115/636\hspace{50}\\\vspace{50}\\29/24\hspace{50}\\\vspace{50}\\432/707\hspace{50}\\\vspace{50}\\36\hspace{50}\\\vspace{50}\\
+ 
+0$754471\\5$2/5\hspace{50}\\\vspace{200}\\469/940\hspace{50}\\\vspace{200}\\2225/216\hspace{50}\\\vspace{200}\\22/15\hspace{50}\\\vspace{200}\\20/27\hspace{50}\\\vspace{200}\\
+ 
+0$783585\\5$-75/266\hspace{50}\\\vspace{200}\\59/18\hspace{50}\\\vspace{200}\\1295/324\hspace{50}\\\vspace{200}\\-69/13\hspace{50}\\\vspace{200}\\-21/16\hspace{50}\\\vspace{200}\\
+ 
+0$783585\\5$-75/266\hspace{50}\\\vspace{200}\\59/18\hspace{50}\\\vspace{200}\\1295/324\hspace{50}\\\vspace{200}\\-69/13\hspace{50}\\\vspace{200}\\-21/16\hspace{50}\\\vspace{200}\\
+ 
+0$167180\\5$147/125\hspace{50}\\\vspace{50}\\-214/469\hspace{50}\\\vspace{50}\\7/3\hspace{50}\\\vspace{50}\\3/4\hspace{50}\\\vspace{50}\\-819/170\hspace{50}\\\vspace{50}\\
+ 
+0$167180\\5$147/125\hspace{50}\\\vspace{50}\\-214/469\hspace{50}\\\vspace{50}\\7/3\hspace{50}\\\vspace{50}\\3/4\hspace{50}\\\vspace{50}\\-819/170\hspace{50}\\\vspace{50}\\
+ 
+0$852915\\5$-20/27\hspace{50}\\\vspace{50}\\120/301\hspace{50}\\\vspace{50}\\-93/55\hspace{50}\\\vspace{50}\\75/86\hspace{50}\\\vspace{50}\\-10/87\hspace{50}\\\vspace{50}\\
+ 
+0$286289\\5$\begin{tabular}{ll}-87/155\hspace{50}&-38/27\hspace{50}\\\vspace{50}\\-24/77\hspace{50}&-63/50\hspace{50}\\\vspace{50}\\154/459\hspace{50}&10/49\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$680945\\5$\begin{tabular}{lll}96/133\hspace{50}&-79/288\hspace{50}&828/119\hspace{50}\\\vspace{50}\\77/48\hspace{50}&-21/32\hspace{50}&-51/205\hspace{50}\\\vspace{50}\\-64/63\hspace{50}&2025/1246\hspace{50}&-35/162\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$680945\\5$\begin{tabular}{lll}96/133\hspace{50}&-79/288\hspace{50}&828/119\hspace{50}\\\vspace{50}\\77/48\hspace{50}&-21/32\hspace{50}&-51/205\hspace{50}\\\vspace{50}\\-64/63\hspace{50}&2025/1246\hspace{50}&-35/162\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$275967\\5$\begin{tabular}{lll}-47/45\hspace{50}&-236/45\hspace{50}&45/7\hspace{50}\\\vspace{50}\\17/28\hspace{50}&9/28\hspace{50}&-203/304\hspace{50}\\\vspace{50}\\369/175\hspace{50}&-52/105\hspace{50}&130/19\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$275967\\5$\begin{tabular}{lll}-47/45\hspace{50}&-236/45\hspace{50}&45/7\hspace{50}\\\vspace{50}\\17/28\hspace{50}&9/28\hspace{50}&-203/304\hspace{50}\\\vspace{50}\\369/175\hspace{50}&-52/105\hspace{50}&130/19\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$489866\\5$18/85\hspace{50}\\\vspace{50}\\161/172\hspace{50}\\\vspace{50}\\79/110\hspace{50}\\\vspace{50}\\-175/26\hspace{50}\\\vspace{50}\\133/232\hspace{50}\\\vspace{50}\\
+ 
+0$570768\\5$\begin{tabular}{lll}161/354\hspace{50}&-45/8\hspace{50}&-287/212\hspace{50}\\\vspace{50}\\365/324\hspace{50}&-95/69\hspace{50}&288/145\hspace{50}\\\vspace{50}\\55/172\hspace{50}&-63/29\hspace{50}&35/1824\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$570768\\5$\begin{tabular}{lll}161/354\hspace{50}&-45/8\hspace{50}&-287/212\hspace{50}\\\vspace{50}\\365/324\hspace{50}&-95/69\hspace{50}&288/145\hspace{50}\\\vspace{50}\\55/172\hspace{50}&-63/29\hspace{50}&35/1824\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$352381\\5$\begin{tabular}{lll}-32/25\hspace{50}&-19/5\hspace{50}&14/99\hspace{50}\\\vspace{50}\\10/13\hspace{50}&150/413\hspace{50}&585/56\hspace{50}\\\vspace{50}\\33/47\hspace{50}&-19/18\hspace{50}&1224/511\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$352381\\5$\begin{tabular}{lll}-32/25\hspace{50}&-19/5\hspace{50}&14/99\hspace{50}\\\vspace{50}\\10/13\hspace{50}&150/413\hspace{50}&585/56\hspace{50}\\\vspace{50}\\33/47\hspace{50}&-19/18\hspace{50}&1224/511\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$802031\\5$\begin{tabular}{lll}-13/15\hspace{50}&57/340\hspace{50}&6/79\hspace{50}\\\vspace{50}\\7/81\hspace{50}&6\hspace{50}&-37/106\hspace{50}\\\vspace{50}\\-212/25\hspace{50}&-216/29\hspace{50}&-1/2\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$481574\\5$\begin{tabular}{lll}-28/207\hspace{50}&-49/36\hspace{50}&-77/65\hspace{50}\\\vspace{50}\\287/972\hspace{50}&-816/25\hspace{50}&16/5\hspace{50}\\\vspace{50}\\-14/27\hspace{50}&-21/13\hspace{50}&-574/153\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$155039\\5$\begin{tabular}{lll}-1197/500\hspace{50}&-7/6\hspace{50}&104/9\hspace{50}\\\vspace{50}\\200/231\hspace{50}&3/2\hspace{50}&-805/864\hspace{50}\\\vspace{50}\\-105/206\hspace{50}&35/228\hspace{50}&100/13\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$502881\\5$\begin{tabular}{lll}80/819\hspace{50}&-448/45\hspace{50}&-161/99\hspace{50}\\\vspace{50}\\31/45\hspace{50}&1323/184\hspace{50}&-31/6\hspace{50}\\\vspace{50}\\30/31\hspace{50}&63/68\hspace{50}&16/3\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$502881\\5$\begin{tabular}{lll}80/819\hspace{50}&-448/45\hspace{50}&-161/99\hspace{50}\\\vspace{50}\\31/45\hspace{50}&1323/184\hspace{50}&-31/6\hspace{50}\\\vspace{50}\\30/31\hspace{50}&63/68\hspace{50}&16/3\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$47656\\5$-12/5\hspace{50}\\\vspace{50}\\-404/273\hspace{50}\\\vspace{50}\\35/66\hspace{50}\\\vspace{50}\\-6/95\hspace{50}\\\vspace{50}\\203/93\hspace{50}\\\vspace{50}\\
+ 
+0$621077\\5$\begin{tabular}{lll}3/37\hspace{50}&-483/316\hspace{50}&-8/11\hspace{50}\\\vspace{50}\\43/148\hspace{50}&-48/55\hspace{50}&13/12\hspace{50}\\\vspace{50}\\-91/158\hspace{50}&-43/10\hspace{50}&-329/165\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$580415\\5$\begin{tabular}{lll}45/1372\hspace{50}&279/292\hspace{50}&-15/172\hspace{50}\\\vspace{50}\\-2\hspace{50}&-148/35\hspace{50}&603/518\hspace{50}\\\vspace{50}\\-11/105\hspace{50}&9/2\hspace{50}&18/31\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$681311\\5$\begin{tabular}{lll}-12/7\hspace{50}&-308/405\hspace{50}&340/129\hspace{50}\\\vspace{50}\\77/60\hspace{50}&-46/35\hspace{50}&-35/37\hspace{50}\\\vspace{50}\\-530/153\hspace{50}&1/10\hspace{50}&32/93\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$789522\\5$\begin{tabular}{lll}-91/355\hspace{50}&9/32\hspace{50}&18/79\hspace{50}\\\vspace{50}\\45/496\hspace{50}&37/162\hspace{50}&-1/3\hspace{50}\\\vspace{50}\\52/7\hspace{50}&-9/2\hspace{50}&35/68\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$75227\\5$\begin{tabular}{lll}568/111\hspace{50}&-45/77\hspace{50}&52/25\hspace{50}\\\vspace{50}\\29/180\hspace{50}&-19/56\hspace{50}&1155/274\hspace{50}\\\vspace{50}\\-14/225\hspace{50}&-225/88\hspace{50}&56/309\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$75227\\5$\begin{tabular}{lll}568/111\hspace{50}&-45/77\hspace{50}&52/25\hspace{50}\\\vspace{50}\\29/180\hspace{50}&-19/56\hspace{50}&1155/274\hspace{50}\\\vspace{50}\\-14/225\hspace{50}&-225/88\hspace{50}&56/309\hspace{50}\\\vspace{50}\\\end{tabular}
+ 
+0$405564\\5$-42/31\hspace{50}\\\vspace{50}\\85/132\hspace{50}\\\vspace{50}\\-552/77\hspace{50}\\\vspace{50}\\1204/639\hspace{50}\\\vspace{50}\\38/3\hspace{50}\\\vspace{50}\\99/710\hspace{50}\\\vspace{50}\\22/9\hspace{50}\\\vspace{50}\\63/304\hspace{50}\\\vspace{50}\\-130/29\hspace{50}\\\vspace{50}\\45/88\hspace{50}\\\vspace{50}\\10/7\hspace{50}\\\vspace{50}\\-3/35\hspace{50}\\\vspace{50}\\-275/144\hspace{50}\\\vspace{50}\\11/14\hspace{50}\\\vspace{50}\\-69/310\hspace{50}\\\vspace{50}\\66/125\hspace{50}\\\vspace{50}\\9/14\hspace{50}\\\vspace{50}\\-144/259\hspace{50}\\\vspace{50}\\-963/2744\hspace{50}\\\vspace{50}\\69/128\hspace{50}\\\vspace{50}\\-65/174\hspace{50}\\\vspace{50}\\161/6\hspace{50}\\\vspace{50}\\6/47\hspace{50}\\\vspace{50}\\-93/136\hspace{50}\\\vspace{50}\\-13/8\hspace{50}\\\vspace{50}\\-1/80\hspace{50}\\\vspace{50}\\118/345\hspace{50}\\\vspace{50}\\85/52\hspace{50}\\\vspace{50}\\-1/2\hspace{50}\\\vspace{50}\\-26/33\hspace{50}\\\vspace{50}\\
+ 
+0$866065\\5$ABC\ est\ rectangle\ :\ 225+1296=1521\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 576+4900=5476\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 625+2209<>2809\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 900+5184=6084\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1089+1936=3025\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 169+7056=7225\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 169+529<>676\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1024+3600=4624\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 484+2209<>2704\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 256+3969=4225\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 576+2025=2601\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2304+8100=10404\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 196+2304=2500\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1156+1681<>2809\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 784+9216=10000\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 441+5184=5625\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1369+1764<>3136\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 81+1600=1681\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1764+3136=4900\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1369+2500<>3844\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 784+1849<>2601\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2025+3600=5625\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 2116+4096<>6241\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 400+2304=2704\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 324+6400=6724\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1024+7569<>8649\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 100+3025<>3136\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 400+441=841\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 625+6400<>7056\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 25+576<>625\hspace{50}\\\vspace{50}\\
+ 
+0$220840\\5$-161/5\hspace{50}\\\vspace{50}\\-268/135\hspace{50}\\\vspace{50}\\-15/196\hspace{50}\\\vspace{50}\\-81/14\hspace{50}\\\vspace{50}\\-22/225\hspace{50}\\\vspace{50}\\384/497\hspace{50}\\\vspace{50}\\-86/117\hspace{50}\\\vspace{50}\\0\hspace{50}\\\vspace{50}\\21/43\hspace{50}\\\vspace{50}\\22/3\hspace{50}\\\vspace{50}\\13/54\hspace{50}\\\vspace{50}\\1485/266\hspace{50}\\\vspace{50}\\156/385\hspace{50}\\\vspace{50}\\-91/108\hspace{50}\\\vspace{50}\\8/11\hspace{50}\\\vspace{50}\\608/315\hspace{50}\\\vspace{50}\\125/87\hspace{50}\\\vspace{50}\\765/518\hspace{50}\\\vspace{50}\\-95/123\hspace{50}\\\vspace{50}\\516/245\hspace{50}\\\vspace{50}\\
+ 
+0$22013\\5$2457/880\hspace{50}\\\vspace{50}\\93/500\hspace{50}\\\vspace{50}\\-3/7\hspace{50}\\\vspace{50}\\9/55\hspace{50}\\\vspace{50}\\49/540\hspace{50}\\\vspace{50}\\-7/8\hspace{50}\\\vspace{50}\\-68/27\hspace{50}\\\vspace{50}\\-32/39\hspace{50}\\\vspace{50}\\9/29\hspace{50}\\\vspace{50}\\88/129\hspace{50}\\\vspace{50}\\40/33\hspace{50}\\\vspace{50}\\440/177\hspace{50}\\\vspace{50}\\63/55\hspace{50}\\\vspace{50}\\265/32\hspace{50}\\\vspace{50}\\13/18\hspace{50}\\\vspace{50}\\130/243\hspace{50}\\\vspace{50}\\-273/880\hspace{50}\\\vspace{50}\\308/19\hspace{50}\\\vspace{50}\\-117/74\hspace{50}\\\vspace{50}\\344/147\hspace{50}\\\vspace{50}\\
+ 
+0$652829\\5$11/174\hspace{50}\\\vspace{200}\\-19/30\hspace{50}\\\vspace{200}\\-22/45\hspace{50}\\\vspace{200}\\10/3\hspace{50}\\\vspace{200}\\8/15\hspace{50}\\\vspace{200}\\
+ 
+0$652829\\5$11/174\hspace{50}\\\vspace{200}\\-19/30\hspace{50}\\\vspace{200}\\-22/45\hspace{50}\\\vspace{200}\\10/3\hspace{50}\\\vspace{200}\\8/15\hspace{50}\\\vspace{200}\\
+ 
+0$986143\\5$-21/4\hspace{50}\\\vspace{50}\\36/23\hspace{50}\\\vspace{50}\\-38/11\hspace{50}\\\vspace{50}\\62/79\hspace{50}\\\vspace{50}\\26/9\hspace{50}\\\vspace{50}\\
+ 
+0$857883\\5$9/22\hspace{50}\\\vspace{50}\\0/-1\hspace{50}\\\vspace{50}\\36/23\hspace{50}\\\vspace{50}\\2/7\hspace{50}\\\vspace{50}\\-285/602\hspace{50}\\\vspace{50}\\-20/7\hspace{50}\\\vspace{50}\\-9/100\hspace{50}\\\vspace{50}\\-45/8\hspace{50}\\\vspace{50}\\-260/119\hspace{50}\\\vspace{50}\\8/9\hspace{50}\\\vspace{50}\\222/497\hspace{50}\\\vspace{50}\\-97/28\hspace{50}\\\vspace{50}\\-61/4\hspace{50}\\\vspace{50}\\-55/318\hspace{50}\\\vspace{50}\\-12/17\hspace{50}\\\vspace{50}\\117/142\hspace{50}\\\vspace{50}\\-5/14\hspace{50}\\\vspace{50}\\50/31\hspace{50}\\\vspace{50}\\-552/371\hspace{50}\\\vspace{50}\\81/196\hspace{50}\\\vspace{50}\\
+ 
+0$524884\\5$-205/77\hspace{50}\\\vspace{50}\\381/1456\hspace{50}\\\vspace{50}\\423/232\hspace{50}\\\vspace{50}\\116/385\hspace{50}\\\vspace{50}\\22/567\hspace{50}\\\vspace{50}\\13/441\hspace{50}\\\vspace{50}\\-90/47\hspace{50}\\\vspace{50}\\1/39\hspace{50}\\\vspace{50}\\1/6\hspace{50}\\\vspace{50}\\-185/42\hspace{50}\\\vspace{50}\\105/74\hspace{50}\\\vspace{50}\\477/370\hspace{50}\\\vspace{50}\\120/91\hspace{50}\\\vspace{50}\\-96/175\hspace{50}\\\vspace{50}\\48/73\hspace{50}\\\vspace{50}\\-14/165\hspace{50}\\\vspace{50}\\11/17\hspace{50}\\\vspace{50}\\-29/4\hspace{50}\\\vspace{50}\\-43/91\hspace{50}\\\vspace{50}\\120/287\hspace{50}\\\vspace{50}\\
+ 
+0$100541\\5$351/50\hspace{50}\\\vspace{50}\\224/81\hspace{50}\\\vspace{50}\\-69/98\hspace{50}\\\vspace{50}\\14/27\hspace{50}\\\vspace{50}\\48/833\hspace{50}\\\vspace{50}\\35/18\hspace{50}\\\vspace{50}\\-492/5\hspace{50}\\\vspace{50}\\14/657\hspace{50}\\\vspace{50}\\-32/49\hspace{50}\\\vspace{50}\\88/37\hspace{50}\\\vspace{50}\\-35/24\hspace{50}\\\vspace{50}\\-55/14\hspace{50}\\\vspace{50}\\3/98\hspace{50}\\\vspace{50}\\-50/39\hspace{50}\\\vspace{50}\\3/2\hspace{50}\\\vspace{50}\\87/44\hspace{50}\\\vspace{50}\\-272/505\hspace{50}\\\vspace{50}\\-60/49\hspace{50}\\\vspace{50}\\-1\hspace{50}\\\vspace{50}\\172/93\hspace{50}\\\vspace{50}\\
+ 
+0$390245\\5$15/32\hspace{50}\\\vspace{50}\\1449/1460\hspace{50}\\\vspace{50}\\-122/33\hspace{50}\\\vspace{50}\\-44/135\hspace{50}\\\vspace{50}\\-68/117\hspace{50}\\\vspace{50}\\41/138\hspace{50}\\\vspace{50}\\-351/560\hspace{50}\\\vspace{50}\\25/72\hspace{50}\\\vspace{50}\\-81\hspace{50}\\\vspace{50}\\-24/19\hspace{50}\\\vspace{50}\\-335/432\hspace{50}\\\vspace{50}\\49/225\hspace{50}\\\vspace{50}\\5/63\hspace{50}\\\vspace{50}\\32/61\hspace{50}\\\vspace{50}\\-1/9\hspace{50}\\\vspace{50}\\37/25\hspace{50}\\\vspace{50}\\-95/324\hspace{50}\\\vspace{50}\\-34/91\hspace{50}\\\vspace{50}\\10/37\hspace{50}\\\vspace{50}\\-44/135\hspace{50}\\\vspace{50}\\
+ 
+0$988187\\5$39,91\hspace{50}\\\vspace{50}\\45,77\hspace{50}\\\vspace{50}\\42,26\hspace{50}\\\vspace{50}\\49,57\hspace{50}\\\vspace{50}\\47,68\hspace{50}\\\vspace{50}\\
+ 
+0$655490\\5$56,86\hspace{50}\\\vspace{50}\\56,99\hspace{50}\\\vspace{50}\\45,88\hspace{50}\\\vspace{50}\\52,53\hspace{50}\\\vspace{50}\\48,41\hspace{50}\\\vspace{50}\\
+ 
+0$704187\\5$66612\hspace{50}\\\vspace{50}\\56\hspace{50}\\\vspace{50}\\2941182\hspace{50}\\\vspace{50}\\113160\hspace{50}\\\vspace{50}\\120016\hspace{50}\\\vspace{50}\\
+ 
+0$412196\\5$38,49\hspace{50}\\\vspace{50}\\53,15\hspace{50}\\\vspace{50}\\54,65\hspace{50}\\\vspace{50}\\64,98\hspace{50}\\\vspace{50}\\50,04\hspace{50}\\\vspace{50}\\
+ 
+0$310890\\5$49/2\hspace{50}\\\vspace{50}\\-456/469\hspace{50}\\\vspace{50}\\91/68\hspace{50}\\\vspace{50}\\320/27\hspace{50}\\\vspace{50}\\243/14\hspace{50}\\\vspace{50}\\
+ 
+0$139056\\5$99/17\hspace{50}\\\vspace{50}\\-3\hspace{50}\\\vspace{50}\\10/11\hspace{50}\\\vspace{50}\\1125/5936\hspace{50}\\\vspace{50}\\-46/129\hspace{50}\\\vspace{50}\\
+ 
+0$722028\\5$ABC\ est\ rectangle\ :\ 1521+2704=4225\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1936+2209<>4096\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 441+3721<>4225\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 121+3600=3721\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1089+1936=3025\hspace{50}\\\vspace{50}\\
+ 
+0$945061\\5$ABC\ est\ rectangle\ :\ 49+576=625\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 400+441=841\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2304+3025=5329\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 784+2209<>3025\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 169+7056=7225\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 784+2025=2809\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1225+7056=8281\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1296+2500<>3844\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 900+5184=6084\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 784+1089<>1849\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 196+2304=2500\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 2304+8100=10404\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 289+1024<>1296\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 576+1024=1600\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1296+1849<>3136\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1024+3481<>4489\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 576+4900=5476\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 729+5184<>5929\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 81+1600=1681\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 1764+3969<>5776\hspace{50}\\\vspace{50}\\
+ 
+0$285280\\5$ABC\ est\ rectangle\ :\ 324+576=900\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 144+256=400\hspace{50}\\\vspace{50}\\ABC\ n'est\ pas\ rectangle\ :\ 2025+2025<>4096\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1521+6400=7921\hspace{50}\\\vspace{50}\\ABC\ est\ rectangle\ :\ 1521+2704=4225\hspace{50}\\\vspace{50}\\
+ 
+0$427644\\5$9/245\hspace{50}\\\vspace{50}\\-40/9\hspace{50}\\\vspace{50}\\120/7\hspace{50}\\\vspace{50}\\4/49\hspace{50}\\\vspace{50}\\-7/3\hspace{50}\\\vspace{50}\\-45/266\hspace{50}\\\vspace{50}\\8/135\hspace{50}\\\vspace{50}\\-39/10\hspace{50}\\\vspace{50}\\158/91\hspace{50}\\\vspace{50}\\-31/5\hspace{50}\\\vspace{50}\\
+ 
+5$7,861\hspace{50}\\\vspace{50}\\0,181\hspace{50}\\\vspace{50}\\124\hspace{50}\\\vspace{50}\\9100\hspace{50}\\\vspace{50}\\21830\hspace{50}\\\vspace{50}\\
+ 
+5$7,861\hspace{50}\\\vspace{50}\\0,181\hspace{50}\\\vspace{50}\\124\hspace{50}\\\vspace{50}\\9100\hspace{50}\\\vspace{50}\\21830\hspace{50}\\\vspace{50}\\
+ 
+5$0,004\hspace{50}\\\vspace{50}\\1800000000\hspace{50}\\\vspace{50}\\25000\hspace{50}\\\vspace{50}\\1500000\hspace{50}\\\vspace{50}\\0,0816\hspace{50}\\\vspace{50}\\
+ 
+5$0,004\hspace{50}\\\vspace{50}\\1800000000\hspace{50}\\\vspace{50}\\25000\hspace{50}\\\vspace{50}\\1500000\hspace{50}\\\vspace{50}\\0,0816\hspace{50}\\\vspace{50}\\
+ 
+5$0,1845\hspace{50}\\\vspace{50}\\12600\hspace{50}\\\vspace{50}\\21\hspace{50}\\\vspace{50}\\0,0014\hspace{50}\\\vspace{50}\\84000000\hspace{50}\\\vspace{50}\\
+ 
+5$41,76\hspace{50}\\\vspace{50}\\1228800000000\hspace{50}\\\vspace{50}\\-9243\hspace{50}\\\vspace{50}\\1,224E-6\hspace{50}\\\vspace{50}\\3,64E-5\hspace{50}\\\vspace{50}\\
+ 
+5$41,76\hspace{50}\\\vspace{50}\\1228800000000\hspace{50}\\\vspace{50}\\-9243\hspace{50}\\\vspace{50}\\1,224E-6\hspace{50}\\\vspace{50}\\3,64E-5\hspace{50}\\\vspace{50}\\
+ 
+5$0,008\hspace{50}\\\vspace{50}\\292600000000\hspace{50}\\\vspace{50}\\36\hspace{50}\\\vspace{50}\\-36,3\hspace{50}\\\vspace{50}\\-3\hspace{50}\\\vspace{50}\\
+ 
+5$0,008\hspace{50}\\\vspace{50}\\292600000000\hspace{50}\\\vspace{50}\\36\hspace{50}\\\vspace{50}\\-36,3\hspace{50}\\\vspace{50}\\-3\hspace{50}\\\vspace{50}\\
+ 
+5$0,002\hspace{50}\\\vspace{50}\\3E-6\hspace{50}\\\vspace{50}\\252000000000000\hspace{50}\\\vspace{50}\\7E-12\hspace{50}\\\vspace{50}\\100000\hspace{50}\\\vspace{50}\\
+ 
+5$132,3\hspace{50}\\\vspace{50}\\5000000\hspace{50}\\\vspace{50}\\4800000\hspace{50}\\\vspace{50}\\2,8\hspace{50}\\\vspace{50}\\5000000000000\hspace{50}\\\vspace{50}\\
+ 
+5$0,0005\hspace{50}\\\vspace{50}\\100000000\hspace{50}\\\vspace{50}\\560000\hspace{50}\\\vspace{50}\\0,0036\hspace{50}\\\vspace{50}\\10\hspace{50}\\\vspace{50}\\
+ 
+5$63\hspace{50}\\\vspace{50}\\5E-7\hspace{50}\\\vspace{50}\\0,0004\hspace{50}\\\vspace{50}\\9,6E-12\hspace{50}\\\vspace{50}\\1000\hspace{50}\\\vspace{50}\\
+ 
+5$1E-9\hspace{50}\\\vspace{50}\\7000000000\hspace{50}\\\vspace{50}\\1,6E-6\hspace{50}\\\vspace{50}\\360\hspace{50}\\\vspace{50}\\9\hspace{50}\\\vspace{50}\\
+ 
+5$180\hspace{50}\\\vspace{50}\\1,2E-12\hspace{50}\\\vspace{50}\\4,5E-7\hspace{50}\\\vspace{50}\\3E-10\hspace{50}\\\vspace{50}\\0,009\hspace{50}\\\vspace{50}\\
+ 
+5$3150\hspace{50}\\\vspace{50}\\12\hspace{50}\\\vspace{50}\\10\hspace{50}\\\vspace{50}\\50000\hspace{50}\\\vspace{50}\\0,07\hspace{50}\\\vspace{50}\\
+ 
+5$6\hspace{50}\\\vspace{50}\\80000\hspace{50}\\\vspace{50}\\128\hspace{50}\\\vspace{50}\\14\hspace{50}\\\vspace{50}\\0,005\hspace{50}\\\vspace{50}\\
+ 
+5$2\hspace{50}\\\vspace{50}\\1,8E-5\hspace{50}\\\vspace{50}\\7\hspace{50}\\\vspace{50}\\0,0009\hspace{50}\\\vspace{50}\\7E-6\hspace{50}\\\vspace{50}\\
+ 
+5$2\hspace{50}\\\vspace{50}\\1,8E-5\hspace{50}\\\vspace{50}\\7\hspace{50}\\\vspace{50}\\0,0009\hspace{50}\\\vspace{50}\\7E-6\hspace{50}\\\vspace{50}\\
+ 
+5$1E-9\hspace{50}\\\vspace{50}\\1\hspace{50}\\\vspace{50}\\320\hspace{50}\\\vspace{50}\\2,88E-7\hspace{50}\\\vspace{50}\\6E-9\hspace{50}\\\vspace{50}\\
+ 
+5$1E-9\hspace{50}\\\vspace{50}\\1\hspace{50}\\\vspace{50}\\320\hspace{50}\\\vspace{50}\\2,88E-7\hspace{50}\\\vspace{50}\\6E-9\hspace{50}\\\vspace{50}\\
+ 
+5$5,4\hspace{50}\\\vspace{50}\\0,08\hspace{50}\\\vspace{50}\\0,08\hspace{50}\\\vspace{50}\\600\hspace{50}\\\vspace{50}\\200\hspace{50}\\\vspace{50}\\
+ 
+5$4500000000000\hspace{50}\\\vspace{50}\\0,00022\hspace{50}\\\vspace{50}\\0,00208\hspace{50}\\\vspace{50}\\-5000\hspace{50}\\\vspace{50}\\7185200000\hspace{50}\\\vspace{50}\\
+ 
+5$4500000000000\hspace{50}\\\vspace{50}\\0,00022\hspace{50}\\\vspace{50}\\0,00208\hspace{50}\\\vspace{50}\\-5000\hspace{50}\\\vspace{50}\\7185200000\hspace{50}\\\vspace{50}\\
+ 
+5$0,00036421\hspace{50}\\\vspace{50}\\1660\hspace{50}\\\vspace{50}\\-42000\hspace{50}\\\vspace{50}\\0,0432\hspace{50}\\\vspace{50}\\3557,4\hspace{50}\\\vspace{50}\\
+ 
+5$0,00036421\hspace{50}\\\vspace{50}\\1660\hspace{50}\\\vspace{50}\\-42000\hspace{50}\\\vspace{50}\\0,0432\hspace{50}\\\vspace{50}\\3557,4\hspace{50}\\\vspace{50}\\
+ 
+5$4040\hspace{50}\\\vspace{50}\\628\hspace{50}\\\vspace{50}\\2000\hspace{50}\\\vspace{50}\\0,04512\hspace{50}\\\vspace{50}\\735000\hspace{50}\\\vspace{50}\\
+ 
+5$4040\hspace{50}\\\vspace{50}\\628\hspace{50}\\\vspace{50}\\2000\hspace{50}\\\vspace{50}\\0,04512\hspace{50}\\\vspace{50}\\735000\hspace{50}\\\vspace{50}\\
+ 
+5$-1,945\hspace{50}\\\vspace{50}\\4,8144\hspace{50}\\\vspace{50}\\406\hspace{50}\\\vspace{50}\\800000\hspace{50}\\\vspace{50}\\1,897\hspace{50}\\\vspace{50}\\
+ 
+5$-1,945\hspace{50}\\\vspace{50}\\4,8144\hspace{50}\\\vspace{50}\\406\hspace{50}\\\vspace{50}\\800000\hspace{50}\\\vspace{50}\\1,897\hspace{50}\\\vspace{50}\\
+ 
+5$1,8E-12\hspace{50}\\\vspace{50}\\-13000\hspace{50}\\\vspace{50}\\6\hspace{50}\\\vspace{50}\\16,2\hspace{50}\\\vspace{50}\\0,000758\hspace{50}\\\vspace{50}\\
+ 
+5$1,8E-12\hspace{50}\\\vspace{50}\\-13000\hspace{50}\\\vspace{50}\\6\hspace{50}\\\vspace{50}\\16,2\hspace{50}\\\vspace{50}\\0,000758\hspace{50}\\\vspace{50}\\
+ 
+5$7,288\hspace{50}\\\vspace{50}\\180000\hspace{50}\\\vspace{50}\\0,526\hspace{50}\\\vspace{50}\\0,01\hspace{50}\\\vspace{50}\\0,042\hspace{50}\\\vspace{50}\\
+ 
+5$7,288\hspace{50}\\\vspace{50}\\180000\hspace{50}\\\vspace{50}\\0,526\hspace{50}\\\vspace{50}\\0,01\hspace{50}\\\vspace{50}\\0,042\hspace{50}\\\vspace{50}\\
+ 
+5$54000000000000\hspace{50}\\\vspace{50}\\300\hspace{50}\\\vspace{50}\\-75100\hspace{50}\\\vspace{50}\\-27\hspace{50}\\\vspace{50}\\-600000\hspace{50}\\\vspace{50}\\
+ 
+5$54000000000000\hspace{50}\\\vspace{50}\\300\hspace{50}\\\vspace{50}\\-75100\hspace{50}\\\vspace{50}\\-27\hspace{50}\\\vspace{50}\\-600000\hspace{50}\\\vspace{50}\\
+ 
+5$2,11\hspace{50}\\\vspace{50}\\14200\hspace{50}\\\vspace{50}\\4,15\hspace{50}\\\vspace{50}\\6980\hspace{50}\\\vspace{50}\\7,2\hspace{50}\\\vspace{50}\\
+ 
+5$2,1E-8\hspace{50}\\\vspace{50}\\3,6E16\hspace{50}\\\vspace{50}\\360000000\hspace{50}\\\vspace{50}\\1440\hspace{50}\\\vspace{50}\\10,5\hspace{50}\\\vspace{50}\\
+ 
+5$2,1E-8\hspace{50}\\\vspace{50}\\3,6E16\hspace{50}\\\vspace{50}\\360000000\hspace{50}\\\vspace{50}\\1440\hspace{50}\\\vspace{50}\\10,5\hspace{50}\\\vspace{50}\\
+ 
+5$965000\hspace{50}\\\vspace{50}\\18\hspace{50}\\\vspace{50}\\-86600\hspace{50}\\\vspace{50}\\330000\hspace{50}\\\vspace{50}\\42\hspace{50}\\\vspace{50}\\
+ 
+5$965000\hspace{50}\\\vspace{50}\\18\hspace{50}\\\vspace{50}\\-86600\hspace{50}\\\vspace{50}\\330000\hspace{50}\\\vspace{50}\\42\hspace{50}\\\vspace{50}\\
+ 
+5$-51000\hspace{50}\\\vspace{50}\\5036000\hspace{50}\\\vspace{50}\\15903000\hspace{50}\\\vspace{50}\\5,78E-5\hspace{50}\\\vspace{50}\\-777\hspace{50}\\\vspace{50}\\
+ 
+5$-51000\hspace{50}\\\vspace{50}\\5036000\hspace{50}\\\vspace{50}\\15903000\hspace{50}\\\vspace{50}\\5,78E-5\hspace{50}\\\vspace{50}\\-777\hspace{50}\\\vspace{50}\\
+ 
+5$0,01848\hspace{50}\\\vspace{50}\\-20600\hspace{50}\\\vspace{50}\\32850\hspace{50}\\\vspace{50}\\-36,3\hspace{50}\\\vspace{50}\\270000\hspace{50}\\\vspace{50}\\
+ 
+5$0,01848\hspace{50}\\\vspace{50}\\-20600\hspace{50}\\\vspace{50}\\32850\hspace{50}\\\vspace{50}\\-36,3\hspace{50}\\\vspace{50}\\270000\hspace{50}\\\vspace{50}\\
+ 
+5$32600\hspace{50}\\\vspace{50}\\102,7\hspace{50}\\\vspace{50}\\1815000\hspace{50}\\\vspace{50}\\2450\hspace{50}\\\vspace{50}\\-37,14\hspace{50}\\\vspace{50}\\
+ 
+5$32600\hspace{50}\\\vspace{50}\\102,7\hspace{50}\\\vspace{50}\\1815000\hspace{50}\\\vspace{50}\\2450\hspace{50}\\\vspace{50}\\-37,14\hspace{50}\\\vspace{50}\\
+ 
+5$-9000000\hspace{50}\\\vspace{50}\\1,8\hspace{50}\\\vspace{50}\\19\hspace{50}\\\vspace{50}\\341000\hspace{50}\\\vspace{50}\\674,3\hspace{50}\\\vspace{50}\\-6,9\hspace{50}\\\vspace{50}\\7\hspace{50}\\\vspace{50}\\3,78E-7\hspace{50}\\\vspace{50}\\0,7\hspace{50}\\\vspace{50}\\0,072\hspace{50}\\\vspace{50}\\34,4\hspace{50}\\\vspace{50}\\0,00024\hspace{50}\\\vspace{50}\\240000000000000\hspace{50}\\\vspace{50}\\4,8\hspace{50}\\\vspace{50}\\408\hspace{50}\\\vspace{50}\\240000000000000\hspace{50}\\\vspace{50}\\6580000\hspace{50}\\\vspace{50}\\9010000\hspace{50}\\\vspace{50}\\-4,2E-5\hspace{50}\\\vspace{50}\\1990000\hspace{50}\\\vspace{50}\\
+ 
+5$-9000000\hspace{50}\\\vspace{50}\\1,8\hspace{50}\\\vspace{50}\\19\hspace{50}\\\vspace{50}\\341000\hspace{50}\\\vspace{50}\\674,3\hspace{50}\\\vspace{50}\\-6,9\hspace{50}\\\vspace{50}\\7\hspace{50}\\\vspace{50}\\3,78E-7\hspace{50}\\\vspace{50}\\0,7\hspace{50}\\\vspace{50}\\0,072\hspace{50}\\\vspace{50}\\34,4\hspace{50}\\\vspace{50}\\0,00024\hspace{50}\\\vspace{50}\\240000000000000\hspace{50}\\\vspace{50}\\4,8\hspace{50}\\\vspace{50}\\408\hspace{50}\\\vspace{50}\\240000000000000\hspace{50}\\\vspace{50}\\6580000\hspace{50}\\\vspace{50}\\9010000\hspace{50}\\\vspace{50}\\-4,2E-5\hspace{50}\\\vspace{50}\\1990000\hspace{50}\\\vspace{50}\\
+ 
+5$276000\hspace{50}\\\vspace{50}\\0,00321\hspace{50}\\\vspace{50}\\3,978\hspace{50}\\\vspace{50}\\5013\hspace{50}\\\vspace{50}\\390000\hspace{50}\\\vspace{50}\\-5637000\hspace{50}\\\vspace{50}\\-0,00647\hspace{50}\\\vspace{50}\\900000000000\hspace{50}\\\vspace{50}\\0,01072\hspace{50}\\\vspace{50}\\-0,000195\hspace{50}\\\vspace{50}\\368000\hspace{50}\\\vspace{50}\\0,015334\hspace{50}\\\vspace{50}\\0,0001296\hspace{50}\\\vspace{50}\\0,0009975\hspace{50}\\\vspace{50}\\0,0068\hspace{50}\\\vspace{50}\\4000\hspace{50}\\\vspace{50}\\6,2E-7\hspace{50}\\\vspace{50}\\840\hspace{50}\\\vspace{50}\\0,002\hspace{50}\\\vspace{50}\\-0,00075\hspace{50}\\\vspace{50}\\
+ 
+5$560\hspace{50}\\\vspace{50}\\3E-15\hspace{50}\\\vspace{50}\\60000\hspace{50}\\\vspace{50}\\0,000343\hspace{50}\\\vspace{50}\\1E-12\hspace{50}\\\vspace{50}\\0,01\hspace{50}\\\vspace{50}\\70000000\hspace{50}\\\vspace{50}\\1E-5\hspace{50}\\\vspace{50}\\350000000000\hspace{50}\\\vspace{50}\\0,9\hspace{50}\\\vspace{50}\\8000\hspace{50}\\\vspace{50}\\0,05\hspace{50}\\\vspace{50}\\0,00015\hspace{50}\\\vspace{50}\\0,00015\hspace{50}\\\vspace{50}\\28000\hspace{50}\\\vspace{50}\\1,6E-5\hspace{50}\\\vspace{50}\\0,0042\hspace{50}\\\vspace{50}\\0,03\hspace{50}\\\vspace{50}\\0,0001\hspace{50}\\\vspace{50}\\1E-7\hspace{50}\\\vspace{50}\\
+ 
+5$10192\hspace{50}\\\vspace{50}\\0,04448\hspace{50}\\\vspace{50}\\-900\hspace{50}\\\vspace{50}\\1557,6\hspace{50}\\\vspace{50}\\8,165\hspace{50}\\\vspace{50}\\-0,017\hspace{50}\\\vspace{50}\\2700000\hspace{50}\\\vspace{50}\\384000\hspace{50}\\\vspace{50}\\820000\hspace{50}\\\vspace{50}\\340\hspace{50}\\\vspace{50}\\1800\hspace{50}\\\vspace{50}\\30\hspace{50}\\\vspace{50}\\137547000000000\hspace{50}\\\vspace{50}\\1,208\hspace{50}\\\vspace{50}\\4500\hspace{50}\\\vspace{50}\\10\hspace{50}\\\vspace{50}\\-783000\hspace{50}\\\vspace{50}\\8,73E-8\hspace{50}\\\vspace{50}\\1477\hspace{50}\\\vspace{50}\\1,35\hspace{50}\\\vspace{50}\\
+ 
+5$3,6E-8\hspace{50}\\\vspace{50}\\567000\hspace{50}\\\vspace{50}\\0,08\hspace{50}\\\vspace{50}\\2,7E-6\hspace{50}\\\vspace{50}\\8000000000\hspace{50}\\\vspace{50}\\560000000\hspace{50}\\\vspace{50}\\5\hspace{50}\\\vspace{50}\\70\hspace{50}\\\vspace{50}\\192000\hspace{50}\\\vspace{50}\\0,00064\hspace{50}\\\vspace{50}\\6,3\hspace{50}\\\vspace{50}\\0,00021\hspace{50}\\\vspace{50}\\14\hspace{50}\\\vspace{50}\\0,0072\hspace{50}\\\vspace{50}\\2,43E-9\hspace{50}\\\vspace{50}\\9E-7\hspace{50}\\\vspace{50}\\360000000\hspace{50}\\\vspace{50}\\0,00042\hspace{50}\\\vspace{50}\\160000000000\hspace{50}\\\vspace{50}\\240000000\hspace{50}\\\vspace{50}\\
+ 
+5$0,000414\hspace{50}\\\vspace{50}\\111800\hspace{50}\\\vspace{50}\\0,1968\hspace{50}\\\vspace{50}\\0,00126\hspace{50}\\\vspace{50}\\-0,02\hspace{50}\\\vspace{50}\\0,01686\hspace{50}\\\vspace{50}\\-0,0256\hspace{50}\\\vspace{50}\\5,088\hspace{50}\\\vspace{50}\\0,85\hspace{50}\\\vspace{50}\\395\hspace{50}\\\vspace{50}\\25920000\hspace{50}\\\vspace{50}\\0,08461\hspace{50}\\\vspace{50}\\0,00193\hspace{50}\\\vspace{50}\\-783\hspace{50}\\\vspace{50}\\94\hspace{50}\\\vspace{50}\\690000\hspace{50}\\\vspace{50}\\3289\hspace{50}\\\vspace{50}\\0,1114\hspace{50}\\\vspace{50}\\346\hspace{50}\\\vspace{50}\\2790000\hspace{50}\\\vspace{50}\\
+ 
+5$0,001775\hspace{50}\\\vspace{50}\\0,126\hspace{50}\\\vspace{50}\\-0,0423\hspace{50}\\\vspace{50}\\1840000\hspace{50}\\\vspace{50}\\93,6\hspace{50}\\\vspace{50}\\400\hspace{50}\\\vspace{50}\\144000000000000\hspace{50}\\\vspace{50}\\20160000\hspace{50}\\\vspace{50}\\71100\hspace{50}\\\vspace{50}\\11,792\hspace{50}\\\vspace{50}\\-3,62E-5\hspace{50}\\\vspace{50}\\732\hspace{50}\\\vspace{50}\\4500000000\hspace{50}\\\vspace{50}\\0,1025\hspace{50}\\\vspace{50}\\-3930\hspace{50}\\\vspace{50}\\32000000\hspace{50}\\\vspace{50}\\856980000\hspace{50}\\\vspace{50}\\40\hspace{50}\\\vspace{50}\\-22600\hspace{50}\\\vspace{50}\\-2000\hspace{50}\\\vspace{50}\\
+ 
+5$0,000583\hspace{50}\\\vspace{50}\\395,6\hspace{50}\\\vspace{50}\\-600\hspace{50}\\\vspace{50}\\0,0006396\hspace{50}\\\vspace{50}\\50400\hspace{50}\\\vspace{50}\\0,0311\hspace{50}\\\vspace{50}\\-0,09\hspace{50}\\\vspace{50}\\12,09\hspace{50}\\\vspace{50}\\0,33\hspace{50}\\\vspace{50}\\0,0231\hspace{50}\\\vspace{50}\\-1710000\hspace{50}\\\vspace{50}\\608,58\hspace{50}\\\vspace{50}\\49990\hspace{50}\\\vspace{50}\\9\hspace{50}\\\vspace{50}\\14000\hspace{50}\\\vspace{50}\\839\hspace{50}\\\vspace{50}\\-1,541\hspace{50}\\\vspace{50}\\0,006\hspace{50}\\\vspace{50}\\1200000000\hspace{50}\\\vspace{50}\\5400000000\hspace{50}\\\vspace{50}\\
+ 
+5$70\hspace{50}\\\vspace{50}\\1E-5\hspace{50}\\\vspace{50}\\0,2\hspace{50}\\\vspace{50}\\0,0216\hspace{50}\\\vspace{50}\\0,06\hspace{50}\\\vspace{50}\\0,9\hspace{50}\\\vspace{50}\\0,0054\hspace{50}\\\vspace{50}\\50000\hspace{50}\\\vspace{50}\\1E-5\hspace{50}\\\vspace{50}\\6E-5\hspace{50}\\\vspace{50}\\70000\hspace{50}\\\vspace{50}\\1E-8\hspace{50}\\\vspace{50}\\378\hspace{50}\\\vspace{50}\\2,7E-10\hspace{50}\\\vspace{50}\\1,2E-7\hspace{50}\\\vspace{50}\\2,7E-7\hspace{50}\\\vspace{50}\\3000\hspace{50}\\\vspace{50}\\2,5\hspace{50}\\\vspace{50}\\9000000000\hspace{50}\\\vspace{50}\\0,6\hspace{50}\\\vspace{50}\\
+ 
+5$5E-12\hspace{50}\\\vspace{50}\\-688\hspace{50}\\\vspace{50}\\32850\hspace{50}\\\vspace{50}\\3,3075\hspace{50}\\\vspace{50}\\6\hspace{50}\\\vspace{50}\\1181\hspace{50}\\\vspace{50}\\2,12\hspace{50}\\\vspace{50}\\332800\hspace{50}\\\vspace{50}\\0,336\hspace{50}\\\vspace{50}\\-0,1385\hspace{50}\\\vspace{50}\\45000\hspace{50}\\\vspace{50}\\3920\hspace{50}\\\vspace{50}\\0,0002745\hspace{50}\\\vspace{50}\\1,2E-6\hspace{50}\\\vspace{50}\\-9946\hspace{50}\\\vspace{50}\\78\hspace{50}\\\vspace{50}\\1960\hspace{50}\\\vspace{50}\\8100000\hspace{50}\\\vspace{50}\\0,402\hspace{50}\\\vspace{50}\\0,007388\hspace{50}\\\vspace{50}\\
+ 
+5$0,1041\hspace{50}\\\vspace{50}\\6072000000000\hspace{50}\\\vspace{50}\\1200000000\hspace{50}\\\vspace{50}\\0,001536\hspace{50}\\\vspace{50}\\0,1914\hspace{50}\\\vspace{50}\\-0,2405\hspace{50}\\\vspace{50}\\33100\hspace{50}\\\vspace{50}\\-4181000\hspace{50}\\\vspace{50}\\-0,00466\hspace{50}\\\vspace{50}\\0,02022\hspace{50}\\\vspace{50}\\6,323\hspace{50}\\\vspace{50}\\5,4E-8\hspace{50}\\\vspace{50}\\1114\hspace{50}\\\vspace{50}\\1,35E-5\hspace{50}\\\vspace{50}\\4,84\hspace{50}\\\vspace{50}\\6,49E-5\hspace{50}\\\vspace{50}\\2,646\hspace{50}\\\vspace{50}\\171,5\hspace{50}\\\vspace{50}\\0,84\hspace{50}\\\vspace{50}\\42,5\hspace{50}\\\vspace{50}\\
+ 
+5$2,1E-6\hspace{50}\\\vspace{50}\\1,05E-6\hspace{50}\\\vspace{50}\\4,5\hspace{50}\\\vspace{50}\\5,4\hspace{50}\\\vspace{50}\\0,006\hspace{50}\\\vspace{50}\\0,21\hspace{50}\\\vspace{50}\\288\hspace{50}\\\vspace{50}\\0,16\hspace{50}\\\vspace{50}\\10\hspace{50}\\\vspace{50}\\0,012\hspace{50}\\\vspace{50}\\3,15E-11\hspace{50}\\\vspace{50}\\10000000\hspace{50}\\\vspace{50}\\6E-8\hspace{50}\\\vspace{50}\\5600000000000\hspace{50}\\\vspace{50}\\0,3\hspace{50}\\\vspace{50}\\1,5E-6\hspace{50}\\\vspace{50}\\10000\hspace{50}\\\vspace{50}\\3600\hspace{50}\\\vspace{50}\\6000000\hspace{50}\\\vspace{50}\\36000000000\hspace{50}\\\vspace{50}\\
+ 
+5$-0,00941\hspace{50}\\\vspace{50}\\200000\hspace{50}\\\vspace{50}\\210\hspace{50}\\\vspace{50}\\1,44\hspace{50}\\\vspace{50}\\3,8\hspace{50}\\\vspace{50}\\28\hspace{50}\\\vspace{50}\\449000\hspace{50}\\\vspace{50}\\0,02048\hspace{50}\\\vspace{50}\\9,2E-7\hspace{50}\\\vspace{50}\\90\hspace{50}\\\vspace{50}\\5,852\hspace{50}\\\vspace{50}\\-0,25\hspace{50}\\\vspace{50}\\0,48\hspace{50}\\\vspace{50}\\6,8E-8\hspace{50}\\\vspace{50}\\6E-9\hspace{50}\\\vspace{50}\\0,001789\hspace{50}\\\vspace{50}\\10880000000000\hspace{50}\\\vspace{50}\\0,5355\hspace{50}\\\vspace{50}\\30\hspace{50}\\\vspace{50}\\0,0108\hspace{50}\\\vspace{50}\\
+ 
+5$0,1392\hspace{50}\\\vspace{50}\\-7,93\hspace{50}\\\vspace{50}\\0,0183\hspace{50}\\\vspace{50}\\0,0037\hspace{50}\\\vspace{50}\\8668,8\hspace{50}\\\vspace{50}\\7,02\hspace{50}\\\vspace{50}\\-4370000\hspace{50}\\\vspace{50}\\799,7\hspace{50}\\\vspace{50}\\2200000\hspace{50}\\\vspace{50}\\0,0006545\hspace{50}\\\vspace{50}\\-1670\hspace{50}\\\vspace{50}\\0,000728\hspace{50}\\\vspace{50}\\4,1E-6\hspace{50}\\\vspace{50}\\3,774\hspace{50}\\\vspace{50}\\4500000\hspace{50}\\\vspace{50}\\14000\hspace{50}\\\vspace{50}\\30,9\hspace{50}\\\vspace{50}\\781,8\hspace{50}\\\vspace{50}\\0,196\hspace{50}\\\vspace{50}\\-0,302\hspace{50}\\\vspace{50}\\
+ 
+5$8640000\hspace{50}\\\vspace{50}\\750\hspace{50}\\\vspace{50}\\800000000\hspace{50}\\\vspace{50}\\1260\hspace{50}\\\vspace{50}\\1350000000000\hspace{50}\\\vspace{50}\\6\hspace{50}\\\vspace{50}\\0,0001\hspace{50}\\\vspace{50}\\0,007\hspace{50}\\\vspace{50}\\7200\hspace{50}\\\vspace{50}\\3E-11\hspace{50}\\\vspace{50}\\1E-9\hspace{50}\\\vspace{50}\\0,001\hspace{50}\\\vspace{50}\\5000000000\hspace{50}\\\vspace{50}\\9E-10\hspace{50}\\\vspace{50}\\9000000\hspace{50}\\\vspace{50}\\0,0009\hspace{50}\\\vspace{50}\\0,003\hspace{50}\\\vspace{50}\\1,8\hspace{50}\\\vspace{50}\\0,72\hspace{50}\\\vspace{50}\\8E-7\hspace{50}\\\vspace{50}\\
+ 
+5$1080\hspace{50}\\\vspace{50}\\746000\hspace{50}\\\vspace{50}\\0,03\hspace{50}\\\vspace{50}\\-0,0066\hspace{50}\\\vspace{50}\\-1,3\hspace{50}\\\vspace{50}\\
+ 
+5$0,00037\hspace{50}\\\vspace{50}\\15\hspace{50}\\\vspace{50}\\196560\hspace{50}\\\vspace{50}\\1200000\hspace{50}\\\vspace{50}\\4,37\hspace{50}\\\vspace{50}\\2052000\hspace{50}\\\vspace{50}\\0,00775\hspace{50}\\\vspace{50}\\-49\hspace{50}\\\vspace{50}\\-491100\hspace{50}\\\vspace{50}\\-401,1\hspace{50}\\\vspace{50}\\3630\hspace{50}\\\vspace{50}\\-13900\hspace{50}\\\vspace{50}\\0,0008505\hspace{50}\\\vspace{50}\\-2409\hspace{50}\\\vspace{50}\\1329570\hspace{50}\\\vspace{50}\\
+ 
+5$-0,0001947\hspace{50}\\\vspace{50}\\73,92\hspace{50}\\\vspace{50}\\540\hspace{50}\\\vspace{50}\\9E-13\hspace{50}\\\vspace{50}\\-12830\hspace{50}\\\vspace{50}\\-3,4\hspace{50}\\\vspace{50}\\0,014\hspace{50}\\\vspace{50}\\3,162E-6\hspace{50}\\\vspace{50}\\8984000\hspace{50}\\\vspace{50}\\156000\hspace{50}\\\vspace{50}\\0,0001242\hspace{50}\\\vspace{50}\\0,013\hspace{50}\\\vspace{50}\\0,96\hspace{50}\\\vspace{50}\\0,1728\hspace{50}\\\vspace{50}\\19,15\hspace{50}\\\vspace{50}\\
+ 
+5$160\hspace{50}\\\vspace{50}\\90000\hspace{50}\\\vspace{50}\\3000000000000\hspace{50}\\\vspace{50}\\0,00112\hspace{50}\\\vspace{50}\\5\hspace{50}\\\vspace{50}\\6400\hspace{50}\\\vspace{50}\\0,0025\hspace{50}\\\vspace{50}\\
+ 
+5$0,025\hspace{50}\\\vspace{150}\\480000000000\hspace{50}\\\vspace{150}\\200000\hspace{50}\\\vspace{150}\\0,005\hspace{50}\\\vspace{150}\\0,96\hspace{50}\\\vspace{150}\\480\hspace{50}\\\vspace{150}\\0,006\hspace{50}\\\vspace{150}\\
+ 
+5$4000000000\hspace{50}\\\vspace{150}\\2000000000\hspace{50}\\\vspace{150}\\900000000\hspace{50}\\\vspace{150}\\0,08\hspace{50}\\\vspace{150}\\100000\hspace{50}\\\vspace{150}\\3600000\hspace{50}\\\vspace{150}\\100\hspace{50}\\\vspace{150}\\
+ 
+5$4000000000\hspace{50}\\\vspace{150}\\2000000000\hspace{50}\\\vspace{150}\\900000000\hspace{50}\\\vspace{150}\\0,08\hspace{50}\\\vspace{150}\\100000\hspace{50}\\\vspace{150}\\3600000\hspace{50}\\\vspace{150}\\100\hspace{50}\\\vspace{150}\\
+ 
+5$-297100\hspace{50}\\\vspace{50}\\844,8\hspace{50}\\\vspace{50}\\0,1622\hspace{50}\\\vspace{50}\\-0,001912\hspace{50}\\\vspace{50}\\0,431\hspace{50}\\\vspace{50}\\
+ 
+5$7200\hspace{50}\\\vspace{50}\\1440\hspace{50}\\\vspace{50}\\0,09\hspace{50}\\\vspace{50}\\480000\hspace{50}\\\vspace{50}\\4E-5\hspace{50}\\\vspace{50}\\
+ 
+0$481609\\5$7200\hspace{50}\\\vspace{50}\\1440\hspace{50}\\\vspace{50}\\0,09\hspace{50}\\\vspace{50}\\480000\hspace{50}\\\vspace{50}\\4E-5\hspace{50}\\\vspace{50}\\
+ 
+5$1260000\hspace{50}\\\vspace{50}\\-17000\hspace{50}\\\vspace{50}\\1,2\hspace{50}\\\vspace{50}\\239000\hspace{50}\\\vspace{50}\\-630000\hspace{50}\\\vspace{50}\\
+ 
+0$777979\\5$1260000\hspace{50}\\\vspace{50}\\-17000\hspace{50}\\\vspace{50}\\1,2\hspace{50}\\\vspace{50}\\239000\hspace{50}\\\vspace{50}\\-630000\hspace{50}\\\vspace{50}\\
+ 
+5$4000000\hspace{50}\\\vspace{50}\\0,5\hspace{50}\\\vspace{50}\\40000\hspace{50}\\\vspace{50}\\2,7E-7\hspace{50}\\\vspace{50}\\100000000\hspace{50}\\\vspace{50}\\
+ 
+0$876740\\5$4000000\hspace{50}\\\vspace{50}\\0,5\hspace{50}\\\vspace{50}\\40000\hspace{50}\\\vspace{50}\\2,7E-7\hspace{50}\\\vspace{50}\\100000000\hspace{50}\\\vspace{50}\\
+ 
+5$0,000121\hspace{50}\\\vspace{50}\\9,3\hspace{50}\\\vspace{50}\\4,225E-5\hspace{50}\\\vspace{50}\\1,392E-10\hspace{50}\\\vspace{50}\\0,156\hspace{50}\\\vspace{50}\\
+ 
+0$733408\\5$0,000121\hspace{50}\\\vspace{50}\\9,3\hspace{50}\\\vspace{50}\\4,225E-5\hspace{50}\\\vspace{50}\\1,392E-10\hspace{50}\\\vspace{50}\\0,156\hspace{50}\\\vspace{50}\\
+ 
+5$66,20\hspace{50}\\\vspace{50}\\53,12\hspace{50}\\\vspace{50}\\55,55\hspace{50}\\\vspace{50}\\60,31\hspace{50}\\\vspace{50}\\66,79\hspace{50}\\\vspace{50}\\
+ 
+0$684321\\5$66,20\hspace{50}\\\vspace{50}\\53,12\hspace{50}\\\vspace{50}\\55,55\hspace{50}\\\vspace{50}\\60,31\hspace{50}\\\vspace{50}\\66,79\hspace{50}\\\vspace{50}\\
+ 
+5$44,41\hspace{50}\\\vspace{50}\\45,06\hspace{50}\\\vspace{50}\\53,67\hspace{50}\\\vspace{50}\\63,20\hspace{50}\\\vspace{50}\\65,36\hspace{50}\\\vspace{50}\\
+ 
+5$37,58\hspace{50}\\\vspace{50}\\51,06\hspace{50}\\\vspace{50}\\42,48\hspace{50}\\\vspace{50}\\44,99\hspace{50}\\\vspace{50}\\48,65\hspace{50}\\\vspace{50}\\
+ 
+5$36,84\hspace{50}\\\vspace{50}\\55,09\hspace{50}\\\vspace{50}\\38,83\hspace{50}\\\vspace{50}\\48,16\hspace{50}\\\vspace{50}\\64,53\hspace{50}\\\vspace{50}\\
+ 
+5$54,57\hspace{50}\\\vspace{50}\\49,16\hspace{50}\\\vspace{50}\\51,67\hspace{50}\\\vspace{50}\\75,82\hspace{50}\\\vspace{50}\\53,80\hspace{50}\\\vspace{50}\\
+ 
+5$48,05\hspace{50}\\\vspace{50}\\53,77\hspace{50}\\\vspace{50}\\45,14\hspace{50}\\\vspace{50}\\38,40\hspace{50}\\\vspace{50}\\43,98\hspace{50}\\\vspace{50}\\
+ 
+5$51,43\hspace{50}\\\vspace{50}\\43,80\hspace{50}\\\vspace{50}\\40,10\hspace{50}\\\vspace{50}\\47,08\hspace{50}\\\vspace{50}\\40,41\hspace{50}\\\vspace{50}\\
+ 
+5$35,58\hspace{50}\\\vspace{50}\\48,06\hspace{50}\\\vspace{50}\\48,56\hspace{50}\\\vspace{50}\\50,69\hspace{50}\\\vspace{50}\\37,96\hspace{50}\\\vspace{50}\\
+ 
+5$56,32\hspace{50}\\\vspace{50}\\59,00\hspace{50}\\\vspace{50}\\59,71\hspace{50}\\\vspace{50}\\41,58\hspace{50}\\\vspace{50}\\52,08\hspace{50}\\\vspace{50}\\
+ 
+5$13878\hspace{50}\\\vspace{50}\\6984548\hspace{50}\\\vspace{50}\\78\hspace{50}\\\vspace{50}\\600\hspace{50}\\\vspace{50}\\220011\hspace{50}\\\vspace{50}\\
+ 
+5$215\hspace{50}\\\vspace{50}\\12701\hspace{50}\\\vspace{50}\\27482\hspace{50}\\\vspace{50}\\266493\hspace{50}\\\vspace{50}\\187495\hspace{50}\\\vspace{50}\\
+ 
+5$16132\hspace{50}\\\vspace{50}\\28420\hspace{50}\\\vspace{50}\\68\hspace{50}\\\vspace{50}\\466074\hspace{50}\\\vspace{50}\\33\hspace{50}\\\vspace{50}\\
+ 
+5$42048\hspace{50}\\\vspace{50}\\1739\hspace{50}\\\vspace{50}\\2565\hspace{50}\\\vspace{50}\\54\hspace{50}\\\vspace{50}\\2520\hspace{50}\\\vspace{50}\\
+ 
+5$1458456\hspace{50}\\\vspace{50}\\345\hspace{50}\\\vspace{50}\\2646\hspace{50}\\\vspace{50}\\702\hspace{50}\\\vspace{50}\\307384\hspace{50}\\\vspace{50}\\
+ 
+5$810\hspace{50}\\\vspace{50}\\4\hspace{50}\\\vspace{50}\\1514\hspace{50}\\\vspace{50}\\49995\hspace{50}\\\vspace{50}\\1661300\hspace{50}\\\vspace{50}\\
+ 
+5$1420\hspace{50}\\\vspace{50}\\2875\hspace{50}\\\vspace{50}\\21561\hspace{50}\\\vspace{50}\\7061296\hspace{50}\\\vspace{50}\\99280\hspace{50}\\\vspace{50}\\
+ 
+5$792000\hspace{50}\\\vspace{50}\\0,0112\hspace{50}\\\vspace{50}\\0,00021\hspace{50}\\\vspace{50}\\0,00057\hspace{50}\\\vspace{50}\\0,006818\hspace{50}\\\vspace{50}\\
+ 
+5$27000000000\hspace{50}\\\vspace{50}\\6000\hspace{50}\\\vspace{50}\\200\hspace{50}\\\vspace{50}\\0,0021\hspace{50}\\\vspace{50}\\9,72E-9\hspace{50}\\\vspace{50}\\
+ 
+5$0,64\hspace{50}\\\vspace{50}\\-1646000\hspace{50}\\\vspace{50}\\9,9E-5\hspace{50}\\\vspace{50}\\48,6\hspace{50}\\\vspace{50}\\0,186\hspace{50}\\\vspace{50}\\
+ 
+5$7E-8\hspace{50}\\\vspace{50}\\2100000000\hspace{50}\\\vspace{50}\\0,35\hspace{50}\\\vspace{50}\\1000\hspace{50}\\\vspace{50}\\8E-13\hspace{50}\\\vspace{50}\\
+ 
+5$130000\hspace{50}\\\vspace{50}\\0,003536\hspace{50}\\\vspace{50}\\5300000\hspace{50}\\\vspace{50}\\35500\hspace{50}\\\vspace{50}\\11760000000\hspace{50}\\\vspace{50}\\
+ 
+5$49,29\hspace{50}\\\vspace{50}\\47,12\hspace{50}\\\vspace{50}\\44,38\hspace{50}\\\vspace{50}\\69,55\hspace{50}\\\vspace{50}\\71,61\hspace{50}\\\vspace{50}\\
+ 
+5$85536\hspace{50}\\\vspace{50}\\1120\hspace{50}\\\vspace{50}\\8034\hspace{50}\\\vspace{50}\\546\hspace{50}\\\vspace{50}\\8142222\hspace{50}\\\vspace{50}\\
+ 
+5$51,44\hspace{50}\\\vspace{50}\\50,99\hspace{50}\\\vspace{50}\\60,41\hspace{50}\\\vspace{50}\\47,22\hspace{50}\\\vspace{50}\\58,37\hspace{50}\\\vspace{50}\\
+ 
+5$44,12\hspace{50}\\\vspace{50}\\51,03\hspace{50}\\\vspace{50}\\55,18\hspace{50}\\\vspace{50}\\44,97\hspace{50}\\\vspace{50}\\38,65\hspace{50}\\\vspace{50}\\
+ 
+5$42,86\hspace{50}\\\vspace{50}\\66,18\hspace{50}\\\vspace{50}\\47,23\hspace{50}\\\vspace{50}\\58,53\hspace{50}\\\vspace{50}\\57,99\hspace{50}\\\vspace{50}\\
+ 
+5$39,25\hspace{50}\\\vspace{50}\\53,33\hspace{50}\\\vspace{50}\\51,34\hspace{50}\\\vspace{50}\\62,25\hspace{50}\\\vspace{50}\\52,66\hspace{50}\\\vspace{50}\\
+ 
+5$47,51\hspace{50}\\\vspace{50}\\33,41\hspace{50}\\\vspace{50}\\58,39\hspace{50}\\\vspace{50}\\40,45\hspace{50}\\\vspace{50}\\48,31\hspace{50}\\\vspace{50}\\
+ 
+5$42,74\hspace{50}\\\vspace{50}\\60,68\hspace{50}\\\vspace{50}\\46,74\hspace{50}\\\vspace{50}\\64,82\hspace{50}\\\vspace{50}\\64,73\hspace{50}\\\vspace{50}\\
+ 
+5$5202\hspace{50}\\\vspace{50}\\27240\hspace{50}\\\vspace{50}\\7436\hspace{50}\\\vspace{50}\\20932414\hspace{50}\\\vspace{50}\\1182\hspace{50}\\\vspace{50}\\
+ 
+5$43,09\hspace{50}\\\vspace{50}\\55,04\hspace{50}\\\vspace{50}\\43,79\hspace{50}\\\vspace{50}\\55,54\hspace{50}\\\vspace{50}\\42,78\hspace{50}\\\vspace{50}\\
+ 
+5$51,84\hspace{50}\\\vspace{50}\\39,13\hspace{50}\\\vspace{50}\\54,48\hspace{50}\\\vspace{50}\\58,19\hspace{50}\\\vspace{50}\\38,75\hspace{50}\\\vspace{50}\\
+ 
+5$3570\hspace{50}\\\vspace{50}\\26\hspace{50}\\\vspace{50}\\156\hspace{50}\\\vspace{50}\\912600\hspace{50}\\\vspace{50}\\1508347\hspace{50}\\\vspace{50}\\
+ 
+5$51,48\hspace{50}\\\vspace{50}\\59,95\hspace{50}\\\vspace{50}\\55,43\hspace{50}\\\vspace{50}\\45,36\hspace{50}\\\vspace{50}\\53,26\hspace{50}\\\vspace{50}\\
+ 
+5$37,03\hspace{50}\\\vspace{50}\\41,58\hspace{50}\\\vspace{50}\\68,55\hspace{50}\\\vspace{50}\\45,56\hspace{50}\\\vspace{50}\\41,65\hspace{50}\\\vspace{50}\\
+ 
+5$242\hspace{50}\\\vspace{50}\\21000\hspace{50}\\\vspace{50}\\11381376\hspace{50}\\\vspace{50}\\150\hspace{50}\\\vspace{50}\\70810\hspace{50}\\\vspace{50}\\
+ 
+5$62,40\hspace{50}\\\vspace{50}\\65,25\hspace{50}\\\vspace{50}\\51,24\hspace{50}\\\vspace{50}\\69,59\hspace{50}\\\vspace{50}\\46,94\hspace{50}\\\vspace{50}\\
+ 
+5$40,97\hspace{50}\\\vspace{50}\\37,96\hspace{50}\\\vspace{50}\\45,22\hspace{50}\\\vspace{50}\\59,37\hspace{50}\\\vspace{50}\\34,57\hspace{50}\\\vspace{50}\\
+ 
+5$20\hspace{50}\\\vspace{50}\\167375\hspace{50}\\\vspace{50}\\15088\hspace{50}\\\vspace{50}\\41272\hspace{50}\\\vspace{50}\\135\hspace{50}\\\vspace{50}\\
+ 
+5$38,21\hspace{50}\\\vspace{50}\\38,47\hspace{50}\\\vspace{50}\\51,85\hspace{50}\\\vspace{50}\\45,34\hspace{50}\\\vspace{50}\\58,17\hspace{50}\\\vspace{50}\\
+ 
+5$62,38\hspace{50}\\\vspace{50}\\47,55\hspace{50}\\\vspace{50}\\50,08\hspace{50}\\\vspace{50}\\45,75\hspace{50}\\\vspace{50}\\36,32\hspace{50}\\\vspace{50}\\
+ 
+5$47,34\hspace{50}\\\vspace{50}\\30,16\hspace{50}\\\vspace{50}\\51,08\hspace{50}\\\vspace{50}\\80,85\hspace{50}\\\vspace{50}\\36,09\hspace{50}\\\vspace{50}\\
+ 
+5$10199280\hspace{50}\\\vspace{50}\\1064\hspace{50}\\\vspace{50}\\1158\hspace{50}\\\vspace{50}\\32966\hspace{50}\\\vspace{50}\\6\hspace{50}\\\vspace{50}\\
+ 
+5$30,76\hspace{50}\\\vspace{50}\\48,58\hspace{50}\\\vspace{50}\\42,98\hspace{50}\\\vspace{50}\\55,58\hspace{50}\\\vspace{50}\\42,67\hspace{50}\\\vspace{50}\\
+ 
+5$45,18\hspace{50}\\\vspace{50}\\47,19\hspace{50}\\\vspace{50}\\37,52\hspace{50}\\\vspace{50}\\41,91\hspace{50}\\\vspace{50}\\35,61\hspace{50}\\\vspace{50}\\
+ 
+5$275\hspace{50}\\\vspace{50}\\168\hspace{50}\\\vspace{50}\\23652\hspace{50}\\\vspace{50}\\390919\hspace{50}\\\vspace{50}\\203928\hspace{50}\\\vspace{50}\\
+ 
+5$50,08\hspace{50}\\\vspace{50}\\56,42\hspace{50}\\\vspace{50}\\53,44\hspace{50}\\\vspace{50}\\40,20\hspace{50}\\\vspace{50}\\48,17\hspace{50}\\\vspace{50}\\
+ 
+5$52,75\hspace{50}\\\vspace{50}\\57,90\hspace{50}\\\vspace{50}\\48,31\hspace{50}\\\vspace{50}\\53,16\hspace{50}\\\vspace{50}\\32,94\hspace{50}\\\vspace{50}\\
+ 
+5$55,54\hspace{50}\\\vspace{50}\\48,33\hspace{50}\\\vspace{50}\\54,71\hspace{50}\\\vspace{50}\\46,44\hspace{50}\\\vspace{50}\\62,88\hspace{50}\\\vspace{50}\\
+ 
+5$687\hspace{50}\\\vspace{50}\\11680\hspace{50}\\\vspace{50}\\30217\hspace{50}\\\vspace{50}\\18420\hspace{50}\\\vspace{50}\\31968\hspace{50}\\\vspace{50}\\
+ 
+5$647774\hspace{50}\\\vspace{50}\\4692\hspace{50}\\\vspace{50}\\894410\hspace{50}\\\vspace{50}\\1326\hspace{50}\\\vspace{50}\\591205\hspace{50}\\\vspace{50}\\
+ 
+5$920\hspace{50}\\\vspace{50}\\16575\hspace{50}\\\vspace{50}\\255142\hspace{50}\\\vspace{50}\\216\hspace{50}\\\vspace{50}\\23290\hspace{50}\\\vspace{50}\\
+ 
+0$731031\\5$74971\hspace{50}\\\vspace{50}\\1122539\hspace{50}\\\vspace{50}\\39121\hspace{50}\\\vspace{50}\\372\hspace{50}\\\vspace{50}\\52472\hspace{50}\\\vspace{50}\\
+ 
+0$59076\\5$55,22\hspace{50}\\\vspace{50}\\50,15\hspace{50}\\\vspace{50}\\46,60\hspace{50}\\\vspace{50}\\52,29\hspace{50}\\\vspace{50}\\51,27\hspace{50}\\\vspace{50}\\
+ 
+0$225509\\5$51,16\hspace{50}\\\vspace{50}\\59,24\hspace{50}\\\vspace{50}\\50,03\hspace{50}\\\vspace{50}\\54,91\hspace{50}\\\vspace{50}\\42,91\hspace{50}\\\vspace{50}\\
+ 
+0$106856\\5$1255786\hspace{50}\\\vspace{50}\\10362\hspace{50}\\\vspace{50}\\1659562\hspace{50}\\\vspace{50}\\306\hspace{50}\\\vspace{50}\\183008\hspace{50}\\\vspace{50}\\
+ 
+0$279073\\5$440000\hspace{50}\\\vspace{50}\\936\hspace{50}\\\vspace{50}\\34720\hspace{50}\\\vspace{50}\\46,06\hspace{50}\\\vspace{50}\\0,000205\hspace{50}\\\vspace{50}\\
+ 
+0$374221\\5$0,04\hspace{50}\\\vspace{50}\\18,9\hspace{50}\\\vspace{50}\\1600000000\hspace{50}\\\vspace{50}\\4800\hspace{50}\\\vspace{50}\\100000000\hspace{50}\\\vspace{50}\\
+ 
+0$599899\\5$79590\hspace{50}\\\vspace{50}\\9000\hspace{50}\\\vspace{50}\\7560000\hspace{50}\\\vspace{50}\\0,159\hspace{50}\\\vspace{50}\\-280000\hspace{50}\\\vspace{50}\\
+ 
+0$826978\\5$3,06E-7\hspace{50}\\\vspace{50}\\1760\hspace{50}\\\vspace{50}\\5040000\hspace{50}\\\vspace{50}\\3,06E-5\hspace{50}\\\vspace{50}\\-900\hspace{50}\\\vspace{50}\\
+ 
+0$117005\\5$1E-6\hspace{50}\\\vspace{50}\\108000000000000\hspace{50}\\\vspace{50}\\0,0006\hspace{50}\\\vspace{50}\\5E-8\hspace{50}\\\vspace{50}\\280000000000\hspace{50}\\\vspace{50}\\
+ 
+0$404767\\5$0,001591\hspace{50}\\\vspace{50}\\-1191000\hspace{50}\\\vspace{50}\\0,000209\hspace{50}\\\vspace{50}\\1392000000\hspace{50}\\\vspace{50}\\2920\hspace{50}\\\vspace{50}\\
+ 
+0$241884\\5$1,449E-7\hspace{50}\\\vspace{50}\\0,0108\hspace{50}\\\vspace{50}\\0,0832\hspace{50}\\\vspace{50}\\86270\hspace{50}\\\vspace{50}\\5878000\hspace{50}\\\vspace{50}\\
+ 
+0$878003\\5$0,00014\hspace{50}\\\vspace{50}\\0,08\hspace{50}\\\vspace{50}\\9,6\hspace{50}\\\vspace{50}\\0,000112\hspace{50}\\\vspace{50}\\2E-5\hspace{50}\\\vspace{50}\\
+ 
+0$925147\\5$1440\hspace{50}\\\vspace{50}\\12110\hspace{50}\\\vspace{50}\\-0,0001996\hspace{50}\\\vspace{50}\\43000000\hspace{50}\\\vspace{50}\\0,002825\hspace{50}\\\vspace{50}\\
+ 
+0$909513\\5$0,54\hspace{50}\\\vspace{50}\\8000000\hspace{50}\\\vspace{50}\\0,09\hspace{50}\\\vspace{50}\\4E-10\hspace{50}\\\vspace{50}\\20000\hspace{50}\\\vspace{50}\\
+ 
+0$725083\\5$2130000\hspace{50}\\\vspace{50}\\45\hspace{50}\\\vspace{50}\\2,952\hspace{50}\\\vspace{50}\\146400\hspace{50}\\\vspace{50}\\12\hspace{50}\\\vspace{50}\\
+ 
+0$268050\\5$-12\hspace{50}\\\vspace{50}\\0,0045\hspace{50}\\\vspace{50}\\107,52\hspace{50}\\\vspace{50}\\4000\hspace{50}\\\vspace{50}\\0,0318\hspace{50}\\\vspace{50}\\
+ 
+0$613422\\5$175,6\hspace{50}\\\vspace{50}\\242,6\hspace{50}\\\vspace{50}\\720\hspace{50}\\\vspace{50}\\52800\hspace{50}\\\vspace{50}\\2204000000\hspace{50}\\\vspace{50}\\
+ 
+0$893522\\5$1\hspace{50}\\\vspace{50}\\0,007\hspace{50}\\\vspace{50}\\6000000\hspace{50}\\\vspace{50}\\3,36E-6\hspace{50}\\\vspace{50}\\1,4E-6\hspace{50}\\\vspace{50}\\
+ 
+0$65500\\5$9100\hspace{50}\\\vspace{50}\\-603,4\hspace{50}\\\vspace{50}\\-451000\hspace{50}\\\vspace{50}\\0,32\hspace{50}\\\vspace{50}\\0,02088\hspace{50}\\\vspace{50}\\
+ 
+0$598383\\5$5,5E-10\hspace{50}\\\vspace{50}\\8800000\hspace{50}\\\vspace{50}\\27600000\hspace{50}\\\vspace{50}\\-0,0067\hspace{50}\\\vspace{50}\\183,6\hspace{50}\\\vspace{50}\\
+ 
+0$469133\\5$4000\hspace{50}\\\vspace{50}\\7E-10\hspace{50}\\\vspace{50}\\280000000000\hspace{50}\\\vspace{50}\\1620\hspace{50}\\\vspace{50}\\3,6E-6\hspace{50}\\\vspace{50}\\
+ 
+0$831669\\5$  1580  \\\vspace{50}\\  10,92  \\\vspace{50}\\  0,992  \\\vspace{50}\\  348000000000  \\\vspace{50}\\  1,33632E-6  \\\vspace{50}\\
+ 
+0$831669\\5$  1580  \\\vspace{50}\\  10,92  \\\vspace{50}\\  0,992  \\\vspace{50}\\  348000000000  \\\vspace{50}\\  1,33632E-6  \\\vspace{50}\\
+ 
+0$201638\\5$  0,2  \\\vspace{50}\\  2,52E-8  \\\vspace{50}\\  2,7E-12  \\\vspace{50}\\  3,5E-13  \\\vspace{50}\\  800  \\\vspace{50}\\
+ 
+0$201638\\5$  0,2  \\\vspace{50}\\  2,52E-8  \\\vspace{50}\\  2,7E-12  \\\vspace{50}\\  3,5E-13  \\\vspace{50}\\  800  \\\vspace{50}\\
+ 
+0$355002\\5$\begin{tabular}{ll}  10152000000000  \hspace{50}&  4,16  \\\vspace{50}\\  2,08E-12  \hspace{50}&  89,6  \\\vspace{50}\\  5,53  \hspace{50}&  1,488E16  \\\vspace{50}\\\end{tabular}
+ 
+0$355002\\5$\begin{tabular}{ll}  10152000000000  \hspace{50}&  4,16  \\\vspace{50}\\  2,08E-12  \hspace{50}&  89,6  \\\vspace{50}\\  5,53  \hspace{50}&  1,488E16  \\\vspace{50}\\\end{tabular}
+ 
+0$325750\\5$\begin{tabular}{ll}  25000000  \hspace{50}&  5,6E-8  \\\vspace{50}\\  3E-11  \hspace{50}&  1,6E-7  \\\vspace{50}\\  5E-8  \hspace{50}&  64000  \\\vspace{50}\\\end{tabular}
+ 
+0$325750\\5$\begin{tabular}{ll}  25000000  \hspace{50}&  5,6E-8  \\\vspace{50}\\  3E-11  \hspace{50}&  1,6E-7  \\\vspace{50}\\  5E-8  \hspace{50}&  64000  \\\vspace{50}\\\end{tabular}
+ 
+0$254296\\5$\begin{tabular}{ll}  20310  \hspace{50}&  123  \\\vspace{50}\\  556128  \hspace{50}&  3568  \\\vspace{50}\\  2176  \hspace{50}&  47261  \\\vspace{50}\\\end{tabular}
+ 
+0$254296\\5$\begin{tabular}{ll}  20310  \hspace{50}&  123  \\\vspace{50}\\  556128  \hspace{50}&  3568  \\\vspace{50}\\  2176  \hspace{50}&  47261  \\\vspace{50}\\\end{tabular}
+ 
+0$237721\\5$\begin{tabular}{ll}  51,22  \hspace{50}&  49,61  \\\vspace{50}\\  62,02  \hspace{50}&  37,58  \\\vspace{50}\\\\\vspace{50}\\\end{tabular}
+ 
+0$268618\\5$\begin{tabular}{ll}  0,0084  \hspace{50}&  16,2  \\\vspace{50}\\  1,8  \hspace{50}&  0,054  \\\vspace{50}\\  0,0002  \hspace{50}&  1  \\\vspace{50}\\\end{tabular}
+ 
+0$268618\\5$\begin{tabular}{ll}  0,0084  \hspace{50}&  16,2  \\\vspace{50}\\  1,8  \hspace{50}&  0,054  \\\vspace{50}\\  0,0002  \hspace{50}&  1  \\\vspace{50}\\\end{tabular}
+ 
+0$994744\\5$\begin{tabular}{ll}  7,2  \hspace{50}&  0,00018  \\\vspace{50}\\  0,0009  \hspace{50}&  50,4  \\\vspace{50}\\  36  \hspace{50}&  0,98  \\\vspace{50}\\\end{tabular}
+ 
+0$287919\\5$\begin{tabular}{ll}  2,88  \hspace{50}&  2,45E-8  \\\vspace{50}\\  4E-10  \hspace{50}&  180000  \\\vspace{50}\\  0,1  \hspace{50}&  80000000  \\\vspace{50}\\\end{tabular}
+ 
+0$180211\\5$\begin{tabular}{ll}  345  \hspace{50}&  24549  \\\vspace{50}\\  21  \hspace{50}&  5522536  \\\vspace{50}\\  1928  \hspace{50}&  1365  \\\vspace{50}\\\end{tabular}
+ 
+0$606186\\5$\begin{tabular}{ll}  9  \hspace{50}&  2E-6  \\\vspace{50}\\  0,0384  \hspace{50}&  1,92  \\\vspace{50}\\  7,2  \hspace{50}&  1,26E-5  \\\vspace{50}\\\end{tabular}
+ 
+0$468476\\5$\begin{tabular}{ll}  4700  \hspace{50}&  1,224E-6  \\\vspace{50}\\  0,00013104  \hspace{50}&  2200  \\\vspace{50}\\  -0,000939  \hspace{50}&  0,2752  \\\vspace{50}\\\end{tabular}
+ 
+0$815690\\5$\begin{tabular}{ll}  100  \hspace{50}&  0,2  \\\vspace{50}\\  400  \hspace{50}&  6300000000  \\\vspace{50}\\  3000  \hspace{50}&  400  \\\vspace{50}\\\end{tabular}
+ 
+0$815690\\5$\begin{tabular}{ll}  100  \hspace{50}&  0,2  \\\vspace{50}\\  400  \hspace{50}&  6300000000  \\\vspace{50}\\  3000  \hspace{50}&  400  \\\vspace{50}\\\end{tabular}
+ 
+0$984622\\5$\begin{tabular}{ll}  3E-10  \hspace{50}&  80  \\\vspace{50}\\  3150000000  \hspace{50}&  280000  \\\vspace{50}\\  378000  \hspace{50}&  560000000000000  \\\vspace{50}\\\end{tabular}
+ 
+0$737652\\5$  200000  \\\vspace{50}\\  300  \\\vspace{50}\\  9E15  \\\vspace{50}\\  720000000000  \\\vspace{50}\\  8E-7  \\\vspace{50}\\
+ 
+0$737652\\5$  200000  \\\vspace{50}\\  300  \\\vspace{50}\\  9E15  \\\vspace{50}\\  720000000000  \\\vspace{50}\\  8E-7  \\\vspace{50}\\
+ 
+0$359875\\5$  3,78E-8  \\\vspace{50}\\  350000  \\\vspace{50}\\  7E15  \\\vspace{50}\\  1E-16  \\\vspace{50}\\  360000  \\\vspace{50}\\
+ 
+0$359875\\5$  3,78E-8  \\\vspace{50}\\  350000  \\\vspace{50}\\  7E15  \\\vspace{50}\\  1E-16  \\\vspace{50}\\  360000  \\\vspace{50}\\
+ 
+0$917886\\5$\begin{tabular}{lll}  7E-8  \hspace{50}&  900000000  \hspace{50}&  1,6E-14  \\\vspace{50}\\  3,5E-12  \hspace{50}&  0,00014  \hspace{50}&  280  \\\vspace{50}\\\end{tabular}
+ 
+0$917886\\5$\begin{tabular}{lll}  7E-8  \hspace{50}&  900000000  \hspace{50}&  1,6E-14  \\\vspace{50}\\  3,5E-12  \hspace{50}&  0,00014  \hspace{50}&  280  \\\vspace{50}\\\end{tabular}
+ 
+0$993447\\5$\begin{tabular}{lll}  8,4E-5  \hspace{50}&  120  \hspace{50}&  45000000000000  \\\vspace{50}\\  6E-5  \hspace{50}&  700000000000  \hspace{50}&  120000  \\\vspace{50}\\\end{tabular}
+ 
+0$993447\\5$\begin{tabular}{lll}  8,4E-5  \hspace{50}&  120  \hspace{50}&  45000000000000  \\\vspace{50}\\  6E-5  \hspace{50}&  700000000000  \hspace{50}&  120000  \\\vspace{50}\\\end{tabular}
+ 
+0$345390\\5$  4,8E-9  \\\vspace{50}\\  8E-5  \\\vspace{50}\\  1E-18  \\\vspace{50}\\  10000000  \\\vspace{50}\\  7E-9  \\\vspace{50}\\
+ 
+0$610351\\5$\begin{tabular}{lll}  8  \hspace{50}&  144  \hspace{50}&  48000  \\\vspace{50}\\  32000  \hspace{50}&  0,24  \hspace{50}&  3,5E-5  \\\vspace{50}\\\end{tabular}
+ 
+0$51573\\5$\begin{tabular}{lll}  1000000  \hspace{50}&  360000  \hspace{50}&  1,6E-5  \\\vspace{50}\\  2E-6  \hspace{50}&  1E-5  \hspace{50}&  0,072  \\\vspace{50}\\\end{tabular}
+ 
+0$299967\\5$\begin{tabular}{lll}  324000000000  \hspace{50}&  0,0002  \hspace{50}&  1,2E-11  \\\vspace{50}\\  0,6  \hspace{50}&  12600000  \hspace{50}&  120000000000  \\\vspace{50}\\\end{tabular}
+ 
+0$976299\\5$\begin{tabular}{lll}  305  \hspace{50}&  2481,6  \hspace{50}&  2880000  \\\vspace{50}\\  0,738  \hspace{50}&  138000000000  \hspace{50}&  -26  \\\vspace{50}\\\end{tabular}
+ 
+0$457035\\5$\begin{tabular}{lll}  36  \hspace{50}&  9  \hspace{50}&  9  \\\vspace{50}\\  0,001  \hspace{50}&  1000000  \hspace{50}&  200000000000  \\\vspace{50}\\\end{tabular}
+ 
+0$616515\\5$\begin{tabular}{lll}  34983  \hspace{50}&  11310586  \hspace{50}&  100  \\\vspace{50}\\  417  \hspace{50}&  1226448  \hspace{50}&  1187196  \\\vspace{50}\\\end{tabular}
+ 
+0$503559\\5$\begin{tabular}{lll}  41,13  \hspace{50}&  46,77  \hspace{50}&  44,95  \\\vspace{50}\\  48,32  \hspace{50}&  46,92  \hspace{50}&  57,32  \\\vspace{50}\\\end{tabular}
+ 
+0$946454\\5$\begin{tabular}{lll}  2,5E-6  \hspace{50}&  7E-9  \hspace{50}&  0,5  \\\vspace{50}\\  2160000000  \hspace{50}&  0,8  \hspace{50}&  0,0008  \\\vspace{50}\\\end{tabular}
+ 
+0$205645\\5$\begin{tabular}{lll}  -0,000663  \hspace{50}&  8331  \hspace{50}&  5720  \\\vspace{50}\\  31600000  \hspace{50}&  500,2  \hspace{50}&  21,78  \\\vspace{50}\\\end{tabular}
+ 
+0$53598\\5$  4,5E-5  \\\vspace{50}\\  4,32E-5  \\\vspace{50}\\  -0,0001  \\\vspace{50}\\  1,1352E-10  \\\vspace{50}\\  -6,89  \\\vspace{50}\\  20,79  \\\vspace{50}\\  -0,00025  \\\vspace{50}\\  294  \\\vspace{50}\\  -0,000496  \\\vspace{50}\\  540000000  \\\vspace{50}\\  690  \\\vspace{50}\\  18,48  \\\vspace{50}\\  0,3136  \\\vspace{50}\\  472,32  \\\vspace{50}\\  4800000000000  \\\vspace{50}\\  0,147  \\\vspace{50}\\  1,078  \\\vspace{50}\\  0,00172  \\\vspace{50}\\  360  \\\vspace{50}\\  0,03445  \\\vspace{50}\\
+ 
+0$146006\\5$  0,0056  \\\vspace{50}\\  3,24  \\\vspace{50}\\  20000000  \\\vspace{50}\\  112000000000000  \\\vspace{50}\\  8E-7  \\\vspace{50}\\
+ 
+0$275641\\5$  156800000000  \\\vspace{50}\\  0,00015  \\\vspace{50}\\  -19000  \\\vspace{50}\\  0,00566  \\\vspace{50}\\  0,0405  \\\vspace{50}\\
+ 
+0$215889\\5$  1000000  \\\vspace{50}\\  3E-5  \\\vspace{50}\\  0,0007  \\\vspace{50}\\  1E-9  \\\vspace{50}\\  0,063  \\\vspace{50}\\
+ 
+0$657318\\5$  4,9  \\\vspace{50}\\  8,12  \\\vspace{50}\\  3570000000000  \\\vspace{50}\\  0,013  \\\vspace{50}\\  -0,004001  \\\vspace{50}\\
+ 
+0$550175\\5$  560  \\\vspace{50}\\  800000000  \\\vspace{50}\\  900000000  \\\vspace{50}\\  0,0001  \\\vspace{50}\\  9E-5  \\\vspace{50}\\
+ 
+0$154800\\5$  6,4E-7  \\\vspace{50}\\  210000000  \\\vspace{50}\\  0,01  \\\vspace{50}\\  560000  \\\vspace{50}\\  2100000  \\\vspace{50}\\
+ 
+0$982517\\5$  0,24  \\\vspace{50}\\  -22  \\\vspace{50}\\  494000  \\\vspace{50}\\  1,96E-5  \\\vspace{50}\\  -630  \\\vspace{50}\\
+ 
+0$135971\\5$  1664400  \\\vspace{50}\\  850  \\\vspace{50}\\  2045652  \\\vspace{50}\\  32  \\\vspace{50}\\  5088180  \\\vspace{50}\\
+ 
+0$964189\\5$  50,33  \\\vspace{50}\\  33,03  \\\vspace{50}\\  60,28  \\\vspace{50}\\  48,90  \\\vspace{50}\\  40,80  \\\vspace{50}\\
+ 
+0$97128\\5$  57,99  \\\vspace{50}\\  51,16  \\\vspace{50}\\  50,84  \\\vspace{50}\\  46,68  \\\vspace{50}\\  38,43  \\\vspace{50}\\
+ 
+0$540888\\5$  65,77  \\\vspace{50}\\  48,37  \\\vspace{50}\\  49,13  \\\vspace{50}\\  47,72  \\\vspace{50}\\  45,98  \\\vspace{50}\\
+ 
+0$843107\\5$  5985  \\\vspace{50}\\  1376830  \\\vspace{50}\\  174304  \\\vspace{50}\\  4810  \\\vspace{50}\\  1639209  \\\vspace{50}\\
+ 
+0$824257\\5$  52,74  \\\vspace{50}\\  53,56  \\\vspace{50}\\  64,45  \\\vspace{50}\\  55,29  \\\vspace{50}\\  38,67  \\\vspace{50}\\
+ 
+0$587813\\5$  1809/350  \\\vspace{50}\\  -4/3  \\\vspace{50}\\  268/205  \\\vspace{50}\\  40/3  \\\vspace{50}\\  55/3  \\\vspace{50}\\
+ 
+0$292707\\5$  -560/423  \\\vspace{50}\\  155/42  \\\vspace{50}\\  -54/455  \\\vspace{50}\\  -148/5  \\\vspace{50}\\  63/44  \\\vspace{50}\\
+ 
+0$907952\\5$  94/15  \\\vspace{50}\\  8/5  \\\vspace{50}\\  84/155  \\\vspace{50}\\  36/31  \\\vspace{50}\\  2968/675  \\\vspace{50}\\
+ 
+0$230212\\5$  -49/9  \\\vspace{50}\\  45/11  \\\vspace{50}\\  -14/15  \\\vspace{50}\\  21/65  \\\vspace{50}\\  52/495  \\\vspace{50}\\
+ 
+0$505097\\5$  -85/189  \\\vspace{50}\\  -6/29  \\\vspace{50}\\  -5/6  \\\vspace{50}\\  215/4  \\\vspace{50}\\  -103/90  \\\vspace{50}\\
+ 
+0$336571\\5$  ABC\ est\ rectangle\ :\ 900+1600=2500  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 36+64=100  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 49+576=625  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 400+9801=10201  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 441+4900<>5329  \\\vspace{50}\\
+ 
+0$12791\\5$  ABC\ est\ rectangle\ :\ 2304+3025=5329  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 900+1369<>2304  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+1764=3364  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 81+1600=1681  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+900=1156  \\\vspace{50}\\
+ 
+0$620923\\5$  14  \\\vspace{50}\\  0,048  \\\vspace{50}\\  420000000  \\\vspace{50}\\  0,02  \\\vspace{50}\\  2,1E-6  \\\vspace{50}\\
+ 
+0$661129\\5$  0,01183  \\\vspace{50}\\  570000  \\\vspace{50}\\  198000  \\\vspace{50}\\  6E-8  \\\vspace{50}\\  0,000509  \\\vspace{50}\\
+ 
+0$538070\\5$  70  \\\vspace{50}\\  0,3  \\\vspace{50}\\  300  \\\vspace{50}\\  700000000000  \\\vspace{50}\\  2,6E-8  \\\vspace{50}\\
+ 
+0$158231\\5$  1,08E-6  \\\vspace{50}\\  0,14  \\\vspace{50}\\  40000  \\\vspace{50}\\  9E-5  \\\vspace{50}\\  6300000000000  \\\vspace{50}\\
+ 
+0$429611\\5$  1011,5  \\\vspace{50}\\  -53,6  \\\vspace{50}\\  1188000000  \\\vspace{50}\\  -1470  \\\vspace{50}\\  0,0129  \\\vspace{50}\\
+ 
+0$720465\\5$  0,945  \\\vspace{50}\\  3920000  \\\vspace{50}\\  30  \\\vspace{50}\\  28000000000  \\\vspace{50}\\  0,045  \\\vspace{50}\\
+ 
+0$419502\\5$  2,346E-6  \\\vspace{50}\\  -92100  \\\vspace{50}\\  0,0012088  \\\vspace{50}\\  37026  \\\vspace{50}\\  12,3  \\\vspace{50}\\
+ 
+0$527702\\5$  216/55  \\\vspace{50}\\  -104/215  \\\vspace{50}\\  35/102  \\\vspace{50}\\  159/55  \\\vspace{50}\\  -27/34  \\\vspace{50}\\
+ 
+0$484995\\5$  -12/19  \\\vspace{50}\\  4/21  \\\vspace{50}\\  109/20  \\\vspace{50}\\  6/17  \\\vspace{50}\\  11/43  \\\vspace{50}\\
+ 
+0$320731\\5$  -57/20  \\\vspace{50}\\  189/80  \\\vspace{50}\\  -210/31  \\\vspace{50}\\  -62/5  \\\vspace{50}\\  385/108  \\\vspace{50}\\
+ 
+0$970153\\5$  -3/182  \\\vspace{50}\\  155/168  \\\vspace{50}\\  2/63  \\\vspace{50}\\  -29/37  \\\vspace{50}\\  15/116  \\\vspace{50}\\
+ 
+0$866454\\5$  175/52  \\\vspace{50}\\  -76/441  \\\vspace{50}\\  -343/585  \\\vspace{50}\\  -189/95  \\\vspace{50}\\  9/4  \\\vspace{50}\\
+ 
+0$357376\\5$  33,14  \\\vspace{50}\\  57,29  \\\vspace{50}\\  51,90  \\\vspace{50}\\  54,25  \\\vspace{50}\\  54,04  \\\vspace{50}\\
+ 
+0$414012\\5$  516  \\\vspace{50}\\  19560  \\\vspace{50}\\  4194630  \\\vspace{50}\\  810  \\\vspace{50}\\  168831  \\\vspace{50}\\
+ 
+0$572727\\5$  ABC\ est\ rectangle\ :\ 225+400=625  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 256+1089<>1369  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 2500+3721<>6241  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 324+6400=6724  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\
+ 
+0$299775\\5$  -21/13  \\\vspace{50}\\  49/10  \\\vspace{50}\\  3/2  \\\vspace{50}\\  145/343  \\\vspace{50}\\  903/20  \\\vspace{50}\\
+ 
+0$586970\\5$  24/23  \\\vspace{50}\\  -29/18  \\\vspace{50}\\  -62/81  \\\vspace{50}\\  -171/448  \\\vspace{50}\\  -49/12  \\\vspace{50}\\
+ 
+0$357692\\5$  -8/15  \\\vspace{50}\\  -21/58  \\\vspace{50}\\  -92/245  \\\vspace{50}\\  -231/20  \\\vspace{50}\\  41/75  \\\vspace{50}\\
+ 
+0$64519\\5$  2350  \\\vspace{50}\\  51212  \\\vspace{50}\\  9000  \\\vspace{50}\\  1725  \\\vspace{50}\\  1350  \\\vspace{50}\\
+ 
+0$106326\\5$  41,41  \\\vspace{50}\\  64,27  \\\vspace{50}\\  46,91  \\\vspace{50}\\  48,42  \\\vspace{50}\\  41,36  \\\vspace{50}\\
+ 
+0$320024\\5$  58,18  \\\vspace{50}\\  68,35  \\\vspace{50}\\  69,72  \\\vspace{50}\\  50,39  \\\vspace{50}\\  46,59  \\\vspace{50}\\
+ 
+0$472070\\5$  43/67  \\\vspace{50}\\  777/65  \\\vspace{50}\\  27/56  \\\vspace{50}\\  -248/99  \\\vspace{50}\\  -3/8  \\\vspace{50}\\
+ 
+0$886032\\5$  512/405  \\\vspace{50}\\  38  \\\vspace{50}\\  -62/49  \\\vspace{50}\\  -343/92  \\\vspace{50}\\  234/35  \\\vspace{50}\\
+ 
+0$15231\\5$  ABC\ n'est\ pas\ rectangle\ :\ 25+4761<>4761  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1444+5184<>6561  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 100+3721<>3844  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1225+7056=8281  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 441+784=1225  \\\vspace{50}\\
+ 
+0$650717\\5$  ABC\ n'est\ pas\ rectangle\ :\ 1156+5329<>6561  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1764+3136=4900  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 196+2304=2500  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 400+2304=2704  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 729+1296=2025  \\\vspace{50}\\
+ 
+0$50284\\5$  38880000  \\\vspace{50}\\  30  \\\vspace{50}\\  0,555  \\\vspace{50}\\  0,10932  \\\vspace{50}\\  0,00046  \\\vspace{50}\\
+ 
+0$837939\\5$  1,6  \\\vspace{50}\\  -9,8  \\\vspace{50}\\  0,0172  \\\vspace{50}\\  90  \\\vspace{50}\\  108900000  \\\vspace{50}\\
+ 
+0$388927\\5$  -0,2  \\\vspace{50}\\  0,000224  \\\vspace{50}\\  473960000  \\\vspace{50}\\  179400  \\\vspace{50}\\  460000  \\\vspace{50}\\
+ 
+0$208893\\5$  7,4E-6  \\\vspace{50}\\  1,064E-5  \\\vspace{50}\\  8797000  \\\vspace{50}\\  8,832E-5  \\\vspace{50}\\  9,2E-9  \\\vspace{50}\\  -0,00046  \\\vspace{50}\\  6,75E-6  \\\vspace{50}\\  15750  \\\vspace{50}\\  520  \\\vspace{50}\\  492800  \\\vspace{50}\\  2108  \\\vspace{50}\\  -0,152  \\\vspace{50}\\  312000000  \\\vspace{50}\\  1,98  \\\vspace{50}\\  247000  \\\vspace{50}\\
+ 
+0$838080\\5$  -46100  \\\vspace{50}\\  5,4E-10  \\\vspace{50}\\  2112  \\\vspace{50}\\  386100000  \\\vspace{50}\\  300  \\\vspace{50}\\  1620  \\\vspace{50}\\  4,6E-11  \\\vspace{50}\\  108000000000  \\\vspace{50}\\  7,82E-10  \\\vspace{50}\\  -6,92  \\\vspace{50}\\  3,6E-5  \\\vspace{50}\\  60000000000  \\\vspace{50}\\  0,016  \\\vspace{50}\\  1,08  \\\vspace{50}\\  1,386E-5  \\\vspace{50}\\
+ 
+0$773384\\5$  0,000432  \\\vspace{100}\\  32  \\\vspace{100}\\  2,7E-8  \\\vspace{100}\\  0,8  \\\vspace{100}\\  0,036  \\\vspace{100}\\  1,152E-7  \\\vspace{100}\\  50000  \\\vspace{100}\\
+ 
+0$39130\\5$  0,6  \\\vspace{150}\\  0,3  \\\vspace{150}\\  8E-9  \\\vspace{150}\\  10000000000  \\\vspace{150}\\  10000000  \\\vspace{150}\\  700000000  \\\vspace{150}\\  3E16  \\\vspace{150}\\
+ 
+0$965971\\5$  0,00024  \\\vspace{150}\\  24  \\\vspace{150}\\  16800  \\\vspace{150}\\  0,01  \\\vspace{150}\\  60  \\\vspace{150}\\  7E-11  \\\vspace{150}\\  0,9  \\\vspace{150}\\
+ 
+0$548697\\5$  1E-13  \\\vspace{150}\\
+ 
+0$538000\\5$  9E-9  \\\vspace{150}\\
+ 
+0$142656\\5$  -383000  \\\vspace{150}\\  12000  \\\vspace{150}\\  0,02268  \\\vspace{150}\\  2430  \\\vspace{150}\\  1,4625E-8  \\\vspace{150}\\
+ 
+0$746162\\5$  60000000000000  \\\vspace{150}\\  8000000000  \\\vspace{150}\\  0,0004  \\\vspace{150}\\  0,008  \\\vspace{150}\\  72000000  \\\vspace{150}\\  0,0018  \\\vspace{150}\\  0,08  \\\vspace{150}\\
+ 
+0$837087\\5$  1000  \\\vspace{150}\\  70000000  \\\vspace{150}\\  0,0001  \\\vspace{150}\\  800000  \\\vspace{150}\\  33600000  \\\vspace{150}\\  4E-12  \\\vspace{150}\\  140  \\\vspace{150}\\
+ 
+0$189765\\5$  28000  \\\vspace{50}\\  0,06  \\\vspace{50}\\  7200000  \\\vspace{50}\\  6E-9  \\\vspace{50}\\  0,09  \\\vspace{50}\\  35  \\\vspace{50}\\  70  \\\vspace{50}\\  0,00192  \\\vspace{50}\\  0,0007  \\\vspace{50}\\  10000000000000  \\\vspace{50}\\  3600000000000  \\\vspace{50}\\  54  \\\vspace{50}\\  0,002  \\\vspace{50}\\  2E-7  \\\vspace{50}\\  4E-9  \\\vspace{50}\\
+ 
+0$493111\\5$  0,204  \\\vspace{50}\\  0,88  \\\vspace{50}\\  2,4336E-9  \\\vspace{50}\\  -0,0319  \\\vspace{50}\\  86400000000  \\\vspace{50}\\  310  \\\vspace{50}\\  6240  \\\vspace{50}\\  0,09945  \\\vspace{50}\\  28000  \\\vspace{50}\\  390  \\\vspace{50}\\  240000000000  \\\vspace{50}\\  0,000272  \\\vspace{50}\\  12000000  \\\vspace{50}\\  127900  \\\vspace{50}\\  235,2  \\\vspace{50}\\
+ 
+0$198718\\5$  870000  \\\vspace{50}\\  460  \\\vspace{50}\\  0,052  \\\vspace{50}\\  53900000  \\\vspace{50}\\  16800  \\\vspace{50}\\  -0,00021  \\\vspace{50}\\  -343000  \\\vspace{50}\\  408000000  \\\vspace{50}\\  17,1  \\\vspace{50}\\  -0,0414  \\\vspace{50}\\  990  \\\vspace{50}\\  0,00945  \\\vspace{50}\\  0,0005128  \\\vspace{50}\\  1069  \\\vspace{50}\\  -83850  \\\vspace{50}\\
+ 
+0$878269\\5$  50000  \\\vspace{300}\\  0,06  \\\vspace{300}\\  1E-16  \\\vspace{300}\\
+ 
+0$804393\\5$  2,56E-7  \\\vspace{500}\\  0,016  \\\vspace{500}\\  3,5  \\\vspace{500}\\
+ 
+0$277332\\5$  2,1E-5  \\\vspace{500}\\  100000  \\\vspace{500}\\  1  \\\vspace{500}\\
+ 
+0$508816\\5$  0,028  \\\vspace{500}\\  20000000000  \\\vspace{500}\\  0,256  \\\vspace{500}\\
+ 
+0$747181\\5$  1,89E-10  \\\vspace{500}\\  12  \\\vspace{500}\\  6,4E-12  \\\vspace{500}\\
+ 
+0$312246\\5$  7E-5  \\\vspace{500}\\  420  \\\vspace{500}\\  100000000  \\\vspace{500}\\
+ 
+0$844965\\5$  4,68E-5  \\\vspace{50}\\  -3786000  \\\vspace{50}\\  198,6  \\\vspace{50}\\  8070  \\\vspace{50}\\  2537  \\\vspace{50}\\  15,6  \\\vspace{50}\\  1100  \\\vspace{50}\\  7000  \\\vspace{50}\\  440000  \\\vspace{50}\\  2,156E-6  \\\vspace{50}\\  -27  \\\vspace{50}\\  0,00045264  \\\vspace{50}\\  28,81  \\\vspace{50}\\  5530000  \\\vspace{50}\\  0,001254  \\\vspace{50}\\
+ 
+0$28269\\5$  200000000000  \\\vspace{100}\\  0,5658  \\\vspace{100}\\  4410000  \\\vspace{100}\\  4E-6  \\\vspace{100}\\  -0,000143  \\\vspace{100}\\  6,111  \\\vspace{100}\\  0,00763  \\\vspace{100}\\  819  \\\vspace{100}\\  40,7  \\\vspace{100}\\  240  \\\vspace{100}\\
+ 
+0$165616\\5$  6,3E-10  \\\vspace{100}\\  490000000  \\\vspace{100}\\  1,05E-15  \\\vspace{100}\\  5,6E-7  \\\vspace{100}\\  70000  \\\vspace{100}\\  5E-9  \\\vspace{100}\\  10  \\\vspace{100}\\  2,7  \\\vspace{100}\\  4E-8  \\\vspace{100}\\  3E-14  \\\vspace{100}\\
+ 
+0$18110\\5$  68  \\\vspace{100}\\  910  \\\vspace{100}\\  0,00016  \\\vspace{100}\\  10060000  \\\vspace{100}\\  1E-6  \\\vspace{100}\\  8900  \\\vspace{100}\\  78000000  \\\vspace{100}\\  980  \\\vspace{100}\\  8,4E-6  \\\vspace{100}\\  -9,081  \\\vspace{100}\\
+ 
+0$995145\\5$  1,05E19  \\\vspace{100}\\  1,8E-6  \\\vspace{100}\\  48000  \\\vspace{100}\\  800000  \\\vspace{100}\\  3E-9  \\\vspace{100}\\  4000000  \\\vspace{100}\\  2E-9  \\\vspace{100}\\  8000000  \\\vspace{100}\\  6E-6  \\\vspace{100}\\  90  \\\vspace{100}\\
+ 
+0$787749\\5$  36000000000  \\\vspace{200}\\  36000000  \\\vspace{200}\\  8000000  \\\vspace{200}\\  27  \\\vspace{200}\\  100000000000  \\\vspace{200}\\
+ 
+0$320070\\5$  120000  \\\vspace{250}\\  6,3E-5  \\\vspace{250}\\  0,00192  \\\vspace{250}\\  1E-18  \\\vspace{250}\\  6E-13  \\\vspace{250}\\
+ 
+0$113200\\5$  70  \\\vspace{250}\\  4  \\\vspace{250}\\  270000  \\\vspace{250}\\  0,007  \\\vspace{250}\\  4,5  \\\vspace{250}\\
+ 
+0$822239\\5$  ABC\ est\ rectangle\ :\ 400+2304=2704  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1521+2704=4225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 49+576=625  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 529+5476<>5929  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1296+5929=7225  \\\vspace{50}\\
+ 
+0$215183\\5$  1/4  \\\vspace{200}\\  -92/219  \\\vspace{200}\\  -86/7  \\\vspace{200}\\  -465/826  \\\vspace{200}\\  -71/133  \\\vspace{200}\\
+ 
+0$855395\\5$  -104/135  \\\vspace{200}\\  -115/36  \\\vspace{200}\\  189/19  \\\vspace{200}\\  32/61  \\\vspace{200}\\  -3/28  \\\vspace{200}\\
+ 
+0$434267\\5$  -7/25  \\\vspace{200}\\  -129/266  \\\vspace{200}\\  6/5  \\\vspace{200}\\  4/85  \\\vspace{200}\\  -5  \\\vspace{200}\\
+ 
+0$30448\\5$  -70/99  \\\vspace{200}\\  19/49  \\\vspace{200}\\  -243/70  \\\vspace{200}\\  -27/65  \\\vspace{200}\\  -52/33  \\\vspace{200}\\
+ 
+0$807199\\5$  -8/777  \\\vspace{200}\\  -189/388  \\\vspace{200}\\  -1/6  \\\vspace{200}\\  -81/152  \\\vspace{200}\\  21/65  \\\vspace{200}\\
+ 
+0$567534\\5$  -6/7  \\\vspace{200}\\  31/105  \\\vspace{200}\\  20/29  \\\vspace{200}\\  15  \\\vspace{200}\\  1/28  \\\vspace{200}\\
+ 
+0$773476\\5$  45/37  \\\vspace{200}\\  13/6  \\\vspace{200}\\  69/56  \\\vspace{200}\\  -1/4  \\\vspace{200}\\  -756/445  \\\vspace{200}\\
+ 
+0$140183\\5$  -46/17  \\\vspace{200}\\  5/2  \\\vspace{200}\\  -21/29  \\\vspace{200}\\  88/483  \\\vspace{200}\\  -9/64  \\\vspace{200}\\
+ 
+0$778895\\5$  -7/52  \\\vspace{200}\\  -70/81  \\\vspace{200}\\  -11/2  \\\vspace{200}\\  172/395  \\\vspace{200}\\  285/26  \\\vspace{200}\\
+ 
+0$277827\\5$  -9/5  \\\vspace{200}\\  -305/1392  \\\vspace{200}\\  20/13  \\\vspace{200}\\  -33/112  \\\vspace{200}\\  -22/9  \\\vspace{200}\\
+ 
+0$490916\\5$  15  \\\vspace{200}\\  -222/5  \\\vspace{200}\\  -3/10  \\\vspace{200}\\  -88/71  \\\vspace{200}\\  60/47  \\\vspace{200}\\
+ 
+0$540941\\5$  93/34  \\\vspace{200}\\  1/105  \\\vspace{200}\\  -141/172  \\\vspace{200}\\  -21/17  \\\vspace{200}\\  -182/87  \\\vspace{200}\\
+ 
+0$15380\\5$  567/376  \\\vspace{200}\\  72/53  \\\vspace{200}\\  19/5  \\\vspace{200}\\  -9/11  \\\vspace{200}\\  -35/1332  \\\vspace{200}\\
+ 
+0$961908\\5$  -1295/384  \\\vspace{200}\\  87/146  \\\vspace{200}\\  31/53  \\\vspace{200}\\  275/294  \\\vspace{200}\\  280/213  \\\vspace{200}\\
+ 
+0$246721\\5$  142/105  \\\vspace{200}\\  29/21  \\\vspace{200}\\  303/176  \\\vspace{200}\\  -21/290  \\\vspace{200}\\  784/93  \\\vspace{200}\\
+ 
+0$765580\\5$  45/19  \\\vspace{200}\\  0/-1  \\\vspace{200}\\  105/41  \\\vspace{200}\\  -63/67  \\\vspace{200}\\  220/159  \\\vspace{200}\\
+ 
+0$807854\\5$  17/21  \\\vspace{200}\\  25/232  \\\vspace{200}\\  -126/59  \\\vspace{200}\\  49/39  \\\vspace{200}\\  51/20  \\\vspace{200}\\
+ 
+0$245285\\5$  -1/142  \\\vspace{200}\\  27/35  \\\vspace{200}\\  -6/11  \\\vspace{200}\\  172/51  \\\vspace{200}\\  645/44  \\\vspace{200}\\
+ 
+0$376822\\5$  50/63  \\\vspace{200}\\  -1/29  \\\vspace{200}\\  -621/20  \\\vspace{200}\\  224/1425  \\\vspace{200}\\  -207/100  \\\vspace{200}\\
+ 
+0$120862\\5$  -75/2  \\\vspace{200}\\  -45/287  \\\vspace{200}\\  -41/69  \\\vspace{200}\\  -47/23  \\\vspace{200}\\  740/1869  \\\vspace{200}\\
+ 
+0$769612\\5$  8/225  \\\vspace{200}\\  -103/126  \\\vspace{200}\\  -2/3  \\\vspace{200}\\  -40/29  \\\vspace{200}\\  -168/85  \\\vspace{200}\\
+ 
+0$807519\\5$  -14/435  \\\vspace{200}\\  92/333  \\\vspace{200}\\  49/64  \\\vspace{200}\\  -24/11  \\\vspace{200}\\  20/77  \\\vspace{200}\\
+ 
+0$948690\\5$  -140/297  \\\vspace{200}\\  -66/13  \\\vspace{200}\\  128/665  \\\vspace{200}\\  133/45  \\\vspace{200}\\  13/58  \\\vspace{200}\\
+ 
+0$973585\\5$  -45/112  \\\vspace{200}\\  21/80  \\\vspace{200}\\  -40/11  \\\vspace{200}\\  -665/384  \\\vspace{200}\\  -25/117  \\\vspace{200}\\
+ 
+0$146134\\5$  39/35  \\\vspace{200}\\  -287/540  \\\vspace{200}\\  -145/936  \\\vspace{200}\\  -256/483  \\\vspace{200}\\  22/185  \\\vspace{200}\\
+ 
+0$809915\\5$  282/35  \\\vspace{200}\\  56/45  \\\vspace{200}\\  33/40  \\\vspace{200}\\  -46/45  \\\vspace{200}\\  40/207  \\\vspace{200}\\
+ 
+0$647795\\5$  -42/31  \\\vspace{200}\\  522/623  \\\vspace{200}\\  32/21  \\\vspace{200}\\  -26/3  \\\vspace{200}\\  -190/31  \\\vspace{200}\\
+ 
+0$27569\\5$  185/171  \\\vspace{200}\\  29/129  \\\vspace{200}\\  -152/207  \\\vspace{200}\\  3/49  \\\vspace{200}\\  688/15  \\\vspace{200}\\
+ 
+0$161867\\5$  56/153  \\\vspace{200}\\  7/18  \\\vspace{200}\\  5/102  \\\vspace{200}\\  -12/31  \\\vspace{200}\\  -4/75  \\\vspace{200}\\
+ 
+0$486010\\5$  182/159  \\\vspace{200}\\  -7/17  \\\vspace{200}\\  19/72  \\\vspace{200}\\  -80/83  \\\vspace{200}\\  -2/33  \\\vspace{200}\\
+ 
+0$600770\\5$  0/-1  \\\vspace{200}\\  -292/245  \\\vspace{200}\\  -53/72  \\\vspace{200}\\  -207/134  \\\vspace{200}\\  152/525  \\\vspace{200}\\
+ 
+0$290566\\5$  243/350  \\\vspace{200}\\  72/275  \\\vspace{200}\\  37/5  \\\vspace{200}\\  -3/13  \\\vspace{200}\\  -105/74  \\\vspace{200}\\
+ 
+0$754871\\5$  57/31  \\\vspace{200}\\  10/21  \\\vspace{200}\\  -148/105  \\\vspace{200}\\  45/308  \\\vspace{200}\\  13/5  \\\vspace{200}\\
+ 
+0$392636\\5$  112/45  \\\vspace{200}\\  1/8  \\\vspace{200}\\  175/216  \\\vspace{200}\\  -24/275  \\\vspace{200}\\  -40/27  \\\vspace{200}\\
+ 
+0$741632\\5$  10/153  \\\vspace{200}\\  -308/387  \\\vspace{200}\\  2457/155  \\\vspace{200}\\  -1/6  \\\vspace{200}\\  -441/76  \\\vspace{200}\\
+ 
+0$22562\\5$  -73/72  \\\vspace{200}\\  116/135  \\\vspace{200}\\  371/1206  \\\vspace{200}\\  -14/45  \\\vspace{200}\\  45/64  \\\vspace{200}\\
+ 
+0$515526\\5$  219/14  \\\vspace{200}\\  2/15  \\\vspace{200}\\  70/3  \\\vspace{200}\\  16/105  \\\vspace{200}\\  2/25  \\\vspace{200}\\
+ 
+0$937299\\5$  -14/41  \\\vspace{200}\\  365/408  \\\vspace{200}\\  11/51  \\\vspace{200}\\  133/365  \\\vspace{200}\\  679/222  \\\vspace{200}\\
+ 
+0$909373\\5$  75/2  \\\vspace{200}\\  25/273  \\\vspace{200}\\  495/4256  \\\vspace{200}\\  63/46  \\\vspace{200}\\  73/25  \\\vspace{200}\\
+ 
+0$776234\\5$  -85/252  \\\vspace{200}\\  -85/172  \\\vspace{200}\\  565/287  \\\vspace{200}\\  -17/12  \\\vspace{200}\\  -17/10  \\\vspace{200}\\
+ 
+0$369001\\5$  -4/3  \\\vspace{200}\\  21/31  \\\vspace{200}\\  159/340  \\\vspace{200}\\  287/159  \\\vspace{200}\\  -7/360  \\\vspace{200}\\
+ 
+0$729003\\5$  224/177  \\\vspace{200}\\  -852/133  \\\vspace{200}\\  -545/8  \\\vspace{200}\\  -231/230  \\\vspace{200}\\  215/216  \\\vspace{200}\\
+ 
+0$420697\\5$  42/83  \\\vspace{200}\\  83/252  \\\vspace{200}\\  -624/1435  \\\vspace{200}\\  -31/132  \\\vspace{200}\\  135/448  \\\vspace{200}\\
+ 
+0$468968\\5$  33/20  \\\vspace{200}\\  45/56  \\\vspace{200}\\  423/616  \\\vspace{200}\\  96/29  \\\vspace{200}\\  8  \\\vspace{200}\\
+ 
+0$47058\\5$  -13/264  \\\vspace{200}\\  -76/427  \\\vspace{200}\\  -196/159  \\\vspace{200}\\  15/29  \\\vspace{200}\\  261/616  \\\vspace{200}\\
+ 
+0$362317\\5$  66/205  \\\vspace{50}\\  -14/297  \\\vspace{50}\\  57/20  \\\vspace{50}\\  26/23  \\\vspace{50}\\  189/104  \\\vspace{50}\\
+ 
+0$287142\\5$  87/20  \\\vspace{200}\\  -1428/125  \\\vspace{200}\\  17/22  \\\vspace{200}\\  133/130  \\\vspace{200}\\  -645/92  \\\vspace{200}\\
+ 
+0$388916\\5$  120/43  \\\vspace{200}\\  49/57  \\\vspace{200}\\  -413/130  \\\vspace{200}\\  -17/84  \\\vspace{200}\\  -175/12  \\\vspace{200}\\
+ 
+0$561576\\5$  49/120  \\\vspace{200}\\  80/87  \\\vspace{200}\\  243/1568  \\\vspace{200}\\  5/14  \\\vspace{200}\\  9/224  \\\vspace{200}\\
+ 
+0$51128\\5$  -180/91  \\\vspace{200}\\  -51/22  \\\vspace{200}\\  -54/35  \\\vspace{200}\\  45/88  \\\vspace{200}\\  -9/35  \\\vspace{200}\\
+ 
+0$637930\\5$  760/1029  \\\vspace{200}\\  27/20  \\\vspace{200}\\  35/92  \\\vspace{200}\\  -95/99  \\\vspace{200}\\  -51/14  \\\vspace{200}\\
+ 
+0$588559\\5$  55/336  \\\vspace{200}\\  -64/81  \\\vspace{200}\\  410/567  \\\vspace{200}\\  405/196  \\\vspace{200}\\  -18/7  \\\vspace{200}\\
+ 
+0$702362\\5$  -64/13  \\\vspace{200}\\  -17/10  \\\vspace{200}\\  -44/67  \\\vspace{200}\\  -3/2  \\\vspace{200}\\  -2/15  \\\vspace{200}\\
+ 
+0$719931\\5$  10/21  \\\vspace{200}\\  -790/609  \\\vspace{200}\\  44/105  \\\vspace{200}\\  -27/10  \\\vspace{200}\\  -39/70  \\\vspace{200}\\
+ 
+0$216453\\5$  -1830/91  \\\vspace{200}\\  -119/279  \\\vspace{200}\\  136/1281  \\\vspace{200}\\  924/295  \\\vspace{200}\\  -115/176  \\\vspace{200}\\
+ 
+0$227290\\5$  -1323/80  \\\vspace{200}\\  7/114  \\\vspace{200}\\  -87/11  \\\vspace{200}\\  189/410  \\\vspace{200}\\  -384/553  \\\vspace{200}\\
+ 
+0$857306\\5$\begin{tabular}{ll}  -100/63  \hspace{50}&  -134/203  \\\vspace{200}\\  -2/3  \hspace{50}&  259/244  \\\vspace{200}\\  441/4  \hspace{50}&  -59/120  \\\vspace{200}\\\end{tabular}
+ 
+0$280889\\5$  -62/205  \\\vspace{50}\\  0/-1  \\\vspace{50}\\  -13/6  \\\vspace{50}\\  -116/9  \\\vspace{50}\\  -91/37  \\\vspace{50}\\
+ 
+0$667094\\5$  5/42  \\\vspace{50}\\  -32/243  \\\vspace{50}\\  2/3  \\\vspace{50}\\  21/50  \\\vspace{50}\\  245/62  \\\vspace{50}\\
+ 
+0$950455\\5$  -5/2  \\\vspace{50}\\  10/7  \\\vspace{50}\\  97/72  \\\vspace{50}\\  32/525  \\\vspace{50}\\  63/160  \\\vspace{50}\\
+ 
+0$729689\\5$\begin{tabular}{ll}  -95/46  \hspace{50}&  -21/29  \\\vspace{50}\\  100/51  \hspace{50}&  162/455  \\\vspace{50}\\  208/15  \hspace{50}&  -83/47  \\\vspace{50}\\\end{tabular}
+ 
+0$251032\\5$\begin{tabular}{ll}  -112/603  \hspace{50}&  -85/96  \\\vspace{50}\\  423/980  \hspace{50}&  -11/3  \\\vspace{50}\\  10/9  \hspace{50}&  3  \\\vspace{50}\\\end{tabular}
+ 
+0$597819\\5$\begin{tabular}{ll}  -5/2  \hspace{50}&  130/153  \\\vspace{50}\\  -53/62  \hspace{50}&  -272/147  \\\vspace{50}\\  -135/343  \hspace{50}&  -11/84  \\\vspace{50}\\\end{tabular}
+ 
+0$604835\\5$\begin{tabular}{ll}  225/43  \hspace{50}&  175/162  \\\vspace{50}\\  31/21  \hspace{50}&  -6/37  \\\vspace{50}\\  432/475  \hspace{50}&  112/97  \\\vspace{50}\\\end{tabular}
+ 
+0$363932\\5$\begin{tabular}{ll}  -47/27  \hspace{50}&  -68/345  \\\vspace{50}\\  -1/77  \hspace{50}&  4/5  \\\vspace{50}\\  328/245  \hspace{50}&  11/204  \\\vspace{50}\\\end{tabular}
+ 
+0$688909\\5$\begin{tabular}{ll}  448/155  \hspace{50}&  15/14  \\\vspace{50}\\  232/183  \hspace{50}&  15/4  \\\vspace{50}\\  31/52  \hspace{50}&  -380/693  \\\vspace{50}\\\end{tabular}
+ 
+0$364212\\5$\begin{tabular}{ll}  27/32  \hspace{50}&  40/63  \\\vspace{50}\\  3/2  \hspace{50}&  14/9  \\\vspace{50}\\  9/340  \hspace{50}&  45/416  \\\vspace{50}\\\end{tabular}
+ 
+0$262681\\5$\begin{tabular}{ll}  7/9  \hspace{50}&  -13/114  \\\vspace{50}\\  246/77  \hspace{50}&  5/8  \\\vspace{50}\\  495/404  \hspace{50}&  1435/576  \\\vspace{50}\\\end{tabular}
+ 
+0$869421\\5$\begin{tabular}{ll}  112/207  \hspace{50}&  -145/81  \\\vspace{50}\\  -76/175  \hspace{50}&  -8/7  \\\vspace{50}\\  -357/410  \hspace{50}&  8/19  \\\vspace{50}\\\end{tabular}
+ 
+0$246684\\5$\begin{tabular}{ll}  62/27  \hspace{50}&  25/21  \\\vspace{50}\\  -33/32  \hspace{50}&  18/355  \\\vspace{50}\\  -119/9  \hspace{50}&  -702/115  \\\vspace{50}\\\end{tabular}
+ 
+0$486274\\5$\begin{tabular}{ll}  69/100  \hspace{50}&  -4/9  \\\vspace{50}\\  -2/63  \hspace{50}&  4/1365  \\\vspace{50}\\  -480/7  \hspace{50}&  -104/1215  \\\vspace{50}\\\end{tabular}
+ 
+0$244399\\5$\begin{tabular}{ll}  225/124  \hspace{50}&  7/3  \\\vspace{50}\\  85/392  \hspace{50}&  7/55  \\\vspace{50}\\  4  \hspace{50}&  -1/48  \\\vspace{50}\\\end{tabular}
+ 
+0$91360\\5$\begin{tabular}{ll}  16/35  \hspace{50}&  27/112  \\\vspace{50}\\  117/8  \hspace{50}&  20/3  \\\vspace{50}\\  -10/3  \hspace{50}&  56/279  \\\vspace{50}\\\end{tabular}
+ 
+0$474016\\5$\begin{tabular}{ll}  -35/324  \hspace{50}&  0/-1  \\\vspace{50}\\  4/47  \hspace{50}&  11/86  \\\vspace{50}\\  1/2  \hspace{50}&  343/52  \\\vspace{50}\\\end{tabular}
+ 
+0$336245\\5$\begin{tabular}{ll}  -35/54  \hspace{50}&  -70/141  \\\vspace{50}\\  -11/90  \hspace{50}&  -7/33  \\\vspace{50}\\  27/25  \hspace{50}&  45/188  \\\vspace{50}\\\end{tabular}
+ 
+0$936227\\5$\begin{tabular}{ll}  208/69  \hspace{50}&  -119/222  \\\vspace{50}\\  -207/128  \hspace{50}&  48/65  \\\vspace{50}\\  -37/66  \hspace{50}&  -57/56  \\\vspace{50}\\\end{tabular}
+ 
+0$546191\\5$  52/75  \\\vspace{200}\\  3/8  \\\vspace{200}\\  51/70  \\\vspace{200}\\  -13/88  \\\vspace{200}\\  29/120  \\\vspace{200}\\
+ 
+0$97859\\5$  388/41  \\\vspace{50}\\  103/18  \\\vspace{50}\\  219/28  \\\vspace{50}\\  -77/10  \\\vspace{50}\\  -65/324  \\\vspace{50}\\
+ 
+0$909547\\5$  9/136  \\\vspace{50}\\  11/60  \\\vspace{50}\\  196/45  \\\vspace{50}\\  1  \\\vspace{50}\\  388/81  \\\vspace{50}\\
+ 
+0$921665\\5$  -15  \\\vspace{50}\\  -29/19  \\\vspace{50}\\  91/8  \\\vspace{50}\\  -13/36  \\\vspace{50}\\  5/11  \\\vspace{50}\\
+ 
+0$395123\\5$  -1/8  \\\vspace{50}\\  675/464  \\\vspace{50}\\  175/44  \\\vspace{50}\\  -43/27  \\\vspace{50}\\  49/438  \\\vspace{50}\\
+ 
+0$276176\\5$  -2/105  \\\vspace{50}\\  200/81  \\\vspace{50}\\  -217/325  \\\vspace{50}\\  101/222  \\\vspace{50}\\  7/6  \\\vspace{50}\\
+ 
+0$545434\\5$  -28/37  \\\vspace{50}\\  99/26  \\\vspace{50}\\  -2/13  \\\vspace{50}\\  -71/33  \\\vspace{50}\\  1/21  \\\vspace{50}\\
+ 
+0$61341\\5$  92/33  \\\vspace{50}\\  -55/288  \\\vspace{50}\\  -38/165  \\\vspace{50}\\  49/25  \\\vspace{50}\\  -95/58  \\\vspace{50}\\
+ 
+0$355108\\5$  188/123  \\\vspace{50}\\  55/13  \\\vspace{50}\\  7/1350  \\\vspace{50}\\  232/45  \\\vspace{50}\\  -35/204  \\\vspace{50}\\
+ 
+0$27981\\5$  -98/57  \\\vspace{50}\\  -124/23  \\\vspace{50}\\  1/4  \\\vspace{50}\\  8/117  \\\vspace{50}\\  217/120  \\\vspace{50}\\
+ 
+0$112834\\5$  99/7  \\\vspace{50}\\  27/20  \\\vspace{50}\\  144/49  \\\vspace{50}\\  -118/53  \\\vspace{50}\\  71/14  \\\vspace{50}\\
+ 
+0$463292\\5$  -1953/3200  \\\vspace{50}\\  108/145  \\\vspace{50}\\  71/63  \\\vspace{50}\\  -872/693  \\\vspace{50}\\  34/47  \\\vspace{50}\\
+ 
+0$500610\\5$  208/1665  \\\vspace{50}\\  1/2  \\\vspace{50}\\  -46/35  \\\vspace{50}\\
+ 
+0$998950\\5$  93/203  \\\vspace{300}\\  -301/960  \\\vspace{300}\\  203/43  \\\vspace{300}\\
+ 
+0$911328\\5$  -49/172  \\\vspace{300}\\  -40/63  \\\vspace{300}\\  370/189  \\\vspace{300}\\  -180/47  \\\vspace{300}\\
+ 
+0$794729\\5$  -96/1225  \\\vspace{300}\\  -288/3815  \\\vspace{300}\\
+ 
+0$277661\\5$  145/26  \\\vspace{50}\\  -95/6  \\\vspace{50}\\  96/203  \\\vspace{50}\\  -115/56  \\\vspace{50}\\  -13/30  \\\vspace{50}\\
+ 
+0$569324\\5$  -301/2448  \\\vspace{200}\\  518/645  \\\vspace{200}\\  -31/3  \\\vspace{200}\\
+ 
+0$215986\\5$  343/162  \\\vspace{300}\\  1/9  \\\vspace{300}\\  -112/891  \\\vspace{300}\\
+ 
+0$332924\\5$  -99/50  \\\vspace{300}\\  -63/152  \\\vspace{300}\\  65/153  \\\vspace{300}\\
+ 
+0$99979\\5$  -153/364  \\\vspace{200}\\  -72/455  \\\vspace{200}\\  -63/10  \\\vspace{200}\\  33/170  \\\vspace{200}\\  64/495  \\\vspace{200}\\
+ 
+0$848272\\5$  6  \\\vspace{300}\\  91/264  \\\vspace{300}\\  -37/67  \\\vspace{300}\\
+ 
+0$934798\\5$  2/9  \\\vspace{300}\\  55/24  \\\vspace{300}\\  -51/38  \\\vspace{300}\\
+ 
+0$10277\\5$  -6/25  \\\vspace{300}\\  -33/10  \\\vspace{300}\\  -48/205  \\\vspace{300}\\
+ 
+0$955175\\5$  -61/24  \\\vspace{300}\\  1568/325  \\\vspace{300}\\
+ 
+0$520056\\5$  -55/14  \\\vspace{300}\\  -7/148  \\\vspace{300}\\  205/36  \\\vspace{300}\\
+ 
+0$651191\\5$  5/12  \\\vspace{300}\\  31/35  \\\vspace{300}\\  19/25  \\\vspace{300}\\
+ 
+0$35973\\5$  -1575/16  \\\vspace{50}\\  10/13  \\\vspace{50}\\  -259/1530  \\\vspace{50}\\  105/136  \\\vspace{50}\\  92/855  \\\vspace{50}\\
+ 
+0$26732\\5$  -37/58  \\\vspace{200}\\  -238/405  \\\vspace{200}\\  21/164  \\\vspace{200}\\
+ 
+0$783952\\5$  1,2E-18  \\\vspace{200}\\  40000000  \\\vspace{200}\\  1,6E15  \\\vspace{200}\\
+ 
+0$889778\\5$  0,0008424  \\\vspace{200}\\  8,55  \\\vspace{200}\\  28800  \\\vspace{200}\\
+ 
+0$979660\\5$  6E-8  \\\vspace{200}\\  0,1  \\\vspace{200}\\  0,6  \\\vspace{200}\\
+ 
+0$352472\\5$  1,2  \\\vspace{200}\\  71,4  \\\vspace{200}\\  -66000  \\\vspace{200}\\
+ 
+0$140164\\5$  -182/11  \\\vspace{200}\\  3  \\\vspace{200}\\  -9/10  \\\vspace{200}\\  -1197/65  \\\vspace{200}\\  -1/51  \\\vspace{200}\\
+ 
+0$314868\\5$  416/25  \\\vspace{200}\\  25/72  \\\vspace{200}\\  -40  \\\vspace{200}\\  0/-1  \\\vspace{200}\\  7/3  \\\vspace{200}\\
+ 
+0$705820\\5$  -171/448  \\\vspace{200}\\  -91/19  \\\vspace{200}\\  -342/217  \\\vspace{200}\\  -10/51  \\\vspace{200}\\  297/40  \\\vspace{200}\\
+ 
+0$203195\\5$  6/5  \\\vspace{300}\\  -28/513  \\\vspace{300}\\  46/21  \\\vspace{300}\\
+ 
+0$173099\\5$  38,00  \\\vspace{50}\\  43,77  \\\vspace{50}\\  53,68  \\\vspace{50}\\  40,78  \\\vspace{50}\\  50,41  \\\vspace{50}\\
+ 
+0$822010\\5$  532/207  \\\vspace{50}\\  -35/136  \\\vspace{50}\\  57/116  \\\vspace{50}\\  203/200  \\\vspace{50}\\  -217/18  \\\vspace{50}\\
+ 
+0$4634\\5$  16/63  \\\vspace{50}\\  56/13  \\\vspace{50}\\  5  \\\vspace{50}\\  1407/40  \\\vspace{50}\\  -3/14  \\\vspace{50}\\
+ 
+0$760956\\5$  49/50  \\\vspace{50}\\  40/63  \\\vspace{50}\\  -152/1029  \\\vspace{50}\\  63/34  \\\vspace{50}\\  427/20  \\\vspace{50}\\
+ 
+0$596546\\5$  ABC\ est\ rectangle\ :\ 1296+5929=7225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 324+576=900  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1521+2704=4225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 64+225=289  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1936+2025<>3969  \\\vspace{50}\\
+ 
+0$712994\\5$  8E-5  \\\vspace{50}\\  369  \\\vspace{50}\\  2,4E-5  \\\vspace{50}\\  0,000126  \\\vspace{50}\\  -2,07  \\\vspace{50}\\
+ 
+0$476659\\5$  0,0005  \\\vspace{50}\\  0,00042  \\\vspace{50}\\  7E-7  \\\vspace{50}\\  0,27  \\\vspace{50}\\  33600000  \\\vspace{50}\\
+ 
+0$242867\\5$  18,9  \\\vspace{50}\\  8E-9  \\\vspace{50}\\  40000  \\\vspace{50}\\  9E-12  \\\vspace{50}\\  504000  \\\vspace{50}\\
+ 
+0$340262\\5$  8800000  \\\vspace{50}\\  4140000  \\\vspace{50}\\  5200  \\\vspace{50}\\  4,179  \\\vspace{50}\\  -0,371  \\\vspace{50}\\
+ 
+0$920217\\5$  7E-15  \\\vspace{50}\\  6  \\\vspace{50}\\  1E-12  \\\vspace{50}\\  13,5  \\\vspace{50}\\  5760000000  \\\vspace{50}\\
+ 
+0$364527\\5$  2,508E-6  \\\vspace{50}\\  0,0013  \\\vspace{50}\\  840000000  \\\vspace{50}\\  90100  \\\vspace{50}\\  6,525  \\\vspace{50}\\
+ 
+0$469540\\5$  ABC\ n'est\ pas\ rectangle\ :\ 529+7396<>7921  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 2304+4096=6400  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 900+5184=6084  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+900=1156  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 400+9801=10201  \\\vspace{50}\\
+ 
+0$135474\\5$  6714,400  \\\vspace{50}\\  43,3356  \\\vspace{50}\\  11479,747  \\\vspace{50}\\  142,784  \\\vspace{50}\\  352,56  \\\vspace{50}\\
+ 
+0$147755\\5$  45,60  \\\vspace{50}\\  60,04  \\\vspace{50}\\  41,94  \\\vspace{50}\\  48,97  \\\vspace{50}\\  48,57  \\\vspace{50}\\
+ 
+0$606060\\5$  58,07  \\\vspace{50}\\  49,16  \\\vspace{50}\\  36,00  \\\vspace{50}\\  64,43  \\\vspace{50}\\  40,32  \\\vspace{50}\\
+ 
+0$812423\\5$  69/77  \\\vspace{50}\\  26/25  \\\vspace{50}\\  6/19  \\\vspace{50}\\  400/9  \\\vspace{50}\\  -52/231  \\\vspace{50}\\
+ 
+0$567787\\5$  81/128  \\\vspace{50}\\  -74/35  \\\vspace{50}\\  28  \\\vspace{50}\\  -14/171  \\\vspace{50}\\  -1/5  \\\vspace{50}\\
+ 
+0$527722\\5$  -28/13  \\\vspace{50}\\  -100/27  \\\vspace{50}\\  23/11  \\\vspace{50}\\  352/645  \\\vspace{50}\\  -61/11  \\\vspace{50}\\
+ 
+0$81648\\5$  315/464  \\\vspace{50}\\  9/5  \\\vspace{50}\\  5/8  \\\vspace{50}\\  5/27  \\\vspace{50}\\  110/63  \\\vspace{50}\\
+ 
+0$420513\\5$  58,38  \\\vspace{50}\\  60,52  \\\vspace{50}\\  58,24  \\\vspace{50}\\  46,99  \\\vspace{50}\\  37,17  \\\vspace{50}\\
+ 
+0$999887\\5$  55,32  \\\vspace{50}\\  54,40  \\\vspace{50}\\  57,03  \\\vspace{50}\\  43,37  \\\vspace{50}\\  39,95  \\\vspace{50}\\
+ 
+0$340229\\5$  55,09  \\\vspace{50}\\  49,30  \\\vspace{50}\\  63,97  \\\vspace{50}\\  43,64  \\\vspace{50}\\  42,52  \\\vspace{50}\\
+ 
+0$857879\\5$  99872,85  \\\vspace{50}\\  124195,86  \\\vspace{50}\\  5600,5  \\\vspace{50}\\  131,208  \\\vspace{50}\\  2,12  \\\vspace{50}\\
+ 
+0$617614\\5$  38,98  \\\vspace{50}\\  48,95  \\\vspace{50}\\  32,63  \\\vspace{50}\\  58,30  \\\vspace{50}\\  38,88  \\\vspace{50}\\
+ 
+0$492717\\5$  2,34E-8  \\\vspace{50}\\  6  \\\vspace{50}\\  7,04E-9  \\\vspace{50}\\  336  \\\vspace{50}\\  0,222  \\\vspace{50}\\
+ 
+0$231518\\5$  5,6E-5  \\\vspace{50}\\  0,0009  \\\vspace{50}\\  27  \\\vspace{50}\\  0,004  \\\vspace{50}\\  70  \\\vspace{50}\\
+ 
+0$816987\\5$  35900  \\\vspace{50}\\  137,2  \\\vspace{50}\\  -0,000128  \\\vspace{50}\\  0,0056  \\\vspace{50}\\  1600  \\\vspace{50}\\
+ 
+0$712731\\5$  450  \\\vspace{50}\\  6  \\\vspace{50}\\  6000000  \\\vspace{50}\\  0,04  \\\vspace{50}\\  1680000  \\\vspace{50}\\
+ 
+0$37777\\5$  -49/57  \\\vspace{50}\\  -5/8  \\\vspace{50}\\  49/248  \\\vspace{50}\\  27/316  \\\vspace{50}\\  7/81  \\\vspace{50}\\
+ 
+0$344978\\5$  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1156+1600<>2704  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+256=400  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 2025+3600=5625  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 324+576=900  \\\vspace{50}\\
+ 
+0$110071\\5$  933  \\\vspace{50}\\  13227576  \\\vspace{50}\\  335790  \\\vspace{50}\\  2376682  \\\vspace{50}\\  45494  \\\vspace{50}\\
+ 
+0$945108\\5$  56,64  \\\vspace{50}\\  45,12  \\\vspace{50}\\  41,33  \\\vspace{50}\\  51,44  \\\vspace{50}\\  42,35  \\\vspace{50}\\
+ 
+0$722438\\5$  3/17  \\\vspace{50}\\  -324/55  \\\vspace{50}\\  108/175  \\\vspace{50}\\  122/15  \\\vspace{50}\\  23/135  \\\vspace{50}\\
+ 
+0$585107\\5$  -43/28  \\\vspace{50}\\  -13  \\\vspace{50}\\  16/75  \\\vspace{50}\\  25/17  \\\vspace{50}\\  -63/188  \\\vspace{50}\\
+ 
+0$708494\\5$  -343/5  \\\vspace{50}\\  33/41  \\\vspace{50}\\  305/784  \\\vspace{50}\\  32/297  \\\vspace{50}\\  -5/76  \\\vspace{50}\\
+ 
+0$392424\\5$  35/186  \\\vspace{50}\\  77/810  \\\vspace{50}\\  -28  \\\vspace{50}\\  -19/4  \\\vspace{50}\\  -21/410  \\\vspace{50}\\
+ 
+0$545465\\5$  9E-6  \\\vspace{200}\\  0,0077  \\\vspace{200}\\  1,26E-8  \\\vspace{200}\\  0,3344  \\\vspace{200}\\  3128000000  \\\vspace{200}\\
+ 
+0$427892\\5$  75000000000  \\\vspace{200}\\  0,4  \\\vspace{200}\\  1,5E-5  \\\vspace{200}\\  3,6E-13  \\\vspace{200}\\  15  \\\vspace{200}\\
+ 
+0$675231\\5$  -34/91  \\\vspace{200}\\  -45/7  \\\vspace{200}\\  -644/215  \\\vspace{200}\\  -1  \\\vspace{200}\\  60/301  \\\vspace{200}\\
+ 
+0$864254\\5$  2520  \\\vspace{200}\\  6000000  \\\vspace{200}\\  0,9  \\\vspace{200}\\  0,003  \\\vspace{200}\\  5  \\\vspace{200}\\
+ 
+0$433126\\5$  -0,7582  \\\vspace{200}\\  3,465E-6  \\\vspace{200}\\  0,01125  \\\vspace{200}\\  10900  \\\vspace{200}\\  -1,961  \\\vspace{200}\\
+ 
+0$704680\\5$  4E-6  \\\vspace{200}\\  300  \\\vspace{200}\\  2E-6  \\\vspace{200}\\  70  \\\vspace{200}\\  0,00014  \\\vspace{200}\\
+ 
+0$794289\\5$  217/75  \\\vspace{200}\\  13/35  \\\vspace{200}\\  -29/2  \\\vspace{200}\\  35/288  \\\vspace{200}\\  1/60  \\\vspace{200}\\
+ 
+0$824047\\5$  45/32  \\\vspace{200}\\  -2/3  \\\vspace{200}\\  80/39  \\\vspace{200}\\  15/34  \\\vspace{200}\\  -110/369  \\\vspace{200}\\
+ 
+0$864318\\5$  81/8  \\\vspace{200}\\  8/315  \\\vspace{200}\\  81/17  \\\vspace{200}\\  8/3  \\\vspace{200}\\  217/128  \\\vspace{200}\\
+ 
+0$369221\\5$  8/189  \\\vspace{200}\\  111/200  \\\vspace{200}\\  -545/54  \\\vspace{200}\\  -1/14  \\\vspace{200}\\  0/-1  \\\vspace{200}\\
+ 
+0$671966\\5$  6E-5  \\\vspace{200}\\  2400  \\\vspace{200}\\  0,002  \\\vspace{200}\\  4,2  \\\vspace{200}\\  0,1  \\\vspace{200}\\
+ 
+0$755341\\5$  3,6E-6  \\\vspace{200}\\  8000  \\\vspace{200}\\  9E-7  \\\vspace{200}\\  54000000  \\\vspace{200}\\  4200000  \\\vspace{200}\\
+ 
+0$479530\\5$  -6/7  \\\vspace{200}\\  11/130  \\\vspace{200}\\  50/329  \\\vspace{200}\\  -176/49  \\\vspace{200}\\  -73/64  \\\vspace{200}\\
+ 
+0$106772\\5$  2,8  \\\vspace{200}\\  1000  \\\vspace{200}\\  480  \\\vspace{200}\\  0,0003  \\\vspace{200}\\  0,1  \\\vspace{200}\\
+ 
+0$851646\\5$  4/9  \\\vspace{200}\\  -22/5  \\\vspace{200}\\  265/93  \\\vspace{200}\\  224  \\\vspace{200}\\  -152/465  \\\vspace{200}\\
+ 
+0$264945\\5$  -99/170  \\\vspace{200}\\  -75/77  \\\vspace{200}\\  325/744  \\\vspace{200}\\  87/133  \\\vspace{200}\\  -17/11  \\\vspace{200}\\
+ 
+0$228508\\5$  -234/125  \\\vspace{200}\\  -6/11  \\\vspace{200}\\  -25/22  \\\vspace{200}\\  81/52  \\\vspace{200}\\  -93/170  \\\vspace{200}\\
+ 
+0$177591\\5$  300  \\\vspace{200}\\  2520000000000  \\\vspace{200}\\  1800  \\\vspace{200}\\  140000000000  \\\vspace{200}\\  288000  \\\vspace{200}\\
+ 
+0$924275\\5$  96000000  \\\vspace{200}\\  19880000  \\\vspace{200}\\  -0,00312  \\\vspace{200}\\  76475  \\\vspace{200}\\  840  \\\vspace{200}\\
+ 
+0$287116\\5$  5  \\\vspace{200}\\  49/117  \\\vspace{200}\\  -322/2025  \\\vspace{200}\\  2/133  \\\vspace{200}\\  3560/513  \\\vspace{200}\\
+ 
+0$469726\\5$  43/540  \\\vspace{200}\\  -141/56  \\\vspace{200}\\  242/85  \\\vspace{200}\\  -15/38  \\\vspace{200}\\  306/133  \\\vspace{200}\\
+ 
+0$980069\\5$  -85/44  \\\vspace{200}\\  121/175  \\\vspace{200}\\  -92/81  \\\vspace{200}\\  -7/26  \\\vspace{200}\\
+ 
+0$269311\\5$  74  \\\vspace{50}\\  31,1  \\\vspace{50}\\  6  \\\vspace{50}\\  0,0001425  \\\vspace{50}\\  0,009  \\\vspace{50}\\
+ 
+0$421691\\5$  -1  \\\vspace{50}\\  -1  \\\vspace{50}\\  -2  \\\vspace{50}\\  -5  \\\vspace{50}\\  -5  \\\vspace{50}\\
+ 
+0$870711\\5$  29/24  \\\vspace{50}\\  243/16  \\\vspace{50}\\  -49/46  \\\vspace{50}\\  -7/4  \\\vspace{50}\\  25/156  \\\vspace{50}\\
+ 
+0$839122\\5$  40,74  \\\vspace{50}\\  40,60  \\\vspace{50}\\  72,50  \\\vspace{50}\\  34,11  \\\vspace{50}\\  51,76  \\\vspace{50}\\
+ 
+0$737080\\5$  110188  \\\vspace{50}\\  1884  \\\vspace{50}\\  15416416  \\\vspace{50}\\  19940  \\\vspace{50}\\  5712  \\\vspace{50}\\
+ 
+0$863962\\5$  41,70  \\\vspace{50}\\  47,32  \\\vspace{50}\\  46,57  \\\vspace{50}\\  39,92  \\\vspace{50}\\  63,81  \\\vspace{50}\\
+ 
+0$197005\\5$  6  \\\vspace{50}\\  -1  \\\vspace{50}\\  10  \\\vspace{50}\\  8  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$939315\\5$  -3  \\\vspace{50}\\  -1  \\\vspace{50}\\  -8  \\\vspace{50}\\  6  \\\vspace{50}\\  -4  \\\vspace{50}\\
+ 
+0$966702\\5$  -3  \\\vspace{50}\\  -9  \\\vspace{50}\\  -3  \\\vspace{50}\\  -5  \\\vspace{50}\\  -7  \\\vspace{50}\\  -10  \\\vspace{50}\\  -2  \\\vspace{50}\\  5  \\\vspace{50}\\  -4  \\\vspace{50}\\  8  \\\vspace{50}\\  -4  \\\vspace{50}\\  2  \\\vspace{50}\\  0  \\\vspace{50}\\  0  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$851740\\5$  -1  \\\vspace{50}\\  0  \\\vspace{50}\\  -1  \\\vspace{50}\\  8  \\\vspace{50}\\  3  \\\vspace{50}\\  -7  \\\vspace{50}\\  8  \\\vspace{50}\\  -4  \\\vspace{50}\\  1  \\\vspace{50}\\  7  \\\vspace{50}\\  4  \\\vspace{50}\\  -3  \\\vspace{50}\\  1  \\\vspace{50}\\  2  \\\vspace{50}\\  3  \\\vspace{50}\\
+ 
+0$352313\\5$  10  \\\vspace{50}\\  -4  \\\vspace{50}\\  10  \\\vspace{50}\\  6  \\\vspace{50}\\  -1  \\\vspace{50}\\  -5  \\\vspace{50}\\  4  \\\vspace{50}\\  -7  \\\vspace{50}\\  2  \\\vspace{50}\\  -2  \\\vspace{50}\\  1  \\\vspace{50}\\  2  \\\vspace{50}\\  9  \\\vspace{50}\\  2  \\\vspace{50}\\  3  \\\vspace{50}\\
+ 
+0$165444\\5$  ABC\ n'est\ pas\ rectangle\ :\ 400+6084<>6561  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1369+3721<>5041  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 784+4096<>4900  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 121+2209<>2304  \\\vspace{50}\\
+ 
+0$675888\\5$  52,54  \\\vspace{50}\\  32,45  \\\vspace{50}\\  56,45  \\\vspace{50}\\  45,54  \\\vspace{50}\\  63,56  \\\vspace{50}\\
+ 
+0$696964\\5$  16/45  \\\vspace{50}\\  665/48  \\\vspace{50}\\  93/44  \\\vspace{50}\\  160/301  \\\vspace{50}\\  -238/45  \\\vspace{50}\\
+ 
+0$655091\\5$  46,80  \\\vspace{50}\\  55,85  \\\vspace{50}\\  41,99  \\\vspace{50}\\  37,37  \\\vspace{50}\\  42,67  \\\vspace{50}\\
+ 
+0$80830\\5$  7465540  \\\vspace{50}\\  45  \\\vspace{50}\\  120  \\\vspace{50}\\  8696  \\\vspace{50}\\  1600  \\\vspace{50}\\
+ 
+0$503510\\5$  68,36  \\\vspace{50}\\  59,34  \\\vspace{50}\\  39,37  \\\vspace{50}\\  33,54  \\\vspace{50}\\  36,69  \\\vspace{50}\\
+ 
+0$523179\\5$  65/17  \\\vspace{50}\\  31/15  \\\vspace{50}\\  105/32  \\\vspace{50}\\  25/132  \\\vspace{50}\\  -6/35  \\\vspace{50}\\
+ 
+0$435066\\5$  -58,8  \\\vspace{50}\\  32  \\\vspace{50}\\  59410  \\\vspace{50}\\  0,00282  \\\vspace{50}\\  0,001995  \\\vspace{50}\\
+ 
+0$202443\\5$  5E-5  \\\vspace{50}\\  80000000  \\\vspace{50}\\  0,00027  \\\vspace{50}\\  2000000000000  \\\vspace{50}\\  6000000000  \\\vspace{50}\\
+ 
+0$143381\\5$  73317820  \\\vspace{50}\\  130  \\\vspace{50}\\  666655  \\\vspace{50}\\  70766  \\\vspace{50}\\  432259  \\\vspace{50}\\
+ 
+0$584752\\5$  39,13  \\\vspace{50}\\  40,79  \\\vspace{50}\\  43,21  \\\vspace{50}\\  55,70  \\\vspace{50}\\  45,73  \\\vspace{50}\\
+ 
+0$62358\\5$  5,4E-9  \\\vspace{50}\\  940000  \\\vspace{50}\\  52200000000  \\\vspace{50}\\  1089  \\\vspace{50}\\  0,518  \\\vspace{50}\\
+ 
+0$731220\\5$  ABC\ n'est\ pas\ rectangle\ :\ 144+6400<>6561  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+3969=4225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 441+784=1225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 25+144=169  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1024+3600=4624  \\\vspace{50}\\
+ 
+0$635101\\5$  192,2  \\\vspace{50}\\  4824,296  \\\vspace{50}\\  8,2  \\\vspace{50}\\  365,5  \\\vspace{50}\\  17,6  \\\vspace{50}\\
+ 
+0$525415\\5$  45,02  \\\vspace{50}\\  48,41  \\\vspace{50}\\  44,35  \\\vspace{50}\\  67,16  \\\vspace{50}\\  53,14  \\\vspace{50}\\
+ 
+0$327548\\5$  49,32  \\\vspace{50}\\  34,50  \\\vspace{50}\\  44,55  \\\vspace{50}\\  62,99  \\\vspace{50}\\  41,51  \\\vspace{50}\\
+ 
+0$831330\\5$  244/27  \\\vspace{50}\\  81/80  \\\vspace{50}\\  18/25  \\\vspace{50}\\  81/35  \\\vspace{50}\\  76/63  \\\vspace{50}\\
+ 
+0$100644\\5$  77/108  \\\vspace{50}\\  -87/20  \\\vspace{50}\\  -1  \\\vspace{50}\\  38/45  \\\vspace{50}\\  -180/217  \\\vspace{50}\\
+ 
+0$491628\\5$  402/161  \\\vspace{50}\\  5/8  \\\vspace{50}\\  105/124  \\\vspace{50}\\  45/44  \\\vspace{50}\\  -15/26  \\\vspace{50}\\
+ 
+0$322202\\5$  357/64  \\\vspace{50}\\  -39/25  \\\vspace{50}\\  423/206  \\\vspace{50}\\  -47/45  \\\vspace{50}\\  245/54  \\\vspace{50}\\
+ 
+0$970559\\5$  365/28  \\\vspace{50}\\  735/124  \\\vspace{50}\\  -125/82  \\\vspace{50}\\  72/259  \\\vspace{50}\\  21/11  \\\vspace{50}\\
+ 
+0$24413\\5$  448/1095  \\\vspace{50}\\  175/69  \\\vspace{50}\\  75/1168  \\\vspace{50}\\  46/105  \\\vspace{50}\\  17/35  \\\vspace{50}\\
+ 
+0$495972\\5$  -415/576  \\\vspace{50}\\  99/155  \\\vspace{50}\\  111/245  \\\vspace{50}\\  96/5  \\\vspace{50}\\  -156/259  \\\vspace{50}\\
+ 
+0$647038\\5$  16/81  \\\vspace{50}\\  51/5  \\\vspace{50}\\  -33/28  \\\vspace{50}\\  9/28  \\\vspace{50}\\  15/7  \\\vspace{50}\\
+ 
+0$611549\\5$  16/105  \\\vspace{50}\\  -513/320  \\\vspace{50}\\  68/455  \\\vspace{50}\\  483/220  \\\vspace{50}\\  -13/56  \\\vspace{50}\\
+ 
+0$681015\\5$  114/35  \\\vspace{50}\\  -444/91  \\\vspace{50}\\  -384/5  \\\vspace{50}\\  -5/17  \\\vspace{50}\\  -60/91  \\\vspace{50}\\
+ 
+0$126451\\5$  -195/58  \\\vspace{50}\\  -19/20  \\\vspace{50}\\  11/16  \\\vspace{50}\\  27/161  \\\vspace{50}\\  -87/952  \\\vspace{50}\\
+ 
+0$380888\\5$  14/3  \\\vspace{50}\\  -7/36  \\\vspace{50}\\  -87/49  \\\vspace{50}\\  259/76  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$900483\\5$  31/13  \\\vspace{50}\\  -424/189  \\\vspace{50}\\  2/27  \\\vspace{50}\\  56/25  \\\vspace{50}\\  -3/2  \\\vspace{50}\\
+ 
+0$878399\\5$  3  \\\vspace{50}\\  9  \\\vspace{50}\\  -8  \\\vspace{50}\\  0  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$332042\\5$  8  \\\vspace{50}\\  -5  \\\vspace{50}\\  -4  \\\vspace{50}\\  7  \\\vspace{50}\\  -9  \\\vspace{50}\\  -2  \\\vspace{50}\\  7  \\\vspace{50}\\  5  \\\vspace{50}\\  2  \\\vspace{50}\\  -5  \\\vspace{50}\\  -9  \\\vspace{50}\\  9  \\\vspace{50}\\  -3  \\\vspace{50}\\  6  \\\vspace{50}\\  9  \\\vspace{50}\\
+ 
+0$848347\\5$  8  \\\vspace{50}\\  3  \\\vspace{50}\\  -8  \\\vspace{50}\\  -4  \\\vspace{50}\\  0  \\\vspace{50}\\
+ 
+0$438548\\5$  -8  \\\vspace{50}\\  3  \\\vspace{50}\\  2  \\\vspace{50}\\  -4  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$242556\\5$  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\  5  \\\vspace{50}\\  4  \\\vspace{50}\\  -3  \\\vspace{50}\\
+ 
+0$816614\\5$  7  \\\vspace{50}\\  -7  \\\vspace{50}\\  3  \\\vspace{50}\\  -7  \\\vspace{50}\\  -6  \\\vspace{50}\\
+ 
+0$191962\\5$  -5  \\\vspace{50}\\  2  \\\vspace{50}\\  8  \\\vspace{50}\\  9  \\\vspace{50}\\  -10  \\\vspace{50}\\
+ 
+0$230759\\5$  2  \\\vspace{50}\\  6  \\\vspace{50}\\  8  \\\vspace{50}\\  -9  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$399463\\5$  700  \\\vspace{50}\\  180000  \\\vspace{50}\\  4,2E-9  \\\vspace{50}\\  0,2136  \\\vspace{50}\\  -888000  \\\vspace{50}\\
+ 
+0$470935\\5$  0,0001  \\\vspace{50}\\  80000000  \\\vspace{50}\\  960  \\\vspace{50}\\  480000  \\\vspace{50}\\  60  \\\vspace{50}\\
+ 
+0$673054\\5$  30800  \\\vspace{50}\\  251,1  \\\vspace{50}\\  4,63  \\\vspace{50}\\  1,08E-6  \\\vspace{50}\\  96000000  \\\vspace{50}\\
+ 
+0$589281\\5$  3084  \\\vspace{50}\\  1,74  \\\vspace{50}\\  0,0042  \\\vspace{50}\\  4E-5  \\\vspace{50}\\  1,1352  \\\vspace{50}\\
+ 
+0$942951\\5$  1664000  \\\vspace{50}\\  -1440  \\\vspace{50}\\  6320000000  \\\vspace{50}\\  6198  \\\vspace{50}\\  11440  \\\vspace{50}\\
+ 
+0$283373\\5$  4884000  \\\vspace{50}\\  0,0012  \\\vspace{50}\\  0,1104  \\\vspace{50}\\  2430  \\\vspace{50}\\  43200  \\\vspace{50}\\
+ 
+0$737628\\5$  7680  \\\vspace{50}\\  40000  \\\vspace{50}\\  2100000  \\\vspace{50}\\  600000  \\\vspace{50}\\  7E-7  \\\vspace{50}\\
+ 
+0$688373\\5$  5,6416  \\\vspace{50}\\  -5,83  \\\vspace{50}\\  -2915  \\\vspace{50}\\  0,00302  \\\vspace{50}\\  -9,4  \\\vspace{50}\\
+ 
+0$40704\\5$  3  \\\vspace{50}\\  -7  \\\vspace{50}\\  10  \\\vspace{50}\\  -1  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$456125\\5$  -4  \\\vspace{50}\\  -4  \\\vspace{50}\\  0  \\\vspace{50}\\  7  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$817437\\5$  4E-9  \\\vspace{50}\\  2  \\\vspace{50}\\  3,2E-10  \\\vspace{50}\\  0,0063  \\\vspace{50}\\  40000  \\\vspace{50}\\
+ 
+0$637625\\5$  -1061  \\\vspace{50}\\  640000  \\\vspace{50}\\  0,037  \\\vspace{50}\\  0,0001754  \\\vspace{50}\\  3840  \\\vspace{50}\\
+ 
+0$917804\\5$  -923,3  \\\vspace{50}\\  7700000  \\\vspace{50}\\  -316000  \\\vspace{50}\\  0,0294  \\\vspace{50}\\  0,000272  \\\vspace{50}\\
+ 
+0$542863\\5$  2,7E-6  \\\vspace{50}\\  0,08  \\\vspace{50}\\  0,0063  \\\vspace{50}\\  0,056  \\\vspace{50}\\  4000000000  \\\vspace{50}\\
+ 
+0$952526\\5$  3  \\\vspace{50}\\  -10  \\\vspace{50}\\  -3  \\\vspace{50}\\  -1  \\\vspace{50}\\  -3  \\\vspace{50}\\
+ 
+0$736721\\5$  0,001  \\\vspace{50}\\  0,06  \\\vspace{50}\\  7E-7  \\\vspace{50}\\  0,004  \\\vspace{50}\\  0,00018  \\\vspace{50}\\
+ 
+0$27879\\5$  -31  \\\vspace{50}\\  0,059  \\\vspace{50}\\  2,496  \\\vspace{50}\\  43560  \\\vspace{50}\\  -0,0002034  \\\vspace{50}\\
+ 
+0$776771\\5$  6  \\\vspace{50}\\  2  \\\vspace{50}\\  8  \\\vspace{50}\\  -5  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$29915\\5$  7  \\\vspace{50}\\  10  \\\vspace{50}\\  3  \\\vspace{50}\\  3  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$544163\\5$  0,00459  \\\vspace{50}\\  1,6928  \\\vspace{50}\\  850  \\\vspace{50}\\  132,6  \\\vspace{50}\\  -1,127  \\\vspace{50}\\
+ 
+0$233925\\5$  -5800  \\\vspace{50}\\  21  \\\vspace{50}\\  0,00028  \\\vspace{50}\\  4700  \\\vspace{50}\\  0,2592  \\\vspace{50}\\
+ 
+0$963567\\5$  21,168  \\\vspace{50}\\  2,49  \\\vspace{50}\\  65,82  \\\vspace{50}\\  4,099  \\\vspace{50}\\  54000000000  \\\vspace{50}\\
+ 
+0$387715\\5$  47000  \\\vspace{50}\\  3224  \\\vspace{50}\\  0,05  \\\vspace{50}\\  -29800  \\\vspace{50}\\  60000000000000  \\\vspace{50}\\
+ 
+0$296879\\5$  0,05  \\\vspace{50}\\  40000000  \\\vspace{50}\\  7E-7  \\\vspace{50}\\  200000000  \\\vspace{50}\\  490  \\\vspace{50}\\
+ 
+0$454061\\5$  1044000  \\\vspace{50}\\  7,28  \\\vspace{50}\\  6,6  \\\vspace{50}\\  0,52  \\\vspace{50}\\  5E-6  \\\vspace{50}\\
+ 
+0$966967\\5$  1520000  \\\vspace{50}\\  0,00101  \\\vspace{50}\\  1,8  \\\vspace{50}\\  6530  \\\vspace{50}\\  -0,000101  \\\vspace{50}\\
+ 
+0$453625\\5$  20  \\\vspace{50}\\  40000000000  \\\vspace{50}\\  9E-7  \\\vspace{50}\\  0,0002  \\\vspace{50}\\  30000  \\\vspace{50}\\
+ 
+0$999967\\5$  107748  \\\vspace{50}\\  22900  \\\vspace{50}\\  -1500  \\\vspace{50}\\  0,0002  \\\vspace{50}\\  0,832  \\\vspace{50}\\
+ 
+0$399655\\5$  0,03  \\\vspace{50}\\  1,62E-9  \\\vspace{50}\\  0,4  \\\vspace{50}\\  2,4E-10  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$863474\\5$  302,4  \\\vspace{50}\\  2,301E-8  \\\vspace{50}\\  4669  \\\vspace{50}\\  3,52E-5  \\\vspace{50}\\  31,4  \\\vspace{50}\\
+ 
+0$861321\\5$  4880000  \\\vspace{50}\\  7630000  \\\vspace{50}\\  3E-5  \\\vspace{50}\\  0,003948  \\\vspace{50}\\  4621500  \\\vspace{50}\\
+ 
+0$298867\\5$  3,2E-8  \\\vspace{50}\\  0,0006  \\\vspace{50}\\  900  \\\vspace{50}\\  8000000000000  \\\vspace{50}\\  6E-8  \\\vspace{50}\\
+ 
+0$339706\\5$  10  \\\vspace{50}\\  -7  \\\vspace{50}\\  2  \\\vspace{50}\\  -7  \\\vspace{50}\\  -5  \\\vspace{50}\\
+ 
+0$273547\\5$  -5  \\\vspace{50}\\  -10  \\\vspace{50}\\  1  \\\vspace{50}\\  10  \\\vspace{50}\\  9  \\\vspace{50}\\  -1  \\\vspace{50}\\  -10  \\\vspace{50}\\  -10  \\\vspace{50}\\  -8  \\\vspace{50}\\  -4  \\\vspace{50}\\  -9  \\\vspace{50}\\  1  \\\vspace{50}\\  8  \\\vspace{50}\\  8  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$783874\\5$  8  \\\vspace{50}\\  0  \\\vspace{50}\\  8  \\\vspace{50}\\  -7  \\\vspace{50}\\  -2  \\\vspace{50}\\  9  \\\vspace{50}\\  0  \\\vspace{50}\\  -6  \\\vspace{50}\\  -9  \\\vspace{50}\\  -9  \\\vspace{50}\\  -9  \\\vspace{50}\\  4  \\\vspace{50}\\  -5  \\\vspace{50}\\  1  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$474422\\5$  -1  \\\vspace{50}\\  5  \\\vspace{50}\\  1  \\\vspace{50}\\  -1  \\\vspace{50}\\  3  \\\vspace{50}\\
+ 
+0$648988\\5$  1  \\\vspace{50}\\  -10  \\\vspace{50}\\  8  \\\vspace{50}\\  -2  \\\vspace{50}\\  -1  \\\vspace{50}\\
+ 
+0$177234\\5$  4  \\\vspace{50}\\  -7  \\\vspace{50}\\  5  \\\vspace{50}\\  -7  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$857967\\5$  4  \\\vspace{50}\\  -7  \\\vspace{50}\\  3  \\\vspace{50}\\  4  \\\vspace{50}\\  7  \\\vspace{50}\\
+ 
+0$854910\\5$  10  \\\vspace{50}\\  6  \\\vspace{50}\\  2  \\\vspace{50}\\  -3  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$104167\\5$  4  \\\vspace{50}\\  -2  \\\vspace{50}\\  7  \\\vspace{50}\\  -7  \\\vspace{50}\\  -4  \\\vspace{50}\\
+ 
+0$166610\\5$  4  \\\vspace{50}\\  -2  \\\vspace{50}\\  -10  \\\vspace{50}\\  7  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$44291\\5$  10  \\\vspace{50}\\  -1  \\\vspace{50}\\  -5  \\\vspace{50}\\  -9  \\\vspace{50}\\  2  \\\vspace{50}\\  -9  \\\vspace{50}\\  -10  \\\vspace{50}\\  9  \\\vspace{50}\\  -7  \\\vspace{50}\\  -2  \\\vspace{50}\\  -8  \\\vspace{50}\\  -4  \\\vspace{50}\\  2  \\\vspace{50}\\  6  \\\vspace{50}\\  -10  \\\vspace{50}\\
+ 
+0$42797\\5$\begin{tabular}{lll}  7  \hspace{50}&  -5  \hspace{50}&  9  \\\vspace{50}\\  -5  \hspace{50}&  -2  \hspace{50}&  -6  \\\vspace{50}\\  10  \hspace{50}&  8  \hspace{50}&  -10  \\\vspace{50}\\  -1  \hspace{50}&  1  \hspace{50}&  -6  \\\vspace{50}\\  -3  \hspace{50}&  0  \hspace{50}&  -4  \\\vspace{50}\\\end{tabular}
+ 
+0$432611\\5$\begin{tabular}{lll}  ABC\ est\ rectangle\ :\ 100+576=676  \hspace{50}&  ABC\ est\ rectangle\ :\ 1024+3600=4624  \hspace{50}&  ABC\ est\ rectangle\ :\ 900+1600=2500  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1521+2704=4225  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 1764+5625<>7396  \hspace{50}&  ABC\ est\ rectangle\ :\ 400+441=841  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+1764=3364  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 1849+5929<>7744  \hspace{50}&  ABC\ est\ rectangle\ :\ 1089+1936=3025  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+1225=1369  \hspace{50}&  ABC\ est\ rectangle\ :\ 1521+6400=7921  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 361+1764<>2116  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 2025+3600=5625  \hspace{50}&  ABC\ est\ rectangle\ :\ 784+9216=10000  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 25+2601<>2601  \\\vspace{50}\\\end{tabular}
+ 
+0$893693\\5$\begin{tabular}{lll}  ABC\ n'est\ pas\ rectangle\ :\ 729+5625<>6400  \hspace{50}&  ABC\ est\ rectangle\ :\ 2025+3600=5625  \hspace{50}&  ABC\ est\ rectangle\ :\ 784+2025=2809  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 784+9216=10000  \hspace{50}&  ABC\ est\ rectangle\ :\ 225+1296=1521  \hspace{50}&  ABC\ est\ rectangle\ :\ 1600+1764=3364  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 324+576=900  \hspace{50}&  ABC\ est\ rectangle\ :\ 1024+3600=4624  \hspace{50}&  ABC\ est\ rectangle\ :\ 1296+2304=3600  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 2304+4096=6400  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 400+5625<>6084  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 1764+4624<>6400  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \hspace{50}&  ABC\ est\ rectangle\ :\ 400+9801=10201  \hspace{50}&  ABC\ n'est\ pas\ rectangle\ :\ 1024+2916<>3969  \\\vspace{50}\\\end{tabular}
+ 
+0$434455\\5$  5  \\\vspace{50}\\  -1  \\\vspace{50}\\  -5  \\\vspace{50}\\  2  \\\vspace{50}\\  -3  \\\vspace{50}\\
+ 
+0$874466\\5$  7  \\\vspace{50}\\  -1  \\\vspace{50}\\  5  \\\vspace{50}\\
+ 
+0$184065\\5$  8  \\\vspace{50}\\  10  \\\vspace{50}\\  3  \\\vspace{50}\\
+ 
+0$710688\\5$  10  \\\vspace{50}\\  8  \\\vspace{50}\\  -6  \\\vspace{50}\\
+ 
+0$406003\\5$  -3  \\\vspace{50}\\  2  \\\vspace{50}\\  -6  \\\vspace{50}\\
+ 
+0$679765\\5$\begin{tabular}{ll}  -6/79  \hspace{50}&  400/4851  \\\vspace{50}\\  225/448  \hspace{50}&  108/5  \\\vspace{50}\\  256/567  \hspace{50}&  -35/62  \\\vspace{50}\\\end{tabular}
+ 
+0$816124\\5$  7  \\\vspace{50}\\  -6  \\\vspace{50}\\  -7  \\\vspace{50}\\  6  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$962760\\5$  -6  \\\vspace{50}\\  -6  \\\vspace{50}\\  -10  \\\vspace{50}\\  7  \\\vspace{50}\\  -1  \\\vspace{50}\\  -6  \\\vspace{50}\\  10  \\\vspace{50}\\  -10  \\\vspace{50}\\  -1  \\\vspace{50}\\  2  \\\vspace{50}\\  0  \\\vspace{50}\\  10  \\\vspace{50}\\  3  \\\vspace{50}\\  1  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$905276\\5$  -10  \\\vspace{50}\\  -5  \\\vspace{50}\\  0  \\\vspace{50}\\  10  \\\vspace{50}\\  5  \\\vspace{50}\\  -9  \\\vspace{50}\\  4  \\\vspace{50}\\  -7  \\\vspace{50}\\  0  \\\vspace{50}\\  0  \\\vspace{50}\\  8  \\\vspace{50}\\  -6  \\\vspace{50}\\  2  \\\vspace{50}\\  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\
+ 
+0$918719\\5$  -1  \\\vspace{50}\\  8  \\\vspace{50}\\  10  \\\vspace{50}\\  0  \\\vspace{50}\\  -1  \\\vspace{50}\\  6  \\\vspace{50}\\  -2  \\\vspace{50}\\  10  \\\vspace{50}\\  -3  \\\vspace{50}\\  0  \\\vspace{50}\\  -9  \\\vspace{50}\\  7  \\\vspace{50}\\  4  \\\vspace{50}\\  -9  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$260043\\5$  -3  \\\vspace{50}\\  3  \\\vspace{50}\\  6  \\\vspace{50}\\  0  \\\vspace{50}\\  4  \\\vspace{50}\\  -6  \\\vspace{50}\\  6  \\\vspace{50}\\  1  \\\vspace{50}\\  -2  \\\vspace{50}\\  0  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\  10  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$608624\\5$  10  \\\vspace{50}\\  3  \\\vspace{50}\\  4  \\\vspace{50}\\  3  \\\vspace{50}\\  0  \\\vspace{50}\\  -4  \\\vspace{50}\\  -4  \\\vspace{50}\\  -10  \\\vspace{50}\\  -3  \\\vspace{50}\\  -6  \\\vspace{50}\\  2  \\\vspace{50}\\  -4  \\\vspace{50}\\  -10  \\\vspace{50}\\  -7  \\\vspace{50}\\  -1  \\\vspace{50}\\
+ 
+0$450553\\5$  4  \\\vspace{60}\\  6  \\\vspace{60}\\  6  \\\vspace{60}\\  -6  \\\vspace{60}\\  6  \\\vspace{60}\\  -3  \\\vspace{60}\\  -6  \\\vspace{60}\\  2  \\\vspace{60}\\  -4  \\\vspace{60}\\  -1  \\\vspace{60}\\  4  \\\vspace{60}\\  7  \\\vspace{60}\\  -4  \\\vspace{60}\\  0  \\\vspace{60}\\  -5  \\\vspace{60}\\
+ 
+0$740583\\5$  -10  \\\vspace{100}\\  10  \\\vspace{100}\\  2  \\\vspace{100}\\  3  \\\vspace{100}\\  -8  \\\vspace{100}\\  -1  \\\vspace{100}\\  6  \\\vspace{100}\\  -6  \\\vspace{100}\\  -8  \\\vspace{100}\\  -3  \\\vspace{100}\\  -6  \\\vspace{100}\\  -10  \\\vspace{100}\\  9  \\\vspace{100}\\  10  \\\vspace{100}\\  -9  \\\vspace{100}\\
+ 
+0$832439\\5$  -4  \\\vspace{70}\\  -9  \\\vspace{70}\\  -10  \\\vspace{70}\\  -6  \\\vspace{70}\\  3  \\\vspace{70}\\  4  \\\vspace{70}\\  -9  \\\vspace{70}\\  6  \\\vspace{70}\\  4  \\\vspace{70}\\  10  \\\vspace{70}\\  -6  \\\vspace{70}\\  2  \\\vspace{70}\\  0  \\\vspace{70}\\  7  \\\vspace{70}\\  -8  \\\vspace{70}\\
+ 
+0$498224\\5$  -3  \\\vspace{60}\\  0  \\\vspace{60}\\  -2  \\\vspace{60}\\  -4  \\\vspace{60}\\  -4  \\\vspace{60}\\  -9  \\\vspace{60}\\  -8  \\\vspace{60}\\  1  \\\vspace{60}\\  0  \\\vspace{60}\\  -6  \\\vspace{60}\\  2  \\\vspace{60}\\  -9  \\\vspace{60}\\  -9  \\\vspace{60}\\  8  \\\vspace{60}\\  -1  \\\vspace{60}\\
+ 
+0$556793\\5$  2  \\\vspace{60}\\  1  \\\vspace{60}\\  6  \\\vspace{60}\\  3  \\\vspace{60}\\  -5  \\\vspace{60}\\  -1  \\\vspace{60}\\  -3  \\\vspace{60}\\  -9  \\\vspace{60}\\  -3  \\\vspace{60}\\  -10  \\\vspace{60}\\  -3  \\\vspace{60}\\  9  \\\vspace{60}\\  8  \\\vspace{60}\\  -3  \\\vspace{60}\\  0  \\\vspace{60}\\
+ 
+0$286992\\5$  -5  \\\vspace{50}\\  1  \\\vspace{50}\\  5  \\\vspace{50}\\  0  \\\vspace{50}\\  6  \\\vspace{50}\\  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\  -5  \\\vspace{50}\\  7  \\\vspace{50}\\  -4  \\\vspace{50}\\  9  \\\vspace{50}\\  9  \\\vspace{50}\\  -4  \\\vspace{50}\\  -6  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$153371\\5$  -2  \\\vspace{60}\\  -4  \\\vspace{60}\\  6  \\\vspace{60}\\  -8  \\\vspace{60}\\  3  \\\vspace{60}\\  0  \\\vspace{60}\\  4  \\\vspace{60}\\  -9  \\\vspace{60}\\  9  \\\vspace{60}\\  2  \\\vspace{60}\\  8  \\\vspace{60}\\  0  \\\vspace{60}\\  5  \\\vspace{60}\\  -1  \\\vspace{60}\\  6  \\\vspace{60}\\
+ 
+0$181708\\5$  6  \\\vspace{60}\\  -2  \\\vspace{60}\\  10  \\\vspace{60}\\  7  \\\vspace{60}\\  -5  \\\vspace{60}\\  -6  \\\vspace{60}\\  -4  \\\vspace{60}\\  4  \\\vspace{60}\\  6  \\\vspace{60}\\  7  \\\vspace{60}\\  -6  \\\vspace{60}\\  -1  \\\vspace{60}\\  10  \\\vspace{60}\\  -1  \\\vspace{60}\\  8  \\\vspace{60}\\
+ 
+0$753817\\5$  6  \\\vspace{60}\\  4  \\\vspace{60}\\  1  \\\vspace{60}\\  7  \\\vspace{60}\\  -2  \\\vspace{60}\\  -7  \\\vspace{60}\\  -5  \\\vspace{60}\\  7  \\\vspace{60}\\  -7  \\\vspace{60}\\  -1  \\\vspace{60}\\  1  \\\vspace{60}\\  2  \\\vspace{60}\\  0  \\\vspace{60}\\  1  \\\vspace{60}\\  -4  \\\vspace{60}\\
+ 
+0$656924\\5$  3  \\\vspace{60}\\  2  \\\vspace{60}\\  10  \\\vspace{60}\\  6  \\\vspace{60}\\  6  \\\vspace{60}\\  7  \\\vspace{60}\\  5  \\\vspace{60}\\  5  \\\vspace{60}\\  9  \\\vspace{60}\\  9  \\\vspace{60}\\  -2  \\\vspace{60}\\  -2  \\\vspace{60}\\  4  \\\vspace{60}\\  9  \\\vspace{60}\\  10  \\\vspace{60}\\
+ 
+0$896381\\5$  6  \\\vspace{60}\\  -4  \\\vspace{60}\\  5  \\\vspace{60}\\  6  \\\vspace{60}\\  -9  \\\vspace{60}\\
+ 
+0$947104\\5$  -7  \\\vspace{60}\\  -3  \\\vspace{60}\\  -10  \\\vspace{60}\\  2  \\\vspace{60}\\  -1  \\\vspace{60}\\
+ 
+0$821687\\5$  1  \\\vspace{50}\\  10  \\\vspace{50}\\  -6  \\\vspace{50}\\  5  \\\vspace{50}\\  8  \\\vspace{50}\\
+ 
+0$945149\\5$  3  \\\vspace{50}\\  2  \\\vspace{50}\\  -5  \\\vspace{50}\\  -1  \\\vspace{50}\\  5  \\\vspace{50}\\  -3  \\\vspace{50}\\  -6  \\\vspace{50}\\  -3  \\\vspace{50}\\  9  \\\vspace{50}\\  0  \\\vspace{50}\\  -7  \\\vspace{50}\\  5  \\\vspace{50}\\  5  \\\vspace{50}\\  -7  \\\vspace{50}\\  -9  \\\vspace{50}\\
+ 
+0$641655\\5$  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  -7  \\\vspace{50}\\  -2  \\\vspace{50}\\  3  \\\vspace{50}\\  -6  \\\vspace{50}\\  8  \\\vspace{50}\\  -2  \\\vspace{50}\\  2  \\\vspace{50}\\  -10  \\\vspace{50}\\  -1  \\\vspace{50}\\  4  \\\vspace{50}\\  -3  \\\vspace{50}\\  2  \\\vspace{50}\\  -3  \\\vspace{50}\\
+ 
+0$132258\\5$  0  \\\vspace{50}\\  3  \\\vspace{50}\\  -2  \\\vspace{50}\\  8  \\\vspace{50}\\  1  \\\vspace{50}\\  10  \\\vspace{50}\\  6  \\\vspace{50}\\  -7  \\\vspace{50}\\  5  \\\vspace{50}\\  7  \\\vspace{50}\\  2  \\\vspace{50}\\  -4  \\\vspace{50}\\  -3  \\\vspace{50}\\  8  \\\vspace{50}\\  -2  \\\vspace{50}\\
+ 
+0$339351\\5$  55,59  \\\vspace{50}\\  43,06  \\\vspace{50}\\  59,80  \\\vspace{50}\\  38,06  \\\vspace{50}\\  50,86  \\\vspace{50}\\  35,32  \\\vspace{50}\\  54,55  \\\vspace{50}\\  59,30  \\\vspace{50}\\  33,69  \\\vspace{50}\\  55,80  \\\vspace{50}\\  43,04  \\\vspace{50}\\  39,75  \\\vspace{50}\\  59,95  \\\vspace{50}\\  39,77  \\\vspace{50}\\  53,55  \\\vspace{50}\\
+ 
+0$244632\\5$  17955,41  \\\vspace{50}\\  35,20  \\\vspace{50}\\  0,360  \\\vspace{50}\\  415,296  \\\vspace{50}\\  228,8  \\\vspace{50}\\  4494  \\\vspace{50}\\  828172  \\\vspace{50}\\  12133,4  \\\vspace{50}\\  15318  \\\vspace{50}\\  54,750  \\\vspace{50}\\  20,619  \\\vspace{50}\\  275241,6  \\\vspace{50}\\  3,042  \\\vspace{50}\\  15890,0  \\\vspace{50}\\  354,375  \\\vspace{50}\\
+ 
+0$261819\\5$  5093,880  \\\vspace{50}\\  56,73  \\\vspace{50}\\  783353  \\\vspace{50}\\  4,4992  \\\vspace{50}\\  185,60  \\\vspace{50}\\  3,00  \\\vspace{50}\\  42530,4  \\\vspace{50}\\  3465,35  \\\vspace{50}\\  11742,66  \\\vspace{50}\\  49,59  \\\vspace{50}\\  717390  \\\vspace{50}\\  140120,08  \\\vspace{50}\\  1759,92  \\\vspace{50}\\  1246,4  \\\vspace{50}\\  10994496  \\\vspace{50}\\
+ 
+0$883303\\5$  37,38  \\\vspace{50}\\  53,78  \\\vspace{50}\\  52,13  \\\vspace{50}\\  60,29  \\\vspace{50}\\  40,40  \\\vspace{50}\\  54,32  \\\vspace{50}\\  50,91  \\\vspace{50}\\  48,84  \\\vspace{50}\\  52,53  \\\vspace{50}\\  50,02  \\\vspace{50}\\  45,29  \\\vspace{50}\\  72,29  \\\vspace{50}\\  56,40  \\\vspace{50}\\  31,22  \\\vspace{50}\\  50,62  \\\vspace{50}\\
+ 
+0$620647\\5$  ABC\ est\ rectangle\ :\ 1521+2704=4225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 625+3600=4225  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 625+784<>1444  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 25+144=169  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 324+576=900  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 169+441<>625  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+900=1156  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 2025+7225<>9216  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 121+3600=3721  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+1225=1369  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1369+1600<>2916  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 784+2025=2809  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1089+1936=3025  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1024+7921<>9025  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1936+4761<>6724  \\\vspace{50}\\
+ 
+0$336856\\5$  49/75  \\\vspace{50}\\  -63/22  \\\vspace{50}\\  36/17  \\\vspace{50}\\  9/5  \\\vspace{50}\\  245/36  \\\vspace{50}\\  64/245  \\\vspace{50}\\  24/25  \\\vspace{50}\\  120/53  \\\vspace{50}\\  -15/8  \\\vspace{50}\\  -14/333  \\\vspace{50}\\  7/6  \\\vspace{50}\\  3/11  \\\vspace{50}\\  -8/3  \\\vspace{50}\\  639/217  \\\vspace{50}\\  8/25  \\\vspace{50}\\
+ 
+0$749051\\5$  -25  \\\vspace{50}\\  -520/63  \\\vspace{50}\\  105/62  \\\vspace{50}\\  -171/116  \\\vspace{50}\\  155/4  \\\vspace{50}\\  142/105  \\\vspace{50}\\  -44/7  \\\vspace{50}\\  -465/136  \\\vspace{50}\\  -82/15  \\\vspace{50}\\  15/224  \\\vspace{50}\\  -765/112  \\\vspace{50}\\  2044/81  \\\vspace{50}\\  276/235  \\\vspace{50}\\  55/246  \\\vspace{50}\\  -165/4  \\\vspace{50}\\
+ 
+0$231004\\5$  0,0081  \\\vspace{50}\\  648000000  \\\vspace{50}\\  720  \\\vspace{50}\\  0,09  \\\vspace{50}\\  1,12E-5  \\\vspace{50}\\  0,0014  \\\vspace{50}\\  90000000  \\\vspace{50}\\  7200  \\\vspace{50}\\  0,12  \\\vspace{50}\\  400000000000  \\\vspace{50}\\  0,01  \\\vspace{50}\\  1,6  \\\vspace{50}\\  4000  \\\vspace{50}\\  100000000000  \\\vspace{50}\\  2,7E-9  \\\vspace{50}\\
+ 
+0$660822\\5$  936  \\\vspace{50}\\  -0,051  \\\vspace{50}\\  480000  \\\vspace{50}\\  298000  \\\vspace{50}\\  -0,0554  \\\vspace{50}\\  0,0401  \\\vspace{50}\\  24,8  \\\vspace{50}\\  151200  \\\vspace{50}\\  24000  \\\vspace{50}\\  2,898E-9  \\\vspace{50}\\  -69,8  \\\vspace{50}\\  0,48  \\\vspace{50}\\  331,6  \\\vspace{50}\\  -0,002362  \\\vspace{50}\\  2,34  \\\vspace{50}\\
+ 
+0$275931\\5$  70000000  \\\vspace{50}\\  4E-5  \\\vspace{50}\\  6E-8  \\\vspace{50}\\  64000000  \\\vspace{50}\\  1,2E-16  \\\vspace{50}\\  0,07  \\\vspace{50}\\  3  \\\vspace{50}\\  5600000  \\\vspace{50}\\  2000  \\\vspace{50}\\  100000000  \\\vspace{50}\\  0,5  \\\vspace{50}\\  9E-5  \\\vspace{50}\\  0,81  \\\vspace{50}\\  0,000576  \\\vspace{50}\\  2,1E-6  \\\vspace{50}\\
+ 
+0$428201\\5$  -1  \\\vspace{50}\\  -2  \\\vspace{50}\\  8  \\\vspace{50}\\  5  \\\vspace{50}\\  2  \\\vspace{50}\\  3  \\\vspace{50}\\  -4  \\\vspace{50}\\  10  \\\vspace{50}\\  -8  \\\vspace{50}\\  1  \\\vspace{50}\\  -9  \\\vspace{50}\\  -2  \\\vspace{50}\\  -4  \\\vspace{50}\\  0  \\\vspace{50}\\  -10  \\\vspace{50}\\
+ 
+0$25475\\5$  50,13  \\\vspace{50}\\  39,55  \\\vspace{50}\\  48,03  \\\vspace{50}\\  29,46  \\\vspace{50}\\  58,27  \\\vspace{50}\\  44,70  \\\vspace{50}\\  43,97  \\\vspace{50}\\  56,50  \\\vspace{50}\\  51,47  \\\vspace{50}\\  44,99  \\\vspace{50}\\  64,68  \\\vspace{50}\\  49,65  \\\vspace{50}\\  57,20  \\\vspace{50}\\  64,29  \\\vspace{50}\\  25,19  \\\vspace{50}\\
+ 
+0$772063\\5$  11/73  \\\vspace{50}\\  414/259  \\\vspace{50}\\  368/231  \\\vspace{50}\\  2/5  \\\vspace{50}\\  480/59  \\\vspace{50}\\  -5/7  \\\vspace{50}\\  122/15  \\\vspace{50}\\  -6  \\\vspace{50}\\  -22  \\\vspace{50}\\  0/-1  \\\vspace{50}\\  1/4  \\\vspace{50}\\  -5/6  \\\vspace{50}\\  -51/70  \\\vspace{50}\\  19/460  \\\vspace{50}\\  -357/40  \\\vspace{50}\\
+ 
+0$886843\\5$  -0,0238  \\\vspace{50}\\  22400000  \\\vspace{50}\\  2,716E-6  \\\vspace{50}\\  0,0003  \\\vspace{50}\\  5488  \\\vspace{50}\\  0,005018  \\\vspace{50}\\  1,6E-5  \\\vspace{50}\\  7128000  \\\vspace{50}\\  81600000000  \\\vspace{50}\\  20,68  \\\vspace{50}\\  1,178E-5  \\\vspace{50}\\  1,1  \\\vspace{50}\\  36  \\\vspace{50}\\  -0,03775  \\\vspace{50}\\  0,0004989  \\\vspace{50}\\
+ 
+0$148043\\5$  1E-5  \\\vspace{50}\\  800000000000  \\\vspace{50}\\  2100  \\\vspace{50}\\  160000  \\\vspace{50}\\  700000  \\\vspace{50}\\  10000000000  \\\vspace{50}\\  8000  \\\vspace{50}\\  1800  \\\vspace{50}\\  8000000  \\\vspace{50}\\  1E-7  \\\vspace{50}\\  2800000  \\\vspace{50}\\  100000  \\\vspace{50}\\  4,2  \\\vspace{50}\\  20000000  \\\vspace{50}\\  2000  \\\vspace{50}\\
+ 
+0$45561\\5$  1600000000000  \\\vspace{50}\\  1000  \\\vspace{50}\\  8E-14  \\\vspace{50}\\  1,12E-9  \\\vspace{50}\\  1000000000  \\\vspace{50}\\  15  \\\vspace{50}\\  35000000000  \\\vspace{50}\\  0,0008  \\\vspace{50}\\  0,0006  \\\vspace{50}\\  3E-6  \\\vspace{50}\\  40000  \\\vspace{50}\\  2,7E-7  \\\vspace{50}\\  10  \\\vspace{50}\\  9E-6  \\\vspace{50}\\  1000000  \\\vspace{50}\\
+ 
+0$201870\\5$  3  \\\vspace{50}\\  8  \\\vspace{50}\\  5  \\\vspace{50}\\  1  \\\vspace{50}\\  4  \\\vspace{50}\\  8  \\\vspace{50}\\  -8  \\\vspace{50}\\  -1  \\\vspace{50}\\  -8  \\\vspace{50}\\  -3  \\\vspace{50}\\  5  \\\vspace{50}\\  6  \\\vspace{50}\\  10  \\\vspace{50}\\  10  \\\vspace{50}\\  9  \\\vspace{50}\\
+ 
+0$581325\\5$  600000000000  \\\vspace{50}\\  2E-7  \\\vspace{50}\\  33600000  \\\vspace{50}\\  4,5E-11  \\\vspace{50}\\  0,03  \\\vspace{50}\\  0,216  \\\vspace{50}\\  1500000  \\\vspace{50}\\  1600  \\\vspace{50}\\  70000000  \\\vspace{50}\\  6000  \\\vspace{50}\\  8E-6  \\\vspace{50}\\  1800000  \\\vspace{50}\\  28000000  \\\vspace{50}\\  0,000324  \\\vspace{50}\\  4,2E-6  \\\vspace{50}\\
+ 
+0$18100\\5$  -182  \\\vspace{50}\\  105000  \\\vspace{50}\\  -3,2  \\\vspace{50}\\  22100  \\\vspace{50}\\  1,12  \\\vspace{50}\\  -600  \\\vspace{50}\\  317400000  \\\vspace{50}\\  -10000  \\\vspace{50}\\  5,1744E-10  \\\vspace{50}\\  3,96  \\\vspace{50}\\  0,00288  \\\vspace{50}\\  56,16  \\\vspace{50}\\  0,692  \\\vspace{50}\\  34,02  \\\vspace{50}\\  6,304  \\\vspace{50}\\
+ 
+0$36876\\5$  -7  \\\vspace{50}\\  -9  \\\vspace{50}\\  0  \\\vspace{50}\\  -10  \\\vspace{50}\\  5  \\\vspace{50}\\  -4  \\\vspace{50}\\  -10  \\\vspace{50}\\  -6  \\\vspace{50}\\  -7  \\\vspace{50}\\  -5  \\\vspace{50}\\  8  \\\vspace{50}\\  -2  \\\vspace{50}\\  -8  \\\vspace{50}\\  -5  \\\vspace{50}\\  -5  \\\vspace{50}\\
+ 
+0$525878\\5$  -2  \\\vspace{50}\\  6  \\\vspace{50}\\  3  \\\vspace{50}\\  1  \\\vspace{50}\\  1  \\\vspace{50}\\  -5  \\\vspace{50}\\  -10  \\\vspace{50}\\  -5  \\\vspace{50}\\  6  \\\vspace{50}\\  3  \\\vspace{50}\\  -10  \\\vspace{50}\\  0  \\\vspace{50}\\  4  \\\vspace{50}\\  -10  \\\vspace{50}\\  -1  \\\vspace{50}\\
+ 
+0$692556\\5$  -4  \\\vspace{50}\\  2  \\\vspace{50}\\  -9  \\\vspace{50}\\  -1  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$985118\\5$  -5  \\\vspace{50}\\  0  \\\vspace{50}\\  -8  \\\vspace{50}\\  1  \\\vspace{50}\\  3  \\\vspace{50}\\  -4  \\\vspace{50}\\  1  \\\vspace{50}\\  -8  \\\vspace{50}\\  -8  \\\vspace{50}\\  1  \\\vspace{50}\\  8  \\\vspace{50}\\  -10  \\\vspace{50}\\  8  \\\vspace{50}\\  -2  \\\vspace{50}\\  5  \\\vspace{50}\\
+ 
+0$550903\\5$  -9  \\\vspace{50}\\  -1  \\\vspace{50}\\  9  \\\vspace{50}\\  -4  \\\vspace{50}\\  0  \\\vspace{50}\\  5  \\\vspace{50}\\  -4  \\\vspace{50}\\  5  \\\vspace{50}\\  -10  \\\vspace{50}\\  -10  \\\vspace{50}\\  -3  \\\vspace{50}\\  -4  \\\vspace{50}\\  1  \\\vspace{50}\\  4  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$308716\\5$  6  \\\vspace{50}\\  4  \\\vspace{50}\\  -5  \\\vspace{50}\\  -8  \\\vspace{50}\\  8  \\\vspace{50}\\
+ 
+0$683683\\5$  3  \\\vspace{50}\\  0  \\\vspace{50}\\  -7  \\\vspace{50}\\  -4  \\\vspace{50}\\  0  \\\vspace{50}\\  0  \\\vspace{50}\\  2  \\\vspace{50}\\  -3  \\\vspace{50}\\  -10  \\\vspace{50}\\  0  \\\vspace{50}\\  -8  \\\vspace{50}\\  6  \\\vspace{50}\\  -5  \\\vspace{50}\\  -10  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$981828\\5$  8  \\\vspace{50}\\  -3  \\\vspace{50}\\  -10  \\\vspace{50}\\  5  \\\vspace{50}\\  0  \\\vspace{50}\\  1  \\\vspace{50}\\  -1  \\\vspace{50}\\  -2  \\\vspace{50}\\  6  \\\vspace{50}\\  -10  \\\vspace{50}\\  5  \\\vspace{50}\\  1  \\\vspace{50}\\  -10  \\\vspace{50}\\  -8  \\\vspace{50}\\  8  \\\vspace{50}\\
+ 
+0$807111\\5$  8  \\\vspace{50}\\  -5  \\\vspace{50}\\  -5  \\\vspace{50}\\  -1  \\\vspace{50}\\  -6  \\\vspace{50}\\  -7  \\\vspace{50}\\  7  \\\vspace{50}\\  8  \\\vspace{50}\\  6  \\\vspace{50}\\  -2  \\\vspace{50}\\  -8  \\\vspace{50}\\  -1  \\\vspace{50}\\  -5  \\\vspace{50}\\  -2  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$453225\\5$  2  \\\vspace{50}\\  7  \\\vspace{50}\\  7  \\\vspace{50}\\  -9  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$688525\\5$  -6  \\\vspace{50}\\  -3  \\\vspace{50}\\  -2  \\\vspace{50}\\  10  \\\vspace{50}\\  -5  \\\vspace{50}\\
+ 
+0$725690\\5$  4  \\\vspace{50}\\  2  \\\vspace{50}\\  4  \\\vspace{50}\\  -9  \\\vspace{50}\\  -3  \\\vspace{50}\\  7  \\\vspace{50}\\  -7  \\\vspace{50}\\  9  \\\vspace{50}\\  5  \\\vspace{50}\\  6  \\\vspace{50}\\  -5  \\\vspace{50}\\  -6  \\\vspace{50}\\  6  \\\vspace{50}\\  1  \\\vspace{50}\\  8  \\\vspace{50}\\
+ 
+0$362242\\5$  9  \\\vspace{50}\\  9  \\\vspace{50}\\  -10  \\\vspace{50}\\  2  \\\vspace{50}\\  -5  \\\vspace{50}\\  10  \\\vspace{50}\\  6  \\\vspace{50}\\  -8  \\\vspace{50}\\  -1  \\\vspace{50}\\  1  \\\vspace{50}\\  0  \\\vspace{50}\\  2  \\\vspace{50}\\  -6  \\\vspace{50}\\  1  \\\vspace{50}\\  -10  \\\vspace{50}\\
+ 
+0$552646\\5$  3  \\\vspace{50}\\  -2  \\\vspace{50}\\  -2  \\\vspace{50}\\  -1  \\\vspace{50}\\  -3  \\\vspace{50}\\  -8  \\\vspace{50}\\  -10  \\\vspace{50}\\  7  \\\vspace{50}\\  -1  \\\vspace{50}\\  10  \\\vspace{50}\\  -6  \\\vspace{50}\\  -2  \\\vspace{50}\\  -3  \\\vspace{50}\\  -2  \\\vspace{50}\\  9  \\\vspace{50}\\
+ 
+0$844234\\5$  6  \\\vspace{50}\\  1  \\\vspace{50}\\  3  \\\vspace{50}\\
+ 
+0$644978\\5$  7  \\\vspace{50}\\  -7  \\\vspace{50}\\  7  \\\vspace{50}\\
+ 
+0$16677\\5$  -3  \\\vspace{50}\\  -1  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$765357\\5$  1  \\\vspace{50}\\  -9  \\\vspace{50}\\  -3  \\\vspace{50}\\  3  \\\vspace{50}\\  10  \\\vspace{50}\\  -7  \\\vspace{50}\\  -7  \\\vspace{50}\\  -4  \\\vspace{50}\\  -4  \\\vspace{50}\\  2  \\\vspace{50}\\  -7  \\\vspace{50}\\  2  \\\vspace{50}\\  -5  \\\vspace{50}\\  8  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$771640\\5$  -8  \\\vspace{50}\\  -7  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$378826\\5$  10  \\\vspace{50}\\  10  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$654755\\5$  8  \\\vspace{50}\\  -1  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$441441\\5$  -208/1645  \\\vspace{50}\\  609/296  \\\vspace{50}\\  -102/7  \\\vspace{50}\\  -16/5  \\\vspace{50}\\  -364/495  \\\vspace{50}\\
+ 
+0$341348\\5$  -7/9  \\\vspace{50}\\  38/5  \\\vspace{50}\\  40/39  \\\vspace{50}\\  -1  \\\vspace{50}\\  13/23  \\\vspace{50}\\
+ 
+0$138718\\5$  672/335  \\\vspace{50}\\  560/27  \\\vspace{50}\\  15/4  \\\vspace{50}\\  259/26  \\\vspace{50}\\  32/45  \\\vspace{50}\\
+ 
+0$39431\\5$  58/81  \\\vspace{50}\\  -11/13  \\\vspace{50}\\  -13/4  \\\vspace{50}\\  -340/189  \\\vspace{50}\\  117/92  \\\vspace{50}\\
+ 
+0$491869\\5$  -14/141  \\\vspace{50}\\  -3/4  \\\vspace{50}\\  -104/297  \\\vspace{50}\\  82  \\\vspace{50}\\  -189/16  \\\vspace{50}\\
+ 
+0$119366\\5$  75/16  \\\vspace{50}\\  8/3  \\\vspace{50}\\  1/28  \\\vspace{50}\\  315/16  \\\vspace{50}\\  37/15  \\\vspace{50}\\
+ 
+0$853707\\5$  940/189  \\\vspace{50}\\  112/297  \\\vspace{50}\\  -2/21  \\\vspace{50}\\  -17/65  \\\vspace{50}\\  214/175  \\\vspace{50}\\
+ 
+0$550025\\5$  ABC\ est\ rectangle\ :\ 729+1296=2025  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 121+1089<>1225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+256=400  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 169+2704<>2916  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1089+1936=3025  \\\vspace{50}\\
+ 
+0$900303\\5$  ABC\ n'est\ pas\ rectangle\ :\ 1681+6724<>8464  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 2209+7396<>9604  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+1225=1369  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 196+2304=2500  \\\vspace{50}\\
+ 
+0$210721\\5$  ABC\ est\ rectangle\ :\ 1521+6400=7921  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 2401+7225<>9604  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 289+6724<>7056  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+3969=4225  \\\vspace{50}\\
+ 
+0$525638\\5$  -2  \\\vspace{50}\\  1  \\\vspace{50}\\  -10  \\\vspace{50}\\  -9  \\\vspace{50}\\  -4  \\\vspace{50}\\
+ 
+0$503315\\5$  -2  \\\vspace{50}\\  -4  \\\vspace{50}\\  3  \\\vspace{50}\\  5  \\\vspace{50}\\  9  \\\vspace{50}\\
+ 
+0$591630\\5$  0  \\\vspace{50}\\  3  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  9  \\\vspace{50}\\  -10  \\\vspace{50}\\  6  \\\vspace{50}\\  6  \\\vspace{50}\\  9  \\\vspace{50}\\  3  \\\vspace{50}\\  -10  \\\vspace{50}\\  -4  \\\vspace{50}\\  -4  \\\vspace{50}\\  -10  \\\vspace{50}\\  5  \\\vspace{50}\\
+ 
+0$217043\\5$  -8  \\\vspace{50}\\  -6  \\\vspace{50}\\  -10  \\\vspace{50}\\  -10  \\\vspace{50}\\  -8  \\\vspace{50}\\  -3  \\\vspace{50}\\  6  \\\vspace{50}\\  -1  \\\vspace{50}\\  -8  \\\vspace{50}\\  -5  \\\vspace{50}\\  7  \\\vspace{50}\\  7  \\\vspace{50}\\  5  \\\vspace{50}\\  1  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$973983\\5$  -10  \\\vspace{50}\\  5  \\\vspace{50}\\  5  \\\vspace{50}\\  -3  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$538349\\5$  1  \\\vspace{50}\\  -3  \\\vspace{50}\\  -4  \\\vspace{50}\\  -5  \\\vspace{50}\\  0  \\\vspace{50}\\  -7  \\\vspace{50}\\  -7  \\\vspace{50}\\  0  \\\vspace{50}\\  0  \\\vspace{50}\\  5  \\\vspace{50}\\  -3  \\\vspace{50}\\  10  \\\vspace{50}\\  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\  4  \\\vspace{50}\\
+ 
+0$324630\\5$  4  \\\vspace{50}\\  -6  \\\vspace{50}\\  -1  \\\vspace{50}\\  -4  \\\vspace{50}\\  3  \\\vspace{50}\\  0  \\\vspace{50}\\  -1  \\\vspace{50}\\  9  \\\vspace{50}\\  -8  \\\vspace{50}\\  3  \\\vspace{50}\\  -5  \\\vspace{50}\\  3  \\\vspace{50}\\  -5  \\\vspace{50}\\  -6  \\\vspace{50}\\  1  \\\vspace{50}\\
+ 
+0$476436\\5$  4  \\\vspace{50}\\  -1  \\\vspace{50}\\  1  \\\vspace{50}\\  6  \\\vspace{50}\\  10  \\\vspace{50}\\
+ 
+0$189801\\5$  ABC\ est\ rectangle\ :\ 144+256=400  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 2209+5329<>7569  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1764+3136=4900  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 225+1296=1521  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 441+1225<>1681  \\\vspace{50}\\
+ 
+0$202316\\5$  10  \\\vspace{50}\\  2  \\\vspace{50}\\  1  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\
+ 
+0$210773\\5$  592/1449  \\\vspace{50}\\  68/75  \\\vspace{50}\\  -3/16  \\\vspace{50}\\  -66/155  \\\vspace{50}\\  -32/91  \\\vspace{50}\\
+ 
+0$551006\\5$  8/39  \\\vspace{50}\\  -189/160  \\\vspace{50}\\  189/104  \\\vspace{50}\\  224/45  \\\vspace{50}\\  40/21  \\\vspace{50}\\
+ 
+0$707265\\5$  230  \\\vspace{50}\\  4482  \\\vspace{50}\\  6890420  \\\vspace{50}\\  12  \\\vspace{50}\\  7591104  \\\vspace{50}\\
+ 
+0$782151\\5$  56,71  \\\vspace{50}\\  40,14  \\\vspace{50}\\  57,98  \\\vspace{50}\\  61,98  \\\vspace{50}\\  43,75  \\\vspace{50}\\
+ 
+0$250952\\5$  16225  \\\vspace{50}\\  960  \\\vspace{50}\\  2720  \\\vspace{50}\\  27192  \\\vspace{50}\\  270  \\\vspace{50}\\
+ 
+0$470306\\5$  53,49  \\\vspace{50}\\  50,27  \\\vspace{50}\\  51,24  \\\vspace{50}\\  69,98  \\\vspace{50}\\  45,74  \\\vspace{50}\\
+ 
+0$37216\\5$  -2  \\\vspace{50}\\  8  \\\vspace{50}\\  -9  \\\vspace{50}\\  -7  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$901911\\5$  7  \\\vspace{50}\\  -7  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  -6  \\\vspace{50}\\  2  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  0  \\\vspace{50}\\  -6  \\\vspace{50}\\  0  \\\vspace{50}\\  9  \\\vspace{50}\\  -8  \\\vspace{50}\\  -9  \\\vspace{50}\\  9  \\\vspace{50}\\  3  \\\vspace{50}\\  -8  \\\vspace{50}\\  5  \\\vspace{50}\\  -5  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$845065\\5$  9  \\\vspace{50}\\  -7  \\\vspace{50}\\  -10  \\\vspace{50}\\  -5  \\\vspace{50}\\  2  \\\vspace{50}\\  8  \\\vspace{50}\\  2  \\\vspace{50}\\  2  \\\vspace{50}\\  -9  \\\vspace{50}\\  -5  \\\vspace{50}\\  -10  \\\vspace{50}\\  6  \\\vspace{50}\\  4  \\\vspace{50}\\  7  \\\vspace{50}\\  -4  \\\vspace{50}\\  -5  \\\vspace{50}\\  2  \\\vspace{50}\\  -4  \\\vspace{50}\\  -9  \\\vspace{50}\\  7  \\\vspace{50}\\
+ 
+0$490231\\5$  -4  \\\vspace{50}\\  -1  \\\vspace{50}\\  4  \\\vspace{50}\\  -4  \\\vspace{50}\\  10  \\\vspace{50}\\  -5  \\\vspace{50}\\  7  \\\vspace{50}\\  4  \\\vspace{50}\\  2  \\\vspace{50}\\  2  \\\vspace{50}\\  2  \\\vspace{50}\\  4  \\\vspace{50}\\  6  \\\vspace{50}\\  9  \\\vspace{50}\\  -3  \\\vspace{50}\\  -4  \\\vspace{50}\\  4  \\\vspace{50}\\  10  \\\vspace{50}\\  3  \\\vspace{50}\\  6  \\\vspace{50}\\
+ 
+0$14489\\5$  ABC\ est\ rectangle\ :\ 121+3600=3721  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 400+441=841  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 784+9216=10000  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 1225+4356<>5625  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 25+196<>225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 576+1024=1600  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 25+900<>900  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 64+4356<>4356  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1024+3600=4624  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 144+256=400  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 256+900=1156  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 64+225=289  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1296+5929=7225  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 361+5776<>6084  \\\vspace{50}\\  ABC\ n'est\ pas\ rectangle\ :\ 225+1024<>1225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 1600+5625=7225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 25+144=169  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 36+64=100  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 625+3600=4225  \\\vspace{50}\\  ABC\ est\ rectangle\ :\ 81+144=225  \\\vspace{50}\\
+ 
+0$204015\\5$  -9  \\\vspace{50}\\  -10  \\\vspace{50}\\  -6  \\\vspace{50}\\  -1  \\\vspace{50}\\  -7  \\\vspace{50}\\
+ 
+0$240249\\5$  0,00286  \\\vspace{50}\\  -0,2262  \\\vspace{50}\\  58719000000  \\\vspace{50}\\  392  \\\vspace{50}\\  20280  \\\vspace{50}\\
+ 
+0$769767\\5$  420  \\\vspace{50}\\  1E16  \\\vspace{50}\\  20  \\\vspace{50}\\  7,2E-6  \\\vspace{50}\\  6E-11  \\\vspace{50}\\
+ 
+0$81503\\5$  37,8  \\\vspace{50}\\  1344,2  \\\vspace{50}\\  0,000212  \\\vspace{50}\\  56  \\\vspace{50}\\  0,0015  \\\vspace{50}\\
+ 
+0$823113\\5$  8,262  \\\vspace{50}\\  50,77  \\\vspace{50}\\  4430  \\\vspace{50}\\  0,0004  \\\vspace{50}\\  -322000  \\\vspace{50}\\
+ 
+0$32586\\5$  590/91  \\\vspace{50}\\  -812/129  \\\vspace{50}\\  -85/84  \\\vspace{50}\\  406/27  \\\vspace{50}\\  -14/117  \\\vspace{50}\\
+ 
+0$848852\\5$  7/6  \\\vspace{50}\\  -31/18  \\\vspace{50}\\  189/103  \\\vspace{50}\\  -581/360  \\\vspace{50}\\  0  \\\vspace{50}\\
+ 
+0$549473\\5$  -87/11  \\\vspace{50}\\  105/74  \\\vspace{50}\\  -12/245  \\\vspace{50}\\  -5/4  \\\vspace{50}\\  -12/5  \\\vspace{50}\\
+ 
+0$774653\\5$  -32/147  \\\vspace{50}\\  82/705  \\\vspace{50}\\  9/140  \\\vspace{50}\\  1  \\\vspace{50}\\  66/5  \\\vspace{50}\\
+ 
+0$551889\\5$  -7  \\\vspace{50}\\  6  \\\vspace{50}\\  -5  \\\vspace{50}\\  1  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$352011\\5$  1,12E-10  \\\vspace{50}\\  320000  \\\vspace{50}\\  6E-9  \\\vspace{50}\\  1E-5  \\\vspace{50}\\  0,001  \\\vspace{50}\\
+ 
+0$685427\\5$  4,92E-5  \\\vspace{50}\\  0,02135  \\\vspace{50}\\  2800000  \\\vspace{50}\\  46,215  \\\vspace{50}\\  3564  \\\vspace{50}\\
+ 
+0$456680\\5$  4E-5  \\\vspace{50}\\  400  \\\vspace{50}\\  30000000000000  \\\vspace{50}\\  4E-5  \\\vspace{50}\\  0,0007  \\\vspace{50}\\
+ 
+0$381260\\5$  163  \\\vspace{50}\\  0,487  \\\vspace{50}\\  17,28  \\\vspace{50}\\  0,0001036  \\\vspace{50}\\  3,2E-6  \\\vspace{50}\\
+ 
+0$221003\\5$  -29/75  \\\vspace{50}\\  -1215/112  \\\vspace{50}\\  -39/25  \\\vspace{50}\\  -171/74  \\\vspace{50}\\  -13/27  \\\vspace{50}\\
+ 
+0$283850\\5$  -13/32  \\\vspace{50}\\  45/28  \\\vspace{50}\\  47/51  \\\vspace{50}\\  560/249  \\\vspace{50}\\  328/189  \\\vspace{50}\\
+ 
+0$325258\\5$  -165/56  \\\vspace{50}\\  76/21  \\\vspace{50}\\  -64/195  \\\vspace{50}\\  77/45  \\\vspace{50}\\  -22/189  \\\vspace{50}\\
+ 
+0$288351\\5$  4  \\\vspace{50}\\  2  \\\vspace{50}\\  4  \\\vspace{50}\\  7  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$863499\\5$  48000  \\\vspace{50}\\  -0,17  \\\vspace{50}\\  16000000  \\\vspace{50}\\  0,57  \\\vspace{50}\\  1,54E-8  \\\vspace{50}\\
+ 
+0$830870\\5$  7E-5  \\\vspace{50}\\  80  \\\vspace{50}\\  7E-8  \\\vspace{50}\\  2E-6  \\\vspace{50}\\  0,1  \\\vspace{50}\\
+ 
+0$391242\\5$  -5,16  \\\vspace{50}\\  134,4  \\\vspace{50}\\  600000000  \\\vspace{50}\\  7300  \\\vspace{50}\\  10,2  \\\vspace{50}\\
+ 
+0$69639\\5$  4500000  \\\vspace{50}\\  3200  \\\vspace{50}\\  1E-5  \\\vspace{50}\\  0,27  \\\vspace{50}\\  32,4  \\\vspace{50}\\
+ 
+0$404937\\5$  171900  \\\vspace{50}\\  6,1  \\\vspace{50}\\  0,014  \\\vspace{50}\\  277500  \\\vspace{50}\\  0,00696  \\\vspace{50}\\
+ 
+0$574103\\5$  1,408  \\\vspace{50}\\  712  \\\vspace{50}\\  0,2268  \\\vspace{50}\\  9180  \\\vspace{50}\\  1890  \\\vspace{50}\\
+ 
+0$831433\\5$  4900000000000  \\\vspace{50}\\  0,15  \\\vspace{50}\\  2400  \\\vspace{50}\\  80000000  \\\vspace{50}\\  0,0002  \\\vspace{50}\\
+ 
+0$545765\\5$  -430  \\\vspace{50}\\  -0,000958  \\\vspace{50}\\  -33000  \\\vspace{50}\\  15500  \\\vspace{50}\\  -3300  \\\vspace{50}\\
+ 
+0$388680\\5$  -340000  \\\vspace{50}\\  7200  \\\vspace{50}\\  0,12663  \\\vspace{50}\\  44400000  \\\vspace{50}\\  17200  \\\vspace{50}\\  1280000  \\\vspace{50}\\  1E-7  \\\vspace{50}\\  8,2E-5  \\\vspace{50}\\  1280  \\\vspace{50}\\  0,007849  \\\vspace{50}\\
+ 
+0$31510\\5$  7  \\\vspace{50}\\  5  \\\vspace{50}\\  -2  \\\vspace{50}\\  4  \\\vspace{50}\\  -3  \\\vspace{50}\\
+ 
+0$49223\\5$  -2  \\\vspace{50}\\  2  \\\vspace{50}\\  -7  \\\vspace{50}\\  5  \\\vspace{50}\\  -10  \\\vspace{50}\\  10  \\\vspace{50}\\  -8  \\\vspace{50}\\
+ 
+0$693985\\5$  -1  \\\vspace{50}\\  0  \\\vspace{50}\\  8  \\\vspace{50}\\  -5  \\\vspace{50}\\  6  \\\vspace{50}\\  6  \\\vspace{50}\\  -6  \\\vspace{50}\\
+ 
+0$11615\\5$  4  \\\vspace{50}\\  6  \\\vspace{50}\\  1  \\\vspace{50}\\  -10  \\\vspace{50}\\  -3  \\\vspace{50}\\  -4  \\\vspace{50}\\  -9  \\\vspace{50}\\
+ 
+0$960763\\5$  984/245  \\\vspace{50}\\  -1224/329  \\\vspace{50}\\  -7/6  \\\vspace{50}\\  -370/153  \\\vspace{50}\\  12/55  \\\vspace{50}\\  -11/15  \\\vspace{50}\\  585/92  \\\vspace{50}\\
+ 
+0$307636\\5$  -94/25  \\\vspace{50}\\  -259/372  \\\vspace{50}\\  17/15  \\\vspace{50}\\  217/225  \\\vspace{50}\\  -196/125  \\\vspace{50}\\  -147/121  \\\vspace{50}\\  189/104  \\\vspace{50}\\
+ 
+0$611107\\5$  1/9  \\\vspace{50}\\  -14/87  \\\vspace{50}\\  147/85  \\\vspace{50}\\  -48/245  \\\vspace{50}\\  -217/171  \\\vspace{50}\\
+ 
+0$341345\\5$  -30/49  \\\vspace{200}\\  -185/1836  \\\vspace{200}\\  3/4  \\\vspace{200}\\  54/13  \\\vspace{200}\\  -392/135  \\\vspace{200}\\
+ 
+0$420592\\5$  3  \\\vspace{150}\\  9  \\\vspace{150}\\  9  \\\vspace{150}\\  7  \\\vspace{150}\\  -2  \\\vspace{150}\\  -9  \\\vspace{150}\\  -4  \\\vspace{150}\\
+ 
+0$35095\\5$  10  \\\vspace{150}\\  6  \\\vspace{150}\\  8  \\\vspace{150}\\  6  \\\vspace{150}\\  2  \\\vspace{150}\\  -10  \\\vspace{150}\\  -6  \\\vspace{150}\\
+ 
+0$645508\\5$  -8  \\\vspace{150}\\  7  \\\vspace{150}\\  -2  \\\vspace{150}\\  9  \\\vspace{150}\\  -7  \\\vspace{150}\\  -4  \\\vspace{150}\\  -9  \\\vspace{150}\\
+ 
+0$789644\\5$  6  \\\vspace{150}\\  -7  \\\vspace{150}\\  2  \\\vspace{150}\\  -7  \\\vspace{150}\\  -10  \\\vspace{150}\\  -7  \\\vspace{150}\\  -7  \\\vspace{150}\\
+ 
