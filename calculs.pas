@@ -176,6 +176,12 @@ type
     destructor destroy;  override;
   end;
 
+  top_conv_unites_ns = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
 
 implementation
 
@@ -1480,12 +1486,58 @@ begin
    nb := op_alea.snombre(4, -7 , 3) ;
    if diff_plus then  prf2 := choix_prefixe(prf1) else prf2 := '';
    result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
 end;
 
 function top_conv_unites.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Conversion d''unités';
+      info_ennonce     : result := '';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_conv_unites_ns }
+
+constructor top_conv_unites_ns.create;
+begin
+
+end;
+
+destructor top_conv_unites_ns.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_unites_ns.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb : string;
+function choix_prefixe( origine : string): string;
+begin
+   repeat
+      result := op_alea.caracteres('khbzdcm');
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+   until result <> origine;
+end;
+begin
+   if op_alea.binaire then u := 'm' else u := 'g';
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori);
+   nb := op_alea.snombre_scientifique(4, -5 , 5) ;
+   if diff_plus then  prf2 := choix_prefixe(prf1) else prf2 := '';
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
+end;
+
+function top_conv_unites_ns.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Conversion d''unités en notation scientifique';
       info_ennonce     : result := '';
       info_commentaire : result := '';
    else

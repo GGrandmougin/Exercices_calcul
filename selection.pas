@@ -64,8 +64,8 @@ begin
       22: result := top_frac_avec_puiss10.create;
       23: result := top_eq1degre.create;
       24: result := top_conv_unites.create;
+      25: result := top_conv_unites_ns.create;
 {      : result := .create;
-      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;
