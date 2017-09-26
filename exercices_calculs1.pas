@@ -238,7 +238,7 @@ begin
    op_alea := toptions_aleatoires.create;
    //op_frac := top_fractions.create;   créés lors de l'instanciation de l'interface
    olatex := tlatex.create(ilatex, ipage);
-   caption := 'Exercices calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
+   caption := 'Générateur d''exercices de calculs    version ' + getversion + '    Gérard Grandmougin   https://github.com/GGrandmougin/Exercices_calcul';
    //Ipage.Picture.OnChange := ipage_change;
    sl_corrige := tstringlist.Create;
    pile := tstringlist.Create;

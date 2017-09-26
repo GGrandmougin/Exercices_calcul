@@ -65,9 +65,9 @@ begin
       23: result := top_eq1degre.create;
       24: result := top_conv_unites.create;
       25: result := top_conv_unites_ns.create;
+      26: result := top_conv_W_dec.create;
+      27: result := top_conv_W_ns.create;
 {      : result := .create;
-      : result := .create;
-      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;

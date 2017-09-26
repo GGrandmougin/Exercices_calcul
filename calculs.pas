@@ -183,6 +183,20 @@ type
     destructor destroy;  override;
   end;
 
+  top_conv_W_dec = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_conv_W_ns = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 implementation
 
 function operations_fractions(difpl: boolean): string;
@@ -1538,6 +1552,94 @@ function top_conv_unites_ns.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Conversion d''unités en notation scientifique';
+      info_ennonce     : result := '';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_conv_W_dec }
+
+constructor top_conv_W_dec.create;
+begin
+
+end;
+
+destructor top_conv_W_dec.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_W_dec.genere_formule: string;
+var
+   ori, prf1, prf2, nb : string;
+function choix_prefixe( origine : string): string;
+begin
+   repeat
+      result := op_alea.caracteres('GMkzmun');
+      if result = 'u' then result := '\mu ';
+      if result = 'z' then result := '';
+   until result <> origine;
+end;
+begin
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori);
+   nb := op_alea.snombre(4, -7 , 3) ;
+   if diff_plus then  prf2 := choix_prefixe(prf1) else prf2 := '';
+   result := nb + '\hspace{1}' + prf1 + 'W' + '=\hspace{200}' + prf2 + 'W' ;
+   max_car := 1000;
+end;
+
+function top_conv_W_dec.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Conversion de Watts en décimal';
+      info_ennonce     : result := '';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_conv_W_ns }
+
+constructor top_conv_W_ns.create;
+begin
+
+end;
+
+destructor top_conv_W_ns.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_W_ns.genere_formule: string;
+var
+   ori, prf1, prf2, nb : string;
+function choix_prefixe( origine : string): string;
+begin
+   repeat
+      result := op_alea.caracteres('GMkzmun');
+      if result = 'u' then result := '\mu ';
+      if result = 'z' then result := '';
+   until result <> origine;
+end;
+begin
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori);
+   nb := op_alea.snombre_scientifique(4, -5 , 5) ;
+   if diff_plus then  prf2 := choix_prefixe(prf1) else prf2 := '';
+   result := nb + '\hspace{1}' + prf1 + 'W' + '=\hspace{200}' + prf2 + 'W' ;
+   max_car := 1000;
+end;
+
+function top_conv_W_ns.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Conversion de Watts en notation scientifique';
       info_ennonce     : result := '';
       info_commentaire : result := '';
    else
