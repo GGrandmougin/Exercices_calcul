@@ -72,6 +72,7 @@ type
     function ijamais_utilise( vl : integer; nb_max : integer = 0 ) : boolean;
     function get_no_feuille: string;
     function set_no_feuille: string;
+    function notation_scientifique( x : extended ): string;
     constructor create;
     destructor destroy;  override;
   private
@@ -604,6 +605,19 @@ begin
    x := strtointdef(a, 1);
    y := strtointdef(b, 1);
    result := pgcd(x, y);
+end;
+
+function troutines.notation_scientifique(x: extended): string;
+var
+   n : integer;
+begin
+   if x = 0 then begin
+      result := '0';
+   end else begin
+      n := floor(log10(abs(x)));
+      result := floattostr(x * IntPower(10, - n) );
+      result := result + '\times10^{3$' + inttostr(n) + '}' ;
+   end;
 end;
 
 { tlatex }

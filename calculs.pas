@@ -197,6 +197,42 @@ type
     destructor destroy;  override;
   end;
 
+  top_conv_aires = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_conv_aires_ns = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_conv_volumes = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_conv_volumes_ns = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+  top_op_avec_puissances = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
+
 implementation
 
 function operations_fractions(difpl: boolean): string;
@@ -1313,7 +1349,8 @@ begin
       x := x - strtofloat(pile.Strings[0])
    else
       x := x * strtofloat(pile.Strings[0]);
-   sl_corrige.Add(floattostr(x));
+   //sl_corrige.Add(floattostr(x));
+   sl_corrige.Add( routines.notation_scientifique(x));
 end;
 
 function top_op_avec_puiss10.get_info(type_info: ttype_info): ansistring;
@@ -1325,6 +1362,41 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_op_avec_puissances }
+
+constructor top_op_avec_puissances.create;
+begin
+
+end;
+
+destructor top_op_avec_puissances.destroy;
+begin
+
+  inherited;
+end;
+
+function top_op_avec_puissances.genere_formule: string;
+var
+   l : string;
+   o, n, m : integer;
+begin
+   l := op_alea.caracteres('abcxyz');
+   o := op_alea.iplage(1,3);
+   n := op_alea.iplage(-9, 9);
+   m := op_alea.iplage(-9, 9);
+   case o of
+      1 : result := format('%s^{3$%d}\times %s^{3$%d}=', [l, n, l, m]);
+      2 : result := format('{5$\frac{%s^{3$%d}}{%s^{3$%d}}=}', [l, n, l, m]);
+      3 : result := format('(%s^{3$%d})^{3$%d}=', [l, n, m]);
+   end;
+end;
+
+function top_op_avec_puissances.get_info(
+  type_info: ttype_info): ansistring;
+begin
+
 end;
 
 { top_frac_avec_puiss10 }
@@ -1382,7 +1454,8 @@ begin
    result := format('\frac{%s}{%s}=',[num, den]);
 
    x := strtofloat(pile.Strings[3])*strtofloat(pile.Strings[2])/(strtofloat(pile.Strings[1])*strtofloat(pile.Strings[0]));
-   sl_corrige.Add(floattostr(x));
+   //sl_corrige.Add(floattostr(x) + '......' +  routines.notation_scientifique(x));
+   sl_corrige.Add( routines.notation_scientifique(x));
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
@@ -1646,5 +1719,192 @@ begin
       result := '';
    end;
 end;
+
+{ top_conv_aires }
+
+constructor top_conv_aires.create;
+begin
+end;
+
+destructor top_conv_aires.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_aires.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;
+begin
+   u := 'm^{3$2}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1);
+   r2 := 0;
+   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
+   r1 := (r1-r2) * 2;
+   nb := op_alea.snombre(4, -7 - r1 , 3 -r1) ;
+   //nb := op_alea.snombre(4, -7 , 3) ;
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
+end;
+
+function top_conv_aires.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
+{ top_conv_aires_ns }
+
+constructor top_conv_aires_ns.create;
+begin
+
+end;
+
+destructor top_conv_aires_ns.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_aires_ns.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;
+begin
+   u := 'm^{3$2}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1);
+   r2 := 0;
+   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
+   r1 := (r1-r2) * 2;
+   nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 -r1) ;
+   //nb := op_alea.snombre(4, -7 , 3) ;
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
+end;
+
+function top_conv_aires_ns.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
+{ top_conv_volumes }
+
+constructor top_conv_volumes.create;
+begin
+
+end;
+
+destructor top_conv_volumes.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_volumes.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;   
+begin
+   u := 'm^{3$3}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1);
+   r2 := 0;
+   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
+   r1 := (r1-r2) * 3;
+   nb := op_alea.snombre(4, -7 - r1 , 3 - r1) ;
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
+end;
+
+function top_conv_volumes.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
+{ top_conv_volumes_ns }
+
+constructor top_conv_volumes_ns.create;
+begin
+
+end;
+
+destructor top_conv_volumes_ns.destroy;
+begin
+
+  inherited;
+end;
+
+function top_conv_volumes_ns.genere_formule: string;
+var
+   u, ori, prf1, prf2, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;   
+begin
+   u := 'm^{3$3}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1);
+   r2 := 0;
+   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
+   r1 := (r1-r2) * 3;
+   nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 - r1) ;
+   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
+   max_car := 1000;
+end;
+
+function top_conv_volumes_ns.get_info(type_info: ttype_info): ansistring;
+begin
+
+end;
+
+
 
 end.

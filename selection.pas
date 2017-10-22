@@ -67,12 +67,12 @@ begin
       25: result := top_conv_unites_ns.create;
       26: result := top_conv_W_dec.create;
       27: result := top_conv_W_ns.create;
+      28: result := top_conv_aires.create;
+      29: result := top_conv_volumes.create;
+      30: result := top_conv_aires_ns.create;
+      31: result := top_conv_volumes_ns.create;
+      32: result := top_op_avec_puissances.create;
 {      : result := .create;
-      : result := .create;
-      : result := .create;
-      : result := .create;
-      : result := .create;
-      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;
