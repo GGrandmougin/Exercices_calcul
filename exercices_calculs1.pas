@@ -28,7 +28,12 @@ création -> affecte une (ou plusieurs) variable locale timage
 
 }
 
+
 (*LATEX
+-------------------------------------------
+Lettres grecques:
+\alpha \beta \gamma \delta \epsilon  \lambda \mu \pi \sigma \upsilon \phi \omega
+\Gamma \Delta \Theta \Lambda \Phi \Psi \Omega
 -------------------------------------------
 espaces en latex:
 5$........\ ..........

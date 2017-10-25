@@ -5,6 +5,8 @@ Le logiciel est construit de manière à rendre l'ajout de nouveau types d'exerc
 Une version compilée est disponible sur le lien:
 https://drive.google.com/open?id=0B5FaHECxyCxmaDlyS1Q3Q2drV2M
 
+50 types d'exercices à la version 2.1.31 
+
 A la révision 2.1.27, les catégories présentes sont:
 -les 4 opérations
 -fractions

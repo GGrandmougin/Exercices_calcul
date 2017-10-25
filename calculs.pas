@@ -235,6 +235,95 @@ type
 
 implementation
 
+function conv_volumes(ns : boolean; alt : boolean):string;   //notation scientifique
+var
+   u, u1, u2, prf1, ori, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;
+function unite(prf : string): string;
+begin
+   result := prf + u;
+   if alt and op_alea.binaire then begin
+      if prf = 'd' then
+         result := 'l'
+      else if prf = 'c' then
+         result := 'ml'
+      else if prf = 'm' then
+         result := '\mu l'   ;
+   end ;
+end;
+begin
+   u := 'm^{3$3}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1) ;
+   u1 := unite(prf1);
+   r2 := 0;
+   if diff_plus then  u2 := unite(choix_prefixe(prf1, r2)) else u2 := u;
+   r1 := (r1-r2) * 3;
+   if ns then
+      nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 - r1)
+   else
+      nb := op_alea.snombre(4, -7 - r1 , 3 - r1) ;
+   result := nb + '\hspace{1}' + u1 + '=\hspace{200}' + u2 ;
+   max_car := 1000;
+end;
+
+function conv_aires(ns : boolean; alt : boolean):string;
+var
+   u, u1, u2, ori, prf1, nb,lettres : string;
+   r1, r2, l : integer;
+function choix_prefixe( origine : string; var rang : integer): string;
+begin
+   repeat
+      //result := op_alea.caracteres('khbzdcm');
+      lettres := 'khbzdcm';
+      l := op_alea.iplage(1, length(lettres));
+      result := lettres[l];
+      if result = 'b' then result := 'da';
+      if result = 'z' then result := '';
+      rang := 4 -l;
+   until result <> origine;
+end;
+function unite(prf : string): string;
+begin
+   result := prf + u;
+   if alt and op_alea.binaire then begin
+      if prf = 'da' then
+         result := 'a'
+      else if prf = '' then
+         result := 'ca'
+      else if prf = 'h' then
+         result := 'ha' ;
+   end ;
+end;
+begin
+   u := 'm^{3$2}' ;
+   if diff_plus then ori := 'x' else ori := '';
+   prf1 := choix_prefixe(ori, r1) ;
+   u1 := unite(prf1);
+   r2 := 0;
+   if diff_plus then  u2 := unite(choix_prefixe(prf1, r2)) else u2 := u;
+   r1 := (r1-r2) * 2;
+   if ns then
+      nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 -r1) 
+   else
+      nb := op_alea.snombre(4, -7 - r1 , 3 -r1) ;
+   //nb := op_alea.snombre(4, -7 , 3) ;
+   result := nb + '\hspace{1}' + u1 + '=\hspace{200}' + u2 ;
+   max_car := 1000;
+end;
+
 function operations_fractions(difpl: boolean): string;
 var
    num1, num, den, op : string;
@@ -1733,32 +1822,8 @@ begin
 end;
 
 function top_conv_aires.genere_formule: string;
-var
-   u, ori, prf1, prf2, nb,lettres : string;
-   r1, r2, l : integer;
-function choix_prefixe( origine : string; var rang : integer): string;
 begin
-   repeat
-      //result := op_alea.caracteres('khbzdcm');
-      lettres := 'khbzdcm';
-      l := op_alea.iplage(1, length(lettres));
-      result := lettres[l];
-      if result = 'b' then result := 'da';
-      if result = 'z' then result := '';
-      rang := 4 -l;
-   until result <> origine;
-end;
-begin
-   u := 'm^{3$2}' ;
-   if diff_plus then ori := 'x' else ori := '';
-   prf1 := choix_prefixe(ori, r1);
-   r2 := 0;
-   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
-   r1 := (r1-r2) * 2;
-   nb := op_alea.snombre(4, -7 - r1 , 3 -r1) ;
-   //nb := op_alea.snombre(4, -7 , 3) ;
-   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
-   max_car := 1000;
+   result := conv_aires(false, diff_plus);
 end;
 
 function top_conv_aires.get_info(type_info: ttype_info): ansistring;
@@ -1780,32 +1845,8 @@ begin
 end;
 
 function top_conv_aires_ns.genere_formule: string;
-var
-   u, ori, prf1, prf2, nb,lettres : string;
-   r1, r2, l : integer;
-function choix_prefixe( origine : string; var rang : integer): string;
 begin
-   repeat
-      //result := op_alea.caracteres('khbzdcm');
-      lettres := 'khbzdcm';
-      l := op_alea.iplage(1, length(lettres));
-      result := lettres[l];
-      if result = 'b' then result := 'da';
-      if result = 'z' then result := '';
-      rang := 4 -l;
-   until result <> origine;
-end;
-begin
-   u := 'm^{3$2}' ;
-   if diff_plus then ori := 'x' else ori := '';
-   prf1 := choix_prefixe(ori, r1);
-   r2 := 0;
-   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
-   r1 := (r1-r2) * 2;
-   nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 -r1) ;
-   //nb := op_alea.snombre(4, -7 , 3) ;
-   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
-   max_car := 1000;
+   result := conv_aires(true, diff_plus);
 end;
 
 function top_conv_aires_ns.get_info(type_info: ttype_info): ansistring;
@@ -1827,31 +1868,8 @@ begin
 end;
 
 function top_conv_volumes.genere_formule: string;
-var
-   u, ori, prf1, prf2, nb,lettres : string;
-   r1, r2, l : integer;
-function choix_prefixe( origine : string; var rang : integer): string;
 begin
-   repeat
-      //result := op_alea.caracteres('khbzdcm');
-      lettres := 'khbzdcm';
-      l := op_alea.iplage(1, length(lettres));
-      result := lettres[l];
-      if result = 'b' then result := 'da';
-      if result = 'z' then result := '';
-      rang := 4 -l;
-   until result <> origine;
-end;   
-begin
-   u := 'm^{3$3}' ;
-   if diff_plus then ori := 'x' else ori := '';
-   prf1 := choix_prefixe(ori, r1);
-   r2 := 0;
-   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
-   r1 := (r1-r2) * 3;
-   nb := op_alea.snombre(4, -7 - r1 , 3 - r1) ;
-   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
-   max_car := 1000;
+   result := conv_volumes(false, diff_plus);
 end;
 
 function top_conv_volumes.get_info(type_info: ttype_info): ansistring;
@@ -1873,31 +1891,8 @@ begin
 end;
 
 function top_conv_volumes_ns.genere_formule: string;
-var
-   u, ori, prf1, prf2, nb,lettres : string;
-   r1, r2, l : integer;
-function choix_prefixe( origine : string; var rang : integer): string;
 begin
-   repeat
-      //result := op_alea.caracteres('khbzdcm');
-      lettres := 'khbzdcm';
-      l := op_alea.iplage(1, length(lettres));
-      result := lettres[l];
-      if result = 'b' then result := 'da';
-      if result = 'z' then result := '';
-      rang := 4 -l;
-   until result <> origine;
-end;   
-begin
-   u := 'm^{3$3}' ;
-   if diff_plus then ori := 'x' else ori := '';
-   prf1 := choix_prefixe(ori, r1);
-   r2 := 0;
-   if diff_plus then  prf2 := choix_prefixe(prf1, r2) else prf2 := '';
-   r1 := (r1-r2) * 3;
-   nb := op_alea.snombre_scientifique(4, -7 - r1 , 3 - r1) ;
-   result := nb + '\hspace{1}' + prf1 + u + '=\hspace{200}' + prf2 + u ;
-   max_car := 1000;
+   result := conv_volumes(true, diff_plus);
 end;
 
 function top_conv_volumes_ns.get_info(type_info: ttype_info): ansistring;
