@@ -232,6 +232,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_ident_remarquables = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
 
 implementation
 
@@ -1828,7 +1835,16 @@ end;
 
 function top_conv_aires.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := 'Conversions d''aires';
+      info_ennonce : result := '';
+      info_commentaire : result := 'parfois les unités seront :' + #13#10 +
+                                   '    des ares (a) = dam² ' + #13#10 +
+                                   '    des hectares (ha) = hm²  ' + #13#10 +
+                                   '    des centiares (ca) = m²';
+   else
+      result := '';
+   end;
 end;
 
 { top_conv_aires_ns }
@@ -1851,7 +1867,16 @@ end;
 
 function top_conv_aires_ns.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := 'Conversions d''aires en notation scientifique';
+      info_ennonce : result := '';
+      info_commentaire : result := 'parfois les unités seront :' + #13#10 +
+                                   '    des ares (a) = dam² ' + #13#10 +
+                                   '    des hectares (ha) = hm²  ' + #13#10 +
+                                   '    des centiares (ca) = m²';
+   else
+      result := '';
+   end;
 end;
 
 { top_conv_volumes }
@@ -1874,7 +1899,15 @@ end;
 
 function top_conv_volumes.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := 'Conversions de volumes';
+      info_ennonce : result := '';
+      info_commentaire : result := 'parfois les unités seront des litres(l)' + #13#10 +
+                                   '                       ou des millilitres (ml)' + #13#10 +
+                                   '                       ou des microlitres(µl)';
+   else
+      result := '';
+   end;
 end;
 
 { top_conv_volumes_ns }
@@ -1897,9 +1930,64 @@ end;
 
 function top_conv_volumes_ns.get_info(type_info: ttype_info): ansistring;
 begin
-
+   case type_info of
+      info_titre   : result := 'Conversions de volumes en notation scientifique';
+      info_ennonce : result := '';
+      info_commentaire : result := 'parfois les unités seront des litres(l)' + #13#10 +
+                                   '                       ou des millilitres (ml)' + #13#10 +
+                                   '                       ou des microlitres(µl)';
+   else
+      result := '';
+   end;
 end;
 
 
+
+{ top_ident_remarquables }
+
+constructor top_ident_remarquables.create;
+begin
+
+end;
+
+destructor top_ident_remarquables.destroy;
+begin
+
+  inherited;
+end;
+
+function top_ident_remarquables.genere_formule: string;
+var
+   a, b, c, s : integer;
+   sta, sts : string;
+begin
+   a := op_alea.iplage(1, 9) ;
+   b := op_alea.iplage(1, 9) ;
+   sta := inttostr(sqr(a));
+   if (a = 1) then
+      sta := '';
+   if op_alea.UnSurX(3) then begin
+      if op_alea.binaire then begin
+         result := sta + 'x^2' + '-' + inttostr(sqr(b)) + '=';
+      end else begin
+         result := '-' + sta + 'x^2' + '+' + inttostr(sqr(b)) + '=';
+      end;
+   end else begin
+      c := 2* a*b;
+      if op_alea.binaire then sts := '+' else sts := '-';
+      result := sta + 'x^2' + sts + inttostr(c) + 'x+' + inttostr(sqr(b)) + '=';
+   end;
+end;
+
+function top_ident_remarquables.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Utilisations des identitées remarquables';
+      info_ennonce : result := 'Factoriser';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
 
 end.

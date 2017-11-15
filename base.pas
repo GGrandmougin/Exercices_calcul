@@ -41,6 +41,7 @@ type
     function UnSurX(x : integer): boolean;
     function splage(debut_incl, fin_incl: integer): string;
     function iplage(debut_incl, fin_incl: integer): integer;
+    function iplage_sans_zero(debut_incl, fin_incl: integer): integer;
     function slogpl(debut_incl, fin_incl: integer): string;
     function ilogpl(debut_incl, fin_incl: integer): integer;
     function ipuiss10(debut_incl, fin_incl: integer): single;
@@ -256,6 +257,14 @@ function toptions_aleatoires.iplage(debut_incl, fin_incl: integer): integer;
 begin
    result := randomrange(debut_incl, fin_incl +1);
 end;
+
+function toptions_aleatoires.iplage_sans_zero(debut_incl, fin_incl: integer): integer;
+begin
+   result := randomrange(debut_incl, fin_incl +1);
+   if fin_incl > debut_incl  then begin //pour éviter boucle infinie
+      while result = 0 do result := randomrange(debut_incl, fin_incl +1);
+   end;
+end ;
 
 function toptions_aleatoires.signe: string;
 var
