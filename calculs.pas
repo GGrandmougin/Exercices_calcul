@@ -238,7 +238,12 @@ type
     constructor create;
     destructor destroy;  override;
   end;
-
+  top_produit_a_zero = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
 
 implementation
 
@@ -1550,8 +1555,8 @@ begin
    result := format('\frac{%s}{%s}=',[num, den]);
 
    x := strtofloat(pile.Strings[3])*strtofloat(pile.Strings[2])/(strtofloat(pile.Strings[1])*strtofloat(pile.Strings[0]));
-   //sl_corrige.Add(floattostr(x) + '......' +  routines.notation_scientifique(x));
-   sl_corrige.Add( routines.notation_scientifique(x));
+   sl_corrige.Add(floattostr(x) + '......' +  routines.notation_scientifique(x));
+   //sl_corrige.Add( routines.notation_scientifique(x));
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
@@ -1984,6 +1989,62 @@ begin
    case type_info of
       info_titre   : result := 'Utilisations des identitées remarquables';
       info_ennonce : result := 'Factoriser';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_produit_a_zero }
+
+constructor top_produit_a_zero.create;
+begin
+
+end;
+
+destructor top_produit_a_zero.destroy;
+begin
+
+  inherited;
+end;
+
+function top_produit_a_zero.genere_formule: string;
+var
+   n, i : integer;
+   corrige, sa : string;
+function facteur : string;
+var
+   r , a : integer;
+   plus : string;
+begin
+   r:= op_alea.iplage_sans_zero(-10, 10);
+   a:= op_alea.iplage_sans_zero(-10, 10);
+   if a * r <= 0 then plus := '+ ' else plus := '';
+   if a = 1 then sa := '' else if a = -1 then sa := '-' else sa := inttostr(a);
+   result := format('(%sx%s%d)',[sa, plus , - a * r ]);
+   if corrige <> '' then corrige := corrige + ';';
+   corrige := corrige + inttostr(r);
+end;
+begin
+   result := '';
+   n := op_alea.iplage(2, 4);
+   corrige := '';
+   for i := 1 to n do begin
+      result := result + facteur;
+   end;
+   result := result + '=0';
+   if op_alea.UnSurX(10) then begin
+      result := 'x' + result;
+      corrige := '0;'+ corrige;
+   end;
+   sl_corrige.Add(corrige);
+end;
+
+function top_produit_a_zero.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Produit de facteus égal à 0';
+      info_ennonce : result := 'Trouver les solutions';
       info_commentaire : result := '';
    else
       result := '';

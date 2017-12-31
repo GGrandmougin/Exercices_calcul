@@ -619,12 +619,18 @@ end;
 function troutines.notation_scientifique(x: extended): string;
 var
    n : integer;
+   y : extended;
 begin
    if x = 0 then begin
       result := '0';
    end else begin
       n := floor(log10(abs(x)));
-      result := floattostr(x * IntPower(10, - n) );
+      y := x * IntPower(10, - n);
+      if y = 10 then begin//en cas de problème d'arrondi, exemple "floor(log10(abs(0.001)))"
+         n := n + 1;
+         y := 1;
+      end;
+      result := floattostr(y);
       result := result + '\times10^{3$' + inttostr(n) + '}' ;
    end;
 end;

@@ -69,6 +69,7 @@ __recovery/
 *.zip
 *.zi_
 corriges.txt
+bugs/*.*
 
 
 # =========================
@@ -121,3 +122,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
