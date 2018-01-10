@@ -74,8 +74,8 @@ begin
       32: result := top_op_avec_puissances.create;
       33: result := top_ident_remarquables.create;
       34: result := top_produit_a_zero.create;
+      35: result := top_inegalites.create;
 {      : result := .create;
-      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;

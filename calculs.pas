@@ -169,6 +169,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_inegalites = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_conv_unites = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -246,6 +253,62 @@ type
   end;
 
 implementation
+
+function eq1degre_inequations( eg1, eg2 : string) : string;
+var
+   x, a, b, c, d, i, j : integer; // ax + b = c  ; c ( ax +b) = d
+   membre : array[1.. 2] of string;
+   frac : boolean;
+begin
+   frac := diff_plus and (eg1 = '=') and op_alea.binaire ;
+   x := op_alea.iplage(-10, 10);
+   a := op_alea.iplage(-10, 10);
+   while a = 0 do a := op_alea.iplage(-10, 10);
+   b := op_alea.iplage(-10, 10);
+   if frac then begin
+      c := op_alea.iplage(-10, 10);
+      while c = 0 do c := op_alea.iplage(-10, 10);
+      d := c * ( a * x + b);
+   end else begin
+      c := a * x + b;
+      d := 0;
+   end;
+   if eg1 = '=' then begin
+      sl_corrige.Add(inttostr(x))
+   end else begin
+      if a > 0 then
+         sl_corrige.Add('x' + eg1 + inttostr(x))
+      else
+         sl_corrige.Add('x' + eg2 + inttostr(x))
+   end;
+   if op_alea.binaire or (eg1 <> '=')  then i := 1 else i := 2;
+   j := 3 -i;
+   if a = 1 then
+      membre[1] := 'x'
+   else if a = -1 then
+      membre[1] := '-x'
+   else
+      membre[1] := inttostr(a) + 'x';
+   if b <> 0 then begin
+      if op_alea.binaire then begin
+         if b > 0 then
+            membre[1] := membre[1]  + '+' + inttostr(b)
+         else
+            membre[1] := membre[1]  + inttostr(b)
+      end else begin
+         if a > 0 then
+            membre[1] := inttostr(b) + '+' + membre[1]
+         else
+            membre[1] := inttostr(b) + membre[1] ;
+      end;
+   end;
+   if frac then begin
+      membre[1] := '\frac{' + inttostr(d) + '}{' + membre[1] + '}' ;
+   end;
+   membre[2] := inttostr(c);
+   result := membre[i] + eg1 + membre[j];
+
+end;
 
 function conv_volumes(ns : boolean; alt : boolean):string;   //notation scientifique
 var
@@ -1555,8 +1618,8 @@ begin
    result := format('\frac{%s}{%s}=',[num, den]);
 
    x := strtofloat(pile.Strings[3])*strtofloat(pile.Strings[2])/(strtofloat(pile.Strings[1])*strtofloat(pile.Strings[0]));
-   sl_corrige.Add(floattostr(x) + '......' +  routines.notation_scientifique(x));
-   //sl_corrige.Add( routines.notation_scientifique(x));
+   //sl_corrige.Add(floattostr(x) + '......' +  routines.notation_scientifique(x));
+   sl_corrige.Add( routines.notation_scientifique(x));
 end;
 
 function top_frac_avec_puiss10.get_info(type_info: ttype_info): ansistring;
@@ -1584,7 +1647,7 @@ begin
 end;
 
 function top_eq1degre.genere_formule: string;
-var
+{var
    x, a, b, c, d, i, j : integer; // ax + b = c  ; c ( ax +b) = d
    membre : array[1.. 2] of string;
    frac : boolean;
@@ -1625,11 +1688,12 @@ begin
       end;
    end;
    if frac then begin
-      membre[1] := '\frac{' + inttostr(d) + '}{' + membre[1] + '}' ;
+      membre[1] := '\frac{' + inttostr(d) + '}{' + membre[1] + ' ' ;
    end;
    membre[2] := inttostr(c);
-   result := membre[i] + '=' + membre[j];
-
+   result := membre[i] + '=' + membre[j];  }
+begin
+   result := eq1degre_inequations('=', '=');
 end;
 
 function top_eq1degre.get_info(type_info: ttype_info): ansistring;
@@ -1641,6 +1705,39 @@ begin
    else
       result := '';
    end;
+end;
+
+{ top_inegalites }
+
+constructor top_inegalites.create;
+begin
+
+end;
+
+destructor top_inegalites.destroy;
+begin
+
+  inherited;
+end;
+
+function top_inegalites.genere_formule: string;
+var
+   i : integer;
+   eg1, eg2 :string;
+begin
+   i := op_alea.iplage(1,4);
+   case i of
+      1: begin eg1 := '>' ; eg2 := '<' end;
+      2: begin eg1 := '<' ; eg2 := '>' end;
+      3: begin eg1 := '\geq' ; eg2 := '\leq' end;
+      4: begin eg1 := '\leq' ; eg2 := '\geq' end;
+   end;
+   result := eq1degre_inequations(eg1, eg2);
+end;
+
+function top_inegalites.get_info(type_info: ttype_info): ansistring;
+begin
+
 end;
 
 { top_conv_unites }
@@ -1963,7 +2060,7 @@ end;
 
 function top_ident_remarquables.genere_formule: string;
 var
-   a, b, c, s : integer;
+   a, b, c : integer;
    sta, sts : string;
 begin
    a := op_alea.iplage(1, 9) ;
@@ -2050,5 +2147,7 @@ begin
       result := '';
    end;
 end;
+
+
 
 end.
