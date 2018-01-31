@@ -114,7 +114,7 @@ IncludeVerInfo=1
 AutoIncBuild=1
 MajorVer=2
 MinorVer=1
-Release=35
+Release=36
 Build=1
 Debug=0
 PreRelease=0
@@ -126,7 +126,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=
 FileDescription=Exercices de calculs mathématiques
-FileVersion=2.1.35.1
+FileVersion=2.1.36.1
 InternalName=
 LegalCopyright=Gérard Grandmougin
 LegalTrademarks=

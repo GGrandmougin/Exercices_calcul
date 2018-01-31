@@ -29,6 +29,9 @@ type
 
 
   ttab_car = array[1.. 10] of string;
+  ttabprop = array[1.. 6] of integer;
+  ttabk = array[1.. 3] of integer;
+
 
   toptions_aleatoires = class
     function binaire : boolean;
@@ -65,6 +68,7 @@ type
     sl_comp2 : tstringlist;
     sl_utilise : tstringlist;
     procedure initialise;
+    function proportion( vrai : boolean): ttabprop;
     function pgcd(a, b : integer): integer;
     function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
@@ -634,6 +638,32 @@ begin
       result := result + '\times10^{3$' + inttostr(n) + '}' ;
    end;
 end;
+
+function troutines.proportion(vrai: boolean): ttabprop;
+var    //si vrai : entiers avec les indices 1,2,3 proportionnels aux entiers avec les indices 4, 5, 6
+   i, c, d, n, m: integer;
+   K: ttabk;
+begin
+   c := op_alea.iplage(2, 11);
+   for i := 1 to 3 do begin
+      k[i] := c;
+   end ;
+   if not vrai then begin
+      repeat
+         d := op_alea.iplage(2, 11);
+      until c <> d;
+      i := op_alea.iplage(1, 3) ;
+      k[i] := d;
+   end;
+   if op_alea.binaire then begin n:=0; m := 3 end else begin m:=0 ; n:= 3 end;
+   for i := 1 to 3 do begin
+      repeat
+         result[i + n] := op_alea.iplage(2, 11);
+      until (i = 1) or ((result[i + n] <> result[i -1  + n]) and ((i <> 3) or (result[i + n] <> result[i - 2  + n]) ));
+      result[i + m] := result[i + n] * k[i];
+   end ;
+end;
+
 
 { tlatex }
 

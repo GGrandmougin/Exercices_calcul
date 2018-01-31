@@ -251,8 +251,23 @@ type
     constructor create;
     destructor destroy;  override;
   end;
+  top_verif_prop = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+  top_calcul_prop = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
 
 implementation
+
+var
+tab_cotes : array[1.. 6] of string = ('AB', 'BC', 'AC', 'A''B''', 'B''C''', 'A''C''');
 
 function eq1degre_inequations( eg1, eg2 : string) : string;
 var
@@ -2149,5 +2164,99 @@ begin
 end;
 
 
+
+{ top_verif_prop }
+
+constructor top_verif_prop.create;
+begin
+
+end;
+
+destructor top_verif_prop.destroy;
+begin
+
+  inherited;
+end;
+
+function top_verif_prop.genere_formule: string;
+var
+   i : integer;
+   tp : ttabprop;
+   vrai : boolean ;
+begin
+   vrai := not op_alea.UnSurX(3);
+   tp := routines.proportion(vrai);
+   result := '';
+   for i := 1 to 6 do begin
+      result := result + tab_cotes[i] + '=' + inttostr(tp[i]);
+      if i < 6 then result := result + '\ ;\ ';
+   end;
+   if vrai then
+      sl_corrige.Add('Proprotionnel')
+   else
+      sl_corrige.Add('Non\ proprotionnel');
+end;
+
+function top_verif_prop.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Vérification de la proportionalité des cotés de triangles';
+      info_ennonce : result := 'Vérification de la proportionalité des cotés de triangles';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_calcul_prop }
+
+constructor top_calcul_prop.create;
+begin
+
+end;
+
+destructor top_calcul_prop.destroy;
+begin
+
+  inherited;
+end;
+
+function top_calcul_prop.genere_formule: string;
+var
+   a , b , i, n : integer ;
+   tp : ttabprop;
+   st : string;
+begin
+   n := 0;
+   tp := routines.proportion(true);
+   a := op_alea.iplage(1, 3);
+   repeat
+      b := op_alea.iplage(1, 3);
+   until b <> a;
+   if op_alea.binaire then a := a + 3;
+   if op_alea.binaire then b := b + 3;
+   result := '';
+   for i := 1 to 6 do begin
+      if (i <> a) and (i <> b) then begin
+         result := result + tab_cotes[i] + '=' + inttostr(tp[i]);
+         inc(n);
+      end;
+      if (i <> a) and (i <> b) and (n < 4) then result := result + '\ ;\ ';
+   end;
+   st := tab_cotes[a] + '=' + inttostr(tp[a]) + '\ ;\ ';
+   st := st + tab_cotes[b] + '=' + inttostr(tp[b]);
+   sl_corrige.Add(st);
+end;
+
+function top_calcul_prop.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Calcul de longueur de coté de triangles semblables';
+      info_ennonce : result := 'Calculer les longueurs inconnues des cotés des triangles semblables';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
 
 end.
