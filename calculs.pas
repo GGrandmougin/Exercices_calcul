@@ -2185,7 +2185,11 @@ var
    vrai : boolean ;
 begin
    vrai := not op_alea.UnSurX(3);
-   tp := routines.proportion(vrai);
+   if diff_plus then begin
+      tp := routines.proportion2(vrai);
+   end else begin
+      tp := routines.proportion(vrai);
+   end;
    result := '';
    for i := 1 to 6 do begin
       result := result + tab_cotes[i] + '=' + inttostr(tp[i]);
@@ -2228,7 +2232,11 @@ var
    st : string;
 begin
    n := 0;
-   tp := routines.proportion(true);
+   if diff_plus then begin
+      tp := routines.proportion2(true);
+   end else begin
+      tp := routines.proportion(true);
+   end;
    a := op_alea.iplage(1, 3);
    repeat
       b := op_alea.iplage(1, 3);

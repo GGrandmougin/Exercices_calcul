@@ -69,6 +69,7 @@ type
     sl_utilise : tstringlist;
     procedure initialise;
     function proportion( vrai : boolean): ttabprop;
+    function proportion2(vrai: boolean): ttabprop;
     function pgcd(a, b : integer): integer;
     function s_pgcd(a, b : string): integer;
     function mult(a, b : string) : string;
@@ -639,7 +640,7 @@ begin
    end;
 end;
 
-function troutines.proportion(vrai: boolean): ttabprop;
+function troutines.proportion(vrai: boolean): ttabprop; // rapport entier
 var    //si vrai : entiers avec les indices 1,2,3 proportionnels aux entiers avec les indices 4, 5, 6
    i, c, d, n, m: integer;
    K: ttabk;
@@ -661,6 +662,40 @@ begin
          result[i + n] := op_alea.iplage(2, 11);
       until (i = 1) or ((result[i + n] <> result[i -1  + n]) and ((i <> 3) or (result[i + n] <> result[i - 2  + n]) ));
       result[i + m] := result[i + n] * k[i];
+   end ;
+end;
+
+function troutines.proportion2(vrai: boolean): ttabprop; // rapport fractionnaire
+const
+   mx = 10;
+var    //si vrai : entiers avec les indices 1,2,3 proportionnels aux entiers avec les indices 4, 5, 6
+   i, c, d, e, n, m: integer;
+   k, l: ttabk;
+begin
+   c := op_alea.iplage(2, mx);
+   repeat
+      e := op_alea.iplage(2, mx);
+   until c <> e;
+   for i := 1 to 3 do begin
+      k[i] := c;
+      l[i] := e;
+   end ;
+   if not vrai then begin
+      repeat
+         d := op_alea.iplage(2, mx);
+      until (c <> d) and (d <> e);
+      i := op_alea.iplage(1, 3) ;
+      k[i] := d;
+   end;
+   if op_alea.binaire then begin n:=0; m := 3 end else begin m:=0 ; n:= 3 end;
+   for i := 1 to 3 do begin
+      repeat
+         result[i + n] := op_alea.iplage(2, mx);
+      until (i = 1) or ((result[i + n] <> result[i -1  + n]) and ((i <> 3) or (result[i + n] <> result[i - 2  + n]) ));
+   end;
+   for i := 1 to 3 do begin
+      result[i + m] := result[i + n] * k[i];
+      result[i + n] := result[i + n] * l[i];
    end ;
 end;
 
