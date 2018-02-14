@@ -77,8 +77,8 @@ begin
       35: result := top_inegalites.create;
       36: result := top_verif_prop.create;
       37: result := top_calcul_prop.create;
+      38: result := top_rel_pythagore2.create;
 {      : result := .create;
-      : result := .create;
       : result := .create;
       : result := .create;
       : result := .create;

@@ -155,6 +155,13 @@ type
     destructor destroy;  override;
   end;
 
+  top_rel_pythagore2 = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+
   top_arrondis = class(tinterfacedobject, i_calculs)
     function genere_formule : string;
     function get_info(type_info : ttype_info): ansistring;
@@ -1274,6 +1281,8 @@ begin
    result := format( 'AB=%dcm\ ;\ BC=%dcm\ ;\ AC=%dcm' ,[la, lb, lc]);
 end;
 
+
+
 function top_rel_pythagore.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
@@ -1286,6 +1295,50 @@ begin
                                'et que d''autre part, un faux resultat positif' + #13#10 +
                                'résulte probablement d''un résultat donné au hasard.';
                          end;
+   else
+      result := '';
+   end;
+end;
+
+{ top_rel_pythagore2 }
+
+constructor top_rel_pythagore2.create;
+begin
+
+end;
+
+destructor top_rel_pythagore2.destroy;
+begin
+
+  inherited;
+end;
+
+function top_rel_pythagore2.genere_formule: string;
+var
+   n, la, lb, lc, i : integer;
+   sol : string;
+begin
+   repeat
+      n := op_alea.iplage(1, 49);
+   until routines.ijamais_utilise(n);
+   la := tab_pythagore1[n];
+   lb := tab_pythagore2[n];
+   lc := tab_pythagore3[n];
+   i := op_alea.iplage(1, 3);
+   case i of
+      1: begin result := format('%s=%d;\ %s=%d',['AB', la, 'AC', lb]); sol := 'BC=' + inttostr(lc) end;
+      2: begin result := format('%s=%d;\ %s=%d',['AB', la, 'BC', lc]); sol := 'AC=' + inttostr(lb) end;
+      3: begin result := format('%s=%d;\ %s=%d',['BC', lc, 'AC', lb]); sol := 'AB=' + inttostr(la) end;
+   end;
+   sl_corrige.Add(sol);
+end;
+
+function top_rel_pythagore2.get_info(type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre       : result := 'Relation de Phytagore 2';
+      info_ennonce     : result := 'Le triangle ABC est rectangle en A, calculez le côté iconnu';
+      info_commentaire : ;
    else
       result := '';
    end;
@@ -2205,7 +2258,7 @@ function top_verif_prop.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := 'Vérification de la proportionalité des cotés de triangles';
-      info_ennonce : result := 'Vérification de la proportionalité des cotés de triangles';
+      info_ennonce : result := 'Indiquez si les triange ABC et A''B''C'' sont semblables';
       info_commentaire : result := '';
    else
       result := '';
@@ -2260,11 +2313,12 @@ function top_calcul_prop.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre   : result := 'Calcul de longueur de coté de triangles semblables';
-      info_ennonce : result := 'Calculer les longueurs inconnues des cotés des triangles semblables';
+      info_ennonce : result := 'Calculer les longueurs inconnues des côtés des triangles semblables';
       info_commentaire : result := '';
    else
       result := '';
    end;
 end;
+
 
 end.

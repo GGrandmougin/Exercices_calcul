@@ -208,6 +208,8 @@ begin
 end;
 
 procedure TForm1.BimpressionClick(Sender: TObject);
+var
+   hennonce : integer;
 begin
    if Pnb_impr.Color = clbtnface then begin
       try
@@ -216,13 +218,21 @@ begin
          BeginDoc;  // dimImpr pour brother 7030 :  6814 x  4676
          //Ppage.Height := Ppage.Width * PageHeight div PageWidth;
          ldimimpr.caption := inttostr(printer.PageWidth) + ' x ' + inttostr(printer.PageHeight);
-
+         if sennonce <> '' then begin
+            Canvas.Brush.Style := bsClear;
+            hennonce := 20 + Canvas.TextHeight(sennonce);
+            Canvas.TextOut(20, hennonce , sennonce);
+            Canvas.Brush.Color := clBlack;
+            hennonce := hennonce + 20;
+         end else begin
+            hennonce := 0;
+         end;
          //PageHeight
          //PageWidth
          //canvas.Draw();
          //Canvas.StretchDraw(rect(rectimpr[i][2],rectimpr[i][1],rectimpr[i][2] + rectimpr[i][0],rectimpr[i][1] + rectimpr[i][0]), imrsm[i].Picture.Bitmap);
          //canvas.StretchDraw(rect());
-         canvas.StretchDraw(olatex.dim_impression(Ilatex.Height, Ilatex.Width, PageHeight, PageWidth) , Ilatex.Picture.Bitmap);
+         canvas.StretchDraw(olatex.dim_impression(Ilatex.Height, Ilatex.Width, PageHeight, PageWidth, hennonce) , Ilatex.Picture.Bitmap);
          EndDoc;
       end;
       inc_impression;
@@ -485,6 +495,7 @@ begin
       showmessage('Valeur incorrecte dans "Lignes" ou "Colonnes"');
    end;;
    Ldimensions2.Caption := inttostr(Ilatex.width) + ' x ' + inttostr(Ilatex.Height);
+   sennonce := icalc.get_info(info_ennonce);
    Application.ProcessMessages;
    if not Lcorrige.Visible then traite_corrige;
 end;

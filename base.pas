@@ -88,7 +88,7 @@ type
   tlatex = class
     imgLatex, imgPage : timage;
     depassement : boolean;
-    function dim_impression( himg, limg, h_ttl, l_ttl : integer) : trect;
+    function dim_impression( himg, limg, h_ttl, l_ttl : integer; h_ennonce : integer = 0) : trect;
     procedure une_colonne( calculs : i_calculs ; nb_lignes : integer; espace : integer =0; correction : boolean = false);
     procedure tableau( calculs : i_calculs ; nb_lignes, nb_colonnes : integer; espacev  : integer =0 ; espaceh : integer = 0; correction : boolean = false);
     function txt_corrige( nb_lignes, nb_colonnes, espacev, espaceh  : integer ): string;
@@ -134,6 +134,7 @@ var
   max_car : integer = _max_car;
   fic_corr_ok : boolean = true;
   corr_1ere_fois : boolean = true;
+  sennonce: string;
 implementation
 
 function CreateGifFromEq(Expr, FileName: PAnsiChar): Integer; cdecl; external 'MimeTex.dll';
@@ -858,17 +859,17 @@ begin
    result := st;
 end;
 
-function Tlatex.dim_impression(himg, limg, h_ttl, l_ttl: integer): trect;
+function Tlatex.dim_impression(himg, limg, h_ttl, l_ttl: integer; h_ennonce : integer = 0): trect;
 var
    lm , hm, httl, lttl : integer;
    rttl, rimg : single;
 begin
-
+   h_ttl := h_ttl - h_ennonce;
    hm := h_ttl * hmarge div 1000;
    lm := l_ttl * lmarge div 1000;
    httl := h_ttl - 2 * hm;
    lttl := l_ttl - 2 * lm;
-   result.top := hm;
+   result.top := hm + h_ennonce;
    result.left := lm;
    // dimImpr pour brother 7030 :  6814 x  4676
    //Ppage.Height := Ppage.Width * printer.PageHeight div printer.PageWidth;
@@ -890,7 +891,7 @@ begin
       result.Right := trunc(result.Bottom * rimg);
    end;
    result.Right := result.Right + lm;
-   result.Bottom := result.Bottom + hm;
+   result.Bottom := result.Bottom + hm + h_ennonce;
 end;
 
 { top_corrige }
