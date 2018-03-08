@@ -1337,7 +1337,7 @@ function top_rel_pythagore2.get_info(type_info: ttype_info): ansistring;
 begin
    case type_info of
       info_titre       : result := 'Relation de Phytagore 2';
-      info_ennonce     : result := 'Le triangle ABC est rectangle en A, calculez le côté iconnu';
+      info_ennonce     : result := 'Le triangle ABC est rectangle en A, calculez le côté inconnu';
       info_commentaire : ;
    else
       result := '';
