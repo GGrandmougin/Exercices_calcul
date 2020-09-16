@@ -78,6 +78,9 @@ begin
       36: result := top_verif_prop.create;
       37: result := top_calcul_prop.create;
       38: result := top_rel_pythagore2.create;
+      39: result := top_suites_a_nieme_elem.create;
+      40: result := top_suites_a_somme_n_elem.create;
+      41: result := top_suites_a_retrouver_U1_et_r.create;
 {      : result := .create;
       : result := .create;
       : result := .create;

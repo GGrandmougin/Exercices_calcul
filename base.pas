@@ -192,7 +192,7 @@ function toptions_aleatoires.lettres(catalogue: string; nb_min, nb_max, UnSurX_e
 var
    i, l, j, nb, lim : integer;
    st : string;
-begin
+begin   //exemple:   l := op_alea.lettres("UVWZ",1,1,0,0);
    result := '';
    l := length(catalogue);
    nb := randomrange(nb_min, nb_max +1);

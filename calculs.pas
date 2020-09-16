@@ -270,6 +270,24 @@ type
     constructor create;
     destructor destroy;  override;
   end;
+  top_suites_a_nieme_elem = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+  top_suites_a_somme_n_elem = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
+  top_suites_a_retrouver_U1_et_r = class(tinterfacedobject, i_calculs)
+    function genere_formule : string;
+    function get_info(type_info : ttype_info): ansistring;
+    constructor create;
+    destructor destroy;  override;
+  end;
 
 implementation
 
@@ -2320,5 +2338,135 @@ begin
    end;
 end;
 
+
+{ top_suites_a_retrouver_U1_et_r }
+
+constructor top_suites_a_retrouver_U1_et_r.create;
+begin
+    //
+end;
+
+destructor top_suites_a_retrouver_U1_et_r.destroy;
+begin
+
+  inherited;
+end;
+
+function top_suites_a_retrouver_U1_et_r.genere_formule: string;
+var
+   n  : integer;
+   r, u1 :  single;
+   sgn, s2, l : string;
+begin
+   l := op_alea.lettres('UVWZ',1,1,0,0);
+   n := op_alea.ilogpl(4,150); //iplage(4,150);
+   //r := op_alea.iplage_sans_zero(-100 , 100) / 2;
+   r := op_alea.ilogpl(1 , 100) / 2;
+   if r = 1 then r := op_alea.ilogpl(3 , 100) / 2;
+   //u1 := op_alea.iplage_sans_zero(-100 , 100) / 2;
+   u1 := op_alea.ilogpl(1 , 100) / 2;
+   if op_alea.binaire then sgn := '+' else sgn := '-' ;
+   if op_alea.binaire then s2 := '-' else s2 := '' ;
+   if op_alea.binaire then begin
+      result := format('%s_{%d}\ =\ %s%g%s%d\times%g', [l, n, s2, u1, sgn, n-1, r]);
+   end else begin
+      result := format('%s_{%d}\ =\ %s%d\times%g%s%g', [l, n, s2, n-1, r, sgn, u1]);
+   end;
+end;
+
+function top_suites_a_retrouver_U1_et_r.get_info(
+  type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Suites arithémitques: retrouver le premier élément et la raison';
+      info_ennonce : result := 'Suites arithémitques: retrouver le premier élément et la raison';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_suites_a_somme_n_elem }
+
+constructor top_suites_a_somme_n_elem.create;
+begin
+   //
+end;
+
+destructor top_suites_a_somme_n_elem.destroy;
+begin
+
+  inherited;
+end;
+
+function top_suites_a_somme_n_elem.genere_formule: string;
+var
+   n  : integer;
+   r, u1, un :  single;
+    l : string;
+begin
+   l := op_alea.lettres('UVWZ',1,1,0,0);
+   n := op_alea.ilogpl(4,50); //iplage(4,150);
+   r := op_alea.ilogpl(1 , 50) / 2;
+   if op_alea.binaire then r := -r;
+   u1 := op_alea.ilogpl(1 , 100) / 2;
+   if op_alea.binaire then u1 := -u1;
+   result := format('%s_1\ =\ %g;\ raison\ =\ %g;\ %s_{%d}\ =\ ?', [l, u1, r, 'S', n]);
+   un := ( u1 + (n-1) * r);
+   sl_corrige.Add(floattostr(n *( u1 + un) / 2));
+end;
+
+function top_suites_a_somme_n_elem.get_info(
+  type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Suites arithémitques: Calcul de la somme des n premiers éléments';
+      info_ennonce : result := 'Suites arithémitques: Calculer la somme des n premiers éléments';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
+
+{ top_suites_a_nieme_elem }
+
+constructor top_suites_a_nieme_elem.create;
+begin
+   //
+end;
+
+destructor top_suites_a_nieme_elem.destroy;
+begin
+
+  inherited;
+end;
+
+function top_suites_a_nieme_elem.genere_formule: string;
+var
+   n  : integer;
+   r, u1 :  single;
+   l : string;
+begin
+   l := op_alea.lettres('UVWZ',1,1,0,0);
+   n := op_alea.ilogpl(4,150); //iplage(4,150);
+   r := op_alea.ilogpl(1 , 100) / 2;
+   if op_alea.binaire then r := -r;
+   u1 := op_alea.ilogpl(1 , 100) / 2;
+   if op_alea.binaire then u1 := -u1;
+   result := format('%s_1\ =\ %g;\ raison\ =\ %g;\ %s_{%d}\ =\ ?', [l, u1, r, l, n]);
+   sl_corrige.Add(floattostr( u1 + (n-1) * r));
+end;
+
+function top_suites_a_nieme_elem.get_info(
+  type_info: ttype_info): ansistring;
+begin
+   case type_info of
+      info_titre   : result := 'Calcul du nième élément en fonction du premier et de la raison';
+      info_ennonce : result := 'Suites arithémitques: Calculer le n ième élément ';
+      info_commentaire : result := '';
+   else
+      result := '';
+   end;
+end;
 
 end.
