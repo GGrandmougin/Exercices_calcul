@@ -2355,7 +2355,7 @@ end;
 function top_suites_a_retrouver_U1_et_r.genere_formule: string;
 var
    n  : integer;
-   r, u1 :  single;
+   r, u1, p, q :  single;
    sgn, s2, l : string;
 begin
    l := op_alea.lettres('UVWZ',1,1,0,0);
@@ -2367,10 +2367,11 @@ begin
    u1 := op_alea.ilogpl(1 , 100) / 2;
    if op_alea.binaire then sgn := '+' else sgn := '-' ;
    if op_alea.binaire then s2 := '-' else s2 := '' ;
+   if op_alea.binaire then begin p := r ; q := n-1 end else begin p := n-1 ; q := r end;
    if op_alea.binaire then begin
-      result := format('%s_{%d}\ =\ %s%g%s%d\times%g', [l, n, s2, u1, sgn, n-1, r]);
+      result := format('%s_{%d}\ =\ %s%g%s%g\times%g', [l, n, s2, u1, sgn, p, q]);
    end else begin
-      result := format('%s_{%d}\ =\ %s%d\times%g%s%g', [l, n, s2, n-1, r, sgn, u1]);
+      result := format('%s_{%d}\ =\ %s%g\times%g%s%g', [l, n, s2, p, q, sgn, u1]);
    end;
 end;
 
